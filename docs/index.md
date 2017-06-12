@@ -1,5 +1,7 @@
 ## Welcome to ECE3400!
 
+Testing images:
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ### Labs
 - [Lab 1](lab1.md)
