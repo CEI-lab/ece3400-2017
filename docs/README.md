@@ -1,3 +1,5 @@
+Learn about Markdown here: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 TODO:
 1. Copy in Lab 1
 - Text

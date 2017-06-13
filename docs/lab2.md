@@ -2,24 +2,26 @@
 ## ECE 3400 Fall ’17
 
 ### Objective
-In this lab, you’ll be creating two analog circuits to attach to your Arduino. One is a microphone circuit that will detect a whistle blow signifying the beginning of your mapping race; the other is a sensing circuit of your choice.
+In this lab, you will create two analog circuits to attached to your Arduino. One is a microphone circuit that will detect a whistle blow signifying the beginning of your mapping race. The other is a sensing circuit of your choice.
 
 ### Materials
+- Arduino Uno
 - Electret microphone
 - 1 µF capacitor
-- Arduino Uno
 - 300 Ω resistors
 - ~3 kΩ resistor
 - Various other components, as needed
 
 ### Pre-lab Assignment
-Before you start your lab, you should have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your lab report will be expected to have a sufficient explanation of the basic FFT algorithm.
+Before you start your lab, you should have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your lab report will be expected to have a sufficient explanation of the basic FFT algorithm.  
 
-Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the board’s ADC, or is analogRead fast enough? What might be some concerns of using either method? Keep in mind that your goal is to detect a 660Hz sine wave “whistle.” What’s the normal range of a human voice? Are the harmonics of human speech an issue?
-For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.
+Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the board’s ADC, or is analogRead fast enough? What might be some concerns of using either method? Keep in mind that your goal is to detect a 660Hz sine wave “whistle.” What’s the normal range of a human voice? Are the harmonics of human speech an issue?  
 
-It would be wise to design some quick amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the strength of your microphone’s signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset are appropriate?
-Your group should also meet together before your lab session to decide on your secondary analog circuit. This circuit does not have to be complex; rather, it just needs to be useful to your design. A simple example of this is thresholding a sensor to turn it into a digital output. If your circuit idea includes any components that you do not think will already be available in the lab, contact the professor or a TA as soon as possible.
+For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.  
+
+It would be wise to design some quick amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the strength of your microphone’s signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset are appropriate?  
+
+Your group should also meet together before your lab session to decide on your secondary analog circuit. This circuit does not have to be complex; rather, it just needs to be useful to your design. A simple example of this is thresholding a sensor to turn it into a digital output. If your circuit idea includes any components that you do not think will already be available in the lab, contact the professor or a TA as soon as possible.  
 
 ### Notebook Documentation
 Throughout this lab and ALL labs, remember to have each team member document their steps and experiences in their own lab notebook. Notebooks should contain personal notes, schematics, diagrams, and documentation of results and challenges of this lab. These notebooks will be looked over at the end of your lab session to ensure two things: that you were present in the lab (remember: labs are required), and that you are taking good notes. Keep in mind that you will use your notebooks until the end of the final project. The notebooks will keep track of your progress with the labs and project, how the labs tie into the final project. There is a document on BlackBoard with more details about that.
