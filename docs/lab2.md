@@ -27,33 +27,39 @@ Throughout this lab and ALL labs, remember to have each team member document the
 ### Procedure
 It is suggested that the team divides into two groups to complete this lab. One group can work on the microphone circuit, while the other group can work on the secondary circuit. Depending on the complexity of the secondary circuit, the team may want to delegate extra work to balance the overall workload per group. It is highly suggested that you work on your microphone module in chunks, testing the circuitry and code separately before joining them together.
 
-1. Download the Open Music Labs FFT library
+1. **Download the Open Music Labs FFT library**
 One Open Music Labs’ FFT page, scroll down and download the newer FFT library folder. Extract this, and then go to My Documents Arduino  Libraries and put the FFT library folder inside of it. If you have the Arduino IDE open, close it and then restart the program (not the computer) so that it can update accordingly.
 
-2. Use the example sketch to start coding
+2. **Use the example sketch to start coding**
 On the FFT webpage, you will find some good, solid documentation on how to use the library. You should have reviewed this before the lab. In addition, the library you just installed has an example sketch that reads in values from Analog Pin 0 and outputs the frequency bin magnitudes via the serial monitor. Check this code out, and consider using it as a base for your microphone circuit code. You should have thought about possible modifications to this code from when you did the prelab. Remember that your goal is to be able to match a signal to its frequency. For the competition, a sine wave at 660 Hz will be emitted from a set of speakers to signal the start of the race.
+
 To program your Arduino, click the checkmark to compile your code and then the right-pointing arrow to upload (program) it. Note: When you click the right arrow, your code will automatically be re-compiled, so clicking the checkmark isn’t strictly necessary. If it doesn’t work, check that it is connected to the correct COM port by looking at the Tools  Serial Port list.
+
 Refer to the Arduino Reference (http://arduino.cc/en/Reference/HomePage) for helpful functions and syntax as needed.
 
-3. Assemble your microphone circuit
+3. **Assemble your microphone circuit**
 The basic circuit for your electret microphone is as follows:
 
 ![Fig. 1](images/lab2_fig1.png)
 Image from Wikipedia
 
 It is suggested that you use a 1 µF capacitor and a ~3 kΩ resistor. You only need these components if you are not adding amplifiers and filters yet – otherwise, just plug one end of the microphone to ground and the other straight into your analog circuitry. It is up to your team to determine if and what kinds of amplifiers and/or filters will be necessary to register the whistle blow. If you decide to add filters and/or amplifiers, feel free to reference textbooks and the Web. Just be sure that you can fully describe and explain your circuitry choices and how they work when you write your lab report (as well as cite your sources).
+
 The Arduino’s analogRead function can only measure signals from 0 to 5 volts, so make sure that your circuit’s output is between these ranges (hint: you might want to create a DC offset).
 It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
-4. Finish coding and debugging your microphone circuit
+4. **Finish coding and debugging your microphone circuit**
 You will likely find that plugging in your circuit and running your code will not produce expected results. Remember when you debug that the oscilloscope on your lab bench is an invaluable tool both for your physical circuitry and for your Arduino. The waveform generator will also be an asset in debugging your code.
+
 Also MATLAB, which is installed on the lab computers, is another invaluable tool for debugging. You can use MATLAB to import values from a serial port and plot a graph of your signal. Use the myserialport = serial(comport, ‘BaudRate’, budrateneeded) to initialize a serial port. Set the comport parameter to the port that your Arduino is connected to (under Tools>ports in the Adriano program) and the budrateneeded parameter to 9600. Use the fopen(myserialport) to open the serial port. Read from the port using fscanf(myserialport,’%i’) and plot the value read. Close the port using fclose(myserialport) after you’re done reading.
+
 As always, feel free to talk to other groups or a TA if you need assistance.
 Remember to do adequate error-checking so that your robot responds reliably to the whistle blow. Otherwise, your performance will be penalized and you will get a late start on mapping the maze.
 
-5. Assemble and code your additional circuit
+5. **Assemble and code your additional circuit**
 Before you start creating your secondary circuit, make sure that a TA has checked off on it first. This design and implementation is largely up to you, so make sure you have a solid game plan before you come into the lab.
 One example for your additional circuit is a thresholded grayscale sensor. Using a white LED, a photoresistor, and Schmitt Trigger, you can design a circuit that outputs a “1” when it is on top of the black tape and a “0” when it is not (or vice versa). Doing this is helpful because packaged grayscale sensors have an analog output, which you don’t have that many pins for. Freeing up an analog pin for another sensor could be helpful when you are designing your robot.
+
 There are countless circuits you could invent that would aid in your design. Remember that your circuit does not need to be complex – only useful.
 
 ### Wrap-Up
