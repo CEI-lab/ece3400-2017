@@ -5,14 +5,14 @@
 In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub/Bit Bucket repository system. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you’ll be able to start building your robot!
 
 ### Materials
-1 Arduino Uno
-1 Continuous rotation servo
-2 Pushbuttons
-1 Photoresistor
-Several LEDs (any color except IR)
-1 Potentiometer
-Several resistors (kΩ range)
-1 Solderless breadboard
+- 1 Arduino Uno
+- 1 Continuous rotation servo
+- 2 Pushbuttons
+- 1 Photoresistor
+- Several LEDs (any color except IR)
+- 1 Potentiometer
+- Several resistors (kΩ range)
+- 1 Solderless breadboard
 
 $$$ Pre-lab Assignment
 This semester we are allowing each team to choose either GitHub or Bit Bucket as a way of sharing and saving code (Source Control).
