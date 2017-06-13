@@ -1,5 +1,5 @@
-# Using the Arduino Uno
-## Lab 1 – PH 427  ECE 3400 Fall ’17
+# Lab 1: Using the Arduino Uno
+## ECE 3400 Fall ’17
 
 ### Objective
 In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub/Bit Bucket repository system. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you’ll be able to start building your robot!
