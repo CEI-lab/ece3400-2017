@@ -33,14 +33,14 @@ Throughout this lab and ALL labs, remember to have each team member document the
 1. **Dismantling a robot from last semester**
 Your TAs will assign you a robot from last year to dismantle. All of the major components (servo motors, Arduino boards, FPGA boards, batteries, breadboards, soldered protoboards, etc.) are to be placed in appropriate containers as identified by your TAs. You can save any soldered protoboards to practice soldering (see section 7). Do not keep anything for yourselves/your team.
 
-2. **Communicating between the Uno and IDE**
-Split your team into two groups. Each group will need the materials listed above.
+2. **Communicating between the Uno and IDE**   
+Split your team into two groups. Each group will need the materials listed above.  
 
- Use a USB A/B cable to connect the Uno to your lab computer. Open up the Arduino IDE and open the “Blink” example code, or “sketch.” Do this by clicking File  Examples  1.Basics  Blink. The code should pop up in a new window. To program your Arduino, click the checkmark to compile your code and then the right-pointing arrow to upload (program) it. Note: When you click the right arrow, your code will automatically be re-compiled, so clicking the checkmark isn’t strictly necessary. The Uno’s on-board LED should blink on and off every second. If the LED does not blink, check that the UNO is connected to the correct COM port by looking at the Tools  Serial Port list.
+Use a USB A/B cable to connect the Uno to your lab computer. Open up the Arduino IDE and open the “Blink” example code, or “sketch.” Do this by clicking File  Examples  1.Basics  Blink. The code should pop up in a new window. To program your Arduino, click the checkmark to compile your code and then the right-pointing arrow to upload (program) it. Note: When you click the right arrow, your code will automatically be re-compiled, so clicking the checkmark isn’t strictly necessary. The Uno’s on-board LED should blink on and off every second. If the LED does not blink, check that the UNO is connected to the correct COM port by looking at the Tools  Serial Port list.
 
- Once your Uno is working as it should, take a minute to look over the code and understand what it is doing. Arduino code is similar to C and is relatively easy to understand just by looking at it. One of the first things you’ll notice are two functions – setup and loop. All Arduino sketches (programs) require these two functions or they will not compile. The setup function runs only once at the beginning of the program. The loop function executes after the setup function and runs continuously until the Uno is turned off.
+Once your Uno is working as it should, take a minute to look over the code and understand what it is doing. Arduino code is similar to C and is relatively easy to understand just by looking at it. One of the first things you’ll notice are two functions – setup and loop. All Arduino sketches (programs) require these two functions or they will not compile. The setup function runs only once at the beginning of the program. The loop function executes after the setup function and runs continuously until the Uno is turned off.
 
- Refer to the Arduino Reference (http://arduino.cc/en/Reference/HomePage) to understand what the other functions in the Blink sketch do. If you have any questions, ask!
+Refer to the Arduino Reference (http://arduino.cc/en/Reference/HomePage) to understand what the other functions in the Blink sketch do. If you have any questions, ask!
 
 3. **Modify the Blink Sketch**
 Now that you understand the basics of Arduino code, modify the existing code to work for an external LED (instead of the one on-board that is hard-wired to pin 13). Be sure to connect the LED to a digital pin and remember to always put a resistor in series with the LED. Repeat this for each of the digital pins to make sure that all digital pins work.
