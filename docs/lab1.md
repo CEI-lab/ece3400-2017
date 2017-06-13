@@ -14,7 +14,7 @@ In this introductory lab, you will learn how to use the various functionalities 
 - Several resistors (kΩ range)
 - 1 Solderless breadboard
 
-$$$ Pre-lab Assignment
+### Pre-lab Assignment
 This semester we are allowing each team to choose either GitHub or Bit Bucket as a way of sharing and saving code (Source Control).
 By the beginning of your lab session, you should have discussed with your team what tool (GitHub or Bit Bucket) you want to use and have created a GitHub or Bit Bucket account.
 GitHub Account:
