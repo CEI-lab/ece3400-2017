@@ -4,7 +4,7 @@
 ### Objective
 In this lab, you’ll be creating two analog circuits to attach to your Arduino. One is a microphone circuit that will detect a whistle blow signifying the beginning of your mapping race; the other is a sensing circuit of your choice.
 
-## Materials
+### Materials
 - Electret microphone
 - 1 µF capacitor
 - Arduino Uno
@@ -12,17 +12,19 @@ In this lab, you’ll be creating two analog circuits to attach to your Arduino.
 - ~3 kΩ resistor
 - Various other components, as needed
 
-Pre-lab Assignment
+### Pre-lab Assignment
 Before you start your lab, you should have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your lab report will be expected to have a sufficient explanation of the basic FFT algorithm.
+
 Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the board’s ADC, or is analogRead fast enough? What might be some concerns of using either method? Keep in mind that your goal is to detect a 660Hz sine wave “whistle.” What’s the normal range of a human voice? Are the harmonics of human speech an issue?
 For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.
+
 It would be wise to design some quick amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the strength of your microphone’s signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset are appropriate?
 Your group should also meet together before your lab session to decide on your secondary analog circuit. This circuit does not have to be complex; rather, it just needs to be useful to your design. A simple example of this is thresholding a sensor to turn it into a digital output. If your circuit idea includes any components that you do not think will already be available in the lab, contact the professor or a TA as soon as possible.
 
-Notebook Documentation
+### Notebook Documentation
 Throughout this lab and ALL labs, remember to have each team member document their steps and experiences in their own lab notebook. Notebooks should contain personal notes, schematics, diagrams, and documentation of results and challenges of this lab. These notebooks will be looked over at the end of your lab session to ensure two things: that you were present in the lab (remember: labs are required), and that you are taking good notes. Keep in mind that you will use your notebooks until the end of the final project. The notebooks will keep track of your progress with the labs and project, how the labs tie into the final project. There is a document on BlackBoard with more details about that.
 
-Procedure
+### Procedure
 It is suggested that the team divides into two groups to complete this lab. One group can work on the microphone circuit, while the other group can work on the secondary circuit. Depending on the complexity of the secondary circuit, the team may want to delegate extra work to balance the overall workload per group. It is highly suggested that you work on your microphone module in chunks, testing the circuitry and code separately before joining them together.
 
 1. Download the Open Music Labs FFT library
@@ -54,16 +56,24 @@ Before you start creating your secondary circuit, make sure that a TA has checke
 One example for your additional circuit is a thresholded grayscale sensor. Using a white LED, a photoresistor, and Schmitt Trigger, you can design a circuit that outputs a “1” when it is on top of the black tape and a “0” when it is not (or vice versa). Doing this is helpful because packaged grayscale sensors have an analog output, which you don’t have that many pins for. Freeing up an analog pin for another sensor could be helpful when you are designing your robot.
 There are countless circuits you could invent that would aid in your design. Remember that your circuit does not need to be complex – only useful.
 
-Wrap-Up
+### Wrap-Up
 Keep your circuits and Arduino Unos in the box dedicated for your team. Any other unused components can be placed back into their appropriate bins.
+
 You should have documented this lab in your notebook; your documentation should include personal notes, brainstorms and ideas for your code, challenges, successes, and applicable diagrams. In addition, your notebook should contain information on the circuits you designed for sections 3 and 5 of the Procedure.
+
 Use the GitHub/SourceTree program on the lab computer to save your code. Using one teammate’s personal account, add the code from this lab as a private repository and share it with other team members. If you need to access this code at a later time, you can “clone” it back onto the computer. If you need any assistance with using GitHub/Bitbucket, refer to the tutorial on Blackboard or ask a TA.
 
-Report
+### Report
 See the Lab and Notebook Write-up document on BlackBoard for guidelines on how to write the report.
+
 The report for this lab should not be longer than four pages. It should include three sections:
+
 1. One to two pages with an introduction, statement of the purpose of the lab, and an overview of your circuit designs.
+
 2. Two to three pages (OK if it's more) with diagrams and documentation of your designed circuits and programs, along with a description of the methods used (including FFT). This means that you need to explain clearly why you use the FFT, how you do it (explain the filtering, how you implement the filtering, how the filters work with schematics), and how your circuits work (calculations, simulations, measurements, etc.). Everything needs to be explained.
+
 3. One page for any issues encountered, results, a short explanation on how the lab fits with the final project, and any suggested improvements for the lab.
+
 4. In addition to submitting a hard copy of your report in lab, upload an electronic version of your report (with all clearly commented code) to Blackboard.
+
 The grading of these reports will not be based on the effectiveness of your design but entirely upon your documentation and written understanding of the lab. This will include a TA review of your lab notebook that contains notes, design sketches, and results/challenges.
