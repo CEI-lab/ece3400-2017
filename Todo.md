@@ -3,11 +3,12 @@
 
 * Update lab1 hand-out
 * Update lab2 hand-out + new FFT code?
-* Update lab3 hand-out + new FPGA code? Add speaker assignment for team 1
+* Update lab3 hand-out + new FPGA code? 
 * Update lab4 hand-out + code?
-* Write up lab1 on TeamAlpha website - in progress, KP
+* Write up lab1 on TeamAlpha website - done!
 * Write up lab2 on TeamAlpha website - in progress, RH
-* Write up lab3 on TeamAlpha website - in progess, KP
+* Write up lab3 on TeamAlpha website - in progess, KP/CC
+* Add speaker assignment for lab 3, team 1 - in progress, CC
 * Write up lab4 on TeamAlpha website - in progress, RH
 * Write up robot solution on TeamAlpha website (go in square, follow line, etc.)
 
