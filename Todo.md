@@ -8,7 +8,7 @@
 * Write up lab1 on TeamAlpha website - in progress, KP
 * Write up lab2 on TeamAlpha website - in progress, RH
 * Write up lab3 on TeamAlpha website - in progess, KP
-* Write up lab4 on TeamAlpha website
+* Write up lab4 on TeamAlpha website - in progress, RH
 * Write up robot solution on TeamAlpha website (go in square, follow line, etc.)
 
 * Make GitHub tutorial
