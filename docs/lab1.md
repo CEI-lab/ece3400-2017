@@ -1,30 +1,27 @@
-# Lab 1: Using the Arduino Uno
+# Lab 1: Microcontroller
 ## ECE 3400 Fall ’17
 
 ### Objective
-In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub/Bit Bucket repository system. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you’ll be able to start building your robot!
+In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub/Bit Bucket repository system. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should start putting together your robot!
 
 ### Materials
 - 1 Arduino Uno
-- 1 Continuous rotation servo
-- 2 Pushbuttons
-- 1 Photoresistor
-- Several LEDs (any color except IR)
+- 2 Continuous rotation servos
+- 1 Pushbutton
+- 1 LED (any color except IR!)
 - 1 Potentiometer
 - Several resistors (kΩ range)
 - 1 Solderless breadboard
+- 1 9V battery, with clip
+- 1 Robot chassis, with screws, ball bearings, etc.
 
 ### Pre-lab Assignment
-This semester we are allowing each team to choose either GitHub or Bit Bucket as a way of sharing and saving code (Source Control).
-By the beginning of your lab session, you should have discussed with your team what tool (GitHub or Bit Bucket) you want to use and have created a GitHub or Bit Bucket account.
+Each team must create a repository on GitHub, both to share and save code (source control) and to manage your website.
+By the beginning of your lab session, you should have created a GitHub account and made a basic website. 
+To create a GitHub account go to github.com and request a private account via the educational discount (https://education.github.com/discount_requests/new). There is a document on BlackBoard with more details on GitHub. This link (RYAN ADD LINK!) has helpful remarks on how to use GitHub, and how to build a website.
 
-GitHub Account: To create a GitHub account go to github.com and request a private account via the educational discount (https://education.github.com/discount_requests/new). There is a document on BlackBoard with more details on GitHub.
-
-Bit Bucket Account: To create a Bit Bucket account go to https://bitbucket.org and click the “get started” button on the upper right-hand corner. Registering with your Cornell (.edu) email address should automatically get you a free academic account.
-
-After creating your account click on the avatar in the upper right hand corner and click on “bitbucket settings” from the drop down list. Then click on “plan details” under “Plans and Billing”. Make sure that the plan level is academic (Regular plan only allows 5 users per private repository). If not click change plan, scroll down to the bottom, click on “apply to have your institution added” and fill in the form.
 In addition, you should have reviewed the Arduino Reference (http://arduino.cc/en/Reference/HomePage) page and made yourself familiar with its layout and some basic functions and syntax. Also, read up on how the Parallax Continuous Rotation Servo is used in a circuit:
- http://www.parallax.com/downloads/continuous-rotation-servo-documentation.
+http://www.parallax.com/downloads/continuous-rotation-servo-documentation.
 
 ### Notebook Documentation
 Throughout this lab and ALL labs, remember to have each team member document their steps and experiences in their own lab notebook. Notebooks should contain personal notes, schematics, diagrams, and documentation of results and challenges of this lab. These notebooks will be looked over at the end of your lab session to ensure two things: that you were present in the lab (remember: labs are required), and that you are taking good notes. Keep in mind that you will use your notebooks until the end of the final project. The notebooks will keep track of your progress with the labs and project, how the labs tie into the final project. There is a document on BlackBoard with more details about the Lab Notebook – read it and follow it!
