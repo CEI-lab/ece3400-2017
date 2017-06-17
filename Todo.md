@@ -3,7 +3,7 @@
 
 * Update lab1 hand-out
 * Update lab2 hand-out + new FFT code?
-* Update lab3 hand-out + new FPGA code? 
+* Update lab3 hand-out + new FPGA code? - Mind if I try writing up the lab3 handout? --Claire
 * Update lab4 hand-out + code?
 * Write up lab1 on TeamAlpha website - done!
 * Write up lab2 on TeamAlpha website - in progress, RH
