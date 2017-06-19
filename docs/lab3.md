@@ -1,4 +1,4 @@
-# FPGA Video Controller
+# Lab 3: FPGA Video Controller and Sound Generation
 ## ECE 3400 Fall ’17
 
 ### Objective
