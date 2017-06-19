@@ -2,7 +2,7 @@
 ## ECE 3400 Fall ’17
 
 ### Objective
-In lab 3, you will create the foundation for the final Arduino/FPGA basestation. In the final competition, all maze information discovered by the robot must be transmitted from the basestation Arduino to the FPGA, and then drawn on a VGA monitor. Once the maze has been completely mapped, the FPGA must generate a short tune to signify that the maze-mapping is done.
+In lab 3, you will create the foundation for the final Arduino/FPGA basestation by creating a framework for storing and displaying maze data on and generating sounds on the FPGA. In the final competition, all maze information discovered by the robot must be transmitted from the basestation Arduino to the FPGA, and then drawn on a VGA monitor. Once the maze has been completely mapped, the FPGA must generate a short tune to signify that the maze-mapping is done.
 
 The lab consists of two primary tasks on the FPGA: displaying graphics on the monitor and generating sound. To efficiently complete both tasks, teams will divided into two subteams. One subteam will work on graphics and the other will work on sound. Please read the detailed descriptions and background information for each task in the subsequent sections.
 
@@ -52,7 +52,7 @@ Remember, all labs are mandatory; attendance will be taken at every lab. All lab
 
 #### Task 1: Graphics
 
-**1. Setup: Open Quartus and understand example code: **
+**1. Setup: Open Quartus and understand example code:**
 Download Lab 3 example code and open Altera Quartus Prime Lite Edition. Open the Quartus Project File (.qpf) and use the project navigator in the top-left corner of Quartus to view all the files in the project.
 
 ![Project Navigation](images/lab3_projnav.PNG)
@@ -72,13 +72,13 @@ Now, compile the project by going to Processing > Start Compilation. Once the pr
 
 ![Programmer Window](images/lab3_programmer.PNG)
 
-**2. Simple drawings**
+**2. Simple drawings:**
 To better understand how the VGA driver works, try changing the background color or drawing a square on the screen.  
 
-**3. Design and code a memory system to draw a grid: **
+**3. Design and code a memory system to draw a grid:**
 Now that you can draw a square, it's time to think about how you will draw an entire maze. Begin by simplifying the problem - rather than trying to draw a 4x5 maze, start with something like a 2x2. You'll need to think about how to display information about each block in the grid without store the color of each pixel in that grid. With the given VGA driver code, create a system that stores grid information and relays the relevant pixel information to the VGA driver when it is requested. The first step is to determine how you can store all the necessary information on the FPGA (memory is limited). There are many ways you can do this and some even allow the use of higher resolution color. After coding the pixel memory system, integrate it with the display driver that you already have. The driver requests colors by screen location and it is up to you to interpret what that means to your storage system. To test your system, hard-code data into your memory system. You can also use the on-board LEDs for debugging purposes.
 
-**4. Create a communication method between the Arduino and the FPGA: **
+**4. Create a communication method between the Arduino and the FPGA:**
 
 Create a system to pass information from the microcontroller to the FPGA using the digital ports on both of these devices. You can send the information serially or through a parallel bus, but be sure to consider timing and other concerns when determining this. Be aware that the DE0-Nano operates at 3.3 Volts, but the Arduino Uno outputs 5 volts on its digital pins. Therefore, you will need to have a voltage divider for each wire connected from the Arduino to the FPGA. You will also need a common ground. Confirm that the TA’s that your choice of resistors is adequate before soldering the components.
 
@@ -86,10 +86,10 @@ The final step is to create a protocol for the information that is being sent, a
 
 #### Task 2: Sound
 
-**1. Generate and play a square wave of a desired frequency: **
+**1. Generate and play a square wave of a desired frequency:**
 A square wave is the simplest waveform you can generate to produce sound. Toggle a GPIO pin at a frequency of your choosing. Verify that the waveform is correct first by viewing the signal on an oscilloscope. After you're sure the waveform looks correct, connect this GPIO pin to one or both inputs of the phone jack socket (the center pin on the socket is ground) and plug the speakers in to listen to your sound.
 
-**2. Generate a more complicated waveform and play sound using the 8-bit DAC**
+**2. Generate a more complicated waveform and play sound using the 8-bit DAC:**
 Now that you know how to generate a simple square wave, choose a more complicated waveform to generate (sawtooth, triangle, sine). We are using an 8-bit DAC, so the highest value you can give it is 255, which corresponds to a 3.3V output from the DAC.
 
 This is the datasheet for the DAC we are using: http://www.bourns.com/docs/Product-Datasheets/R2R.pdf.
