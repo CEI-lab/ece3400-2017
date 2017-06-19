@@ -10,11 +10,11 @@ By the end of this lab, you should be able to draw a the current state of a grid
 
 ### Overview of Tasks
 
+Both subteams will need one FPGA and one Arduino. We are using a DE0-Nano Development Board. Its documentation can be found here: http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4. 
+
 #### Task 1: Graphics
 
-Materials
-- 1 DE0-Nano Development Board
-- 1 Arduino Uno
+Additional materials:
 - Various resistors
 - 1 VGA cable
 - 1 VGA connector
@@ -34,9 +34,7 @@ Your work in this lab is the foundation for the final basestation, so it will be
 
 #### Task 2: Sound
 
-Materials
-- 1 DE0-Nano Development Board
-- 1 Arduino Uno
+Additional materials:
 - Lab speaker
 - Stereo phone jack socket
 - 8-bit R2R DAC
@@ -53,6 +51,7 @@ Remember, all labs are mandatory; attendance will be taken at every lab. All lab
 #### Task 1: Graphics
 
 **1. Setup: Open Quartus and understand example code:**
+
 Download Lab 3 example code and open Altera Quartus Prime Lite Edition. Open the Quartus Project File (.qpf) and use the project navigator in the top-left corner of Quartus to view all the files in the project.
 
 ![Project Navigation](images/lab3_projnav.PNG)
@@ -73,9 +72,11 @@ Now, compile the project by going to Processing > Start Compilation. Once the pr
 ![Programmer Window](images/lab3_programmer.PNG)
 
 **2. Simple drawings:**
+
 To better understand how the VGA driver works, try changing the background color or drawing a square on the screen.  
 
 **3. Design and code a memory system to draw a grid:**
+
 Now that you can draw a square, it's time to think about how you will draw an entire maze. Begin by simplifying the problem - rather than trying to draw a 4x5 maze, start with something like a 2x2. You'll need to think about how to display information about each block in the grid without store the color of each pixel in that grid. With the given VGA driver code, create a system that stores grid information and relays the relevant pixel information to the VGA driver when it is requested. The first step is to determine how you can store all the necessary information on the FPGA (memory is limited). There are many ways you can do this and some even allow the use of higher resolution color. After coding the pixel memory system, integrate it with the display driver that you already have. The driver requests colors by screen location and it is up to you to interpret what that means to your storage system. To test your system, hard-code data into your memory system. You can also use the on-board LEDs for debugging purposes.
 
 **4. Create a communication method between the Arduino and the FPGA:**
@@ -87,17 +88,21 @@ The final step is to create a protocol for the information that is being sent, a
 #### Task 2: Sound
 
 **1. Generate and play a square wave of a desired frequency:**
+
 A square wave is the simplest waveform you can generate to produce sound. Toggle a GPIO pin at a frequency of your choosing. Verify that the waveform is correct first by viewing the signal on an oscilloscope. After you're sure the waveform looks correct, connect this GPIO pin to one or both inputs of the phone jack socket (the center pin on the socket is ground) and plug the speakers in to listen to your sound.
 
 **2. Generate a more complicated waveform and play sound using the 8-bit DAC:**
+
 Now that you know how to generate a simple square wave, choose a more complicated waveform to generate (sawtooth, triangle, sine). We are using an 8-bit DAC, so the highest value you can give it is 255, which corresponds to a 3.3V output from the DAC.
 
 This is the datasheet for the DAC we are using: http://www.bourns.com/docs/Product-Datasheets/R2R.pdf.
 
 **3. Turn on/off your sound with an enable signal:** 
+
 Try switching your sound on and off using a switch on the FPGA or a signal from the Arduino.
 
 **4. Make a tune with at least three frequencies that plays when you recieve a done signal from the Arduino:**
+
 Finally, generate at least two more distinct frequencies to create a short tune. The tune should play only when a done signal from the Arduino is recieved by the FPGA.
 
 ### Wrap-Up
