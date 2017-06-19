@@ -79,6 +79,7 @@ To use the Servo library, insert the line #include <Servo.h> at the top of a new
 The servos you have are different than standard servos – most servos can only rotate a certain amount, while the Parallax ones you have rotate continuously. Because of this difference, it is important to note that calling the Servo function ServoName.write(X);, where X is an integer from 0 to 180 and ServoName is the servo variable’s name, corresponds to a speed rather than a position. If X is 90, the servo will stop. If it is 0, it will rotate one way at full speed, and if it is 180 it will rotate the other way at full speed. Experiment with values of X until you understand how the servo operates. Then implement this into your previous code to change the speed of the servo dependent on your potentiometer.
 
 **Assemble and Run Your Robot**
+
 Whoever finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip, and ball bearings. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; remember to record videos for the website.  
 
 ### If you finish early
@@ -107,6 +108,6 @@ Start thinking about what sensors you want on your robot. How many are needed? C
 ### Wrap-Up
 
 Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins.
-You should have documented this lab thoroughly on the website; the TA's will check this by the end of the following week. Remember to have a TA note your attendance before heading out.
+You should have documented this lab thoroughly on the website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the end of the following week. Remember to have a TA note your attendance before heading out.
 
 Use GitHub on the computer to upload and save your code, be sure to add appropriate commits. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
