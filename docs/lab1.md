@@ -1,5 +1,5 @@
 # Lab 1: Microcontroller
-## ECE 3400 Fall ’17
+## ECE 3400 Fall 2017
 
 ### Objective
 In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub repository. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should put together your robot and have it perform a simple autonomous task. If you are already familiar with the Arduino, feel free to let those less familiar focus on the lab, and engage in some of the other tasks mentioned at the end of this page. 
@@ -73,7 +73,7 @@ Whoever finishes first should start assembling the robot. For this you will need
 
 ### If you finish early
 
-Already a whiz at Arduino? No worries, there are plenty of things to do:
+Already a whiz at Arduino? No worries, there are plenty of other things to do. If you want credit for this extra work, be sure to add your documentation to the website. 
 
 **Soldering**
 
