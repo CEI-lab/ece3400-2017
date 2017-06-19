@@ -1,15 +1,19 @@
-# ECE 3400
-ECE 3400 Intelligent Physical Systems course web page and assignments. 
-Cornell Fall 2017.
-Instructor: Kirstin Petersen (khp37). 
-TA's: Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Vaidehi Garg (vg254), Vidya Ramesh (vr236).
-Piazza page: ADD!
+# ECE 3400 Intelligent Physical Systems 
+
+Cornell Fall 2017
+
+Instructor: Kirstin Petersen (khp37)
+
+TA's: Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Vaidehi Garg (vg254), Vidya Ramesh (vr236)
+
+Piazza page: ADD LINK!
 
 ## Course Description
 
 Students will engage in a holistic design approach to Intelligent Physical Systems which can perceive, reason about, and act upon their environment. This course will expand on the ECE 2000-level courses, and include topics on algorithms, field programmable gate arrays, wireless communication, sensors, actuators, power, and mechanics. Students will learn the value and trade-offs between theory, simulation, and physical implementations, and gain familiarity with rapid prototyping techniques, system debugging, team work, leadership skills, time management, and how to disseminate work to a broader audience through webpages.
 
-Specific outcomes include:
+_Specific outcomes include:_
+
  - The ability to apply specific design methodologies to the course project
  - The ability to evaluate what problems are best solved in software, electronics, or mechanics; as well as the trade-offs between theory, simulation, and practical implementations.
  - Efficient team work, as a member and as a leader.
@@ -36,27 +40,27 @@ All labs are divided into two sub-labs; to ensure a good mix, it is required tha
 
 Make grading rubrics!!
 
-## Schedule
+## Schedule and Hand-Outs
 
-XXX Deadline: Fill in Google Forms
-XXX Deadline: The websites will be graded for contents on lab 1
-XXX Deadline: The websites will be graded for contents on lab 2
-XXX Deadline: The websites will be graded for contents on lab 3
-XXX Deadline: The websites will be graded for contents on lab 4
-XXX Deadline: The websites will be graded for contents on Milestone 1
-XXX Deadline: The websites will be graded for contents on Milestone 2
-XXX Deadline: The websites will be graded for contents on Milestone 3
-XXX Deadline: The websites will be graded for contents on Milestone 4
+- XXX Deadline: Fill in Google Forms
+- XXX Deadline: The websites will be graded for contents on lab 1
+- XXX Deadline: The websites will be graded for contents on lab 2
+- XXX Deadline: The websites will be graded for contents on lab 3
+- XXX Deadline: The websites will be graded for contents on lab 4
+- XXX Deadline: The websites will be graded for contents on Milestone 1
+- XXX Deadline: The websites will be graded for contents on Milestone 2
+- XXX Deadline: The websites will be graded for contents on Milestone 3
+- XXX Deadline: The websites will be graded for contents on Milestone 4
 
-[Lab 1 Microcontrollers](docs/lab1.md)
-[Lab 2 Signal Processing](docs/lab2.md)
-[Lab 3 Digital Logic](docs/lab3.md)
-[Lab 4 Wireless Communication](docs/lab4.md)
-Milestone 1 Recognize Start-Signal
-Milestone 2 Move on the Grid
-Milestone 3 Display Updates on the Screen
-Milestone 4 Navigate the Maze
-Competition
+- [Lab 1 Microcontrollers](docs/lab1.md)
+- [Lab 2 Signal Processing](docs/lab2.md)
+- [Lab 3 Digital Logic](docs/lab3.md)
+- [Lab 4 Wireless Communication](docs/lab4.md)
+- Milestone 1 Recognize Start-Signal
+- Milestone 2 Move on the Grid
+- Milestone 3 Display Updates on the Screen
+- Milestone 4 Navigate the Maze
+- Competition
 
 Here is the full link to the topics we are expected to cover in class. Please be aware that this is a tentative schedule that will change throughout the semester. [ADD]
 
@@ -64,35 +68,40 @@ Here is the full link to the topics we are expected to cover in class. Please be
 
 We have and will continue to upload helpful tutorials and links on this webpage. We would love for you to contribute, please contact the TA's to do this!
 
+** Related to GitHub **
+
+- [Ryan, add links!]
+
 ** Team Alpha Repository **
+
 This is the repository for the team of TA's that solved all the labs during the Summer of 2017. Please use this website for support and inspiration; no credits will be given for close copies of these solutions. Also, the TA's were under strict timelines - hopefully you will upload more comprehensive and better websites over the course of the semester.
 
 ** Related to Control **
 
-[Arduino Uno online references and tutorials](https://www.arduino.cc/en/Reference/HomePage)
-[PID control]
-[Something from Claire on the FPGA nano?]
+- [Arduino Uno online references and tutorials](https://www.arduino.cc/en/Reference/HomePage)
+- [PID control]
+- [Something from Claire on the FPGA nano?]
 
 ** Related to fabrication: **
 
 For the first time ever, we have a Skunkworks available to the class. This is located in PH427. Please be aware that you will only have access to this lab after you have taken a safety training, and in the presence of a TA. 
 
-[Tutorials on Solid Works]
-[Tutorials on Autocad]
-[How to use the XYYZ 3D printer]
-[How to use the Epilog laser cutter]
-[Tutorials on Eagle]
-[How to etch your own PCB]
-[How to solder components and wires]
-[Wiring a robot]
-[What goes on inside a servo?]
+- [Tutorials on Solid Works]
+- [Tutorials on Autocad]
+- [How to use the XYYZ 3D printer]
+- [How to use the Epilog laser cutter]
+- [Tutorials on Eagle]
+- [How to etch your own PCB]
+- [How to solder components and wires]
+- [Wiring a robot]
+- [What goes on inside a servo?]
 
 
 ** Related to debugging **
 
-[How to build your own oscilloscope with an Arduino]
-[Simple Matlab program to read in data from the serial port]
-[Simple Matlab program to simulate maze search]
+- [How to build your own oscilloscope with an Arduino]
+- [Simple Matlab program to read in data from the serial port]
+- [Simple Matlab program to simulate maze search]
 
 
 
