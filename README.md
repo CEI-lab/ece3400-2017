@@ -76,6 +76,7 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 **Related to GitHub**
 
 - [Ryan, add links!]
+- [Markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 **Team Alpha Repository**
 
