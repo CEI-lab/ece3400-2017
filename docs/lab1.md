@@ -2,7 +2,7 @@
 ## ECE 3400 Fall ’17
 
 ### Objective
-In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub/Bit Bucket repository system. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should start putting together your robot!
+In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub/Bit Bucket repository system. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should put together your robot and have it perform some brief autonomous task!
 
 ### Materials
 - 1 Arduino Uno
@@ -16,19 +16,27 @@ In this introductory lab, you will learn how to use the various functionalities 
 - 1 Robot chassis, with screws, ball bearings, etc.
 
 ### Pre-lab Assignment
-Each team must create a repository on GitHub, both to share and save code (source control) and to manage your website.
-By the beginning of your lab session, you should have created a GitHub account and made a basic website. 
+By the beginning of your lab session, your team must have created a GitHub account and made a basic website. We will use GitHub to share and save code (source control), and to manage the website. 
 To create a GitHub account go to github.com and request a private account via the educational discount (https://education.github.com/discount_requests/new). There is a document on BlackBoard with more details on GitHub. This link (RYAN ADD LINK!) has helpful remarks on how to use GitHub, and how to build a website.
 
 In addition, you should have reviewed the Arduino Reference (http://arduino.cc/en/Reference/HomePage) page and made yourself familiar with its layout and some basic functions and syntax. Also, read up on how the Parallax Continuous Rotation Servo is used in a circuit:
 http://www.parallax.com/downloads/continuous-rotation-servo-documentation.
 
-### Notebook Documentation
-Throughout this lab and ALL labs, remember to have each team member document their steps and experiences in their own lab notebook. Notebooks should contain personal notes, schematics, diagrams, and documentation of results and challenges of this lab. These notebooks will be looked over at the end of your lab session to ensure two things: that you were present in the lab (remember: labs are required), and that you are taking good notes. Keep in mind that you will use your notebooks until the end of the final project. The notebooks will keep track of your progress with the labs and project, how the labs tie into the final project. There is a document on BlackBoard with more details about the Lab Notebook – read it and follow it!
+### Documentation
+Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites. 
+
+Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom. 
 
 ### Procedure
-1. **Dismantling a robot from last semester**
-Your TAs will assign you a robot from last year to dismantle. All of the major components (servo motors, Arduino boards, FPGA boards, batteries, breadboards, soldered protoboards, etc.) are to be placed in appropriate containers as identified by your TAs. You can save any soldered protoboards to practice soldering (see section 7). Do not keep anything for yourselves/your team.
+
+Split into two teams. Each team needs:
+- 1 Arduino Uno
+- 1 Continuous rotation servos
+- 1 Pushbutton
+- 1 LED (any color except IR!)
+- 1 Potentiometer
+- Several resistors (kΩ range)
+- 1 Solderless breadboard
 
 2. **Communicating between the Uno and IDE**   
 Split your team into two groups. Each group will need the materials listed above.  
@@ -59,21 +67,25 @@ To see how this works, use your existing code for the potentiometer reader to ch
 6. **Connecting Components**
 Now that you know how to manipulate analog and digital values and connect components to pins, design a simple circuit that incorporates LEDs, pushbuttons, resistors, and the photoresistor into one program. If you have trouble deciding on a design, feel free to talk to other teams or a TA.
 
-7. **Parallax Servos**
+**Parallax Servos**
 The wheels for your robot will be Parallax Continuous Rotation Servos. They use the already-provided Servo library to operate. Connect one servo to the Uno by hooking up the white wire to a digital pin (set to output) with PWM capability. Pins with PWM capability are marked with a tilde (~). The red wire goes to the 5V output pin, and the black wire goes to ground. Note: Because servos use a lot of power and can be noisy, you’ll eventually connect the red and black wires to an external power supply consisting of rechargeable 5V battery pack (http://www.monoprice.com/product?c_id=108&cp_id=10831&cs_id=1083110&p_id=13087&seq=1&format=2).
 
 To use the Servo library, insert the line #include <Servo.h> at the top of a new sketch. At the bottom right of the Arduino Reference page, you will see a link for libraries. Follow that link to find documentation on the Servo library.
 
 The servos you have are different than standard servos – most servos can only rotate a certain amount, while the Parallax ones you have rotate continuously as wheels do. Because of this difference, it is important to note that calling the Servo function ServoName.write(X);, where X is an integer from 0 to 180 and ServoName is the servo variable’s name, corresponds to a speed rather than a position. If X is 90, the servo will stop. If it is 0, it will rotate one way at full speed, and if it is 180 it will rotate the other way at full speed. Experiment with values of X until you understand how the servo operates.
 
-8. **Soldering**
-A video was presented in class on how to solder electronic components (e.g., https://www.youtube.com/watch?v=IpkkfK937mU), and also desolder (e.g., https://www.youtube.com/watch?v=Fxu1LAoqTRA). Feel free to take some time to practice soldering wires and old electronic components (available in the large bin). It’s a really good idea to practice ahead of time to learn the technique to avoid, for example, damaging your actual components. Obey the following rules:
+**Soldering**
+If you run out of things to do, feel free to practice soldering of components and wires. Check out these helpful videos on [soldering](https://www.youtube.com/watch?v=IpkkfK937mU), and [desoldering](https://www.youtube.com/watch?v=Fxu1LAoqTRA). You can find old soldering wires and electronic components in the large bin in the lab. It is a really good idea to practice ahead of time to learn the technique to avoid, for example, damaging your actual components, or breaking wires during the competition. 
+Be sure to always obey the following rules:
 - Wear goggles when soldering
 - Tie your hair if it can get in the way of your work
 - Wash your hands after soldering
 - Clean the solder iron tip often, and when finished (tin it before storing the iron)
 - Turn off the soldering station when you are finished
 - Clean your work area!
+
+**Assemble and Run Your Robot**
+Whatever team finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip, and ball bearings. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; remember to record videos for the website.  
 
 ### Wrap-Up
 Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins.
