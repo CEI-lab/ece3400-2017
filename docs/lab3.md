@@ -67,7 +67,7 @@ Throughout this lab and ALL labs, remember to have each team member document the
 **1. Setup: Open Quartus and understand example code**
 Download Lab 3 example code and open Altera Quartus Prime Lite Edition. Open the Quartus Project File (.qpf) and use the project navigator in the top-left corner of Quartus to view all the files in the project.
 
-![Project Navigation](images/lab3_projnav.png)
+![Project Navigation](images/lab3_projnav.PNG)
 
 You should see two .v files:
 	1) DE0_NANO.v : The top-level module, which connects to the system clock as well as several other peripherals like on-board LEDs, switches, the two buttons, and both banks of GPIO pins. All your main logic will go in this file. Feel free to write your own modules and instantiate them here.
@@ -79,7 +79,7 @@ Read through both files to understand how each works. Try to figure out what you
 
 Now, compile the project by going to Processing > Start Compilation. Once the project is done compiling (this could take about 30 seconds), program the board by selecting Tools > Programmer. In the Programmer window that pops up, make sure the USB-Blaster is selected, and then hit start to program the board. You should see a green screen on the VGA monitor and LED0 blinking. 
 
-![Programmer Window](images/lab3_programmer.png)
+![Programmer Window](images/lab3_programmer.PNG)
 
 **2. Simple drawings**
 To better understand how the VGA driver works, try changing the background color or drawing a square on the screen.  
