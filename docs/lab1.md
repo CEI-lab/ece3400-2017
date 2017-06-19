@@ -4,17 +4,6 @@
 ### Objective
 In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub repository. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should put together your robot and have it perform a simple autonomous task. If you are already familiar with the Arduino, feel free to let those less familiar focus on the lab, and engage in some of the other tasks mentioned at the end of this page. 
 
-### Materials
-- 1 Arduino Uno
-- 2 Continuous rotation servos
-- 1 Pushbutton
-- 1 LED (any color except IR!)
-- 1 Potentiometer
-- Several resistors (kΩ range)
-- 1 Solderless breadboard
-- 1 9V battery, with clip
-- 1 Robot chassis, with screws, ball bearings, etc.
-
 ### Pre-lab Assignment
 By the beginning of your lab session, your team must have created a GitHub account and made a basic website. We will use GitHub to share and save code (source control), and to manage the website. 
 To create a GitHub account go to github.com and request a private account via the educational discount (https://education.github.com/discount_requests/new). There is a document on BlackBoard with more details on GitHub. This link (RYAN ADD LINK!) has helpful remarks on how to use GitHub, and how to build a website.
