@@ -71,6 +71,8 @@ The servos you have are different than standard servos – most servos can only 
 
 Whoever finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip, and ball bearings. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; remember to record videos for the website.  
 
+If you have plenty of spare time, feel free to add line sensors. Try making the robot follow a black line on the floor and make it go as fast as possible; this will help you in the final challenge.
+
 ### If you finish early
 
 Already a whiz at Arduino? No worries, there are plenty of other things to do. If you want credit for this extra work, be sure to add your documentation to the website. 
