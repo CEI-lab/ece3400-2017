@@ -1,19 +1,8 @@
 # Lab 1: Microcontroller
-## ECE 3400 Fall ’17
+## ECE 3400 Fall 2017
 
 ### Objective
-In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub/Bit Bucket repository system. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should put together your robot and have it perform some brief autonomous task!
-
-### Materials
-- 1 Arduino Uno
-- 2 Continuous rotation servos
-- 1 Pushbutton
-- 1 LED (any color except IR!)
-- 1 Potentiometer
-- Several resistors (kΩ range)
-- 1 Solderless breadboard
-- 1 9V battery, with clip
-- 1 Robot chassis, with screws, ball bearings, etc.
+In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub repository. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should put together your robot and have it perform a simple autonomous task. If you are already familiar with the Arduino, feel free to let those less familiar focus on the lab, and engage in some of the other tasks mentioned at the end of this page. 
 
 ### Pre-lab Assignment
 By the beginning of your lab session, your team must have created a GitHub account and made a basic website. We will use GitHub to share and save code (source control), and to manage the website. 
@@ -79,13 +68,15 @@ To use the Servo library, insert the line #include <Servo.h> at the top of a new
 The servos you have are different than standard servos – most servos can only rotate a certain amount, while the Parallax ones you have rotate continuously. Because of this difference, it is important to note that calling the Servo function ServoName.write(X);, where X is an integer from 0 to 180 and ServoName is the servo variable’s name, corresponds to a speed rather than a position. If X is 90, the servo will stop. If it is 0, it will rotate one way at full speed, and if it is 180 it will rotate the other way at full speed. Experiment with values of X until you understand how the servo operates. Then implement this into your previous code to change the speed of the servo dependent on your potentiometer.
 
 **Assemble and Run Your Robot**
+
 Whoever finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip, and ball bearings. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; remember to record videos for the website.  
 
 ### If you finish early
 
-...there are plenty of things to do:
+Already a whiz at Arduino? No worries, there are plenty of other things to do. If you want credit for this extra work, be sure to add your documentation to the website. 
 
 **Soldering**
+
 If you run out of things to do, feel free to practice soldering of components and wires. Check out these helpful videos on [soldering](https://www.youtube.com/watch?v=IpkkfK937mU), and [desoldering](https://www.youtube.com/watch?v=Fxu1LAoqTRA). You can find old soldering wires and electronic components in the large bin in the lab. It is a really good idea to practice ahead of time to learn the technique to avoid, for example, damaging your actual components, or breaking wires during the competition. 
 Be sure to always obey the following rules:
 - Wear goggles when soldering
@@ -96,11 +87,16 @@ Be sure to always obey the following rules:
 - Clean your work area!
 
 **Mechanical Parts**
+
 All the mechanical parts for the robot can be found on this site (ADD SITE!!!). Feel free to start making new parts in Solidworks or Autocad (installed on all lab machines), if you wish. This page has basic info on how to design new parts - reach out to one of the TA's to show you how to fabricate it. 
+
+**Sensors**
+
+Start thinking about what sensors you want on your robot. How many are needed? Check out the lab stock. Remember, the entire robot must cost less than <$100. If you would like to purchase sensors/actuators that are not in the lab, write up an email to the TA's and the instructor explaining where to buy it and the reason for buying. We will consider these purchases on a case by case basis. Shipping and tax will be taken out of your budget. The earlier you decide on these the better - shipping to Ithaca can easily take a week. 
 
 ### Wrap-Up
 
 Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins.
-You should have documented this lab thoroughly on the website; the TA's will check this by the end of the following week. Remember to have a TA note your attendance before heading out.
+You should have documented this lab thoroughly on the website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the end of the following week. Remember to have a TA note your attendance before heading out.
 
 Use GitHub on the computer to upload and save your code, be sure to add appropriate commits. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
