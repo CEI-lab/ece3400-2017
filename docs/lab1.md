@@ -2,7 +2,7 @@
 ## ECE 3400 Fall ’17
 
 ### Objective
-In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub/Bit Bucket repository system. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should put together your robot and have it perform some brief autonomous task!
+In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub repository. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should put together your robot and have it perform a simple autonomous task. If you are already familiar with the Arduino, feel free to let those less familiar focus on the lab, and engage in some of the other tasks mentioned at the end of this page. 
 
 ### Materials
 - 1 Arduino Uno
@@ -83,9 +83,10 @@ Whoever finishes first should start assembling the robot. For this you will need
 
 ### If you finish early
 
-...there are plenty of things to do:
+Already a whiz at Arduino? No worries, there are plenty of things to do:
 
 **Soldering**
+
 If you run out of things to do, feel free to practice soldering of components and wires. Check out these helpful videos on [soldering](https://www.youtube.com/watch?v=IpkkfK937mU), and [desoldering](https://www.youtube.com/watch?v=Fxu1LAoqTRA). You can find old soldering wires and electronic components in the large bin in the lab. It is a really good idea to practice ahead of time to learn the technique to avoid, for example, damaging your actual components, or breaking wires during the competition. 
 Be sure to always obey the following rules:
 - Wear goggles when soldering
@@ -96,7 +97,12 @@ Be sure to always obey the following rules:
 - Clean your work area!
 
 **Mechanical Parts**
+
 All the mechanical parts for the robot can be found on this site (ADD SITE!!!). Feel free to start making new parts in Solidworks or Autocad (installed on all lab machines), if you wish. This page has basic info on how to design new parts - reach out to one of the TA's to show you how to fabricate it. 
+
+**Sensors**
+
+Start thinking about what sensors you want on your robot. How many are needed? Check out the lab stock. Remember, the entire robot must cost less than <$100. If you would like to purchase sensors/actuators that are not in the lab, write up an email to the TA's and the instructor explaining where to buy it and the reason for buying. We will consider these purchases on a case by case basis. Shipping and tax will be taken out of your budget. The earlier you decide on these the better - shipping to Ithaca can easily take a week. 
 
 ### Wrap-Up
 
