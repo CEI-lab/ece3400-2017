@@ -1,12 +1,12 @@
 # ECE 3400 Intelligent Physical Systems 
 
-Cornell Fall 2017, PH 414
+**Cornell, Fall 2017, room: PH 414**
 
-Instructor: Kirstin Petersen (khp37)
+**Instructor:** Kirstin Petersen (khp37)
 
-TA's: Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Vaidehi Garg (vg254), Vidya Ramesh (vr236)
+**TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Vaidehi Garg (vg254), Vidya Ramesh (vr236)
 
-Piazza page: ADD LINK!
+**Piazza page:** ADD LINK!
 
 ## Course Description
 
@@ -73,21 +73,21 @@ Here is the full link to the topics we are expected to cover in class. Please be
 
 We have and will continue to upload helpful tutorials and links on this webpage. We would love for you to contribute, please contact the TA's to do this!
 
-** Related to GitHub **
+**Related to GitHub**
 
 - [Ryan, add links!]
 
-** Team Alpha Repository **
+**Team Alpha Repository**
 
 This is the repository for the team of TA's that solved all the labs during the Summer of 2017. Please use this website for support and inspiration; no credits will be given for close copies of these solutions. Also, the TA's were under strict timelines - hopefully you will upload more comprehensive and better websites over the course of the semester.
 
-** Related to Control **
+**Related to Control**
 
 - [Arduino Uno online references and tutorials](https://www.arduino.cc/en/Reference/HomePage)
 - [PID control]
 - [Something from Claire on the FPGA nano?]
 
-** Related to fabrication: **
+**Related to fabrication:**
 
 For the first time ever, we have a Skunkworks available to the class. This is located in PH427. Please be aware that you will only have access to this lab after you have taken a safety training, and in the presence of a TA. 
 
@@ -102,7 +102,7 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 - [What goes on inside a servo?]
 
 
-** Related to debugging **
+**Related to debugging**
 
 - [How to build your own oscilloscope with an Arduino]
 - [Simple Matlab program to read in data from the serial port]
