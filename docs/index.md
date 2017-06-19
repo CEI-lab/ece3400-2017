@@ -11,3 +11,12 @@ Testing images:
 
 ### Other Documents
 - [Starting on Your Robot](starting_your_robot.md)
+
+### Arduino Information
+
+A useful script to report on the internal state of your Arduino:
+https://playground.arduino.cc/Main/ShowInfo
+https://playground.arduino.cc/Main/ShowInfo?action=sourceblock&num=1
+
+Also look at wiring.c on your development machine to see the firmware settings that are being uploaded to your Arduino.
+

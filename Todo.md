@@ -16,6 +16,7 @@
 * Make tutorial videos for 3D printers
 * Make tutorial videos for laser cutter
 * Make tutorial videos for PCB
+* Make tutorial for Quartis (Claire)
 * Make site explaining how to do a basic PCB in Eagle
 * Make site explaining how to do a basic part in Solid Works
 * Make robot parts in Solid Works

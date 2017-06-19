@@ -67,7 +67,6 @@ Sending the Entire Maze
  The most intuitive way of sending an entire maze is with a two-dimensional array. Use this 2D char array as an example:
 
 unsigned char maze[5][5] =
-
 {
 3, 3, 3, 3, 3,
 3, 1, 1, 1, 3,
