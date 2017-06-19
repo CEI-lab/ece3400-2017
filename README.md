@@ -1,6 +1,6 @@
 # ECE 3400 Intelligent Physical Systems 
 
-Cornell Fall 2017
+Cornell Fall 2017, PH 414
 
 Instructor: Kirstin Petersen (khp37)
 
@@ -33,8 +33,13 @@ Rules and final scoring chart [ADD]
 
 ## Team Composition
 
-The teams will be composed by the TA's and lecturer without exception. These will be dependent on lab-time sign-ups, student skillsets and personalities. Before midnight August 28th please fill out these Google forms such that the teams can be formed immediately. 
-All labs are divided into two sub-labs; to ensure a good mix, it is required that you keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D.  
+The teams will be composed by the TA's and lecturer without exception. 
+
+Teams will be dependent on lab-time sign-up, student skillsets, and personalities. Before midnight August 28th please fill out these Google forms such that the teams can be formed immediately. 
+
+All labs are divided into two sub-labs. To ensure a good mix, it is required that you keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D.  
+
+We will host internal team evaluations. We will practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
 
 ## Grades
 
