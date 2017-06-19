@@ -73,7 +73,7 @@ You should see two .v files:
 	1) DE0_NANO.v : The top-level module, which connects to the system clock as well as several other peripherals like on-board LEDs, switches, the two buttons, and both banks of GPIO pins. All your main logic will go in this file. Feel free to write your own modules and instantiate them here.
 	2) VGA_DRIVER.v : Module that outputs VGA sync signals. One instance of this module has already been instantiated in the top-level module and connected to a series of GPIO ports. 
 
-	![Block Diagram](images/lab3_blockdiagram.png)
+![Block Diagram](images/lab3_blockdiagram.png)
 
 Read through both files to understand how each works. Try to figure out what you should see when you program the board. 
 
