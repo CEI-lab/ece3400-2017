@@ -108,6 +108,17 @@ char data = 2;
 
 Keep in mind though that even if one method may seem easier to implement, there may be unexpected overhead in other elements of the project. Ask yourself how your choice for this portion of the project affects the robot’s logic as well as the video controller logic. What happens if a packet is dropped? Again, how will the Auto-ACK feature affect this?
 
+**Sending robot position**
+The FPGA team has been working to draw a grid that shows the current position of the robot.
+
+Implement a communication method to send the current position of the robot from one Arduino to the other.
+```C
+int x_coord = 3;
+int y_coord = 2;
+```
+
+Work with your FPGA team to integrate this radio code with their code to communicate with the FPGA. Your goal is to send the current position of the robot from Arduino A to Arduino B and then to transfer that information to the FPGA so that the current position of the robot appears on the VGA monitor.
+
 **Implement Your Communication Method**
 Now that you have worked through some basic examples, implement the method that you will use in the final project. At the end of this lab, you should ideally be able to send messages from one Arduino to the receiving Arduino (simulating actual maze information) and have the FPGA show it on the monitor.
 
