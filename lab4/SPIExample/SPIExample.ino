@@ -34,6 +34,7 @@ void loop() {
       // Note that this only works because the dimensionality of our maze restricts
       // x and y to be less than 4 bits.
       payload = pack_payload(x, y);
+      Serial.println("%x\n", payload & 0xff); // print to serial to check
       digitalFPGAWrite(payload);
       delay(1000);
     }     
