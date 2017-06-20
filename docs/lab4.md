@@ -144,4 +144,14 @@ Use the GitHub program on the lab computer to save your code.
 
 ### Pre-lab Assignment
 
+
 ### Procedure
+**Increasing grid size**
+
+**Drawing current position**
+
+**Arduino/FPGA communication**
+There are two obvious approaches to Arduino/FPGA communication:
+- Parallel
+- Serial
+
