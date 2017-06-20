@@ -44,13 +44,15 @@ Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it t
 
 Change the identifier numbers for the two pipes to the ones assigned to your team using the following formula:
 
-> 2*(3*D + N) + X,
+```
+2*(3*D + N) + X
+```
 
 where D is the day of your lab (0 = Monday day, 1 = Monday night, 2 = Wednesday night, 3 = Friday) and N is your team number. X is 0 for one radio and 1 for the other (you need 2 identifiers, which is why this X is included in the formula).
 
 Example: You are Friday Team 9. And so, D = 3, N = 9, and your identifier numbers are then:
 
-> 2*(3*3 + 9) + 0/1 = 36 and 37 in decimal = 24 and 25 in hex.
+2*(3*3 + 9) + 0/1 = 36 and 37 in decimal = 24 and 25 in hex.
 
 You will put these channel numbers (with leading 0s) in the line of code that says
 
