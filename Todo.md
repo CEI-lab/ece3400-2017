@@ -10,9 +10,9 @@
 * Lab2 will have half a team working on the microphone, the other half working on the treasures.
 * In future versions of the course, consider changing the second half to focus on IR circuits, and make light interference on the track so they'll need to use fft.
 
-* Update lab3 hand-out + new FPGA code - Claire
+* Update lab3 hand-out + new FPGA code - done! (Claire)
 * Write up lab3 on TeamAlpha website - Claire
-* Add speaker assignment for lab 3, team 1 - in progress, CC
+* Add speaker assignment for lab 3, team 1 - done! (Claire)
 
 * Update lab4 hand-out + code?
 * Write up lab4 on TeamAlpha website - in progress, RH

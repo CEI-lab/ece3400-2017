@@ -10,7 +10,9 @@ By the end of this lab, you should be able to draw a the current state of a grid
 
 ### Overview of Tasks
 
-Both subteams will need one FPGA and one Arduino. We are using a DE0-Nano Development Board. Its documentation can be found here: http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4. 
+Both subteams will need one FPGA and one Arduino. Both teams should download the example Quartus project [here](https://github.com/rohern/ece3400/blob/master/lab3/Lab3_template.zip) and modify the top-level module DE0_NANO.v.
+
+We are using a DE0-Nano Development Board. Its documentation can be found here: http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4.
 
 #### Task 1: Graphics
 
