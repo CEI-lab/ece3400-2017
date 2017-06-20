@@ -12,6 +12,8 @@ unsigned int pack_payload(char x, char y) {
 }
 
 void digitalFPGAWrite(unsigned char value) {  
+  Serial.println(value);
+  
   digitalWrite(FPGA_SS, LOW);
   SPI.transfer(value); // send a byte over SPI
   digitalWrite(FPGA_SS, HIGH);
