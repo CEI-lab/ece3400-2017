@@ -11,9 +11,7 @@ unsigned int pack_payload(char x, char y) {
   return (y << 4) | x;
 }
 
-void digitalFPGAWrite(unsigned char value) {  
-  Serial.println(value);
-  
+void digitalFPGAWrite(unsigned char value) {
   digitalWrite(FPGA_SS, LOW);
   SPI.transfer(value); // send a byte over SPI
   digitalWrite(FPGA_SS, HIGH);
@@ -31,18 +29,21 @@ void loop() {
   unsigned char x, y;
   unsigned char payload;
 
-  Serial.println("Iterating through maze positions.\n");
-  
+  payload = pack_payload(3, 3);
+  digitalFPGAWrite(payload);
+  delay(1000);
+
+//  Serial.println("Iterating through maze positions.\n");
   // Our maze is 4 x 5. Iterate through all locations.
-  for (x = 0; x < 4; x++) {
-    for (y = 0; y < 5; y++) {
-      // Construct and send a test payload.
-      // Note that this only works because the dimensionality of our maze restricts
-      // x and y to be less than 4 bits.
-      payload = pack_payload(x, y);
-      Serial.println(payload); // print payload to serial
-      digitalFPGAWrite(payload);
-      delay(1000);
-    }     
-  }
+//  for (x = 0; x < 4; x++) {
+//    for (y = 0; y < 5; y++) {
+//      // Construct and send a test payload.
+//      // Note that this only works because the dimensionality of our maze restricts
+//      // x and y to be less than 4 bits.
+//      payload = pack_payload(x, y);
+//      Serial.println(payload); // print payload to serial
+//      digitalFPGAWrite(payload);
+//      delay(1000);
+//    }     
+//  }
 }
