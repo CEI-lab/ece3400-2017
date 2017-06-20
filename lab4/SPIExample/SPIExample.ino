@@ -7,7 +7,8 @@
 const int FPGA_SS = 4;
 
 unsigned int pack_payload(char x, char y) {
-  return (x << 4) | y;
+  // Top 4 bits are y and bottom 4 bits are x
+  return (y << 4) | x;
 }
 
 void digitalFPGAWrite(unsigned int value) {
