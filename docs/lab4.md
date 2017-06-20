@@ -2,16 +2,16 @@
 ## ECE 3400 Fall ’17
 
 ### Objective
-In this lab, you will be working on the final major component of your project: radio communication. You will also extend the work you did in Lab 3 to draw the maze on a VGA monitor using the FPGA as it is mapped by the robot.
+In this lab, you will be working on the final major component of your project: radio communication. You will also extend the work you did in Lab 3, using the FPGA to draw the full maze on a VGA monitor.
 
-Before the lab, split your team into two groups. One group will work on on radio component and the other on the FPGA component. Preferably, the FPGA group will not be the same group members who did the drawing component of Lab 3.
+Before the lab, split your team into two groups. One group will work on the radio component and the other on the FPGA component. Preferably, the FPGA group will *not* contain the group members who did the maze drawing component of Lab 3. We would like everyone to get experience with the VGA elements of this course. Note the each group has it own pre-lab assignment.
 
-Using the Nordic nRF24L01+ transceivers and the corresponding Arduino RF24 library, you will get the robot and video controller to talk to each other. At the end of this lab, you should ideally be able to send messages from one Arduino to the receiving Arduino (simulating actual maze information) and have the FPGA show it on the monitor.
+For the final portion of the lab, the work done with the radio will be combined with the work done with the FPGA. Using the Nordic nRF24L01+ transceivers and the corresponding Arduino RF24 library, you will get the robot and video controller to talk to each other. You should ideally be able to send messages from one Arduino to the other Arduino (simulating actual maze information) and have the FPGA display the received data on the monitor.
 
 ### Documentation
 Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites.
 
-Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom.
+Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, so be sure to note on the website what work is carried out by whom.
 
 ***
 
@@ -34,23 +34,23 @@ If you are sending a 2-dimensional (3x3, for example) array of chars, what is th
 
 Now assume that each element in the array has a maximum value of 3. How many bytes can you compress this array into, now that you know this piece of information? How many packets are now required to send the array?
 
-After completing this exercise, decide with your team what information you want to send (The whole maze? Only information for a newly explored area? An update every 3 seconds?), along with how you want to encode it (chars, ints, packed bytes, etc.).
-
 ### Procedure
 **Getting Started**
-Plug your radios into your Arduinos.
+Plug your radios into your Arduinos using the special printed circuit boards. Wire the radio to the 3.3V pin on the Arduino.
 
-![Fig. 2](images/lab4_fig3.png)
+![Fig. 3: Arduino with radio.](images/lab4_fig3.png)
 
-Download the RF24 Arduino library from https://github.com/maniacbug/RF24. Add it to the Libraries folder in your Arduino directory. Then download the “Getting Started” sketch from Blackboard. Do NOT use the “Getting Started” sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub page for Lab 4. Change the identifier numbers to the ones assigned to your team using the following formula:
+Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory. Download the “Getting Started” sketch from the course GitHub repository for Lab 4. Do NOT use the “Getting Started” sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub.
 
-2*(3*D + N) + X,
+Change the identifier numbers for the two pipes to the ones assigned to your team using the following formula:
+
+> 2*(3*D + N) + X,
 
 where D is the day of your lab (0 = Monday day, 1 = Monday night, 2 = Wednesday night, 3 = Friday) and N is your team number. X is 0 for one radio and 1 for the other (you need 2 identifiers, which is why this X is included in the formula).
 
 Example: You are Friday Team 9. And so, D = 3, N = 9, and your identifier numbers are then:
 
-2*(3*3 + 9) + 0/1 = 36 and 37 in decimal = 24 and 25 in hex.
+> 2*(3*3 + 9) + 0/1 = 36 and 37 in decimal = 24 and 25 in hex.
 
 You will put these channel numbers (with leading 0s) in the line of code that says
 
@@ -160,4 +160,4 @@ Now that you can recieve packets, parse this data and use it to display the robo
 
 #### Mark explored territory
 
-Finally, add additional code to 
+Finally, add additional code to
