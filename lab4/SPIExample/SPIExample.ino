@@ -6,6 +6,10 @@
 // The radio uses pin 10 (the other slave select pin on the Arduino)
 const int FPGA_SS = 4;
 
+unsigned int pack_payload(char x, char y) {
+  return (x << 4) | y;
+}
+
 void digitalFPGAWrite(unsigned int value) {
   digitalWrite(FPGA_SS, LOW);
   SPI.transfer(value); // send a byte over SPI
@@ -22,18 +26,15 @@ void loop() {
   unsigned char x, y;
   unsigned char payload;
   
-  // Our maze is 4 x 5
+  // Our maze is 4 x 5. Iterate through all locations.
   for (x = 0; x < 4; x++) {
     for (y = 0; y < 5; y++) {
       // Construct and send a test payload.
       // Note that this only works because the dimensionality of our maze restricts
       // x and y to be less than 4 bits.
-      payload = (x << 4) | y;
+      payload = pack_payload(x, y);
       digitalFPGAWrite(payload);
       delay(1000);
     }     
   }
-
-  // Wait for 1 second
-  delay(1000);
 }
