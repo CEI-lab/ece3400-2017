@@ -40,12 +40,12 @@ Plug your radios into your Arduinos using the special printed circuit boards. Wi
 
 ![Fig. 3: Arduino with radio.](images/lab4_fig3.png)
 
-Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory. Download the “Getting Started” sketch from the course GitHub repository for Lab 4. Do NOT use the “Getting Started” sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub.
+Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory. Download the "Getting Started" sketch from the course GitHub repository for Lab 4. Do NOT use the "Getting Started" sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub.
 
 Change the identifier numbers for the two pipes to the ones assigned to your team using the following formula:
 
 ```
-2*(3*D + N) + X
+2(3D + N) + X
 ```
 
 where D is the day of your lab (0 = Monday day, 1 = Monday night, 2 = Wednesday night, 3 = Friday) and N is your team number. X is 0 for one radio and 1 for the other (you need 2 identifiers, which is why this X is included in the formula).
@@ -68,20 +68,21 @@ const uint64_t pipes[2] = { 0x0000000024LL, 0x0000000025LL };
 
 The LL’s mean “long long,” or a 64-bit number. Leave these in.
 
-Program the sketch onto BOTH of your Arduinos (with the radios plugged in and the appropriate channel assigned), and open up the Serial monitors. Type in “T” and hit enter on ONE of the Arduinos. This will put it in Transmit mode. You should see one Arduino sending a timestamp and the other Arduino receiving it.
+Program the sketch onto *both* of your Arduinos. If you like, you can use two PC's, one for each Arduino, so that you can open a serial monitor for each simultaneously. Otherwise, you can use a single PC and switch the serial monitor between the two.
+
+Choose one Arduino to be the transmitter and open the serial monitor for it. Type in “T” and hit enter. This will put it in Transmit mode. You should see this Arduino sending a timestamp. Switch to the serial monitor for the other Arduino and you should see it printing the received message.
 
 Once this is working, do some quick experiments with range and channel number. How far do the radios work at the chosen power level? Do you have any dropped packets? Is there any interference?
 
-Note: If you wish to try different power levels, note that the commented values are INCORRECT. The enum names are “RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, and RF24_PA_MAX.” There is no MED value that the code mentions.
+*Note:* If you wish to try different power levels, note that the commented values are INCORRECT. The enum names are “RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, and RF24_PA_MAX.” There is no MED value that the code mentions.
 
-Make sure you understand the Getting Started sketch at a high level; it is suggested that you use this sketch as a building block for your own radio code. If you have any questions, ask a staff member.
+Make sure you understand the "Getting Started" sketch at a high level; it is suggested that you use this sketch as a building block for your own radio code. If you have any questions, ask a staff member.
 
 **Sending Maze Information**
-We will now do two exercises for sending maze information – one where the entire maze is sent and one where only new information is sent.
+We will now do two exercises for sending maze information, one where the entire maze is sent and one where only new information is sent.
 
 **Sending the Entire Maze**
-
- The most intuitive way of sending an entire maze is with a two-dimensional array. Use this 2D char array as an example:
+ The most intuitive way of representing an entire maze is with a two-dimensional array. Use this 2D char array as an example:
 
 ```C
 unsigned char maze[5][5] =
@@ -94,11 +95,15 @@ unsigned char maze[5][5] =
 };
 ```
 
- Modify the Getting Started sketch to send, receive, and display the array using the Serial Monitor. You can choose to pack the array (since the values only go up to 3) or to send them as chars. Keep in mind that will need to keep track of how many packets you expect to receive, and think of a way to correct behavior if a packet is dropped. For example, if you expect to receive 8 packets but only receive 7, then when the first packet comes of another maze update, you’ll think it’s actually the 8th packet and be one off on your counting after that. The RF24 library has an Auto-ACK feature – look at the details of this and think of how enabling or disabling it would affect how you send and encode packets.
+ Modify the Getting Started sketch to send, receive, and display the array using the Serial Monitor. You can choose to pack the array (since the values only go up to 3) or to send them as chars.
+
+Keep in mind the number of packets you expect to receive and think of a way to correct behavior if a packet is dropped. For example, if you expect to receive 8 packets but only receive 7, then when the first packet comes of another maze update, you’ll think it’s actually the 8th packet and be one off on your counting after that. The RF24 library has an Auto-ACK feature – look at the details of this and think of how enabling or disabling it would affect how you send and encode packets. *Note:* It is enabled by default.
 
 **Sending New Information Only**
 
- If you don’t want to send the entire maze, an alternative is only sending new information. Take this code for example:
+ If you do not want to send the entire maze, an alternative is only sending new information. This may seem a trivial optimization, but in real-world robotics, power consumption is an unavoidable technical limitation. Wasting energy sending superfluous data over radio is shoddy engineering at best.
+
+Take this code for an example on sending only new maze information:
 
 ```C
 int x_coord = 3; 
@@ -106,9 +111,9 @@ int y_coord = 2; 
 char data = 2;
 ```
 
- It is up to you, again, whether or not you pack this information. As in the first exercise, modify the Getting Started sketch to send, receive, and display the sent information using the Serial Monitor.
+ As in the first exercise, modify the Getting Started sketch to send, receive, and display the sent information using the Serial Monitor.
 
-Keep in mind though that even if one method may seem easier to implement, there may be unexpected overhead in other elements of the project. Ask yourself how your choice for this portion of the project affects the robot’s logic as well as the video controller logic. What happens if a packet is dropped? Again, how will the Auto-ACK feature affect this?
+Keep in mind though that even if one method may seem easier to implement, there may be unexpected overhead in other elements of the project. Ask yourself how your choice for this portion of the project affects the robot’s logic as well as the video controller logic. What happens if a packet is dropped? Again, how will enabling the Auto-ACK feature affect this?
 
 **Sending robot position**
 The FPGA team has been working to draw a grid that shows the current position of the robot.
@@ -154,7 +159,7 @@ You should already have code from lab 3 which displays a smaller version of the 
 
 #### Recieve packets from the Arduino
 
-Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. For this lab, packets don't need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3. To test your packet reciever, consider using the on-board LEDs.
+Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. For this lab, packets do not need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3. To test your packet reciever, consider using the on-board LEDs.
 
 #### Highlight the robot's current location based on packet information
 
