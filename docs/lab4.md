@@ -38,6 +38,10 @@ After completing this exercise, decide with your team what information you want 
 
 ### Procedure
 **Getting Started**
+Plug your radios into your Arduinos.
+
+![Fig. 2](images/lab4_fig3.png)
+
 Download the RF24 Arduino library from https://github.com/maniacbug/RF24. Add it to the Libraries folder in your Arduino directory. Then download the “Getting Started” sketch from Blackboard. Do NOT use the “Getting Started” sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub page for Lab 4. Change the identifier numbers to the ones assigned to your team using the following formula:
 
 2*(3*D + N) + X,
