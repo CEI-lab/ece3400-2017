@@ -36,6 +36,7 @@ Now assume that each element in the array has a maximum value of 3. How many byt
 
 ### Procedure
 **Getting Started**
+
 Plug your radios into your Arduinos using the special printed circuit boards. Wire the radio to the 3.3V pin on the Arduino.
 
 ![Fig. 3: Arduino with radio.](images/lab4_fig3.png)
@@ -79,9 +80,11 @@ Once this is working, do some quick experiments with range and channel number. H
 Make sure you understand the "Getting Started" sketch at a high level; it is suggested that you use this sketch as a building block for your own radio code. If you have any questions, ask a staff member.
 
 **Sending Maze Information**
+
 We will now do two exercises for sending maze information, one where the entire maze is sent and one where only new information is sent.
 
 **Sending the Entire Maze**
+
  The most intuitive way of representing an entire maze is with a two-dimensional array. Use this 2D char array as an example:
 
 ```C
@@ -116,6 +119,7 @@ char data = 2;
 Keep in mind though that even if one method may seem easier to implement, there may be unexpected overhead in other elements of the project. Ask yourself how your choice for this portion of the project affects the robot’s logic as well as the video controller logic. What happens if a packet is dropped? Again, how will enabling the Auto-ACK feature affect this?
 
 **Sending robot position**
+
 The FPGA team has been working to draw a grid that shows the current position of the robot.
 
 Implement a communication method to send the current position of the robot from one Arduino to the other.
@@ -127,6 +131,7 @@ int y_coord = 2;
 Work with your FPGA team to integrate this radio code with their code to communicate with the FPGA. Your goal is to send the current position of the robot from Arduino A to Arduino B and then to transfer that information to the FPGA so that the current position of the robot appears on the VGA monitor.
 
 **Implement Your Communication Method**
+
 Now that you have worked through some basic examples, implement the method that you will use in the final project. At the end of this lab, you should ideally be able to send messages from one Arduino to the receiving Arduino (simulating actual maze information) and have the FPGA show it on the monitor.
 
 ### Wrap-Up
