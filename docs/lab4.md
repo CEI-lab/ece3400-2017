@@ -144,14 +144,20 @@ Use the GitHub program on the lab computer to save your code.
 
 ### Pre-lab Assignment
 
-
 ### Procedure
-**Increasing grid size**
 
-**Drawing current position**
+#### Display the full-sized 4x5 grid
 
-**Arduino/FPGA communication**
-There are two obvious approaches to Arduino/FPGA communication:
-- Parallel
-- Serial
+You should already have code from lab 3 which displays a smaller version of the maze grid. Modify this code to display the full 4x5 grid.
 
+#### Recieve packets from the Arduino
+
+Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. For this lab, packets don't need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3. To test your packet reciever, consider using the on-board LEDs.
+
+#### Highlight the robot's current location based on packet information
+
+Now that you can recieve packets, parse this data and use it to display the robot's current location in the 4x5 grid.
+
+#### Mark explored territory
+
+Finally, add additional code to 
