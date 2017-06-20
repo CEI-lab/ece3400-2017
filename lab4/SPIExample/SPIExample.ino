@@ -21,20 +21,22 @@ void setup() {
   pinMode(FPGA_SS, OUTPUT);
   digitalWrite(FPGA_SS, HIGH);
   SPI.begin();
+  SPI.beginTransaction(SPISettings(8000000,MSBFIRST,SPI_MODE0));
 
-   Serial.begin(9600); // for debugging
+  Serial.begin(9600); // for debugging
 }
 
 void loop() {
   unsigned char x, y;
   unsigned char payload;
 
+  // Send the same packet every second.
   payload = pack_payload(3, 3);
   digitalFPGAWrite(payload);
   delay(1000);
 
+  // Iterate over all maze positions, sending a new one every second.
 //  Serial.println("Iterating through maze positions.\n");
-  // Our maze is 4 x 5. Iterate through all locations.
 //  for (x = 0; x < 4; x++) {
 //    for (y = 0; y < 5; y++) {
 //      // Construct and send a test payload.
