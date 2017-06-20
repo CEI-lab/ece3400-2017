@@ -120,15 +120,11 @@ Keep in mind though that even if one method may seem easier to implement, there 
 
 **Sending robot position**
 
-The FPGA team has been working to draw a grid that shows the current position of the robot.
+The FPGA team has been working to draw a grid that shows the current position of the robot. To do this, they will need you to relay a coordinate position to them over the radio.
 
-Implement a communication method to send the current position of the robot from one Arduino to the other.
-```C
-int x_coord = 3;
-int y_coord = 2;
-```
+Implement a communication method to send the current position of the robot from one Arduino to the other. Design for a 4 x 5 maze. Decide on the appropriate coordinate system to use.
 
-Work with your FPGA team to integrate this radio code with their code to communicate with the FPGA. Your goal is to send the current position of the robot from Arduino A to Arduino B and then to transfer that information to the FPGA so that the current position of the robot appears on the VGA monitor.
+Your goal is to send the current position of the robot from Arduino A to Arduino B. Then Arduino B will transfer that information to the FPGA so that the current position of the robot appears on the VGA monitor.
 
 **Implement Your Communication Method**
 
