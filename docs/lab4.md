@@ -37,7 +37,7 @@ Now assume that each element in the array has a maximum value of 3. How many byt
 After completing this exercise, decide with your team what information you want to send (The whole maze? Only information for a newly explored area? An update every 3 seconds?), along with how you want to encode it (chars, ints, packed bytes, etc.).
 
 ### Procedure
-1. Getting Started
+**Getting Started**
 Download the RF24 Arduino library from https://github.com/maniacbug/RF24. Add it to the Libraries folder in your Arduino directory. Then download the “Getting Started” sketch from Blackboard. Do NOT use the “Getting Started” sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub page for Lab 4. Change the identifier numbers to the ones assigned to your team using the following formula:
 
 2*(3*D + N) + X,
@@ -70,10 +70,10 @@ Note: If you wish to try different power levels, note that the commented values 
 
 Make sure you understand the Getting Started sketch at a high level; it is suggested that you use this sketch as a building block for your own radio code. If you have any questions, ask a staff member.
 
-2. Sending Maze Information
+**Sending Maze Information**
 We will now do two exercises for sending maze information – one where the entire maze is sent and one where only new information is sent.
 
-Sending the Entire Maze
+**Sending the Entire Maze**
 
  The most intuitive way of sending an entire maze is with a two-dimensional array. Use this 2D char array as an example:
 
@@ -90,7 +90,7 @@ unsigned char maze[5][5] =
 
  Modify the Getting Started sketch to send, receive, and display the array using the Serial Monitor. You can choose to pack the array (since the values only go up to 3) or to send them as chars. Keep in mind that will need to keep track of how many packets you expect to receive, and think of a way to correct behavior if a packet is dropped. For example, if you expect to receive 8 packets but only receive 7, then when the first packet comes of another maze update, you’ll think it’s actually the 8th packet and be one off on your counting after that. The RF24 library has an Auto-ACK feature – look at the details of this and think of how enabling or disabling it would affect how you send and encode packets.
 
-Sending New Information Only
+**Sending New Information Only**
 
  If you don’t want to send the entire maze, an alternative is only sending new information. Take this code for example:
 
@@ -104,7 +104,7 @@ char data = 2;
 
 Keep in mind though that even if one method may seem easier to implement, there may be unexpected overhead in other elements of the project. Ask yourself how your choice for this portion of the project affects the robot’s logic as well as the video controller logic. What happens if a packet is dropped? Again, how will the Auto-ACK feature affect this?
 
-3. Implement Your Communication Method
+**Implement Your Communication Method**
 Now that you have worked through some basic examples, implement the method that you will use in the final project. At the end of this lab, you should ideally be able to send messages from one Arduino to the receiving Arduino (simulating actual maze information) and have the FPGA show it on the monitor.
 
 ### Wrap-Up
