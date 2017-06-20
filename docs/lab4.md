@@ -2,16 +2,16 @@
 ## ECE 3400 Fall ’17
 
 ### Objective
-In this lab, you will be working on the final major component of your project: radio communication. You will also extend the work you did in Lab 3 to draw the maze on a VGA monitor using the FPGA as it is mapped by the robot.
+In this lab, you will be working on the final major component of your project: radio communication. You will also extend the work you did in Lab 3, using the FPGA to draw the full maze on a VGA monitor.
 
-Before the lab, split your team into two groups. One group will work on on radio component and the other on the FPGA component. Preferably, the FPGA group will not be the same group members who did the drawing component of Lab 3.
+Before the lab, split your team into two groups. One group will work on the radio component and the other on the FPGA component. Preferably, the FPGA group will *not* contain the group members who did the maze drawing component of Lab 3. We would like everyone to get experience with the VGA elements of this course. Note the each group has it own pre-lab assignment.
 
-Using the Nordic nRF24L01+ transceivers and the corresponding Arduino RF24 library, you will get the robot and video controller to talk to each other. At the end of this lab, you should ideally be able to send messages from one Arduino to the receiving Arduino (simulating actual maze information) and have the FPGA show it on the monitor.
+For the final portion of the lab, the work done with the radio will be combined with the work done with the FPGA. Using the Nordic nRF24L01+ transceivers and the corresponding Arduino RF24 library, you will get the robot and video controller to talk to each other. You should ideally be able to send messages from one Arduino to the other Arduino (simulating actual maze information) and have the FPGA display the received data on the monitor.
 
 ### Documentation
 Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites.
 
-Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom.
+Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, so be sure to note on the website what work is carried out by whom.
 
 ***
 
@@ -34,17 +34,20 @@ If you are sending a 2-dimensional (3x3, for example) array of chars, what is th
 
 Now assume that each element in the array has a maximum value of 3. How many bytes can you compress this array into, now that you know this piece of information? How many packets are now required to send the array?
 
-After completing this exercise, decide with your team what information you want to send (The whole maze? Only information for a newly explored area? An update every 3 seconds?), along with how you want to encode it (chars, ints, packed bytes, etc.).
-
 ### Procedure
 **Getting Started**
-Plug your radios into your Arduinos.
 
-![Fig. 2](images/lab4_fig3.png)
+Plug your radios into your Arduinos using the special printed circuit boards. Wire the radio to the 3.3V pin on the Arduino.
 
-Download the RF24 Arduino library from https://github.com/maniacbug/RF24. Add it to the Libraries folder in your Arduino directory. Then download the “Getting Started” sketch from Blackboard. Do NOT use the “Getting Started” sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub page for Lab 4. Change the identifier numbers to the ones assigned to your team using the following formula:
+![Fig. 3: Arduino with radio.](images/lab4_fig3.png)
 
-2*(3*D + N) + X,
+Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory. Download the "Getting Started" sketch from the course GitHub repository for Lab 4. Do NOT use the "Getting Started" sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub.
+
+Change the identifier numbers for the two pipes to the ones assigned to your team using the following formula:
+
+```
+2(3D + N) + X
+```
 
 where D is the day of your lab (0 = Monday day, 1 = Monday night, 2 = Wednesday night, 3 = Friday) and N is your team number. X is 0 for one radio and 1 for the other (you need 2 identifiers, which is why this X is included in the formula).
 
@@ -66,20 +69,23 @@ const uint64_t pipes[2] = { 0x0000000024LL, 0x0000000025LL };
 
 The LL’s mean “long long,” or a 64-bit number. Leave these in.
 
-Program the sketch onto BOTH of your Arduinos (with the radios plugged in and the appropriate channel assigned), and open up the Serial monitors. Type in “T” and hit enter on ONE of the Arduinos. This will put it in Transmit mode. You should see one Arduino sending a timestamp and the other Arduino receiving it.
+Program the sketch onto *both* of your Arduinos. If you like, you can use two PC's, one for each Arduino, so that you can open a serial monitor for each simultaneously. Otherwise, you can use a single PC and switch the serial monitor between the two.
+
+Choose one Arduino to be the transmitter and open the serial monitor for it. Type in “T” and hit enter. This will put it in Transmit mode. You should see this Arduino sending a timestamp. Switch to the serial monitor for the other Arduino and you should see it printing the received message.
 
 Once this is working, do some quick experiments with range and channel number. How far do the radios work at the chosen power level? Do you have any dropped packets? Is there any interference?
 
-Note: If you wish to try different power levels, note that the commented values are INCORRECT. The enum names are “RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, and RF24_PA_MAX.” There is no MED value that the code mentions.
+*Note:* If you wish to try different power levels, note that the commented values are INCORRECT. The enum names are “RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, and RF24_PA_MAX.” There is no MED value that the code mentions.
 
-Make sure you understand the Getting Started sketch at a high level; it is suggested that you use this sketch as a building block for your own radio code. If you have any questions, ask a staff member.
+Make sure you understand the "Getting Started" sketch at a high level; it is suggested that you use this sketch as a building block for your own radio code. If you have any questions, ask a staff member.
 
 **Sending Maze Information**
-We will now do two exercises for sending maze information – one where the entire maze is sent and one where only new information is sent.
+
+We will now do two exercises for sending maze information, one where the entire maze is sent and one where only new information is sent.
 
 **Sending the Entire Maze**
 
- The most intuitive way of sending an entire maze is with a two-dimensional array. Use this 2D char array as an example:
+ The most intuitive way of representing an entire maze is with a two-dimensional array. Use this 2D char array as an example:
 
 ```C
 unsigned char maze[5][5] =
@@ -92,11 +98,15 @@ unsigned char maze[5][5] =
 };
 ```
 
- Modify the Getting Started sketch to send, receive, and display the array using the Serial Monitor. You can choose to pack the array (since the values only go up to 3) or to send them as chars. Keep in mind that will need to keep track of how many packets you expect to receive, and think of a way to correct behavior if a packet is dropped. For example, if you expect to receive 8 packets but only receive 7, then when the first packet comes of another maze update, you’ll think it’s actually the 8th packet and be one off on your counting after that. The RF24 library has an Auto-ACK feature – look at the details of this and think of how enabling or disabling it would affect how you send and encode packets.
+ Modify the Getting Started sketch to send, receive, and display the array using the Serial Monitor. You can choose to pack the array (since the values only go up to 3) or to send them as chars.
+
+Keep in mind the number of packets you expect to receive and think of a way to correct behavior if a packet is dropped. For example, if you expect to receive 8 packets but only receive 7, then when the first packet comes of another maze update, you’ll think it’s actually the 8th packet and be one off on your counting after that. The RF24 library has an Auto-ACK feature – look at the details of this and think of how enabling or disabling it would affect how you send and encode packets. *Note:* It is enabled by default.
 
 **Sending New Information Only**
 
- If you don’t want to send the entire maze, an alternative is only sending new information. Take this code for example:
+ If you do not want to send the entire maze, an alternative is only sending new information. This may seem a trivial optimization, but in real-world robotics, power consumption is an unavoidable technical limitation. Wasting energy sending superfluous data over radio is shoddy engineering at best.
+
+Take this code for an example on sending only new maze information:
 
 ```C
 int x_coord = 3; 
@@ -104,22 +114,20 @@ int y_coord = 2; 
 char data = 2;
 ```
 
- It is up to you, again, whether or not you pack this information. As in the first exercise, modify the Getting Started sketch to send, receive, and display the sent information using the Serial Monitor.
+ As in the first exercise, modify the Getting Started sketch to send, receive, and display the sent information using the Serial Monitor.
 
-Keep in mind though that even if one method may seem easier to implement, there may be unexpected overhead in other elements of the project. Ask yourself how your choice for this portion of the project affects the robot’s logic as well as the video controller logic. What happens if a packet is dropped? Again, how will the Auto-ACK feature affect this?
+Keep in mind though that even if one method may seem easier to implement, there may be unexpected overhead in other elements of the project. Ask yourself how your choice for this portion of the project affects the robot’s logic as well as the video controller logic. What happens if a packet is dropped? Again, how will enabling the Auto-ACK feature affect this?
 
 **Sending robot position**
-The FPGA team has been working to draw a grid that shows the current position of the robot.
 
-Implement a communication method to send the current position of the robot from one Arduino to the other.
-```C
-int x_coord = 3;
-int y_coord = 2;
-```
+The FPGA team has been working to draw a grid that shows the current position of the robot. To do this, they will need you to relay a coordinate position to them over the radio.
 
-Work with your FPGA team to integrate this radio code with their code to communicate with the FPGA. Your goal is to send the current position of the robot from Arduino A to Arduino B and then to transfer that information to the FPGA so that the current position of the robot appears on the VGA monitor.
+Implement a communication method to send the current position of the robot from one Arduino to the other. Design for a 4 x 5 maze. Decide on the appropriate coordinate system to use.
+
+Your goal is to send the current position of the robot from Arduino A to Arduino B. Then Arduino B will transfer that information to the FPGA so that the current position of the robot appears on the VGA monitor.
 
 **Implement Your Communication Method**
+
 Now that you have worked through some basic examples, implement the method that you will use in the final project. At the end of this lab, you should ideally be able to send messages from one Arduino to the receiving Arduino (simulating actual maze information) and have the FPGA show it on the monitor.
 
 ### Wrap-Up
@@ -152,7 +160,7 @@ You should already have code from lab 3 which displays a smaller version of the 
 
 #### Recieve packets from the Arduino
 
-Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. For this lab, packets don't need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3. To test your packet reciever, consider using the on-board LEDs.
+Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. For this lab, packets do not need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3. To test your packet reciever, consider using the on-board LEDs.
 
 #### Highlight the robot's current location based on packet information
 
@@ -160,4 +168,4 @@ Now that you can recieve packets, parse this data and use it to display the robo
 
 #### Mark explored territory
 
-Finally, add additional code to 
+Finally, add additional code to
