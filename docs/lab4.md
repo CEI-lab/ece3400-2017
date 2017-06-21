@@ -2,9 +2,9 @@
 ## ECE 3400 Fall ’17
 
 ### Objective
-In this lab, you will be working on the final major component of your project: radio communication. You will also extend the work you did in Lab 3, using the FPGA to draw the full maze on a VGA monitor.
+In this lab, you will be working on the final major component of your project: radio communication. You will also extend the work you did in Lab 3, using the FPGA to draw a full maze on a VGA monitor and update it with information received from the radio.
 
-Before the lab, split your team into two groups. One group will work on the radio component and the other on the FPGA component. Preferably, the FPGA group will *not* contain the group members who did the maze drawing component of Lab 3. We would like everyone to get experience with the VGA elements of this course. Note the each group has it own pre-lab assignment.
+Before the lab, split your team into two groups. One group will work on the radio component and the other on the FPGA component. Preferably, the FPGA group will *not* contain the group members who did the maze drawing component of Lab 3. We would like everyone to get experience with the VGA elements of this course. Note that the each group has it own pre-lab assignment.
 
 For the final portion of the lab, the work done with the radio will be combined with the work done with the FPGA. Using the Nordic nRF24L01+ transceivers and the corresponding Arduino RF24 library, you will get the robot and video controller to talk to each other. You should ideally be able to send messages from one Arduino to the other Arduino (simulating actual maze information) and have the FPGA display the received data on the monitor.
 
@@ -41,7 +41,9 @@ Plug your radios into your Arduinos using the special printed circuit boards. Wi
 
 ![Fig. 3: Arduino with radio.](images/lab4_fig3.png)
 
-Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory. Download the "Getting Started" sketch from the course GitHub repository for Lab 4. Do NOT use the "Getting Started" sketch included in the RF24 library – it is incorrect. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub.
+Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory. *Note:* Do not update this library if the Arduino asks you to do so. The update will break the example code used for this lab.
+
+Download the "Getting Started" sketch from the course GitHub repository for Lab 4. Do NOT use the "Getting Started" sketch included in the RF24 library. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub.
 
 Change the identifier numbers for the two pipes to the ones assigned to your team using the following formula:
 
@@ -122,26 +124,13 @@ Keep in mind though that even if one method may seem easier to implement, there 
 
 The FPGA team has been working to draw a grid that shows the current position of the robot. To do this, they will need you to relay a coordinate position to them over the radio.
 
-Implement a communication method to send the current position of the robot from one Arduino to the other. Design for a 4 x 5 maze. Decide on the appropriate coordinate system to use.
+Implement a communication method to send the current position of the robot from one Arduino to the other. Design for a 4 x 5 maze and decide on the appropriate coordinate system to use.
 
 Your goal is to send the current position of the robot from Arduino A to Arduino B. Then Arduino B will transfer that information to the FPGA so that the current position of the robot appears on the VGA monitor.
 
-**Implement Your Communication Method**
-
-Now that you have worked through some basic examples, implement the method that you will use in the final project. At the end of this lab, you should ideally be able to send messages from one Arduino to the receiving Arduino (simulating actual maze information) and have the FPGA show it on the monitor.
-
-### Wrap-Up
-Keep all relevant parts of this lab in the box dedicated for your team. All other components, including USB cables, can be placed back into their appropriate bins.
-
-Before leaving the lab ask one TA to confirm that your box only has 2 Arduinos, 2 Breadboards, and no tools.
-
-You should have documented this lab in your notebook; your documentation should include personal notes, challenges, successes, and applicable diagrams.
-
-Use the GitHub program on the lab computer to save your code.
-
 ***
 
-## FGGA Group
+## FPGA Group
 
 ### Materials
 - FPGA
@@ -156,7 +145,7 @@ Use the GitHub program on the lab computer to save your code.
 
 #### Display the full-sized 4x5 grid
 
-You should already have code from lab 3 which displays a smaller version of the maze grid. Modify this code to display the full 4x5 grid.
+You should already have code from Lab 3 which displays a smaller version of the maze grid on the VGA monitor using the FPGA. For this lab, you will modify this code to display the full 4x5 grid on the VGA monitor. Additionally, you will get an Arduino communicating with the FPGA so that your Arduino can receive messages about the maze from the robot and display that information on the monitor.
 
 #### Recieve packets from the Arduino
 
@@ -169,3 +158,14 @@ Now that you can recieve packets, parse this data and use it to display the robo
 #### Mark explored territory
 
 Finally, add additional code to
+
+***
+
+### Wrap-Up
+Keep all relevant parts of this lab in the box dedicated for your team. All other components, including USB cables, can be placed back into their appropriate bins.
+
+Before leaving the lab ask one TA to confirm that your box only has 2 Arduinos, 2 Breadboards, and no tools.
+
+You should have documented this lab in your notebook; your documentation should include personal notes, challenges, successes, and applicable diagrams.
+
+Use the GitHub program on the lab computer to save your code.
