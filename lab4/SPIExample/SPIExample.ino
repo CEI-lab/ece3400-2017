@@ -18,7 +18,6 @@ void digitalFPGAWrite(unsigned char value) {
 }
 
 void setup() {
-  delay(5000);
   pinMode(FPGA_SS, OUTPUT);
   digitalWrite(FPGA_SS, HIGH);
   SPI.begin();
