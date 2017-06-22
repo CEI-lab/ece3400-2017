@@ -19,9 +19,11 @@ The score is calculated like this:
 
 The following sections describe each point in detail.
 
-## Lab grading rubrics
+## Grading of Labs
 
-The labs are scored by the TA's Friday on the week after you completed the lab. Delayed solutions will receive 0 score, without exception. Up to 15 points are given for good solutions, 5 points for clear and comprehensive documentation.
+The labs are scored by the TA's Friday on the week after the labs are done. Up to 15 points are given for good solutions, 5 points for clear and comprehensive documentation.
+
+**Delayed solutions will receive 0 score, without exception.** 
 
 In lab 1, the first 15 points are scored by:
 
@@ -62,17 +64,19 @@ In lab 4, the first 15 points are scored by:
 * 2 points to display the robot location on the screen
 * 2 points to differentiate what sites have been visited and which haven't on the screen
 
-Milestone 1 will be graded as follows:
+## Grading of Milestones
+
+_Milestone 1 will be graded as follows:_
 
 * 2 points will be given for a robot that successfully follows a line
 * 3 points will be given for a robot that successfully traverses a grid in a figure eight
 * Up to 5 points will be given for implementation (related to the robustness of the solution and the speed of the robot)
 
-Milestone 2 will be graded as follows:
+_Milestone 2 will be graded as follows:_
 
 * 2 points (total of 10) per different treasure that can be detected and classified
 
-Milestone 3 will be graded as follows:
+_Milestone 3 will be graded as follows:_
 
 * 4 points for simulated robot maps an entire maze
 * 4 points for a real implementation of the maze mapping
@@ -84,11 +88,15 @@ _Milestone 4 will be graded as follows:_
 * Up to 3 points for a robot that successfully displays treasures in a maze
 * Up to 4 points for a robot that successfully signals 'done' (on screen and speaker)
 
-_The final competition follows a detailed grading scheme that is explained in "Final_Competition.md"_
+## Grading of the Final Competition
 
-_The TA's will award up to 25 points for good system design._ 
+The final competition follows a detailed grading scheme that is explained in "Final_Competition.md"
 
-All members on a team will not necessarily be awarded the same number of points: 
+## Grading of System Design and Documentation
+
+_The TA's will award up to 25 points for good system design._
+
+All members on a team will not necessarily be awarded the same number of points.
 
 To earn these points you can for example implement electronic circuits that improve the accuracy of the maze mapping, efficient search strategies, nice FPGA implementation and a great screen display, or new mechanical components to make the robot faster or easier to maintain. If you have tons of spare time, consider using two cooperative robots to map the maze. The sky's the limit!
 
@@ -110,7 +118,9 @@ This will especially pertain to the work done after the labs towards the milesto
 * Presence of future work suggestions
 * You can also gain extra points by making good general tutorials for students in future semesters to use. These tutorials may for instance include ways to implement PID control, in-depth tutorials on ATmega timers, new ways to make 3D parts, etc. 
 
-_15 points will be given through self-assessment within the team_
+## Grading of Team Work 
+
+15 points will be given through self-assessment within the team.
 
 Three times over the semester we will practice giving and receiving constructive criticism. The point is not to complain, but to make sure everyone contributes their best towards the final project. Each student will be asked to distribute 100 points between their team members dependent on their contribution to the team work. The accumulated points will be normalized to the group size and scaled to between 0 and 10 points towards the final grade.
 
