@@ -1,6 +1,6 @@
 # ECE3400 Semester Grades
 
-The final semester grade will depend on multiple factors including lab solutions, how well you do in the final competition, websites, and team work. The details can be found below.
+The final semester grade will depend on multiple factors including lab solutions, how well you do in the final competition, websites, and team work. The details can be found below. Be aware that the standard Cornell rules of [ethical conduct](https://www.dfa.cornell.edu/sites/default/files/policy/vol4_6.pdf) apply, and that you can fail the class if you miss more than 2 mandatory meetings.
 
 A total of 200 points will be given, these correspond to the following grades. Please be aware, that the grading system is new, and that we may end up rescaling the spectrum during the semester.
 
