@@ -86,7 +86,7 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 - [Arduino Uno online references and tutorials](https://www.arduino.cc/en/Reference/HomePage)
 - [PID control]
-- [Something from Claire on the FPGA nano?]
+- [Helpful FPGA-related Links and Tips](docs/FPGA_resources.md)
 
 **Related to fabrication:**
 
