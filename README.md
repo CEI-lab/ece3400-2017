@@ -92,6 +92,7 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 For the first time ever, we have a Skunkworks available to the class. This is located in PH427. Please be aware that you will only have access to this lab after you have taken a safety training, and in the presence of a TA. 
 
+- [Robot mechanical parts](ece/docs/ECE3400, Fall 2017, Mechanical_Parts.zip) made in Solid Works
 - [Tutorials on Solid Works]
 - [Tutorials on Autocad]
 - [How to use the XYYZ 3D printer]
@@ -101,6 +102,7 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 - [How to solder components and wires]
 - [Wiring a robot]
 - [What goes on inside a servo?]
+
 
 
 **Related to debugging**
