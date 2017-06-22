@@ -37,39 +37,39 @@ In lab 1, the first 15 points are scored by:
 
 In lab 2, the first 15 points are scored by:
 
-* 2 points: For correct FFT analysis
-* 2 points: For good amplifier circuit
-* 3 points: To distinguish a 660Hz tone
-* 2 points: For a good IR sensor circuit
-* 3 points: To distinguish an IR treasure blinking at 300 and 400 Hz
-* 3 points: For merging your code nicely
+* 2 points: Correct FFT analysis
+* 2 points: Working amplifier circuit
+* 3 points: Distinguish a 660Hz tone
+* 2 points: Working IR sensor circuit
+* 3 points: Distinguish an IR treasure blinking at 300 and 400 Hz
+* 3 points: Nicely merged code
 
 In lab 3, the first 15 points are scored by:
 
-* 1 point for reading external inputs to FPGA
-* 1 point for correctly updating a 4-bit array dependent on the inputs
-* 2 points for drawing one box on the screen
-* 4 points for mapping external inputs to four different outputs on the screen
-* 1 point for outputting a signal from the FPGA to the speaker
-* 2 points for outputting a square wave to the speaker
-* 4 points for outputting a tune of at least three different frequencies to the speaker
+* 1 point: Reading external inputs to FPGA
+* 1 point: Correctly updating a 4-bit array dependent on the inputs
+* 2 points: Drawing one box on the screen
+* 4 points: Mapping external inputs to four different outputs on the screen
+* 1 point: Connecting the FPGA output to the speaker
+* 2 points: Outputting a square wave to the speaker
+* 4 points: Outputting a tune of at least three different frequencies to the speaker
 
 In lab 4, the first 15 points are scored by:
 
-* 2 points for sending information wirelessly between Arduino's
-* 2 points for sending the entire maze wirelessly
-* 3 points for updating the maze array, dependent only on the updated robot information
-* 1 point for displaying a full 4-by-5 grid array on the screen
-* 3 points for communicating maze information from the Arduino to the FPGA
-* 2 points to display the robot location on the screen
-* 2 points to differentiate what sites have been visited and which haven't on the screen
+* 2 points: Sending information wirelessly between Arduino's
+* 2 points: Sending the entire maze wirelessly
+* 3 points: Updating the maze array, dependent only on the updated robot information
+* 1 point: Displaying a full 4-by-5 grid array on the screen
+* 3 points: Communicating maze information from the Arduino to the FPGA
+* 2 points: Display the robot location on the screen
+* 2 points: Distinguish what sites have been visited and which haven't on the screen
 
 ## Grading of Milestones
 
 _Milestone 1 will be graded as follows:_
 
-* 2 points will be given for a robot that successfully follows a line
-* 3 points will be given for a robot that successfully traverses a grid in a figure eight
+* 2 points: A robot that successfully follows a line
+* 3 points: A robot that successfully traverses a grid in a figure eight
 * Up to 5 points will be given for implementation (related to the robustness of the solution and the speed of the robot)
 
 _Milestone 2 will be graded as follows:_
@@ -78,15 +78,16 @@ _Milestone 2 will be graded as follows:_
 
 _Milestone 3 will be graded as follows:_
 
-* 4 points for simulated robot maps an entire maze
-* 4 points for a real implementation of the maze mapping
-* 2 points for efficiency
+* 4 points: Simulated maze mapping
+* 4 points: Real implementation of the maze mapping
+* Up to 2 points for efficiency
 
 _Milestone 4 will be graded as follows:_
 
-* Up to 3 points for a robot that successfully displays the walls in a maze
-* Up to 3 points for a robot that successfully displays treasures in a maze
-* Up to 4 points for a robot that successfully signals 'done' (on screen and speaker)
+* 3 points: System that successfully displays the walls in a maze as the robot finds them
+* 3 points: System that successfully displays treasures in a maze as the robot finds them
+* 2 points: Robot that successfully signals 'done' on the screen when the maze has been mapped
+* 2 points: Robot that successfully plays 'done' on the speaker when the maze has been mapped
 
 ## Grading of the Final Competition
 
@@ -115,7 +116,7 @@ This will especially pertain to the work done after the labs towards the milesto
 * Presence of design flaws
 * Comparative discussion of simulation and experimental results
 * Presence of conclusions
-* Presence of future work suggestions
+* Presence of suggestions for future work/improvements
 * You can also gain extra points by making good general tutorials for students in future semesters to use. These tutorials may for instance include ways to implement PID control, in-depth tutorials on ATmega timers, new ways to make 3D parts, etc. 
 
 ## Grading of Team Work 
@@ -124,7 +125,7 @@ This will especially pertain to the work done after the labs towards the milesto
 
 Three times over the semester we will practice giving and receiving constructive criticism. The point is not to complain, but to make sure everyone contributes their best towards the final project. Each student will be asked to distribute 100 points between their team members dependent on their contribution to the team work. The accumulated points will be normalized to the group size and scaled to between 0 and 10 points towards the final grade.
 
-Each team will meet with the professor and discuss the reasoning for their point distribution. Remember that many qualities can be considered a valuable contribution to a team: technical strength, dedication/persistence, optimism, creativity, leadership, initiator, and detail oriented thinking.
+Each team will meet with the professor and discuss the reasoning for their point distribution. Remember that many qualities can be considered a valuable contribution to a team: technical strength, dedication/persistence, optimism, creativity, leadership and maintaining a perspective, role of initiation, and detail oriented thinking.
 
 
 
