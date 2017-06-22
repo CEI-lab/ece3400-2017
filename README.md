@@ -92,7 +92,7 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 For the first time ever, we have a Skunkworks available to the class. This is located in PH427. Please be aware that you will only have access to this lab after you have taken a safety training, and in the presence of a TA. 
 
-- [Robot mechanical parts](docs/ECE3400_Fall 2017_SolidWorks.zip) made in SolidWorks
+- A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](docs/)
 - [Tutorials on Solid Works]
 - [Tutorials on Autocad]
 - [How to use the XYYZ 3D printer]
