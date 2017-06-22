@@ -17,7 +17,7 @@ The score is calculated like this:
 * The final webpage gives up to 20 points
 * Team work scores give up to 15 points
 
-The following sections describe each point in detail.
+The following sections describe each scheme in detail.
 
 ## Grading of Labs
 
