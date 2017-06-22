@@ -84,7 +84,7 @@ _Milestone 4 will be graded as follows:_
 * Up to 3 points for a robot that successfully displays treasures in a maze
 * Up to 4 points for a robot that successfully signals 'done' (on screen and speaker)
 
-_The final competition follows a detailed grading scheme that is explained in ""_
+_The final competition follows a detailed grading scheme that is explained in "Final_Competition.md"_
 
 _The TA's will award up to 25 points for good system design._ 
 
@@ -110,5 +110,12 @@ This will especially pertain to the work done after the labs towards the milesto
 * Presence of future work suggestions
 * You can also gain extra points by making good general tutorials for students in future semesters to use. These tutorials may for instance include ways to implement PID control, in-depth tutorials on ATmega timers, new ways to make 3D parts, etc. 
 
-_10 points will be given _
+_10 points will be given through self-assessment within the team_
+
+Three times over the semester we will practice giving and receiving constructive criticism. Each student will be asked to distribute 100 points between their team members dependent on their contribution to the team work. The accumulated points will be normalized to the group size and scaled to between 0 and 10 points towards the final grade.
+
+Each team will meet with the professor and discuss the reasoning for their point distribution. Remember that many qualities can be considered a valuable contribution to a team: technical strength, dedication/persistence, optimism, creativity, leadership, initiator, and detail oriented thinking.
+
+
+
 
