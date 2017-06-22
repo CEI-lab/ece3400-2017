@@ -132,24 +132,30 @@ Your goal is to send the current position of the robot from Arduino A to Arduino
 
 ## FPGA Group
 
+For this lab, you will modify this code to display the full 4x5 grid on the VGA monitor. Additionally, you will get an Arduino communicating with the FPGA so that your Arduino can receive messages about the maze from the robot and display that information on the monitor.
+
 ### Materials
 - FPGA
-- Various resistors
+- Arduino Uno
 - 1 VGA cable
 - 1 VGA connector
 - 1 VGA switch
+- Various resistors (for voltage divider)
 
 ### Pre-lab Assignment
+For this lab, packets do not need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3.
+
+Brainstorm various methods of communication for transmitting maze data. This includes the robot's current location, any walls, treasure presence and frequency, and the done signal. What method of data transmission did you use in lab 3? Is this method easily scaled up to transmit longer packets? Decide on how you would like to transmit packets. You will implement this method in lab 4. 
 
 ### Procedure
 
-#### Display the full-sized 4x5 grid
+#### 1. Make your grid from lab 3 bigger
 
-You should already have code from Lab 3 which displays a smaller version of the maze grid on the VGA monitor using the FPGA. For this lab, you will modify this code to display the full 4x5 grid on the VGA monitor. Additionally, you will get an Arduino communicating with the FPGA so that your Arduino can receive messages about the maze from the robot and display that information on the monitor.
+You should already have code from Lab 3 which displays a smaller version of the maze grid on the VGA monitor using the FPGA. Modify your code to display the full 4x5 grid.
 
-#### Recieve packets from the Arduino
+#### 2. Recieve packets from the Arduino
 
-Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. For this lab, packets do not need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3. To test your packet reciever, consider using the on-board LEDs.
+Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. Use the communicaton protocol you decided on the pre-lab. To test your packet reciever, consider using the on-board LEDs and output signals onto GPIO pins and viewing them using a scope.
 
 #### Highlight the robot's current location based on packet information
 
@@ -157,7 +163,7 @@ Now that you can recieve packets, parse this data and use it to display the robo
 
 #### Mark explored territory
 
-Finally, add additional code to
+Finally, add additional support to display any previously-visited locations. 
 
 ***
 
