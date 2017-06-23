@@ -60,6 +60,7 @@ Week | Topic | Week | Topic
 
 **Deadlines**
 - Monday, Aug 28th @ midnight: Fill in Google Forms (ADD LINK)
+- Friday, Sep 1st @ midnight: Submit team contract to the lecturer, also make your first team website and add a link to the contract
 - Thursday, Sep 21st @ midnight: The websites will be graded for contents on lab 1
 - Thursday, Oct 5th @ midnight: The websites will be graded for contents on lab 2
 - Thursday, Oct 19th @ midnight: The websites will be graded for contents on lab 3
