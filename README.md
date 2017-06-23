@@ -51,10 +51,10 @@ Week | Topic | Week | Topic
 -----|-------|------|-------
 1 | Intro, IPS fundamentals | 9 | Algorithms, [_LAB 4_](docs/lab4.md)
 2 | Embedded Control, team work/time management | 10 | Algorithms
-3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 11 | Prototyping ME, _Milestone 1_
-4 | Actuators and control | 12 | Power, public communication, _Milestone 2_
-5 | FPGA, [_LAB 2_](docs/lab2.md) | 13 | Debugging IPS, _Milestone 3_
-6 | FPGA, VGA, _Milestone 1_ | 14 | IPS Ethics, _Milestone 4_
+3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 11 | Prototyping ME, _Milestone 3_
+4 | Actuators and control | 12 | Power, public communication
+5 | FPGA, [_LAB 2_](docs/lab2.md) | 13 | Debugging IPS, _Milestone 4_
+6 | FPGA, VGA, _Milestone 1_ | 14 | IPS Ethics
 7 | Wireless communication, [_LAB 3_](docs/lab3.md) | 15 | IPS characterization
 8 | Prototyping EE, _Milestone 2_ | 16 | Competition
 
