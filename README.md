@@ -49,14 +49,14 @@ Please be aware that the following schedule is tentative and may change througho
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-1 | Intro, IPS fundamentals | 9 | Algorithms, [_LAB 4_](docs/lab4.md)
-2 | Embedded Control, team work/time management | 10 | Algorithms
-3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 11 | Prototyping ME, [_Milestone 3_](docs/Grading/Milestone_score.md)
-4 | Actuators and control | 12 | Power, public communication
-5 | FPGA, [_LAB 2_](docs/lab2.md) | 13 | Debugging IPS
-6 | FPGA, VGA, [_Milestone 1_](docs/Grading/Milestone_score.md) | 14 | IPS Ethics, [_Milestone 4_](docs/Grading/Milestone_score.md)
-7 | Wireless communication, [_LAB 3_](docs/lab3.md) | 15 | IPS characterization
-8 | Prototyping EE, [_Milestone 2_](docs/Grading/Milestone_score.md) | 16 | Competition
+1 | Intro, IPS fundamentals | 8 | Prototyping EE, [_Milestone 2_](docs/Grading/Milestone_score.md)
+2 | Embedded Control, team work/time management | 9 | Algorithms, [_LAB 4_](docs/lab4.md)
+3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 10 | Algorithms
+4 | Actuators and control | 11 | Prototyping ME, [_Milestone 3_](docs/Grading/Milestone_score.md)
+5 | FPGA, [_LAB 2_](docs/lab2.md) | 12 | Power, public communication
+6 | FPGA, VGA, [_Milestone 1_](docs/Grading/Milestone_score.md) | 13 | Debugging IPS, [_Milestone 4_](docs/Grading/Milestone_score.md)
+7 | Wireless communication, [_LAB 3_](docs/lab3.md) | 14 | IPS Ethics, Final Competition
+
 
 **Deadlines**
 - Monday, Aug 28th @ midnight: Fill in Google Forms (ADD LINK)
@@ -64,10 +64,10 @@ Week | Topic | Week | Topic
 - Thursday, Oct 5th @ midnight: The websites will be graded for contents on lab 2
 - Thursday, Oct 19th @ midnight: The websites will be graded for contents on lab 3
 - Thursday, Nov 2nd @ midnight: The websites will be graded for contents on lab 4
-- Friday, Nov 10th: Milestone 1 demonstration during class hours
-- Wednesday, Nov 15th: Milestone 2 demonstration during class hours
-- Monday, Nov 20th: Milestone 3 demonstration during class hours
-- Friday, Nov 29th: Milestone 4 demonstration during class hours
+- Friday, Oct 6th during class hours: Milestone 1 demonstration
+- Friday, Oct 20th during class hours: Milestone 2 demonstration
+- Monday, Nov 10th: Milestone 3 demonstration during class hours
+- Wednesday, Nov 29th: Milestone 4 demonstration during class hours
 - Friday, Dec 1st: Final Competition, time to be determined (Mandatory attendance)
 
 # Tutorials and Helpful links
