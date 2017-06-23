@@ -51,10 +51,10 @@ Week | Topic | Week | Topic
 -----|-------|------|-------
 1 | Intro, IPS fundamentals | 8 | Prototyping EE, [_Milestone 2_](docs/Grading/Milestone_score.md)
 2 | Embedded Control, team work/time management | 9 | Algorithms, [_LAB 4_](docs/lab4.md)
-3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 10 | Algorithms
-4 | Actuators and control | 11 | Prototyping ME, [_Milestone 3_](docs/Grading/Milestone_score.md)
-5 | FPGA, [_LAB 2_](docs/lab2.md) | 12 | Power, public communication
-6 | FPGA, VGA, [_Milestone 1_](docs/Grading/Milestone_score.md) | 13 | Debugging IPS, [_Milestone 4_](docs/Grading/Milestone_score.md)
+3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 10 | Algorithms, [_Milestone 3_](docs/Grading/Milestone_score.md)
+4 | Actuators and control | 11 | Prototyping ME
+5 | FPGA, [_LAB 2_](docs/lab2.md) | 12 | Power, public communication, [_Milestone 4_](docs/Grading/Milestone_score.md)
+6 | FPGA, VGA, [_Milestone 1_](docs/Grading/Milestone_score.md) | 13 | Debugging IPS
 7 | Wireless communication, [_LAB 3_](docs/lab3.md) | 14 | IPS Ethics, Final Competition
 
 
@@ -66,8 +66,8 @@ Week | Topic | Week | Topic
 - Thursday, Nov 2nd @ midnight: The websites will be graded for contents on lab 4
 - Friday, Oct 6th during class hours: Milestone 1 demonstration
 - Friday, Oct 20th during class hours: Milestone 2 demonstration
-- Monday, Nov 10th: Milestone 3 demonstration during class hours
-- Wednesday, Nov 29th: Milestone 4 demonstration during class hours
+- Friday, Nov 3rd during class hours: Milestone 3 demonstration
+- Friday, Nov 17th during class hours: Milestone 4 demonstration
 - Friday, Dec 1st: Final Competition, time to be determined (Mandatory attendance)
 
 # Tutorials and Helpful links
