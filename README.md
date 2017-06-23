@@ -47,9 +47,10 @@ This [folder](docs/Grading/) includes documents detailing how students will be g
 
 We will cover several topics this semester, roughly the order/timing will be:
 
-          week1         |               week2                         |      week3             |         week4                   
-------------------------|---------------------------------------------|------------------------|--------------------------------
+week1 | week2 | week3 | week4                   
+------|-------|-------|-------
 Intro, IPS fundamentals | Embedded Control, team work/time management | Sensors and filters    | Actuators and control 
+
 
 
           week5         |               week6                         |      week7             |         week8                   
