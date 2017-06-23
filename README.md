@@ -41,9 +41,7 @@ All labs are divided into two sub-labs. To ensure a good mix, it is required tha
 
 We will host internal team evaluations and practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
 
-## Grades
-
-Make grading rubrics!!
+This [folder](docs/Grading/) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2017 and that the score-chart may be changed throughout the semester.  
 
 ## Schedule and Hand-Outs
 
