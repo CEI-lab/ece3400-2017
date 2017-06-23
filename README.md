@@ -49,35 +49,26 @@ We will cover several topics this semester, roughly the order/timing will be:
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-1 | Intro, IPS fundamentals | 9 | Algorithms, _LAB 4_
+1 | Intro, IPS fundamentals | 9 | Algorithms, [_LAB 4_](docs/lab4.md)
 2 | Embedded Control, team work/time management | 10 | Algorithms
-3 | Sensors and filters, _LAB 1_ | 11 | Prototyping ME, _Milestone 1_
+3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 11 | Prototyping ME, _Milestone 1_
 4 | Actuators and control | 12 | Power, public communication, _Milestone 2_
-5 | FPGA, _LAB 2_ | 13 | Debugging IPS, _Milestone 3_
+5 | FPGA, [_LAB 2_](docs/lab2.md) | 13 | Debugging IPS, _Milestone 3_
 6 | FPGA, VGA | 14 | IPS Ethics, _Milestone 4_
-7 | Wireless communication, _LAB 3_ | 15 | IPS characterization
+7 | Wireless communication, [_LAB 3_](docs/lab3.md) | 15 | IPS characterization
 8 | Prototyping EE | 16 | Competition
 
-
-- XXX Deadline: Fill in Google Forms
-- XXX Deadline: The websites will be graded for contents on lab 1
-- XXX Deadline: The websites will be graded for contents on lab 2
-- XXX Deadline: The websites will be graded for contents on lab 3
-- XXX Deadline: The websites will be graded for contents on lab 4
-- XXX Deadline: The websites will be graded for contents on Milestone 1
-- XXX Deadline: The websites will be graded for contents on Milestone 2
-- XXX Deadline: The websites will be graded for contents on Milestone 3
-- XXX Deadline: The websites will be graded for contents on Milestone 4
-
-- [Lab 1 Microcontrollers](docs/lab1.md)
-- [Lab 2 Signal Processing](docs/lab2.md)
-- [Lab 3 Digital Logic](docs/lab3.md)
-- [Lab 4 Wireless Communication](docs/lab4.md)
-- Milestone 1 Recognize Start-Signal
-- Milestone 2 Move on the Grid
-- Milestone 3 Display Updates on the Screen
-- Milestone 4 Navigate the Maze
-- Competition
+**Deadlines**
+- Monday, Aug 28th @ midnight: Fill in Google Forms (ADD LINK)
+- Thursday, Sep 21st @ midnight: The websites will be graded for contents on lab 1
+- Thursday, Oct 5th @ midnight: The websites will be graded for contents on lab 2
+- Thursday, Oct 19th @ midnight: The websites will be graded for contents on lab 3
+- Thursday, Nov 2nd @ midnight: The websites will be graded for contents on lab 4
+- Friday, Nov 10th: Milestone 1 demonstration during class hours
+- Wednesday, Nov 15th: Milestone 2 demonstration during class hours
+- Monday, Nov 20th: Milestone 3 demonstration during class hours
+- Friday, Nov 29th: Milestone 4 demonstration during class hours
+- Friday, Dec 1st: Final Competition, time to be determined (Mandatory attendance)
 
 Here is the full link to the topics we are expected to cover in class. Please be aware that this is a tentative schedule that will change throughout the semester. [ADD]
 
