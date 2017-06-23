@@ -54,9 +54,9 @@ Week | Topic | Week | Topic
 3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 11 | Prototyping ME, _Milestone 1_
 4 | Actuators and control | 12 | Power, public communication, _Milestone 2_
 5 | FPGA, [_LAB 2_](docs/lab2.md) | 13 | Debugging IPS, _Milestone 3_
-6 | FPGA, VGA | 14 | IPS Ethics, _Milestone 4_
+6 | FPGA, VGA, _Milestone 1_ | 14 | IPS Ethics, _Milestone 4_
 7 | Wireless communication, [_LAB 3_](docs/lab3.md) | 15 | IPS characterization
-8 | Prototyping EE | 16 | Competition
+8 | Prototyping EE, _Milestone 2_ | 16 | Competition
 
 **Deadlines**
 - Monday, Aug 28th @ midnight: Fill in Google Forms (ADD LINK)
