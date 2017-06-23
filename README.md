@@ -45,6 +45,25 @@ This [folder](docs/Grading/) includes documents detailing how students will be g
 
 ## Schedule and Hand-Outs
 
+We will cover several topics this semester, roughly the order/timing will be:
+
+          week1         |               week2                         |      week3             |         week4                   
+------------------------|---------------------------------------------|------------------------|--------------------------------
+Intro, IPS fundamentals | Embedded Control, team work/time management | Sensors and filters    | Actuators and feedback control 
+------------------------|---------------------------------------------|------------------------|--------------------------------
+          week5         |               week6                         |      week7             |         week8                   
+------------------------|---------------------------------------------|------------------------|--------------------------------
+           FPGA         |           FPGA, VGA                         | Wireless Communication |  Prototyping
+------------------------|---------------------------------------------|------------------------|--------------------------------
+          week9         |               week10                        |      week11            |         week12                   
+------------------------|---------------------------------------------|------------------------|--------------------------------
+      Algorithms        |           Algorithms                        | Prototyping            | Power, and public communication
+------------------------|---------------------------------------------|------------------------|--------------------------------
+          week13        |               week14                        |      week15            |         week16                   
+------------------------|---------------------------------------------|------------------------|--------------------------------
+      Debugging IPS     |            IPS Ethics                       | IPS characterization   |      Competition                     
+
+
 - XXX Deadline: Fill in Google Forms
 - XXX Deadline: The websites will be graded for contents on lab 1
 - XXX Deadline: The websites will be graded for contents on lab 2
