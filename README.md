@@ -45,7 +45,7 @@ This [folder](docs/Grading/) includes documents detailing how students will be g
 
 ## Schedule and Hand-Outs
 
-We will cover several topics this semester, roughly the order/timing will be:
+Please be aware that the following schedule is tentative and may change throughout the semester.
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
@@ -69,8 +69,6 @@ Week | Topic | Week | Topic
 - Monday, Nov 20th: Milestone 3 demonstration during class hours
 - Friday, Nov 29th: Milestone 4 demonstration during class hours
 - Friday, Dec 1st: Final Competition, time to be determined (Mandatory attendance)
-
-Here is the full link to the topics we are expected to cover in class. Please be aware that this is a tentative schedule that will change throughout the semester. [ADD]
 
 # Tutorials and Helpful links
 
