@@ -47,16 +47,16 @@ This [folder](docs/Grading/) includes documents detailing how students will be g
 
 We will cover several topics this semester, roughly the order/timing will be:
 
-Week | Topic | Week | Topic
------|-------|------|-------
-1 | Intro, IPS fundamentals | 9 | Algorithms 
-2 | Embedded Control, team work/time management | 10 | Algorithms
-3 | Sensors and filters | 11 | Prototyping ME
-4 | Actuators and control | 12 | Power, public communication
-5 | FPGA | 13 | Debugging IPS
-6 | FPGA, VGA | 14 | IPS Ethics
-7 | Wireless communication | 15 | IPS characterization
-8 | Prototyping EE | 16 | Competition
+Week | Topic || Week | Topic
+-----|-------||------|-------
+1 | Intro, IPS fundamentals || 9 | Algorithms 
+2 | Embedded Control, team work/time management || 10 | Algorithms
+3 | Sensors and filters || 11 | Prototyping ME
+4 | Actuators and control || 12 | Power, public communication
+5 | FPGA || 13 | Debugging IPS
+6 | FPGA, VGA || 14 | IPS Ethics
+7 | Wireless communication || 15 | IPS characterization
+8 | Prototyping EE || 16 | Competition
 
 
 - XXX Deadline: Fill in Google Forms
