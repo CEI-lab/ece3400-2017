@@ -1,5 +1,5 @@
-#Grading of System Design and Documentation
-##ECE 3400, Fall 2017
+# Grading of System Design and Documentation
+## ECE 3400, Fall 2017
 
 _The TA's will award up to 25 points for good system design._
 
