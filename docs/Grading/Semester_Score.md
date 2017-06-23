@@ -78,8 +78,8 @@ _Milestone 2 will be graded as follows:_
 
 _Milestone 3 will be graded as follows:_
 
-* 4 points: Simulated maze mapping
-* 4 points: Real implementation of the maze mapping
+* 4 points: Simulated maze exploration
+* 4 points: Real implementation of the maze exploration
 * Up to 2 points for efficiency
 
 _Milestone 4 will be graded as follows:_
