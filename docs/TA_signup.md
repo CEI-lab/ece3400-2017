@@ -7,7 +7,7 @@ All TA's must sign up to attend one of the weekly lab hours - we need two TA's f
 * Monday 1.25-4.25pm
 * Monday 7.30-10pm
 * Wednesday 7.30-10pm
-* Thursday 7.30-10pm (Ryan)
+* Thursday 7.30-10pm (Ryan) -- fyi, this time is tentative, there's still no students signed up for this one.
 * Friday 1.25-4.25pm
 
 They must also sign up to grade at least one of the lab's (website), and one of the milestones:
