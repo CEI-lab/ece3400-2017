@@ -4,7 +4,7 @@
 
 **Instructor:** Kirstin Petersen (khp37)
 
-**TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Vaidehi Garg (vg254), Vidya Ramesh (vr236)
+**TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Adarsh Jayakumar (aj373)
 
 **Piazza page:** ADD LINK!
 
