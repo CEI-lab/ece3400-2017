@@ -91,7 +91,7 @@ _Milestone 4 will be graded as follows:_
 
 ## Grading of the Final Competition
 
-The final competition follows a detailed grading scheme that is explained in "Final_Competition.md"
+The final competition follows a detailed grading scheme that is explained [here](Grading/Final_Competition.md)
 
 ## Grading of System Design and Documentation
 
