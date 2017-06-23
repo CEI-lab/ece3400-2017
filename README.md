@@ -29,7 +29,7 @@ In teams of 6-8 people, you will design, fabricate, and program a robot to explo
 
 All designs must be documented throughout the semester on a group website. The goal is for these websites to be used as a source of reference for future classes. Accordingly, they will be graded with respect to thoroughness and clarity. To give teams a competitive advantage, we ask everyone to keep explicit code and circuit designs private until the end of the semester, however. 
 
-Rules and final scoring chart [ADD]
+[Rules and final scoring chart](docs/Grading/)
 
 ## Team Composition
 
