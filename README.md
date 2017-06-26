@@ -62,16 +62,16 @@ Week | Topic | Week | Topic
 - Monday, Aug 28th @ midnight: Fill in [Google Forms](https://goo.gl/forms/Zc9Jxlri2DHeXqfx1)
 - Friday, Sep 1st @ midnight: Submit [team contract](docs/Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.
 - Thursday, Sep 21st @ midnight: The websites will be graded for contents on lab 1
-- Friday, Sep 22nd @ midnight: Fill out and send the [team assessment form](GroupProcess-QualitativePeerSelfEval.docx) to the instructor
+- Friday, Sep 22nd @ midnight: Fill out and send the [team assessment form](docs/Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Thursday, Oct 5th @ midnight: The websites will be graded for contents on lab 2
 - Thursday, Oct 19th @ midnight: The websites will be graded for contents on lab 3
-- Friday, Oct 20th @ midnight: Fill out and send the [team assessment form](GroupProcess-QualitativePeerSelfEval.docx) to the instructor
+- Friday, Oct 20th @ midnight: Fill out and send the [team assessment form](docs/Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Thursday, Nov 2nd @ midnight: The websites will be graded for contents on lab 4
 - Friday, Oct 6th during class hours: Milestone 1 demonstration
 - Friday, Oct 20th during class hours: Milestone 2 demonstration
 - Friday, Nov 3rd during class hours: Milestone 3 demonstration
 - Friday, Nov 17th during class hours: Milestone 4 demonstration
-- Friday, Nov 17th @ midnight: Fill out and send the [team assessment form](GroupProcess-QualitativePeerSelfEval.docx) to the instructor
+- Friday, Nov 17th @ midnight: Fill out and send the [team assessment form](docs/Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Friday, Dec 1st: Final Competition, time to be determined (Mandatory attendance)
 
 # Tutorials and Helpful links
