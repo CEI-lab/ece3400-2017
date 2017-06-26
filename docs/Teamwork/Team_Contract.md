@@ -78,6 +78,23 @@ _Consequences for Failing to Follow Procedures and Fulfill Expectations_
 
 2.	Describe what your team will do if the infractions continue:
 
+### Team Leadership ###
+
+Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. Please note here who will be responsible when:
+
+Aug 28th - Sep 21st (Lab 1): 
+
+Sep 22nd - Oct 5th (Lab 2): 
+
+Oct 6th - Oct 19th (Lab 3 and Milestone 1):
+
+Oct 20th - Nov 2nd (Lab 4 and Milestone 2, progress towards Milestone 3):
+
+Nov 3rd - Nov 17th (Milestone 3 and 4):
+
+Nov 17th - Dec 5th (Final competition and deadline for the website):
+
+
 ------
 
 a)	I participated in formulating the standards, roles, and procedures as stated in this contract.
