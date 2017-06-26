@@ -119,7 +119,6 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 
 - [How to build a simple Arduino oscilloscope](https://www.build-electronic-circuits.com/arduino-oscilloscope/)
 - [Simple Matlab program to read in data from the serial port]
-- [Simple Matlab program to simulate maze search]
 - [This folder](docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
 
 
