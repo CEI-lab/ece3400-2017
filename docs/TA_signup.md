@@ -14,9 +14,9 @@ They must also sign up to grade at least one of the lab's (website), and one of 
 
 * Lab 1 (name)
 * Lab 2 (Ryan)
-* Lab 3 (name)
+* Lab 3 (Claire)
 * Lab 4 (name)
-* Milestone 1 (name)
+* Milestone 1 (Claire)
 * Milestone 2 (Ryan)
 * Milestone 3 (name)
 * Milestone 4 (name)
