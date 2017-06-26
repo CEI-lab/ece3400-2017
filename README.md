@@ -78,10 +78,11 @@ Week | Topic | Week | Topic
 
 We have and will continue to upload helpful tutorials and links on this webpage. We would love for you to contribute, please contact the TA's to do this!
 
-**Related to GitHub**
+**Related to GitHub and Team Work**
 
 - [Ryan, add links!]
 - [Markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+- [How to create Gant charts](https://www.smartsheet.com/blog/gantt-chart-excel01) for free in Microsoft Excel for time management
 
 **Team Alpha Repository**
 
