@@ -6,10 +6,10 @@ I would make the policy on copying code, using code found online, and working wi
 
 A total of 200 points will be given, these correspond to the following grades. BE AWARE that the grading system is new, and that we may end up rescaling the spectrum during the semester.
 
-[comment]: <> 
-Score | 200-185 | 184-170 | 169-155 | 154-140 | 139-125 | 124-110 | 109-95 | 94-80 | 79-65 | 64-50 | 49-35 | 34-20 | 19-0
------ | --------|---------|---------|---------|---------|---------|--------|-------|-------|-------|-------|-------|-------
-Grade	|    A+   |    A    |    A-   |    B+   |    B    |    B-   |  C+    |   C   |   C-  |  D+   |   D   |  D-   |   F 
+
+[comment]: <Score | 200-185 | 184-170 | 169-155 | 154-140 | 139-125 | 124-110 | 109-95 | 94-80 | 79-65 | 64-50 | 49-35 | 34-20 | 19-0>
+[comment]: <----- | --------|---------|---------|---------|---------|---------|--------|-------|-------|-------|-------|-------|------->
+[comment]: <Grade	|    A+   |    A    |    A-   |    B+   |    B    |    B-   |  C+    |   C   |   C-  |  D+   |   D   |  D-   |   F >
 
 Score | 200-155 |  154-110 | 109-65 |  64-20 | 19-0
 ----- | --------|----------|--------|--------|------
