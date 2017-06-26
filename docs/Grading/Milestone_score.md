@@ -15,7 +15,7 @@ _Milestone 3 will be graded as follows:_
 
 4 points: Simulated maze exploration
 4 points: Real implementation of the maze exploration
-Up to 2 points for efficiency
+2 points: The fastest solution will get an added two points
 
 _Milestone 4 will be graded as follows:_
 
