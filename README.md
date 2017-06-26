@@ -49,12 +49,12 @@ Please be aware that the following schedule is tentative and may change througho
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-1 | Intro, IPS fundamentals | 8 | Prototyping EE, team assessment, [_Milestone 2_](docs/Grading/Milestone_score.md)
-2 | Embedded Control, team work/time management | 9 | Algorithms, [_LAB 4_](docs/lab4.md)
+1 | Intro, IPS fundamentals | 8 | Prototyping EE, [_Milestone 2_](docs/Grading/Milestone_score.md)
+2 | Embedded Control, team work/time management | 9 | Algorithms, team assessment, [_LAB 4_](docs/lab4.md)
 3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 10 | Algorithms, [_Milestone 3_](docs/Grading/Milestone_score.md)
-4 | Actuators and control, team assessment | 11 | Prototyping ME
-5 | FPGA, [_LAB 2_](docs/lab2.md) | 12 | Power, team assessment, [_Milestone 4_](docs/Grading/Milestone_score.md)
-6 | FPGA, VGA, [_Milestone 1_](docs/Grading/Milestone_score.md) | 13 | Debugging IPS
+4 | Actuators and control | 11 | Prototyping ME
+5 | FPGA, [_LAB 2_](docs/lab2.md), team assessment | 12 | Power, [_Milestone 4_](docs/Grading/Milestone_score.md)
+6 | FPGA, VGA, [_Milestone 1_](docs/Grading/Milestone_score.md) | 13 | Debugging IPS, team assessment
 7 | Wireless communication, [_LAB 3_](docs/lab3.md) | 14 | IPS Ethics, Final Competition
 
 
@@ -62,13 +62,16 @@ Week | Topic | Week | Topic
 - Monday, Aug 28th @ midnight: Fill in [Google Forms](https://goo.gl/forms/Zc9Jxlri2DHeXqfx1)
 - Friday, Sep 1st @ midnight: Submit [team contract](docs/Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.
 - Thursday, Sep 21st @ midnight: The websites will be graded for contents on lab 1
+- Friday, Sep 22nd @ midnight: Fill out and send the [team assessment form](GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Thursday, Oct 5th @ midnight: The websites will be graded for contents on lab 2
 - Thursday, Oct 19th @ midnight: The websites will be graded for contents on lab 3
+- Friday, Oct 20th @ midnight: Fill out and send the [team assessment form](GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Thursday, Nov 2nd @ midnight: The websites will be graded for contents on lab 4
 - Friday, Oct 6th during class hours: Milestone 1 demonstration
 - Friday, Oct 20th during class hours: Milestone 2 demonstration
 - Friday, Nov 3rd during class hours: Milestone 3 demonstration
 - Friday, Nov 17th during class hours: Milestone 4 demonstration
+- Friday, Nov 17th @ midnight: Fill out and send the [team assessment form](GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Friday, Dec 1st: Final Competition, time to be determined (Mandatory attendance)
 
 # Tutorials and Helpful links
