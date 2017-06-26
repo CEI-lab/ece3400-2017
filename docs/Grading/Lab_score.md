@@ -19,7 +19,7 @@ In lab 2, the first 15 points are scored by:
 
 * 2 points: Correct FFT analysis
 * 2 points: Working amplifier circuit
-* 3 points: Distinguish a 660Hz tone
+* 3 points: Distinguish a 660Hz tone (from tones at 585Hz and 735Hz)
 * 2 points: Working IR sensor circuit
 * 3 points: Distinguish an IR treasure blinking at 300 and 400 Hz
 * 3 points: Nicely merged code
