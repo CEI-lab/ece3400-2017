@@ -1,5 +1,10 @@
 # Schedule for ECE 3400 Fall 2017
 
+Also, add: 
+- How to make good websites, online communication
+- How to evaluate the performance of your robot
+!!
+
 - Aug 28th, Mon: Introduction
 - Aug 30th, Wed: IPS fundamentals
 - Sep 1st, Fri: Working with Arduinos
