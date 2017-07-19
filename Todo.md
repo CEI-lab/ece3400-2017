@@ -1,21 +1,12 @@
 
 # ECE 3400, To Do list, Summer 2017
 
-* Update lab1 hand-out - done!
-* Write up lab1 on TeamAlpha website - done!
-* Should lab1 also include addition of line sensors? 
-
 * Update lab2 hand-out + new FFT code?
-* Write up lab2 on TeamAlpha website - in progress, RH
+* Write up lab2 on TeamAlpha website - Kirstin
 * Lab2 will have half a team working on the microphone, the other half working on the treasures.
 * In future versions of the course, consider changing the second half to focus on IR circuits, and make light interference on the track so they'll need to use fft.
 
-* Update lab3 hand-out + new FPGA code - done! (Claire)
-* Write up lab3 on TeamAlpha website - Claire
-* Add speaker assignment for lab 3, team 1 - done! (Claire)
-
 * Update lab4 hand-out + code?
-* Write up lab4 on TeamAlpha website - in progress, RH
 
 * Make GitHub tutorial
 * Make critical copying tutorial (use fft as example, sloppy written code found online) - Ryan
