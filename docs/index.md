@@ -31,7 +31,7 @@ All designs must be documented throughout the semester on a group website. The g
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-[Rules and final scoring chart](docs/Grading/)
+[Rules and final scoring chart](./Grading/Readme.md)
 
 ## Team Composition
 
@@ -43,7 +43,7 @@ All labs are divided into two sub-labs. To ensure a good mix, it is required tha
 
 We will host internal team evaluations and practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
 
-This [folder](docs/Grading/) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2017 and that the score-chart may be changed throughout the semester.  
+This [folder](./Grading/Readme.md) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2017 and that the score-chart may be changed throughout the semester.  
 
 ## Schedule and Hand-Outs
 
@@ -51,29 +51,29 @@ Please be aware that the following schedule is tentative and may change througho
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-1 | Intro, IPS fundamentals | 8 | Prototyping EE, [_Milestone 2_](docs/Grading/Milestone_score.md)
-2 | Embedded Control, team work/time management | 9 | Algorithms, team assessment, [_LAB 4_](docs/lab4.md)
-3 | Sensors and filters, [_LAB 1_](docs/lab1.md) | 10 | Algorithms, [_Milestone 3_](docs/Grading/Milestone_score.md)
+1 | Intro, IPS fundamentals | 8 | Prototyping EE, [_Milestone 2_](./Grading/Milestone_score.md)
+2 | Embedded Control, team work/time management | 9 | Algorithms, team assessment, [_LAB 4_](./lab4.md)
+3 | Sensors and filters, [_LAB 1_](./lab1.md) | 10 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md)
 4 | Actuators and control | 11 | Prototyping ME
-5 | FPGA, [_LAB 2_](docs/lab2.md), team assessment | 12 | Power, [_Milestone 4_](docs/Grading/Milestone_score.md)
-6 | FPGA, VGA, [_Milestone 1_](docs/Grading/Milestone_score.md) | 13 | Debugging IPS, team assessment
-7 | Wireless communication, [_LAB 3_](docs/lab3.md) | 14 | IPS Ethics, Final Competition
+5 | FPGA, [_LAB 2_](./lab2.md), team assessment | 12 | Power, [_Milestone 4_](./Grading/Milestone_score.md)
+6 | FPGA, VGA, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | Debugging IPS, team assessment
+7 | Wireless communication, [_LAB 3_](./lab3.md) | 14 | IPS Ethics, Final Competition
 
 
 **Deadlines**
 - Tuesday, Aug 29th @ 8am: Fill in [Google Forms](https://goo.gl/forms/Zc9Jxlri2DHeXqfx1)
-- Saturday, Sep 2nd @ 8am: Submit [team contract](docs/Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.
+- Saturday, Sep 2nd @ 8am: Submit [team contract](./Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.
 - Friday, Sep 22nd @ 8am: The websites will be graded for contents on lab 1
-- Saturday, Sep 23rd @ 8am: Fill out and send the [team assessment form](docs/Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
+- Saturday, Sep 23rd @ 8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Friday, Oct 6th @ 8am: The websites will be graded for contents on lab 2
 - Friday, Oct 20th @ 8am: The websites will be graded for contents on lab 3
-- Saturday, Oct 21st @ 8am: Fill out and send the [team assessment form](docs/Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
+- Saturday, Oct 21st @ 8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Friday, Nov 3rd @ 8am: The websites will be graded for contents on lab 4
 - Friday, Oct 6th during class hours: Milestone 1 demonstration
 - Friday, Oct 20th during class hours: Milestone 2 demonstration
 - Friday, Nov 3rd during class hours: Milestone 3 demonstration
 - Friday, Nov 17th during class hours: Milestone 4 demonstration
-- Saturday, Nov 18th @ 8am: Fill out and send the [team assessment form](docs/Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
+- Saturday, Nov 18th @ 8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor
 - Friday, Dec 1st: Final Competition, time to be determined (Mandatory attendance)
 - Wednesday, Dec 6th @ 8am: The final websites will be graded
 
@@ -99,7 +99,7 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 - [Arduino Uno online references and tutorials](https://www.arduino.cc/en/Reference/HomePage)
 - [PID control]
-- [Helpful FPGA-related Links and Tips](docs/FPGA_resources.md)
+- [Helpful FPGA-related Links and Tips](./tutorials/FPGA_resources.md)
 
 **Related to fabrication:**
 
@@ -112,7 +112,7 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 - [How to use the Epilog laser cutter]
 - [Tutorials on Eagle]
 - [How to etch your own PCB]
-- [How to solder components and wires](docs/tutorials/Soldering_Tutorial.md)
+- [How to solder components and wires](./tutorials/Soldering_Tutorial.md)
 - [Wiring a robot]
 - [What goes on inside a servo?]
 
