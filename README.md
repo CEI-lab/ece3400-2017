@@ -113,10 +113,12 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 - [Wiring a robot]
 - [What goes on inside a servo?]
 
-
-
 **Related to debugging**
 
 - [How to build a simple Arduino oscilloscope](https://www.build-electronic-circuits.com/arduino-oscilloscope/)
 - [Simple Matlab program to read in data from the serial port]
 - [This folder](docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
+
+**Related to websites**
+
+- https://pages.github.com/
