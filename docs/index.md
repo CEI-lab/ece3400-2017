@@ -89,6 +89,7 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 
 - [Markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 - [How to make a webpage with github](tutorials/webpages.md)
+- [Desktop github](https://desktop.github.com/)
 
 **Solutions**
 
