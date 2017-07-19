@@ -7,7 +7,7 @@ You can helpful information [here](https://pages.github.com/), but the basic ste
 * Navigate to the settings tab and choose the source of the github page. 
 
 ![Making webpages from github](https://github.com/CEI-lab/ece3400/blob/master/docs/images/Websites_from_github.png)
-
+![Making webpages from github](images/Websites_from_github.png)
 
 * Now you can find your webpage on a link related to your login name + '.github.io/' + repository name. Fx: https://cei-lab.github.io/ECE3400-2017-teamAlpha/
 
