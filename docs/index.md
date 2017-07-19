@@ -11,7 +11,7 @@ Testing images:
 
 ### Other Documents
 - [Starting on Your Robot](starting_your_robot.md)
-- [Grading](docs/Grading/Readme.md)
+- [Grading](Grading/Readme.md)
 
 ### Arduino Information
 
