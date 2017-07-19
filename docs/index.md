@@ -4,7 +4,7 @@
 
 **Instructor:** Kirstin Petersen (khp37)
 
-**TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Adarsh Jayakumar (aj373)
+**TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Adarsh Jayakumar (aj373)
 
 **Piazza page:** ADD LINK!
 
@@ -87,8 +87,9 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 
 **Related to GitHub**
 
-- [Ryan, add links!]
 - [Markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+- [How to make a webpage with github](tutorials/webpages.md)
+- [Desktop github](https://desktop.github.com/)
 
 **Solutions**
 
@@ -98,6 +99,8 @@ This is the repository for the team of TA's that solved all the labs during the 
 **Related to Control**
 
 - [Arduino Uno online references and tutorials](https://www.arduino.cc/en/Reference/HomePage)
+- [A useful script to report on the internal state of your Arduino](https://playground.arduino.cc/Main/ShowInfo) and [here](https://playground.arduino.cc/Main/ShowInfo?action=sourceblock&num=1)
+- Also, for problems with Arduino, look at wiring.c on your development machine to see the firmware settings that are being uploaded to your Arduino.
 - [PID control]
 - [Helpful FPGA-related Links and Tips](./tutorials/FPGA_resources.md)
 
@@ -105,7 +108,7 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 For the first time ever, we have a Skunkworks available to the class. This is located in PH427. Please be aware that you will only have access to this lab after you have taken a safety training, and in the presence of a TA.
 
-- A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](docs/)
+- A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
 - [Tutorials on Solid Works]
 - [Tutorials on Autocad]
 - [How to use the XYYZ 3D printer]
@@ -121,10 +124,5 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 - [How to build a simple Arduino oscilloscope](https://www.build-electronic-circuits.com/arduino-oscilloscope/)
 - [Simple Matlab program to read in data from the serial port]
 - [This folder](docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
-- [A useful script to report on the internal state of your Arduino](https://playground.arduino.cc/Main/ShowInfo) and [here](https://playground.arduino.cc/Main/ShowInfo?action=sourceblock&num=1)
-- Also, for problems with Arduino, look at wiring.c on your development machine to see the firmware settings that are being uploaded to your Arduino.
 
-**Related to websites**
-
-- [How to make a webpage with github](tutorials/webpages.md)
 
