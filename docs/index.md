@@ -58,7 +58,7 @@ Week | Topic | Week | Topic
 5 | FPGA, [_LAB 2_](./lab2.md), team assessment | 12 | Power, [_Milestone 4_](./Grading/Milestone_score.md)
 6 | FPGA, VGA, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | Debugging IPS, team assessment
 7 | Wireless communication, [_LAB 3_](./lab3.md) | 14 | IPS Ethics, Final Competition
-
+See detailed schedule [here](./schedule.md.
 
 **Deadlines**
 - Tuesday, Aug 29th @ 8am: Fill in [Google Forms](https://goo.gl/forms/Zc9Jxlri2DHeXqfx1)
