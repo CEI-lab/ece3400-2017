@@ -15,11 +15,11 @@
 - Sep 25th, Mon: FPGA (Bruce Land)
 - Sep 27th, Wed: FPGA
 - Sep 29th, Fri: FPGA (Claire Chen)
-- Oct 2nd, Mon: FPGA
+- Oct 2nd, Mon: FPGA, VGA
 - Oct 4th, Wed: VGA
 - Oct 6th, Fri: Milestone 1, in class
-- Oct 9th, Mon: Communication
-- Oct 11th, Wed: Wireless Communication
+- Oct 9th, Mon: Fall break
+- Oct 11th, Wed: Communication and Wireless Communication
 - Oct 13th, Fri: Communication Protocols
 - Oct 16th, Mon: Board layouts
 - Oct 18th, Wed: Wiring and EMC concerns
