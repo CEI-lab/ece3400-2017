@@ -122,4 +122,3 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 **Related to websites**
 
 - [How to make a webpage with github](./tutorials/webpages)
-- https://pages.github.com/
