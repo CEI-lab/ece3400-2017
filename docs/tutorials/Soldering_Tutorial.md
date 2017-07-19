@@ -2,21 +2,29 @@
 ## Soldering Safety
 ### 1. Always wear safety goggles while soldering
 This is important, as solder sometimes has a tendency to spurt, sending small droplets of molten solder into the air. Since the droplets are small, they do not generally cause damage to the skin or clothes, but have the potential to cause serious damage to unprotected eyes.
+![glasses](../images/IMG_0583.JPG "Safety Glasses")
 ### 2. Be careful with the soldering iron
 The tip of the soldering iron can get as hot as 700 degrees during use, which can cause serious burns to skin and melt most plastics. This means that caution must be observed when handling the iron. If you have long hair, tie it behind your head. Don't wear loose jewelry and roll up long sleeves when soldering.
+
 ### 3. Do not touch wires/parts that are being soldered
 Metal objects like wires and resistor leads conduct heat very well, and may be heated several hundred degrees by the soldering iron, which can lead to severe burns.
+
 ### 4. Wash your hands after soldering!
-Always wash your hands after finishing in the lab. Remember that eating is never permitted in the lab; neither are open drinking cups. 
+Always wash your hands after finishing in the lab. Remember that eating is never permitted in the lab; neither are open drinking cups.
 
 ## Four Easy Steps to Soldering
 ### 1. Secure the joint that needs to be soldered
 Ensure that the parts or wires that need to be soldered are held securely in place. Devices like clamps, vices, or tape can help with this. Ensure that nothing sensitive to heat is touching the area that is going to be soldered.
+![secure](../images/IMG_0587.JPG "Vice")
 ### 2. Get the iron ready
-Turn on the iron and set the temperature to 700&deg;F (370&deg;C), and give it around a minute to warm up. Next clean the tip of the iron by wiping it on a wet sponge. If the tip is very dirty you can also whipe it on a metal sponge, and use tinner to improve the heat conduction again. A shiny iron leads heat well, a matte iron does not conduct heat very well and will be harder to use. 
+Turn on the iron and set the temperature to 700&deg;F (370&deg;C), and give it around a minute to warm up. Next clean the tip of the iron by wiping it on a wet sponge. If the tip is very dirty you can also wipe it on a metal sponge, and use tinner to improve the heat conduction again. A shiny iron leads heat well, a matte iron does not conduct heat very well and will be harder to use.
+![wetsponge](../images/IMG_0593.JPG "WetSponge")
+![metalsponge](../images/IMG_0594.JPG "MetalSponge")
+![cleaniron](../images/IMG_0595.JPG "CleanIron")
 ### 3. Solder the connection
 Hold a strand of solder in one hand and the soldering iron in the other. Place the iron on the joint you want to solder and feed the solder onto the joint. The solder should melt as it touches the iron/joint. Apply enough solder so that the connection is mechanically and electrically stable. Applying too much solder can make a connection difficult to desolder, so be careful not to use too much.
--Add photos!!-
+![solderjoint](../images/solder_joint.png "SolderJoint")
+![sodlering](../images/IMG_0588.JPG "Soldering")
 ### 4. Evaluate
 A good solder joint should be shiny and cone shaped. If the joint is dull, it is the result of "cold solder," which occurs when molten solder is added to the joint, instead of being melted onto the joint itself. If the joint is blob shaped, that might mean that the solder spread to other connections, so be sure to check for shorts.
 -Add photos!!-
@@ -43,9 +51,9 @@ To do (from Kirstin):
 - Add photo of good solder joint vs bad solder joint
 - Add photo of how to use the braid.
 - Add photo of poor removal(?)
-- Add one specific to chips. Add one specific to wires. 
-- Explain what iron tip to use for what. And how to change it. 
-- Explain what size solder to use for what, and what type of wire to use for what. 
-- Add tutorial on 
+- Add one specific to chips. Add one specific to wires.
+- Explain what iron tip to use for what. And how to change it.
+- Explain what size solder to use for what, and what type of wire to use for what.
+- Add tutorial on
 
 # Good Luck and Happy Soldering!
