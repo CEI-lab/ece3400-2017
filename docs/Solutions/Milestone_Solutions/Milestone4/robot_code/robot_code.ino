@@ -59,13 +59,6 @@ const int zInput = A0; // Connect common (Z) to A4 (analog input)
 #define FRONT_WALL_SENSOR_THRESHOLD 100
 
 // Inputs on mux
-//int rightWall = 6;
-//int leftWall = 5;
-//int frontWall = 7;
-//int right_pid = 3;
-//int left_pid = 2;
-//int right_turn = 4;
-//int left_turn = 1;
 #define rightWall 6
 #define leftWall 5
 #define frontWall 7
@@ -82,9 +75,9 @@ int leftWallVal = 0;
 int frontWallVal = 0;
 int wallsRadio = 0;
 
-#define WALL_FRONT_2 5 //1
-#define WALL_LEFT_2 12 //2
-#define WALL_RIGHT_2 6 //4
+//#define WALL_FRONT_2 5 //1
+//#define WALL_LEFT_2 12 //2
+//#define WALL_RIGHT_2 6 //4
 
 // LED pin
 //#define ledIndicator //3
@@ -218,55 +211,32 @@ int delta_S[5] = { 0, -1,  0,  1,  0};
 int delta_W[5] = {-1,  0,  1,  0, -1};
 int stack[50]; // The stack that stores locations. Shouldn't be taller than 100 ints since there are only 20 grids.
 int stack_ptr = 0; // A pointer that indexes the stack. The pointer points to the next empty slot.
-int queue[30]; // The queue used for doing BFS in backtracking. Shouldn't be longer than 100 ints since there are only 20 grids.
-int queue_ptr = 0; // A pointer that indexes the queue. The pointer points to the next empty slot, and will decrease if we pop the queue.
 int step_cnt = 0; // A counter that counts how many steps have been used.
 bool done = 0; // A flag that will be set to 1 once the robot finishes traversing the whole maze, and 0 otherwise.
 int known_walls[20];
 int FOUND_TREASURE = 0;
  
 /*
-string to_bit(int in) {
-  string result;
-  for (int i = 0; i < 4; i++) {
-    result = to_string(in & 1) + result;
-    in >>= 1;
-  }
-  return result;
-}
+* Given a position from 0 to 19, this function returns the y-coordinate, 
+* y ranges from 0 to 4.
 */
-int getx(int id) {
-  return id/4;
+int gety(int pos) {
+  return pos/4;
 }
 
-int gety(int id) {
+/*
+* Given a position from 0 to 19, this function returns the x-coordinate.
+* x ranges from 0 to 3.
+*/ 
+int getx(int id) {
   return id%4;
 }
 
+/*
+* Given an x value and a y value, this function returns its id, ranging [0,20).
+*/ 
 int get_id(int x, int y) {
-  return 4*x + y;
-}
-
-void queue_push(int pos) {
-  queue[queue_ptr] = pos;
-  queue_ptr++;
-}
-
-bool queue_empty() {
-  return (queue_ptr == 0);
-}
-
-int queue_front() {
-  if (queue_empty()) return NULL;
-  return queue[0];
-}
-
-void queue_pop() {
-  if (queue_empty()) return ;
-  for (int i = 0; i < queue_ptr; i++) {
-    queue[i] = queue[i+1];
-  }
-  queue_ptr--;
+  return 4*y + x;
 }
 
 void stack_push(int pos) {
@@ -346,115 +316,77 @@ int my_shift_right(int input) {
   return output;
 }
 
-void robot_turn_left() {
-  // TODO: API
-  //cout << "robot turns left" << endl;
-}
-
-void robot_turn_right() {
-  // TODO: API
-  //cout << "robot turns right" << endl;
-}
-
-void go_straight() {
-  robot_go_straight();
-}
-
-void turn_left() { // only turn, do not go
-  robot_turn_left();
-  orientation = my_shift_right(orientation);
-}
-
-void turn_right() { // only turn, do not go
-  robot_turn_right();
-  orientation = my_shift_left(orientation);
-}
-
-/*
-// This function is only valid for reading wall info from maze_cheatsheet, when we are only testing and hardcode the walls into 
-// maze_cheatsheet. Therefore, IT DOES NOT REALLY READ THE WALL SENSORS READINGS!
-int get_wall_info() {
-  // TODO: API
-  int curx = getx(cur_pos);
-  int cury = gety(cur_pos);
-  if (orientation == NORTH) {
-    return maze_cheatsheet[curx][cury] | 4; // 4: 0100, cannot sense the south, according to the protocol, just assume there is a wall back
-  }
-  if (orientation == EAST) {
-    return my_shift_right(maze_cheatsheet[curx][cury] | 8); // 8: 1000, cannot sense the west (facing east), just assume there is a wall east
-  }
-  if (orientation == SOUTH) {
-    return my_shift_right(my_shift_right(maze_cheatsheet[curx][cury] | 1)); // 1: 0001, the same drill
-  }
-  if (orientation == WEST) {
-    return my_shift_left(maze_cheatsheet[curx][cury] | 2); // 2: 0010, the same drill
-  }
-  else return NULL;
-}*/
-
-void update_maze(int curr_wall_info) { // update the maze with wall sensors readings
-  int curr_int = curr_wall_info;
-  if (orientation == NORTH) {
-    maze[getx(cur_pos)][gety(cur_pos)] &= curr_int;
-    if (getx(cur_pos) - 1 >= 0) maze[getx(cur_pos) - 1][gety(cur_pos)] &= ((int)(15 - pow(2,2)) | ((curr_int & 1) << 2));
-    if (gety(cur_pos) - 1 >= 0) maze[getx(cur_pos)][gety(cur_pos) - 1] &= ((int)(15 - pow(2,1)) | (((curr_int >> 3) & 1) << 1));
-    if (gety(cur_pos) + 1 < COL_NUM) maze[getx(cur_pos)][gety(cur_pos) + 1] &= ((int)(15 - pow(2,3)) | (((curr_int >> 1) & 1) << 3));
-  }
-  if (orientation == EAST) {
-    maze[getx(cur_pos)][gety(cur_pos)] &= my_shift_left(curr_int);
-    if (getx(cur_pos) - 1 >= 0) maze[getx(cur_pos) - 1][gety(cur_pos)] &= ((int)(15 - pow(2,2)) | (((curr_int >> 3) & 1) << 2));
-    if (getx(cur_pos) + 1 < ROW_NUM) maze[getx(cur_pos) + 1][gety(cur_pos)] &= ((int)(15 - pow(2,0)) | ((curr_int >> 1) & 1));
-    if (gety(cur_pos) + 1 < COL_NUM) maze[getx(cur_pos)][gety(cur_pos) + 1] &= ((int)(15 - pow(2,3)) | ((curr_int & 1) << 3));
-  }
-  if (orientation == SOUTH) {
-    maze[getx(cur_pos)][gety(cur_pos)] &= my_shift_left(my_shift_left(curr_int));
-    if (getx(cur_pos) + 1 < ROW_NUM) maze[getx(cur_pos) + 1][gety(cur_pos)] &= ((int)(15 - pow(2,0)) | (curr_int & 1));
-    if (gety(cur_pos) - 1 >= 0) maze[getx(cur_pos)][gety(cur_pos) - 1] &= ((int)(15 - pow(2,1)) | (((curr_int >> 1) & 1) << 1));
-    if (gety(cur_pos) + 1 < COL_NUM) maze[getx(cur_pos)][gety(cur_pos) + 1] &= ((int)(15 - pow(2,3)) | (((curr_int >> 3) & 1) << 3));
-  }
-  if (orientation == WEST) { 
-    maze[getx(cur_pos)][gety(cur_pos)] &= my_shift_right(curr_int);
-    if (getx(cur_pos) - 1 >= 0) maze[getx(cur_pos) - 1][gety(cur_pos)] &= ((int)(15 - pow(2,2)) | (((curr_int >> 1) & 1) << 2));
-    if (getx(cur_pos) + 1 < ROW_NUM) maze[getx(cur_pos) + 1][gety(cur_pos)] &= ((int)(15 - pow(2,0)) | ((curr_int >> 3) & 1));
-    if (gety(cur_pos) - 1 >= 0) maze[getx(cur_pos)][gety(cur_pos) - 1] &= ((int)(15 - pow(2,1)) | ((curr_int & 1) << 1));
-  }
-}
-
-// Correct the orientatioin to the target orientation BY calling turn_left or turn_right. 
-// However, the line following section did not provide these two APIs, so this function should NO LONGER WORKs,
-// and thus gave up on using this function.
-void correct_orientation_to(int target_orien) {
-  if ( my_shift_right(orientation) == target_orien) turn_left();
-  else {
-    while (orientation != target_orien) turn_right();
-  }
-}
-
 // Print the maze (the global maze[][]) in a friendly format.
 void printmaze() {
-  ////Serial.println("---------------------");
+  Serial.println("---------------------");
   for (int i = 0; i < ROW_NUM; i++) {
     for (int j = 0; j < COL_NUM; j++) {
-      ////Serial.print(maze[i][j]);
+      Serial.print(maze[i][j]);
     }
-    ////Serial.println();
+    Serial.println();
   }
-  ////Serial.println("---------------------");
+  Serial.println("---------------------");
 }
 
-/*
-void print_stack() { // print the stack in a pretty format.
+// Update maze[ROW_NUM][COL_NUM] with the wall sensors' readings (curr_wall_info).
+void update_maze(int curr_wall_info) {
+  int rel_pos = curr_wall_info; // relative wall position (to robot)
+  // Update this grid in the maze array
+  // Must first check robot's orientation since wall information is relative to the robot
+  // At each grid space, current wall information applies to both current grid space and adjacents squares
+
+  int curr_row;
+  int curr_col;
+  int glob_pos; // global wall position
+  
+  curr_row = gety(cur_pos);
+  curr_col = getx(cur_pos);
+   
+  if (orientation == NORTH) {
+    glob_pos = rel_pos & (11);
+  }
+  if (orientation == EAST) {
+    // Need to round-shift the relative wall positions left to make them global positions
+    glob_pos = my_shift_left((rel_pos & 11));
+  }
+  if (orientation == SOUTH) {
+    glob_pos = my_shift_left(my_shift_left((rel_pos & 11)));
+  }
+  if (orientation == WEST) { 
+    glob_pos = my_shift_right((rel_pos & 11));
+  }
+
+    // First update wall information for robot's current square
+    maze[curr_row][curr_col] &= glob_pos; 
+
+    // Next, update wall information for adjacent squares:
+    // Update square to the North of current square if it's not at top edge of grid to have south wall if you sense north wall in current grid
+    // Only want to update south wall information for North adjacent square
+    if (curr_row > 0) maze[curr_row - 1][curr_col] |= ((int)(WALL_SOUTH) & (glob_pos << 2));
+    // Update the grid to the West
+    if (curr_col > 0) maze[curr_row][curr_col - 1] |= ((int)(WALL_EAST) & (glob_pos >> 2));
+    // Update the grid to the East
+    if (curr_col + 1 < COL_NUM) maze[curr_row][curr_col + 1] |= ((int)(WALL_WEST) & (glob_pos << 2));
+    // Update the grid to the South
+    if (curr_row + 1 < ROW_NUM) maze[curr_row + 1][curr_col] |= ((int)(WALL_NORTH) & (glob_pos >> 2));
+}
+
+
+// Print the stack for the depth-first search algorithm in an
+// easy to read format. Helpful for debugging mapping algorithm.
+void print_stack() { 
   if (stack_empty()) {
-    //cout << "stack is empty!" << endl;
+    Serial.println("stack is empty!");
     return ;
   }
   for (int i = stack_ptr - 1; i >= 0; i--) {
-    if (stack[i] < 10) //cout << "| " << " " << stack[i] << " |" << endl;
-    else //cout << "| " << stack[i] << " |" << endl;
-    //cout << "|----|" << endl;
+    //Serial.println("| " + stack[i] + " |");
+    Serial.print("| ");
+    Serial.print(stack[i]);
+    Serial.println(" |");
+    //Serial.println("|----|");
   }
 }
-*/
 
 // from and to should ONLY be ONE block away!
 void move_one(int& from, int& to) { 
@@ -469,38 +401,39 @@ void move_one(int& from, int& to) {
   int to_x = getx(to);
   int to_y = gety(to);
   int curr_wall_info = 0;
-  if (from_y == to_y) { // moving vertically
-    if (to_x == from_x) { // two locations are the same, do not move
+  
+  if (from_x == to_x) { // moving along same col
+    if (to_y == from_y) { // two locations are the same, do not move
       curr_wall_info = updateWalls();
-    }
-    else if (to_x > from_x) { // move in positive direction (downwards)
+    }  
+    else if (to_y > from_y) { // move in positive direction (downwards)
       if (orientation == NORTH) curr_wall_info = move(3);
       if (orientation == EAST) curr_wall_info = move(2);
       if (orientation == SOUTH) curr_wall_info = move(1);
-      if (orientation == WEST) curr_wall_info = move(0);
+      if (orientation == WEST)  curr_wall_info = move(0);
       orientation = SOUTH;
     }
     else { // move in negative direction (upwards)
       if (orientation == NORTH) curr_wall_info = move(1);
       if (orientation == EAST) curr_wall_info = move(0);
       if (orientation == SOUTH) curr_wall_info = move(3);
-      if (orientation == WEST) curr_wall_info = move(2);
+      if (orientation == WEST)  curr_wall_info = move(2);
       orientation = NORTH;
     }
   }
-  else { // moving horizontally
-    if (to_y > from_y) { // move in positive direction (rightwards)
-      if (orientation == NORTH) curr_wall_info = move(2);
-      if (orientation == EAST) curr_wall_info = move(1);
+  else { // moving vertically
+    if (to_x > from_x) { // move in positive direction (rightwards)
+      if (orientation == NORTH)  curr_wall_info = move(2);
+      if (orientation == EAST)  curr_wall_info = move(1);
       if (orientation == SOUTH) curr_wall_info = move(0);
       if (orientation == WEST) curr_wall_info = move(3);
       orientation = EAST;
     }
     else { // move in negative direction (leftwards)
-      if (orientation == NORTH) curr_wall_info = move(0);
+      if (orientation == NORTH)  curr_wall_info = move(0);
       if (orientation == EAST) curr_wall_info = move(3);
       if (orientation == SOUTH) curr_wall_info = move(2);
-      if (orientation == WEST) curr_wall_info = move(1);
+      if (orientation == WEST)  curr_wall_info = move(1);
       orientation = WEST;
     }
   }
@@ -541,19 +474,19 @@ bool wallEast = 0;
 
     xPos = getx(cur_pos);
     yPos = gety(cur_pos);
-    wallNorth = maze[xPos][yPos] & 0x01;
-    wallSouth = maze[xPos][yPos] & 0x04;
-    wallWest = maze[xPos][yPos] & 0x08;
-    wallEast = maze[xPos][yPos] & 0x02;
-    // treasure = (wallsRadio >> 3); // get treasure info from what robot saw
+    wallNorth = maze[yPos][xPos] & 0x01;
+    wallSouth = maze[yPos][xPos] & 0x04;
+    wallWest = maze[yPos][xPos] & 0x08;
+    wallEast = maze[yPos][xPos] & 0x02;
 
-    // TODO: Test/figureout
-//    finished = (stack_ptr == 0);
-    //finished = ((cur_pos  == nex_pos) && (cur_pos != 19));
-
+    Serial.print(wallEast);
+    Serial.print(wallWest);
+    Serial.print(wallSouth);
+    Serial.println(wallNorth);
+    
 
     info[1] = 0;
-    info[0] = (((xPos << 4) & 0xF0) | (yPos & 0x0F));
+    info[0] = (((yPos << 4) & 0xF0) | (xPos & 0x0F));
     if ( wallNorth) info[1] |= WALL_NORTH_2;
     if ( wallSouth) info[1] |= WALL_SOUTH_2;
     if ( wallWest) info[1] |= WALL_WEST_2;
@@ -590,9 +523,7 @@ bool wallEast = 0;
           timeout = true;
         }
       }
-
-
-
+      
       // Describe the results
       if ( timeout ) {
 //        printf("Failed, response timed out.\n\r");
@@ -678,169 +609,115 @@ int get_treasure_freq() {
     return treasure;
 }
 
-// Used for debugging backtracking only. Currently not implemented.
-void print_backtrack_label(int in[ROW_NUM][COL_NUM]) {
-  for (int i = 0; i < ROW_NUM; i++) {
-    for (int j = 0; j < COL_NUM; j++) {
-      //cout << in[i][j] << " ";
-    }
-    //cout << '\n';
-  }
-}
 
-// check if the two grids are next to each other
-bool is_next_to(int a, int b) { 
-  return ((abs(getx(a) - getx(b)) == 1) && (gety(a) == gety(b))) || ((abs(gety(a) - gety(b)) == 1) && (getx(a) == getx(b)));
-}
-
-// check if the two grids are the same one
-bool is_the_same(int a, int b) { 
-  return (a == b);
-}
-
-// return nex_pos's direction with respect to cur_pos
-// 1(0001) for NORTH, 2(0010) for EAST, 4(0100) for SOUTH, 8(1000) for WEST
-// THE TWO POSITIONS MUST BE NEXT TO EACH OTHER
-int find_direction(int nex_pos, int cur_pos) { 
-  if (getx(cur_pos) < getx(nex_pos)) return 4; // To the south.
-  else if (getx(cur_pos) > getx(nex_pos)) return 1; // To the north.
-  else if (gety(cur_pos) < gety(nex_pos)) return 2; // To the east.
-  else return 8; // To the west.
-}
-
-int map(int i, int orientation) {
-  for (int j = 0; j <= i; j++) {
-    orientation = my_shift_left(orientation);
-  }
-  return log(orientation)/log(2);
-}
-
-void backtrack(int& from, int& to) {
-  //cout << "backtracking from " << from << " to " << to << endl;
-  int backtrack_label[ROW_NUM][COL_NUM]; // each index is the distance to the target grid, INF if can't reach
-  int backtrack_visited[20];
-  int to_x = getx(to);
-  int to_y = gety(to);
-  int dist = 0;
-  for (int i = 0; i < 20; i++) backtrack_visited[i] = false;
-  for (int i = 0; i < ROW_NUM; i++) {
-    for (int j = 0; j < COL_NUM; j++) {
-      backtrack_label[i][j] = INFINITY;
-    }
-  }
-  backtrack_label[to_x][to_y] = 0;
-  backtrack_visited[to] = true;
-  queue_push(to);
-  while(!queue_empty()) {
-    int targ = queue_front();
-    queue_pop();
-    int targ_x = getx(targ);
-    int targ_y = gety(targ);
-    for (int i = 0; i < 4; i++) {
-      int neigh_x = targ_x + delta_N[i];
-      int neigh_y = targ_y + delta_N[i+1];
-      int neigh = get_id(neigh_x, neigh_y);
-      if ( !((maze[targ_x][targ_y] >> map(i, NORTH)) & 1) && (backtrack_visited[neigh] == false) ) {
-        queue_push(neigh);
-        backtrack_visited[neigh] = true;
-        backtrack_label[neigh_x][neigh_y] = backtrack_label[targ_x][targ_y] + 1;
-      }
-    }
-  }
-  //print_backtrack_label(backtrack_label);
-  while (from != to) {
-    int next_x;
-    int next_y;
-    int next_to_go;
-    int from_x = getx(from);
-    int from_y = gety(from);
-    int dist_to_targ = pow(2,30);//numeric_limits<int>::max();
-    for (int i = 0; i < 4; i++) {
-      next_x = from_x + delta_N[i];
-      next_y = from_y + delta_N[i+1];
-      bool inbound = (next_x >= 0) && (next_y >= 0) && (next_x < ROW_NUM) && (next_y < COL_NUM);
-      bool no_wall = inbound && !(find_direction(get_id(next_x, next_y), from) & maze[from_x][from_y]);
-      if ( inbound && no_wall && (backtrack_label[next_x][next_y] < dist_to_targ) ) {
-        //cout << "inside the if block" << endl;
-        dist_to_targ = backtrack_label[next_x][next_y];
-        next_to_go = get_id(next_x, next_y);
-      }
-    }
-    if (dist_to_targ == pow(2,30)) {//numeric_limits<int>::max()) {
-      break;
-    }
-    //cout << "next_to_go is " << next_to_go << endl;
-    move_one(from, next_to_go);
-    Serial.print("from: ");
-    Serial.print(from);
-    Serial.print(" to: ");
-    Serial.println(next_to_go);
-  }
-}
-
+// The master function that let the robot traverse the maze.
 void traverse() {
-  stack_push(cur_pos);
-  while(!stack_empty()) {
-    nex_pos = stack_top();
-    //Serial.print("next position: ");
-    //Serial.println(nex_pos);
-    stack_pop();
-    if ( visited_info[nex_pos] || (known_walls[nex_pos] == 15 && FOUND_TREASURE) ) {}
-    else {
-      bool next_to_and_no_wall = is_next_to(nex_pos, cur_pos) && !(find_direction(nex_pos, cur_pos) & maze[getx(cur_pos)][gety(cur_pos)]);
-      if ( is_the_same(nex_pos, cur_pos) || next_to_and_no_wall ) move_one(cur_pos, nex_pos);
-      else backtrack(cur_pos, nex_pos); // need to backtrack
-      known_walls[cur_pos] |= 15;
-      int cur_pos_x = getx(cur_pos);
-      int cur_pos_y = gety(cur_pos);
-      int shortcut = (int)pow(2,31);
-      for (int i = 0; i < 4; i++) { // now that we are at the new location, so we push its neighbors into the stack
-        int new_pos_x;
-        int new_pos_y;
-        int prior_orien;
-        if (FOUND_TREASURE) {
-          prior_orien = orientation;
-          if (orientation == NORTH) {
-            new_pos_x = cur_pos_x + delta_N[i];
-            new_pos_y = cur_pos_y + delta_N[i+1];
-          }
-          if (orientation == EAST) {
-            new_pos_x = cur_pos_x + delta_E[i];
-            new_pos_y = cur_pos_y + delta_E[i+1];
-          }
-          if (orientation == SOUTH) {
-            new_pos_x = cur_pos_x + delta_S[i];
-            new_pos_y = cur_pos_y + delta_S[i+1];
-          }
-          if (orientation == WEST) {
-            new_pos_x = cur_pos_x + delta_W[i];
-            new_pos_y = cur_pos_y + delta_W[i+1];
-          }
-        }
-        else {
-          prior_orien = EAST;
-          new_pos_x = cur_pos_x + delta_E[i];
-          new_pos_y = cur_pos_y + delta_E[i+1];
-        }
-        int new_pos = get_id(new_pos_x, new_pos_y);
-        bool inbound = (new_pos_x >= 0) && (new_pos_y >= 0) && (new_pos_x < ROW_NUM) && (new_pos_y < COL_NUM);
-        bool no_wall = !(( maze[cur_pos_x][cur_pos_y] >> map(i, prior_orien) ) & 1);
-        bool cant_skip = (known_walls[new_pos] != 15 || !FOUND_TREASURE);
-        if ( inbound ) known_walls[new_pos] |= find_direction(cur_pos, new_pos);
-        if ( inbound && no_wall && on_stack[new_pos] && !visited_info[new_pos] && cant_skip ) shortcut = new_pos;
-        if ( inbound && no_wall && !on_stack[new_pos] && cant_skip ) {
-          //cout << "pushed " << new_pos << endl;
-          stack_push(new_pos);
-        }
-      }
-      if (shortcut != (int)pow(2,31)) {
-        //cout << "pushed " << shortcut << " as shortcut" << endl;
-        stack_push(shortcut);
-      }
-    }
-  }
-}
+  int curr_row;
+  int curr_col;
+  int rel_walls;
+  int next_pos;
 
+  int glob_walls; // global wall position
+  int go_north;
+  int go_east;
+  int go_west;
+  int go_south;
+  int all_visited = 0;
+  int i;
+  
+  stack_push(cur_pos); // visit grid 19 initially
+  int w = updateWalls();
+  update_maze(w);
+  send_my_radio();
+  
+  
+  //print_stack();
+
+  // Baseline DFS navigation algorithm
+  while(!stack_empty() || all_visited) {
+   
+    cur_pos = stack_top();
+    curr_row = gety(cur_pos);
+    curr_col = getx(cur_pos);
+    
+    visited_info[cur_pos] = true;
+
+    // find current wall information and translate it from relative to global
+    rel_walls = updateWalls();
+    Serial.print("relative wall loc: ");
+    Serial.println(rel_walls);
+
+    
+    if (orientation == NORTH) {
+      glob_walls = rel_walls & (11);
+    }
+    if (orientation == EAST) {
+      // Need to round-shift the relative wall positions left to make them global positions
+      glob_walls = my_shift_left((rel_walls & 11));
+    }
+    if (orientation == SOUTH) {
+      glob_walls = my_shift_left(my_shift_left((rel_walls & 11)));
+    }
+    if (orientation == WEST) { 
+      glob_walls = my_shift_right((rel_walls & 11));
+    }
+
+    Serial.print("global wall loc: ");
+    Serial.println(glob_walls);
+    
+    // Determine where to go next based on wall location and visited information
+    // Priority: N, E, W, S
+    if ((glob_walls & WALL_NORTH) == 0) go_north = !(visited_info[get_id(curr_col, curr_row - 1)]);
+    else go_north = 0;
+
+    if ((glob_walls & WALL_EAST) == 0)  go_east  = !(visited_info[get_id(curr_col + 1, curr_row)]) & !go_north;
+    else go_east  = 0;
+
+    if ((glob_walls & WALL_WEST) == 0)  go_west =  !(visited_info[get_id(curr_col - 1, curr_row)]) & !go_east;
+    else go_west = 0;
+
+    if ((glob_walls & WALL_SOUTH) == 0)  go_south =  !(visited_info[get_id(curr_col, curr_row + 1)]) & !go_west;
+    else go_south = 0;
+
+    if (go_north){
+      next_pos = get_id(curr_col, curr_row - 1);
+      stack_push(next_pos);
+    }
+    else if (go_east){
+      next_pos = get_id(curr_col + 1, curr_row);
+      stack_push(next_pos);
+    }
+    else if (go_west){
+      next_pos = get_id(curr_col - 1, curr_row);
+      stack_push(next_pos);
+    }
+    else if (go_south){
+      next_pos = get_id(curr_col, curr_row + 1);
+      stack_push(next_pos);
+    }
+    else{
+      stack_pop();
+
+      if (stack_empty()){
+        break;
+      }
+      next_pos = stack_top();
+    }
+
+    Serial.print("next_pos: ");
+    Serial.println(next_pos);
+    
+    //print_stack();
+    move_one(cur_pos, next_pos);
+
+    // Determine if all nodes have been visited:
+    all_visited = 1;
+    for (i = 0; i < 20; i++) {
+      all_visited = (all_visited & visited_info[i]);
+    }
+
+  } 
+}
 void initialize() {
   initialize_maze();
   initialize_visited_info();
@@ -939,13 +816,13 @@ int updateWalls(){
   frontWallVal = muxRead(frontWall);
   
   if(rightWallVal > RIGHT_WALL_SENSOR_THRESHOLD) {
-    walls |= WALL_RIGHT_2;
+    walls |= WALL_RIGHT;
   }
   if(leftWallVal > LEFT_WALL_SENSOR_THRESHOLD) {
-    walls |= WALL_LEFT_2;
+    walls |= WALL_LEFT;
   }
   if(frontWallVal > FRONT_WALL_SENSOR_THRESHOLD) {
-    walls |= WALL_FRONT_2;
+    walls |= WALL_FRONT;
   }
   //Serial.print("cur_pos is ");
   //Serial.println(cur_pos);                                                        
@@ -980,6 +857,7 @@ int setDirection(int wallData){
 int muxRead(byte pin){
   selectMuxPin(pin);
   analogRead(zInput);
+  return analogRead(zInput);
 }
 
 // The selectMuxPin function sets the S0, S1, and S2 pins
@@ -1111,8 +989,6 @@ void loop() {
       manualOverride =  (analogRead(overridePin) > 500);
   }
 
-  
-  
   traverse(); 
 
   pinMode(ledIndicator, OUTPUT);
@@ -1121,7 +997,7 @@ void loop() {
   done = 1;
   int real_cur_pos = cur_pos;
   for (int i = 0; i < 20; i++) {
-    if (maze[getx(i)][gety(i)] != 15 && !visited_info[i]) {
+    if (maze[gety(i)][getx(i)] != 15 && !visited_info[i]) {
       cur_pos = i;
       treasure = 0;
       Serial.print("entered: ");Serial.println(i);
@@ -1137,10 +1013,4 @@ void loop() {
 
 }
 
-/*
-void loop() {
-  delay(500);
-  updateWalls();
-}
-*/
 
