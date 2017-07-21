@@ -14,14 +14,20 @@ Solidworks and Autodesk both allow you to export your designs as .stl files.
 ## Printing Your Part
 ### 1. Run the Simplify3D program
 This program lets you preview and layout your prints.
+![](../images/Simplify3d.png "Safety Glasses")
 ### 2. Import the part/parts to be printed
 You can import multiple parts at once by ctrl clicking.
+![](../images/Import.png "Safety Glasses")
 ### 3. Arrange the parts for optimal speed/material usage
 Make sure the parts you are printing have the orientation you want. By double clicking on a part, you can change its displacement and angle in any direction. For prints with multiple parts, try placing all the parts close to each other, as this minimizes the time the printer spends moving between parts.
+![](../images/Placed_Part.png "Placed_Part")
+![](../images/Edit_Part.png "Safety Glasses")
 ### 4. Check the process
-The process controls how accurately and quickly your part will be printed. You can also adjust the infill percentage, which determines how much plastic is used to make the structure of your part. Higher infill results in a more solid part, but uses up more material and takes longer to print. Process also lets you add automatically generated supports and rafts. The raft is a flat layer of material laid down at the base of the part to allow for a level building surface. The supports will be automatically placed under any overhangs and unsupported strutctures. **When using the raft, it is highly recommended to use supports and place your part some distance above the base of the printer, which will automatically generate supports between the raft and the part.** This is because it is very difficult to separate a part from the raft, but easy to seperate a part from its supports.
+The process controls how accurately and quickly your part will be printed. You can also adjust the infill percentage, which determines how much plastic is used to make the structure of your part. Higher infill results in a more solid part, but uses up more material and takes longer to print. Process also lets you add automatically generated supports and rafts. The raft is a flat layer of material laid down at the base of the part to allow for a level building surface. The supports will be automatically placed under any overhangs and unsupported strutctures. **When using the raft, it is highly recommended to use supports and place your part some distance above the base of the printer, which will automatically generate supports between the raft and the part.** This is because it is very difficult to separate a part from the raft, but easy to separate a part from its supports.
+![](../images/Process.png "Placed_Part")
 ### 5. Preview the print
 This lets you see what will actually be printed by the printer. Everything is color coded based on how fast the printer can print it. The auto generated supports and raft are also shown here. Once you are satisfied with how everything appears in the preview, you can move on to printing.
+![](../images/Print_Preview.png "Placed_Part")
 ### 6. Begin the print
 1. Make sure the printer is turned on. There is an on/off switch at the back of the printer.
 2. Check to see if the printer has enough filament. If the printer is low on filament, load a new spool into the printer.
