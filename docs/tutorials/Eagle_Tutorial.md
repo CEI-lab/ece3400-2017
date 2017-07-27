@@ -46,13 +46,13 @@ A more indirect way to connect two parts is to draw a small net segment on each 
 ![](../images/Wiring_11.png "Both nets are highlighted, indicating that they are connected")
 
 ### Groups
-If you want to move manipulate multiple parts at once, then you should use the group tool. Once you select the group tool, drag a box over or ctrl+click the parts you want to select. After you have selected all the parts you want, select the tool you want to use on the group, such as move, copy or delete. Then right click on empty space and select "Tool:Group," where "Tool" is the tool you selcted in the previous step, such as move or copy.
+If you want to move manipulate multiple parts at once, then you should use the group tool. Once you select the group tool, drag a box over or ctrl+click the parts you want to select. After you have selected all the parts you want, select the tool you want to use on the group, such as move, copy, or delete. Then right click on empty space and select "Tool:Group," where "Tool" is the tool you selcted in the previous step, such as move or copy.
 ### Useful Tools
 ![](../images/taskbar.png "Useful tools labeled")
 #### Move
 Used to move parts around. To move a part, select move, then select the part, then click where you want to move the part to.
 #### Name
-This tool allows you to change the name of a part. This is great for increasing your schematic's readablity, since you are able to rename LED0 to POWER_LED or ERROR_LED. This also changes the silkscreen on the PCB so you will still be able to see the name of the part appear on the PCB when it is printed.
+This tool allows you to change the name of a part. This is great for increasing your schematic's readability, since you are able to rename LED0 to POWER_LED or ERROR_LED. This also changes the silkscreen on the PCB so you will still be able to see the name of the part appear on the PCB when it is printed.
 #### Value
 The value tool allows you to change the value of a part. Many parts in Eagle don't explicitly tell you what their value is, so you have to set it with the value tool. Be sure to give every resistor, capacitor, and inductor a value, such as 10k for a 10k&Omega; resistor.
 #### Label
