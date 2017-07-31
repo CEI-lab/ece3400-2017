@@ -3,15 +3,22 @@
 3D printing is good for quickly making 3 dimensional objects out of plastic. While slower and less accurate than the laser cutter, the 3D printer allows you to design and make almost any object that fits inside the printing space. The printer works by laying down layers of plastic on top of each other, which makes the part stronger along its vertical axis.
 ## Preparing Your Files
 ### 1. Make sure it is physically possible to 3D print your parts
-3D printers often have physical limits on the size of the part they can print and the accuracy with which they can print. The limits for the ZYYX+ printer are:
+3D printers often have physical limits on the size of the part they can print and the accuracy with which they can print. The limits for the 3D printers used for the class are:
+
+XZZY+
 * Maximum dimensions: 265x225x195 mm
 * Accuracy: 50&mu;m layer thickness, 11&mu;m XY positioning
+
+UP Plus 2
+* Maximum dimensions: 140x140x135 mm
+* Accuracy: 0.15m layer thickness, 0.15mm XY positioning
 
 Also be aware that 3D printers print in layers. This means that any overhangs may need support material during printing. A general rule is that overhangs  with slopes of 45&deg; or higher can be printed without supports.
 
 ### 2. Export your part as a .stl file
 Solidworks and Autodesk both allow you to export your designs as .stl files.
 ## Printing Your Part
+## XZZY+
 ### 1. Run the Simplify3D program
 This program lets you preview and layout your prints.
 ![](../images/Simplify3d.png "Safety Glasses")
@@ -48,3 +55,41 @@ Pull back the plastic tube that covers the filament as it enters the extruder an
 When the Simplify3D software cannot connect to the printer, the error is usually due either the printer being physically disconnected from the computer or the computer communicating through the wrong COM port. For the first case, simply plug the printer into the computer using a USB A to B cable. For the other case, select the machine control panel in the Tools menu in Simplify3D program. From here, you can see the COM port being used to connect to the printer and a communication log between the printer and computer. Select the COM port the printer is connected to and click connect to connect to it. If you do not know which COM port the printer is on, try to connect to each of the ports listed. When a connection is successful, there will be several "READ:" and " SENT:" messages in the log, otherwise it will print "failed to connect."
 ### Aborting print
 To abort a print, you can either hit "EMERGENCY STOP" on the machine control panel under Tools in the Simplify3D program or pause the print from the 3D printer itself. To pause the print, press the center button on the printer, then use the down arrow to select pause, then press the center button again to stop the print.
+## UP Plus 2
+### 1. Run the UPStudio program
+This program lets you layout your prints
+
+![](../images/UPStudio.png "Placed_Part")
+### 2. Import your parts to be printed
+This can be done by clicking the large plus sign on the left of the screen. The UPStudio plus allows you to import images as well as some basic preset shapes.
+
+![](../images/Part_View.png "Placed_Part")
+### 3. Arrange the parts on the print bed
+UPStudio has a radial menu in the top right that allows you to move and modify parts. You can translate, scale, and rotate, as well as Auto Place when you have given your part the orientation you want. Try to arrange your parts in a way that makes them easiest to print.
+
+![](../images/Part_Movement.png "Placed_Part")
+### 4. Check the print settings by clicking print
+This beings up a menu that allows you to configure the layer thickness, infill and print quality. Higher infill makes a part stronger, but uses more material and takes longer to print. To speed up printing, you can also lower the quality and increase the layer thickness. This will result in a generally lower quality part, but it will print very quickly.
+
+![](../images/UP_Printview.png "Placed_Part")
+### 5. Begin the print
+1. Turn on the printer. The on/off switch is on the back of the printer, next to the power cables.
+2. Check to see if the printer has enough filament. If the printer is low on filament, load a new spool into the printer.
+3. Connect a computer with UPStudio loaded onto it to the printer via USB.
+4. Make sure that the base plate for the printer is secured in place. There are 8 metal hooks that hold the perfboard baseplate onto the base of the printer. The printer's base heats up during printing, so wait for the base to cool off if a print has just been completed
+5. Initialize the printer. Click the initialize button on the right side of the UPStudio interface. The printer should beep, move the nozzle and baseplate, then beep again once it is completed.
+6. Click print under the print menu in UPStudio. This will begin the printing process. Do not leave the printer unattended for extended periods of time once printing starts.
+
+![](../images/UP_Printing.png "Placed_Part")
+### 6. Removing your print
+It is best to move the baseplate from the base of the printer before attempting to remove any printed parts. Be sure to wait for 5-10 minutes after printing has ended before trying to remove the baseplate, as it is heated during printing. To remove the baseplate, simply pull back each of the metal hooks holding it to the printer's base. Once the base is removed, use a spatula to get between the baseplate and part. Be careful not to damage the baseplate in the process.
+## Common Problems
+![](../images/UP_Maintenance.png "Placed_Part")
+### Reloading Filament
+#### Loading
+To load a new spool of filament in, first place the new spool on the spool holder on the side of the printer. Feed the filament through plastic notch above the spool holder, then through the clear plastic tube. Once you have done this, open UPStudio and click on the maintenance tab and select "Extrude". The printer will beep once you have done this to indicate it is warming up. Place the filament through the hole in the top of the printer. Once the printer beeps a second time, it will begin feeding filament through the nozzle. Once you see filament begin coming out of the nozzle, you can stop the extrude process. The new spool of filament has now been loaded and is ready for printing.
+#### Unloading
+To unload filament from the 3D printer, run UPStudio and select "Withdraw" from the maintenance tab. The printer will beep once to indicate it is warming up. Once the printer beeps a second time, gently pull on the filament above the printer head. The filament should start coming out of the printer head. Once all the filament is out, the printer will beep a third time and stop the withdrawing process. From here you can feed the remaining filament out of the plastic tube between the spool and printer head, then remove the spool.
+### Aborting print
+To pause the print, press the pause button in UPStudio. Pausing allows you to restart the print later. You can completely abort the print by pressing stop, as this does not give you the option to resume later.
+![](../images/UP_Printing.png "Placed_Part")
