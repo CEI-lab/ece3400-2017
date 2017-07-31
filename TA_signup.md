@@ -1,6 +1,10 @@
 # TA sign-up sheets
 ## ECE 3400, Fall 2017
 
+Expectation of workload, as per university policy:
+
+* Undergraduate and MEng TAs will spend on average 8 hrs per week and max. 10 hours in a single week.
+* Graduate TAs will spend on average 15 hrs per week and max. 20 hours in a single week.
 
 All TA's must sign up to attend one of the weekly lab hours - we need two TA's for every lab:
 
