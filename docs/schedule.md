@@ -4,10 +4,11 @@ Also, add:
 - How to make good websites, online communication
 - How to evaluate the performance of your robot
 !!
-
-- Aug 28th, Mon: Introduction
-- Aug 30th, Wed: IPS fundamentals
-- Sep 1st, Fri: Working with Arduinos
+- Aug 23rd, Wed: Introduction
+- Aug 25th, Fri: Working with Arduinos
+- Aug 28th, Mon: IPS fundamentals
+- Aug 30th, Wed: 
+- Sep 1st, Fri: 
 - Sep 4th, Mon: Embedded Systems (Joe Skovira?)
 - Sep 6th, Wed: Embedded Control 
 - Sep 8th, Fri: Effective team work/time management
