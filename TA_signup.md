@@ -33,3 +33,17 @@ Every TA must also organize and teach one of the lectures - you decide whether y
 * Wireless, Monday lecture(?) (Ryan)
 * Sensors and Filters, Friday lecture (Chris)
 * etc.
+
+### List of TA's
+
+* Grad: Ryan O'Hern (rmo26)
+* MEng: Adarsh Jayakumar (aj373)
+* MEng: Justin Selig (jss459)
+* MEng: Curran Sinha (cs886)
+* Ugrad: Claire Chen (clc288)
+* Ugrad: Christopher Fedors cjf83)
+* Ugrad: Daniel Kim (dsk252)
+* Ugrad: Leah Forrest (lmf232)
+* Ugrad: Vaidehi Garg (vg254)
+* Ugrad: 
+* Ugrad sponsored by McCormick: 
