@@ -17,11 +17,11 @@ All TA's must sign up to attend one of the weekly lab hours - we need two TA's f
 They must also sign up to grade at least one of the lab's (website), and one of the milestones:
 
 * Lab 1 (Chris)
-* Lab 2 (Ryan)
+* Lab 2 (Ryan, Adarsh)
 * Lab 3 (Claire)
 * Lab 4 (name)
 * Milestone 1 (Claire)
-* Milestone 2 (Ryan)
+* Milestone 2 (Ryan, Adarsh)
 * Milestone 3 (Chris)
 * Milestone 4 (name)
 
@@ -32,6 +32,7 @@ Every TA must also organize and teach one of the lectures - you decide whether y
 * FPGA, Friday lecture (Claire)
 * Wireless, Monday lecture (Ryan)
 * Sensors and Filters, Friday lecture (Chris)
+* Feedback Control, Wednesday lecture (Adarsh)
 * etc.
 
 ### List of TA's
