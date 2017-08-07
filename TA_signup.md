@@ -10,7 +10,7 @@ All TA's must sign up to attend one of the weekly lab hours - we need two TA's f
 
 * Monday 1.25-4.25pm (Chris)
 * Monday 7.30-10pm (Ryan)(Claire)
-* Wednesday 7.30-10pm (Ryan)(Chris)
+* Wednesday 7.30-10pm (Chris)
 * Thursday 7.30-10pm (Justin)(Vaidehi)
 * Friday 1.25-4.25pm
 
