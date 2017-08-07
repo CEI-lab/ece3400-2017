@@ -30,7 +30,7 @@ Everyone needs to help grade the final website in December, and everyone should 
 Every TA must also organize and teach one of the lectures - you decide whether you prefer a Monday/Wednesday fundamentals, or a Friday lecture which will be more practically oriented. Please refer to the class schedule on the main page to pick a topic.
 
 * FPGA, Friday lecture (Claire)
-* Wireless, Monday lecture(?) (Ryan)
+* Wireless, Monday lecture (Ryan)
 * Sensors and Filters, Friday lecture (Chris)
 * etc.
 
@@ -45,5 +45,5 @@ Every TA must also organize and teach one of the lectures - you decide whether y
 * Ugrad: Daniel Kim (dsk252)
 * Ugrad: Leah Forrest (lmf232)
 * Ugrad: Vaidehi Garg (vg254)
-* Ugrad: 
+* Ugrad: Vidya Ramesh (vr236)
 * Ugrad sponsored by McCormick: 
