@@ -56,7 +56,7 @@ Week | Topic | Week | Topic
 7 | Prototyping ME, [_Milestone 2_](./Grading/Milestone_score.md) | 15 | IPS Ethics, Final Competition
 8 | Wireless communication | 16 | -
 
-See detailed schedule and deadlines [here](./schedule.md.)
+See detailed schedule and deadlines [here](schedule.md)
 
 # Tutorials and Helpful links
 
