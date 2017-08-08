@@ -19,20 +19,20 @@ Week 3:
 Week 4:
 * *Lab 2 Analog circuitry and FFT*
 * Sep 11th, Mon: Digital filters.
-* Sep 13th, Wed: Embedded Systems (Joe Skovira?)
+* Sep 13th, Wed: Embedded Systems (Joe Skovira)
 * Sep 15th, Fri: Embedded Control 
 
 Week 5:
 * *Work on milestone 1*
 * Sep 18th, Mon: Actuators
-* Sep 20th, Wed: Feedback Control
+* Sep 20th, Wed: Feedback Control (Adarsh Jayakumar)
 * Sep 22nd, Fri: How servos work. Deadline @8am: The websites will be graded for contents on lab 2 and milestone 1.
 
 Week 6:
 * *Work on milestone 2*
 * Sep 25th, Mon: FPGA (Bruce Land?)
 * Sep 27th, Wed: FPGA
-* Sep 29th, Fri: FPGA/VGA (Claire Chen?). Deadline @8am: The websites will be graded for contents on milestone 2.
+* Sep 29th, Fri: FPGA/VGA (Claire Chen). Deadline @8am: The websites will be graded for contents on milestone 2.
 * Sep 29th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
 
 Week 7:
@@ -48,9 +48,9 @@ Week 8:
 
 Week 9:
 * *Lab 4 Wireless communication*
-* Oct 16th, Mon: Board layout
-* Oct 18th, Wed: IPS wiring
-* Oct 20th, Fri: Soldering and EMC concerns. 
+* Oct 16th, Mon: IPS wiring, soldering
+* Oct 18th, Wed: EMC concerns. 
+* Oct 20th, Fri: Board layout (Leah Forrest)
 
 Week 10:
 * *Work on milestone 3*
