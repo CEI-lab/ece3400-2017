@@ -22,7 +22,7 @@ All information is gathered on this page; no additional textbooks are required.
 
 ## Semester Project
 
-In teams of 6-8 people, you will design, fabricate, and program a robot to explore a maze. The robot microcontroller will be based on an Arduino Uno; the default propulsion method will be differential drive with continuous rotation servos. The robot will traverse the maze by following black lines on a white floor; it must also be able to detect walls, an audible start signal, and treasures emitting infrared light at different frequencies. The robot must continuously transmit its progress wirelessly to a base station (also based on Arduino Uno). This base station will communicate with an FPGA that in turn must drive a screen through a VGA interface. Points will be awarded for speed, accuracy, and innovative design methods. The entire robot can cost no more than $100; this chart shows how the price is calculated.
+In teams of 5-7 people, you will design, fabricate, and program a robot to explore a maze. The robot microcontroller will be based on an Arduino Uno; the default propulsion method will be differential drive with continuous rotation servos. The robot will traverse the maze by following black lines on a white floor; it must also be able to detect walls, an audible start signal, and treasures emitting infrared light at different frequencies. The robot must continuously transmit its progress wirelessly to a base station (also based on Arduino Uno). This base station will communicate with an FPGA that in turn must drive a screen through a VGA interface. Points will be awarded for speed, accuracy, and innovative design methods. The entire robot can cost no more than $100; this [chart](Cost.md) shows how the price is calculated.
 
 All designs must be documented throughout the semester on a group website. The goal is for these websites to be used as a source of reference for future classes. Accordingly, they will be graded with respect to thoroughness and clarity. To give teams a competitive advantage, we ask everyone to keep explicit code and circuit designs private until the end of the semester, however.
 
@@ -30,9 +30,9 @@ All designs must be documented throughout the semester on a group website. The g
 
 ## Team Composition
 
-The teams will be composed by the TA's and lecturer without exception.
+The teams will be composed by the TA's and lecturer *without exception*.
 
-Teams will be dependent on lab-time sign-up, student skillsets, and personalities. Before midnight August 28th please fill out these Google forms such that the teams can be formed immediately.
+Teams will be dependent on lab-time sign-up, student skillsets, and personalities. Before midnight August 23rd please fill out these [Google forms](https://goo.gl/forms/G54ZCPmXbgT65QS32) such that the teams can be formed immediately.
 
 All labs are divided into two sub-labs. To ensure a good mix, it is required that you keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D.  
 
