@@ -52,12 +52,12 @@ Please be aware that the following schedule is tentative and may change througho
 Week | Topic | Week | Topic
 -----|-------|------|-------
 1 | Intro, IPS fundamentals | 8 | Prototyping EE [_LAB 4_](./lab4.md)
-2 | Embedded Control, team work/time management, [_LAB 1_](./lab1.md) | 9 | Algorithms, team assessment
-3 | Sensors and filters, [_Milestone 1_](./Grading/Milestone_score.md) | 10 | Algorithms, [_Milestone 4_](./Grading/Milestone_score.md)
-4 | Actuators and control [_LAB 2_](./lab2.md) | 11 | Prototyping ME
-5 | FPGA, team assessment, [_Milestone 2_](./Grading/Milestone_score.md)  | 12 | Power 
+2 | Embedded Control, team work/time management, [_LAB 1_](./lab1.md) | 9 | Algorithms, team assessment, [_Milestone 3_](./Grading/Milestone_score.md)
+3 | Sensors and filters | 10 | Algorithms 
+4 | Actuators and control [_LAB 2_](./lab2.md) | 11 | Prototyping ME, [_Milestone 4_](./Grading/Milestone_score.md)
+5 | FPGA, team assessment, [_Milestone 1_](./Grading/Milestone_score.md)  | 12 | Power 
 6 | FPGA, VGA [_LAB 3_](./lab3.md) | 13 | Debugging IPS, team assessment
-7 | Wireless communication [_Milestone 3_](./Grading/Milestone_score.md) | 14 | IPS Ethics, Final Competition
+7 | Wireless communication [_Milestone 2_](./Grading/Milestone_score.md) | 14 | IPS Ethics, Final Competition
 
 See detailed schedule [here](./schedule.md.)
 
