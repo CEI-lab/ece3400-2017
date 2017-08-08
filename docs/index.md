@@ -1,8 +1,8 @@
 # ECE 3400 Intelligent Physical Systems
 
 * **Cornell, Fall 2017**
-* **Class hours:** Monday, Wednesday, and Friday  Kimbal Hall B11
-* **Lab hours:** Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm, Phillips Hall 427
+* **Class hours:** Monday, Wednesday, and Friday in Kimbal Hall B11
+* **Lab hours:** Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427
 * **Instructor:** Kirstin Petersen (khp37)
 * **TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Adarsh Jayakumar (aj373), Justin Selig (jss459), and Curran Sinha (cs886).
 * **Piazza:** The main page is located [here](piazza.com/cornell/fall2017/ece3400/home), please sign up [here](piazza.com/cornell/fall2017/ece3400)
