@@ -7,6 +7,7 @@
 **TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Adarsh Jayakumar (aj373)
 
 **Piazza page:** [Piazza](piazza.com/cornell/fall2017/ece3400/home)
+
 Sign up for the Piazza [here](piazza.com/cornell/fall2017/ece3400)
 
 ## Course Description
