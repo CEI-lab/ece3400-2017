@@ -25,15 +25,17 @@ They must also sign up to grade at least one of the lab's (website), and one of 
 * Milestone 3 (Chris,Leah)
 * Milestone 4 (name)
 
-Everyone needs to help grade the final website in December, and everyone should be present during the final competition December 1st.
+Except for Ryan and Christopher, who will man the Skunkworks lab instead. 
+
+Everyone needs to help give th final grades between December 1st and 6th, and everyone should be present during the final competition December 1st.
 
 Every TA must also organize and teach one of the lectures - you decide whether you prefer a Monday/Wednesday fundamentals, or a Friday lecture which will be more practically oriented. Please refer to the class schedule on the main page to pick a topic.
 
 * FPGA, Friday lecture (Claire)
 * Wireless, Monday lecture (Ryan)
-* Sensors and Filters, Friday lecture (Chris)
+* 3D printing tutorial, Friday lecture (Chris)
 * Feedback Control, Wednesday lecture (Adarsh)
-* Board layout, Friday (?) lecture (Leah)
+* Board layout, Friday lecture (Leah)
 
 ### List of TA's
 
