@@ -106,5 +106,5 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 **Related to debugging**
 
 - [How to build a simple Arduino oscilloscope](https://www.build-electronic-circuits.com/arduino-oscilloscope/)
-- [Simple Matlab program to read in data from the serial port]
+- [Reading and writing to the serial port with Matlab](https://www.mathworks.com/help/matlab/matlab_external/writing-and-reading-data.html)
 - [This folder](docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
