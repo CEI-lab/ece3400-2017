@@ -62,5 +62,5 @@ Remember, that to signify that your robot is finished exploring the maze, it mus
 
 Up to 20 points will be added to your semester score: 
 * The accumulated score from the first two rounds will be scaled to between 0 and 15 points. 
-* The winning team will be scored an extra 5 points. 
-* The second and third runner up will be scored an extra 3 points. 
+* The winning team will be given an extra 5 points. 
+* The second and third runner up will be given an extra 3 points. 
