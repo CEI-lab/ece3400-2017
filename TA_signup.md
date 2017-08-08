@@ -10,7 +10,7 @@ All TA's must sign up to attend one of the weekly lab hours - we need two TA's f
 
 * Monday 1.25-4.25pm (Chris)
 * Monday 7.30-10pm (Ryan, Claire)
-* Wednesday 7.30-10pm (Chris, Adarsh)
+* Wednesday 7.30-10pm (Adarsh)
 * Thursday 7.30-10pm (Justin, Vaidehi)
 * Friday 1.25-4.25pm
 
@@ -47,4 +47,4 @@ Every TA must also organize and teach one of the lectures - you decide whether y
 * Ugrad: Leah Forrest (lmf232)
 * Ugrad: Vaidehi Garg (vg254)
 * Ugrad: Vidya Ramesh (vr236)
-* Ugrad sponsored by McCormick: 
+* Ugrad sponsored by McCormick:
