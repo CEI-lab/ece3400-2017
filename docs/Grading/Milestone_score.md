@@ -9,7 +9,8 @@ _Milestone 1 will be graded as follows:_
 
 _Milestone 2 will be graded as follows:_
 
-* 2.5 points (total of 10) per different treasure that can be detected and classified
+* 2.5 points (total of 7.5) per different treasure that can be detected and classified
+* 2.5 points to autonomously detect walls
 
 _Milestone 3 will be graded as follows:_
 
