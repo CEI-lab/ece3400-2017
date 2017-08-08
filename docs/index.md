@@ -3,8 +3,7 @@
 * **Cornell, Fall 2017, room: PH 414**
 * **Instructor:** Kirstin Petersen (khp37)
 * **TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Adarsh Jayakumar (aj373), Justin Selig (jss459), and Curran Sinha (cs886).
-* **Piazza page:** [Piazza](piazza.com/cornell/fall2017/ece3400/home)
-* Sign up for the Piazza [here](piazza.com/cornell/fall2017/ece3400)
+* **Piazza:** The main page is located [here](piazza.com/cornell/fall2017/ece3400/home), sign up [here](piazza.com/cornell/fall2017/ece3400)
 
 ## Course Description
 
