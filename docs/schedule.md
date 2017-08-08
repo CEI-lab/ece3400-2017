@@ -1,11 +1,10 @@
 # Schedule for ECE 3400 Fall 2017
 
-Also, add: 
-- Aug 23rd, Wed: Introduction
+- Aug 23rd, Wednesday: Introduction
 - *Aug 23rd, midnight Wednesday: Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32) to enable team composition.*
-- Aug 25th, Fri: Working with Arduinos
-- *Aug 26th, Saturday @8am: Submit [team contract](./Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.*
-- Aug 28th, Mon: IPS fundamentals
+- Aug 25th, Friday: Working with Arduinos
+- Aug 28th, Monday: IPS fundamentals
+- *Aug 28th, Monday @8am: Submit [team contract](./Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.*
 - Aug 30th, Wed: Effective team work/time management
 - Sep 1st, Fri: How to make good websites, online communication
 - Sep 4th, Mon: Embedded Systems (Joe Skovira?)
