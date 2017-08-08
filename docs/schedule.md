@@ -12,15 +12,15 @@ Week 2:
 
 Week 3:
 * *Work on milestone 1*
-* Sep 4th, Mon: Embedded Systems (Joe Skovira?)
-* Sep 6th, Wed: Embedded Control 
-* Sep 8th, Fri: Embedded control. Deadline @8am: The websites will be graded for contents on lab 1.
+* Sep 4th, Mon: Labor day
+* Sep 6th, Wed: Sensors and filters 
+* Sep 8th, Fri: Sensors and filters. Deadline @8am: The websites will be graded for contents on lab 1.
 
 Week 4:
 * *Lab 2 Analog circuitry and FFT*
-* Sep 11th, Mon: Sensors and filters
-* Sep 13th, Wed: Sensors and filters
-* Sep 15th, Fri: Sensors and filters. 
+* Sep 11th, Mon: Embedded Systems (Joe Skovira?)
+* Sep 13th, Wed: Embedded Control 
+* Sep 15th, Fri: Embedded Control 
 
 Week 5:
 * *Work on milestone 1*
