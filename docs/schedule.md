@@ -6,11 +6,11 @@ Also, add:
 - Aug 23rd, Wed: Introduction
 - Aug 25th, Fri: Working with Arduinos
 - Aug 28th, Mon: IPS fundamentals
-- Aug 30th, Wed: 
+- Aug 30th, Wed: Effective team work/time management
 - Sep 1st, Fri: How to make good websites, online communication
 - Sep 4th, Mon: Embedded Systems (Joe Skovira?)
 - Sep 6th, Wed: Embedded Control 
-- Sep 8th, Fri: Effective team work/time management
+- Sep 8th, Fri: Milestone 1 demonstration
 - Sep 11th, Mon: Sensors and filters
 - Sep 13th, Wed: Sensors and filters
 - Sep 15th, Fri: Sensors and filters (Christopher Fedors?)
