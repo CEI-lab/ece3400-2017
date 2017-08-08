@@ -39,7 +39,7 @@ Week 7:
 * *Lab 3 FPGA*
 * Oct 2nd, Mon: Mechanical prototyping
 * Oct 4th, Wed: Mechanical prototyping 
-* Oct 6th, Fri: Tutorial on 3D printers, laser cutters, and design strategies. If you want to use the 3D printer in the lab you will need to attend this lecture!
+* Oct 6th, Fri: Tutorial on 3D printers, laser cutters, and design strategies. If you want to use the 3D printer in the lab you will need to attend this lecture! (Christopher Fedors)
 
 Week 8:
 * Oct 9th, Mon: Fall break
