@@ -2,6 +2,7 @@
 
 Also, add: 
 - Aug 23rd, Wed: Introduction
+- *Aug 24th, Thursday @8am: Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32) to enable team composition.*
 - Aug 25th, Fri: Working with Arduinos
 - *Aug 26th, Saturday @8am: Submit [team contract](./Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.*
 - Aug 28th, Mon: IPS fundamentals
