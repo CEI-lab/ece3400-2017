@@ -34,5 +34,5 @@ If your part can be composed by many sheets of material (instead of curved surfa
 
 * It can be very hard to accurate align your pieces in the few seconds you have while the glue is setting. It is therefore very helpful to include guiding features into all of your pieces ensuring that they are locked into place. 
 
-!(Bonding sheets)[./images/Acrylic_support.png]
+![Bonding sheets](./images/Acrylic_support.png)
 
