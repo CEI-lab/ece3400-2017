@@ -1,6 +1,6 @@
 # ECE3400 Fall 2017
 ## STL-files briefly explained
-*By Kirstin Petersen, August 9th 2017
+*By Kirstin Petersen, August 9th 2017*
 
 A STL file describe the surface geometry of a 3D object. It does this using a series of triangles described via the unit normal and vertices in a cartesian coordinate system. STL-coordinates are always positive numbers, there is no scale information and the units are arbitrary. When the STL file is used for 3D printing, it must represent an enclosed 3D volume, that is not self-intersecting, and where every edge is part of exactly two triangles. When it is used simply for illustrative purposes, these properties do not need to be enforced. STL files can be saved in both ASCII and binary representations - the latter is more compact, and so more common. 
 
