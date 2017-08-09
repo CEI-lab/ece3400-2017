@@ -14,7 +14,7 @@
 ### 1. Make sure it is physically possible to 3D print your parts
 We have two types of 3D printers available for the class:
 
-![3Dprinters](../images/3Dprinters.png)
+![3Dprinters](./images/3Dprinters.png)
 
 [ZYYX+](http://www.zyyx3dprinter.com/store/)
 * Located in PH414, used by instructors.
@@ -33,20 +33,20 @@ Solidworks and Autodesk both allow you to save/export your designs as .stl files
 ## XZZY+
 ### 1. Run the Simplify3D program
 This program lets you preview and layout your prints.
-![](../images/Simplify3d.png "Safety Glasses")
+![](./images/Simplify3d.png "Safety Glasses")
 ### 2. Import the part/parts to be printed
 You can import multiple parts at once by ctrl-clicking.
-![](../images/Import.png "Safety Glasses")
+![](./images/Import.png "Safety Glasses")
 ### 3. Arrange the parts for optimal speed/material usage
 Make sure the parts you are printing have the orientation you want. By double clicking on a part, you can change its displacement and angle in any direction. For prints with multiple parts, try placing all the parts close to each other, as this minimizes the time the printer spends moving between parts.
-![](../images/Placed_Part.png "Placed_Part")
-![](../images/Edit_Part.png "Safety Glasses")
+![](./images/Placed_Part.png "Placed_Part")
+![](./images/Edit_Part.png "Safety Glasses")
 ### 4. Check the process
 The process controls how quickly and accurately your part will be printed. You can also adjust the infill percentage, which determines how much plastic is used to make the structure of your part. Process also lets you add automatically generate supports and rafts. The raft is a flat layer of material laid down at the base of the part to allow for a level building surface. The supports will be automatically placed under any overhangs and unsupported strutctures. **When using the raft, it is highly recommended to use supports and place your part some distance above the base of the printer, which will automatically generate supports between the raft and the part.** This is because it is very difficult to separate a part from the raft, but easy to separate a part from its supports.
-![](../images/Process.png "Placed_Part")
+![](./images/Process.png "Placed_Part")
 ### 5. Preview the print
 This lets you see what will actually be printed by the printer. Everything is color coded based on how fast the printer can print it. The auto generated supports and raft are also shown here. Once you are satisfied with how everything appears in the preview, you can move on to printing.
-![](../images/Print_Preview.png "Placed_Part")
+![](./images/Print_Preview.png "Placed_Part")
 ### 6. Begin the print
 1. Make sure the printer is turned on. There is an on/off switch at the back of the printer.
 2. Check to see if the printer has enough filament. If the printer is low on filament, load a new spool into the printer.
@@ -72,21 +72,21 @@ To abort a print, you can either hit "EMERGENCY STOP" on the machine control pan
 ### 1. Run the UPStudio program
 This program lets you layout your prints.
 
-![](../images/UPStudio.png "Placed_Part")
+![](./images/UPStudio.png "Placed_Part")
 ### 2. Import your parts to be printed
 This can be done by clicking the large plus sign on the left of the screen. The UPStudio plus allows you to import images as well as some basic preset shapes.
 
-![](../images/Part_View.png "Placed_Part")
+![](./images/Part_View.png "Placed_Part")
 
 ### 3. Arrange the parts on the print bed
 UPStudio has a radial menu in the top right that allows you to move and modify parts. You can translate, scale, and rotate, as well as Auto Place when you have given your part the orientation you want. Try to arrange your parts in a way that makes them easiest to print.
 
-![](../images/Part_Movement.png "Placed_Part")
+![](./images/Part_Movement.png "Placed_Part")
 
 ### 4. Check the print settings by clicking print
 This beings up a menu that allows you to configure the layer thickness, infill and print quality. Higher infill makes a part stronger, but uses more material and takes longer to print. To speed up printing, you can also lower the quality and increase the layer thickness. This will result in a generally lower quality part, but it will print very quickly.
 
-![](../images/UP_Printview.png "Placed_Part")
+![](./images/UP_Printview.png "Placed_Part")
 ### 5. Begin the print
 1. Turn on the printer. The on/off switch is on the back of the printer, next to the power cables.
 2. Check to see if the printer has enough filament. If the printer is low on filament, load a new spool into the printer.
@@ -95,14 +95,14 @@ This beings up a menu that allows you to configure the layer thickness, infill a
 5. Initialize the printer. Click the initialize button on the right side of the UPStudio interface. The printer should beep, move the nozzle and baseplate, then beep again once it is completed.
 6. Click print under the print menu in UPStudio. This will begin the printing process. **Do not leave the printer unattended for extended periods of time once printing starts. If you cannot finish the print in the course of the lab-hours be sure to check with a TA if they have time to let you in to pick up your part when it has finished. Otherwise, don't start it!**
 
-![](../images/UP_Printing.png "Placed_Part")
+![](./images/UP_Printing.png "Placed_Part")
 
 ### 6. Removing your print
 It is best to move the baseplate from the base of the printer before attempting to remove any printed parts. Be sure to wait for 5-10 minutes after printing has ended before trying to remove the baseplate, as it is heated during printing. To remove the baseplate, simply pull back each of the metal hooks holding it to the printer's base. Once the base is removed, use a spatula to get between the baseplate and part. Be careful not to damage the baseplate in the process.
 
 ## Common Problems
 
-![](../images/UP_Maintenance.png "Placed_Part")
+![](./images/UP_Maintenance.png "Placed_Part")
 
 ### Reloading Filament
 #### Loading
@@ -111,5 +111,5 @@ To load a new spool of filament in, first place the new spool on the spool holde
 To unload filament from the 3D printer, run UPStudio and select "Withdraw" from the maintenance tab. The printer will beep once to indicate it is warming up. Once the printer beeps a second time, gently pull on the filament above the printer head. The filament should start coming out of the printer head. Once all the filament is out, the printer will beep a third time and stop the withdrawing process. From here you can feed the remaining filament out of the plastic tube between the spool and printer head, then remove the spool.
 ### Aborting print
 To pause the print, press the pause button in UPStudio. Pausing allows you to restart the print later. You can completely abort the print by pressing stop, as this does not give you the option to resume later.
-![](../images/UP_Printing.png "Placed_Part")
+![](./images/UP_Printing.png "Placed_Part")
 
