@@ -24,7 +24,7 @@ endfacet
 endsolid name
 ```
 
-The tringle described above, could for example be part of a square as illustrated in the figure below:
+The triangle described in the file above, could for example be part of a square as illustrated in the figure below:
 
 ![STL-file-pic](../images/STL-files.png)
 
