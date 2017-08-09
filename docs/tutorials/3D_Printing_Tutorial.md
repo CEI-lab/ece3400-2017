@@ -7,7 +7,7 @@
 * 3D printers often have physical limits on the size of the part they can print, and the accuracy with which they can print. Be sure to check the specs of the printer before you build your part.
 * Generally, it is much faster to print large flat parts, than thin tall parts.
 * The printer works by laying down layers of plastic on top of each other. Since the bond between layers is not as strong as the continuously extruded filament within the layer, the parts are always stronger along the horizontal axis. It is worth keeping this fact in mind when you decide on the orientation in which your part should be printed. 
-* Any overhangs in your piece may need support material during printing. Support can leave the surface of the part less smooth. A general rule is that overhangs with slopes of 45&deg or higher can be printed without supports. 
+* Any overhangs in your piece may need support material during printing. Support can leave the surface of the part less smooth. A general rule is that overhangs with slopes of 45&deg; or higher can be printed without supports. 
 * The control software often lets you specify the infill rate of your part. Higher infill results in a more solid part, but uses up more material and takes longer to print. Many printers overextrude filament, and an infill higher than 50% can cause severe problems. Typically 20-30% will result in a very rigid part. 
 
 ## Preparing Your Files
