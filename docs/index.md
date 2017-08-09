@@ -96,6 +96,7 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 - A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
 - [Tutorials on Solid Works]
 - [Tutorials on Autocad](./tutorials/AutoCAD_Tutorial.md)
+- [Tinkercad](https://www.tinkercad.com/) is a nice free software that many of students have used successfully
 - [How to use the XYYZ and UPplus 2 3D printers](./tutorials/3D_Printing_Tutorial.md)
 - [How to use the Epilog laser cutter](./tutorials/Laser_Cutting_Tutorial.md)
 - [Tutorials on Eagle](./tutorials/Eagle_Tutorial.md)
