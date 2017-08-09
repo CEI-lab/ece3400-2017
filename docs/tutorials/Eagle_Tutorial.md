@@ -72,12 +72,11 @@ Rotates an object about its midpoint. Different options for rotation are present
 ### ERC Check
 Once you have completed you schematic, it is wise to run an ERC check, which checks for any errors in the schematic. If you click on an error, Eagle will highlight where the error is on the schematic and allow you to process, approve or clear the errors. Processing an error means that you have corrected the error, but still want to check for it on future ERC checks. Approving an error means the error isn't an error at all, and removes the error from appearing on any future ERC checks. Clearing the errors is the same thing as processing them, except all the errors are removed from the current list, but will still appear on future ERC checks if they have not been corrected. Be aware that this check is not completely comprehensive, so you should still check over your schematic carefully even if it does pass ERC.
 
+![ERC check with 3 warnings](../images/ERC_Check.png)
+
 ## Adding More Components
 Sometimes the part that you want to use is not in Eagle's default library. Luckily, you can download extra libraries to supplement Eagle's standard library. Some manufactures and electronics companies have their own Eagle libraries that you can download. To use one of these libraries, download the library and move the .lbr files into Eagle's lbr directory. Once you have done this, open the Eagle control panel. From here select Libraries, then open the lbr file. This should display all the libraries currently used by Eagle as well as all the libraries you just downloaded. Any library with a gray circle next to it is inactive, and will not be used. All libraries with green circles next to them are active will be used. To activate a library, right click on it and select "Use." You may have to restart Eagle in order for the libraries to start appearing in the component list. The [Sparkfun](https://github.com/sparkfun/SparkFun-Eagle-Libraries) and [Adafruit](https://github.com/adafruit/Adafruit-Eagle-Library) Eagle libraries make good additions to the standard Eagle library.
 
-
-
-![](../images/ERC_Check.png "ERC check with 3 warnings")
 ## Creating a Board
 To create a board file from a schematic, click on file and select "Switch to Board." This creates a .brd file that is linked to your schematic. After you have created a board, you must keep both the schematic and board files open while you work. This keeps the two files linked, and allows changes made in one file to show up in the other.
 
