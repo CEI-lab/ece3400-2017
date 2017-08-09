@@ -12,7 +12,7 @@ It often makes sense to make the size of the sheet that you are drawing on fit t
 
 You can set different properties for different colors. For example, you can make the engraving in green, any internal holes in red, and any outline in blue. You can then adjust the settings for each color appropriately, and first raster all the green color, then cut all the red lines, and then cut the blue lines. When the full circumference of a piece has been cut it tends to shift, therefore it is wise to cut the outline after any internal holes so that they don't shift relative to each other. 
 
-![Colors for a laser cutter](Lasercutter_colors.png)
+![Colors for a laser cutter](./images/Lasercutter_colors.png)
 
 ### Part Design
 
