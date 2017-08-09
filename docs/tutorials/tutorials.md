@@ -14,7 +14,8 @@ Making a tutorial is also a good way to catch up on credits if you are falling b
 * Tutorials should be kept short and to the point - noone wants to read a lengthy document. 
 * Tutorials should include lots of helpful pictures. If possible, video tutorials are even better!
 * Tutorials shouldn't just include strategies that work, but also comments on what doesn't work.
-* Don't do double work! Google the topic, if a good tutorial already exist, link to it instead. 
+* Tutorials must start with the name of the class (# ECE3400 Fall year), the title of the tutorial (## title), and the date and contact information of who made the tutorial (*name, date*).
+* Don't do double work! Google the topic, if a good tutorial already exist, link to it instead. If you want to improve an existing tutorial that can be arranged too.
 
 ### Needed tutorials
 
