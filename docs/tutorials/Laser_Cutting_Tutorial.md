@@ -40,24 +40,27 @@ Any line that you want cut needs its width to be set to hairline, otherwise the 
 ![](../images/Line_WidthC.PNG "Setting line width for cutting")
 
 ### 5. Ensure that the laser is configured properly
-When you are satisfied with the layout of your part, click on print. On the print menu select print preferences. This will bring up the configuration menu for the cutter. **Make sure autofocus is on and the piece size dimensions match the page size.** If the laser is not focused it can mess up your part, and in the worst case run the head of the laser into the base plate breaking the cutter. Select the proper settings for vectoring and rastering. Look at page 141 of the Laser cutter manual to find the proper settings for the material you are using.
+* When you are satisfied with the layout of your part, click on print. 
+* On the print menu select print preferences. This will bring up the configuration menu for the cutter. 
+* **Make sure autofocus is on and the piece size dimensions match the page size.** If the laser is not focused it can mess up your part, and in the worst case run the head of the laser into the base plate breaking the cutter. 
+* Select the proper settings for vectoring and rastering. Look at page 141 of the Laser cutter manual to find the proper settings for the material you are using.
 
-![](../images/PrintscreenC.PNG "Print preferences")
-![](../images/Preferences.PNG "Default preferences")
-![](../images/Set_Preferences.PNG "Preferences set to cut 1/8" acryllic")
+![Print preferences](../images/PrintscreenC.PNG)
+![Default preferences](../images/Preferences.PNG)
+![Preferences set to cut 1/8" acryllic](../images/Set_Preferences.PNG)
 
 Here is a table with some common settings. If you find a good setting, please let us know so that we can add it.
 
 CHRISTOPHER PLEASE ADD SETTINGS FOR 3MM AND 6.35MM ACRYLIC, CARDBOARD, PAPER
 
-To find the right settings for a new material start with a high speed and low power. Then incrementally lower the speed and increase the power until the laser cuts through completely. If your material keeps igniting, try increasing the speed. You can also ensure that cuts are not too close together to keep the area from heating up. When operating with a thick material, you make have to cut twice. 
+Alternatively, to find the right settings for a new material start with a high speed and low power. Then incrementally lower the speed and increase the power until the laser cuts through completely. If your material keeps igniting, try increasing the speed. You can also ensure that cuts are not too close together to keep the area from heating up. When operating with a thick material, you make have to cut twice. 
 
 Acrylic typically has a scratch-proof paper backing. It is fine to leave this backing on while you are cutting to protect the material. However, if you are cutting many pieces it may take a long time to remove it afterwards. 
 
 ### 6. Print your part
 Once you have entered the proper settings for the laser, click print to send your job to the cutter. Make sure that the laser cutter is on and ready for printing before sending a job to it. Also make sure there are no issues with the print.
 
-![](../images/Print.PNG "Sending the file to the printer")
+![Sending the file to the printer](../images/Print.PNG)
 
 ## Safety
 
@@ -84,17 +87,17 @@ Use the lens cleaner and wipes located next to the laser cutter to clean the len
 ### 2. Place your material into the laser cutter
 Open the lid of the laser cutter and place your material onto the tray. Make sure it is secure and does not wobble around or move easily.
 
-![](../images/IMG_0660.JPG "Some pre-cut acrylic placed into the laser cutter")
+![Some pre-cut acrylic placed into the laser cutter](../images/IMG_0660.JPG)
 
 ### 3. Empty the tray underneath the laser cutter
 
 * Pull on the two handles on the front of the laser cutter to open the laser cutter.
-![](../images/IMG_0620.JPG "Laser cutter with front open")
+![Laser cutter with front open](../images/IMG_0620.JPG)
 * Open the two latches used to keep the tray in place, then use the latches to pull out the tray.
-![](../images/IMG_0638.JPG "Debris tray pulled out")
+![Debris tray pulled out](../images/IMG_0638.JPG)
 * Dispose of any debris left in the tray, then return the tray into the laser cutter, closing both latches when it is securely in place.
 * Close the front of the laser cutter.        
-![](../images/IMG_0617.JPG "Laser cutter and computer setup")
+![Laser cutter and computer setup](../images/IMG_0617.JPG)
 
 ### 3. Turn on the laser cutter
 
@@ -104,19 +107,19 @@ The laser cutter's power switch is located on left side of the laser cutter, nea
 
 After you have loaded your part onto the computer and configured it with Corel, print the part. After the you click print, the job number and name of the file should appear on the laser cutter's display.
 
-![](../images/IMG_0665.JPG "Laser cutter displays job about to be printed")
+![Laser cutter displays job about to be printed](../images/IMG_0665.JPG)
 
 ### 5. Turn on the laser cutter's fan
 
 The fans can be turned on by flipping a red switch on the surge protector to the left of the laser cutter. The pump and fans will make a loud noise that indicates that they are on.
 
-![](../images/IMG_0664.JPG "Switch that controls laser cutter's fan"")
+![Switch that controls laser cutter's fan](../images/IMG_0664.JPG)
 
 ### 6. Begin your print
 
 Press the green "GO" button to start the loaded job. The laser cutter will then cut out the part and return to the top left corner when it is done. When taking your part out the laser cutter, don't worry about any small pieces that fall through the honeycomb, there is a tray underneath that collects falling parts. **Be careful not to bump the material against the head of the laser!**
 
-![](../images/IMG_0666.JPG "Press go")
+![Press go](../images/IMG_0666.JPG)
 
-![](../images/IMG_0677.JPG "Laser cutter begins cutting")
+![Laser cutter begins cutting](../images/IMG_0677.JPG)
 
