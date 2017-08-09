@@ -14,7 +14,7 @@
 ### 1. Make sure it is physically possible to 3D print your parts
 We have two types of 3D printers available for the class:
 
-!(3Dprinters)[../images/3Dprinters.png]
+![3Dprinters](../images/3Dprinters.png)
 
 [ZYYX+](http://www.zyyx3dprinter.com/store/)
 * Maximum dimensions: 265x225x195 mm
