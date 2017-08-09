@@ -72,7 +72,7 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 **Related to GitHub**
 
 - [Markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-- [How to make a webpage with github](tutorials/webpages/webpages.md)
+- [How to make a webpage](tutorials/webpages/webpages.md)
 - [Desktop github](https://desktop.github.com/)
 
 **Solutions**
@@ -80,6 +80,9 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 [Team Alpha Repository](https://cei-lab.github.io/ECE3400-2017-teamAlpha/)
 
 This is the repository for the team of TA's that solved all the labs during the Summer of 2017. Please use this website for support and inspiration; no credits will be given for close copies of these solutions. Also, the TA's were under strict timelines - hopefully you will upload more comprehensive and better websites over the course of the semester.
+
+**Making Tutorials**
+Making tutorials is a great way to earn extra credit. Please confer with the professor before starting. [Here's](tutorials/tutorials.md) a brief tutorial on making tutorials, with a list of possible tutorials we'd like to add. 
 
 **Related to Control**
 
