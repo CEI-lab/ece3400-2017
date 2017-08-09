@@ -24,14 +24,14 @@ Be aware that the load will get heavier near the end of the semester when studen
 Labs:
 * Monday 1.25-4.25pm (Chris, Leah)
 * Monday 7.30-10pm (Ryan, Claire)
-* Wednesday 7.30-10pm (Adarsh)
+* Wednesday 7.30-10pm (Adarsh, Curran)
 * Thursday 7.30-10pm (Justin, Vaidehi)
 * Friday 1.25-4.25pm
 
 Grading:
 * Lab 1 (Chris, Justin)
 * Lab 2 (Adarsh, Leah)
-* Lab 3 (Claire,?)
+* Lab 3 (Claire, Curran)
 * Lab 4 (?,?)
 * Milestone 1 (Claire,?)
 * Milestone 2 (Adarsh,?)
