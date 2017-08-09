@@ -9,7 +9,7 @@ We have an [Epilog 24 Mini](https://www.epiloglaser.com/products/legend-laser-se
 
 Alternatively, you can visit the [Rapid Prototyping Lab](http://cornellrpl.wixsite.com/cornellrpl) and ask if they have time to help you. Their cutter can handle sizes up to 2 by 4 feet.
 
-## How to design part for a laser cutter
+## How to design parts for a laser cutter
 
 Detailed information on good design strategies for laser cut pieces can be found [here](Design_for_laser_cutters.m). This page also has information on what glue to use to combine multiple pieces.
 
