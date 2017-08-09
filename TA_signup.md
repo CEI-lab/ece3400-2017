@@ -8,7 +8,7 @@ Expectation of workload, as per university policy:
 
 All TA's must sign up to attend one of the weekly lab hours - we need two TA's for every lab:
 
-* Monday 1.25-4.25pm (Chris,Leah)
+* Monday 1.25-4.25pm (Chris, Leah)
 * Monday 7.30-10pm (Ryan, Claire)
 * Wednesday 7.30-10pm (Adarsh)
 * Thursday 7.30-10pm (Justin, Vaidehi)
@@ -17,12 +17,12 @@ All TA's must sign up to attend one of the weekly lab hours - we need two TA's f
 They must also sign up to grade at least one of the lab's (website), and one of the milestones:
 
 * Lab 1 (Chris, Justin)
-* Lab 2 (Adarsh,Leah)
+* Lab 2 (Adarsh, Leah)
 * Lab 3 (Claire)
 * Lab 4 (name)
 * Milestone 1 (Claire)
 * Milestone 2 (Adarsh)
-* Milestone 3 (Chris,Leah)
+* Milestone 3 (Chris, Leah)
 * Milestone 4 (name)
 
 Except for Ryan and Christopher, who will man the Skunkworks lab instead. 
