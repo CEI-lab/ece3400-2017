@@ -72,7 +72,7 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 **Related to GitHub**
 
 - [Markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-- [How to make a webpage with github](tutorials/webpages.md)
+- [How to make a webpage with github](tutorials/webpages/webpages.md)
 - [Desktop github](https://desktop.github.com/)
 
 **Solutions**
@@ -95,14 +95,14 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 
 - A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
 - [Tutorials on Solid Works]. Solidworks is available in many of the Phillips Hall computer labs. 
-- [Tutorials on Autocad](./tutorials/AutoCAD_Tutorial.md). Autocad is installed on all the machines in PH427.
+- [Tutorials on Autocad](./tutorials/Autocad/AutoCAD_Tutorial.md). Autocad is installed on all the machines in PH427.
 - [Tinkercad](https://www.tinkercad.com/) is a nice free software that many of students have used successfully
-- [How to use the XYYZ and UPplus 2 3D printers](./tutorials/3D_Printing_Tutorial.md)
-- [How to use the Epilog laser cutter](./tutorials/Laser_Cutting_Tutorial.md)
-- [Tips on how to design pieces for a laser cutter](./tutorials/Design_for_laser_cutters.md)
-- [Tutorials on Eagle](./tutorials/Eagle_Tutorial.md)
+- [How to use the XYYZ and UPplus 2 3D printers](./tutorials/3Dprinting/3D_Printing_Tutorial.md)
+- [How to use the Epilog laser cutter](./tutorials/LaserCutter/Laser_Cutting_Tutorial.md)
+- [Tips on how to design pieces for a laser cutter](./tutorials/LaserCutter/Design_for_laser_cutters.md)
+- [Tutorials on Eagle](./tutorials/Eagle/Eagle_Tutorial.md)
 - [How to etch your own PCB] To be added.
-- [How to solder components and wires](./tutorials/Soldering_Tutorial.md)
+- [How to solder components and wires](./tutorials/Soldering/Soldering_Tutorial.md)
 - [Wiring a robot] To be added.
 
 **Related to debugging**
