@@ -22,7 +22,7 @@ Your team contract template is divided into three major sections:
 
 Since the basic purpose of this team contract is to accelerate your team's development, to increase individual accountability for team tasks, and to reduce the possibility for team conflict, make your contract as specific as possible:  (a) specify each task as detailed as possible, (b) specify each step in a procedure or process as detailed as possible, (c) specify the exact person(s) responsible for each specific task, and (d) specify the exact time and exact place for completion or submission of each task.  The more specifically you describe your team expectations, roles, and procedures, the greater chance you have for a successful team experience.
 
-Use the Team Contract template to discuss and finalize your team roles, procedures, and standards.  Complete, sign, and submit a copy of your finalized contract to your 115B instructor.
+Use the Team Contract template to discuss and finalize your team roles, procedures, and standards.  Complete, sign, and submit a copy of your finalized contract to the professor.
 
 Once your team contract has been developed, your team is ready to begin work on collaborative assignments.  However, you may soon find that your team is not working as well as you had hoped.  This is normal but needs to be attended to immediately.  Perhaps your team is simply not following the established contract procedures or roles as strictly as you should be, or perhaps you need to change some of the procedures or roles as outlined in your contract.  Call a team meeting immediately to discuss and resolve the challenges your team is facing; do not delay.  Seek guidance from your instructor, TA, or preceptor to resolve any conflicts so that you will have the most positive team experience possible.
 
@@ -82,17 +82,17 @@ _Consequences for Failing to Follow Procedures and Fulfill Expectations_
 
 Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. Please note here who will be responsible when:
 
-Aug 28th - Sep 21st (Lab 1): 
+Aug 28th - Sep 15th (Lab 1, work on lab 2): 
 
-Sep 22nd - Oct 5th (Lab 2): 
+Sep 16th - Sep 29th (Lab 2, Milestone 1 and 2): 
 
-Oct 6th - Oct 19th (Lab 3 and Milestone 1):
+Sep 30th - Oct 20th (Lab 3, work on lab 4):
 
-Oct 20th - Nov 2nd (Lab 4 and Milestone 2, progress towards Milestone 3):
+Oct 21st - Nov 3rd (Lab 4 and Milestone 3):
 
-Nov 3rd - Nov 17th (Milestone 3 and 4):
+Nov 4th - Nov 17th (Milestone 4):
 
-Nov 17th - Dec 5th (Final competition and deadline for the website):
+Nov 18th - Dec 5th (Final competition and deadline for the website):
 
 
 ------
