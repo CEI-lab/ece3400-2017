@@ -87,17 +87,17 @@ Use the lens cleaner and wipes located next to the laser cutter to clean the len
 ### 2. Place your material into the laser cutter
 Open the lid of the laser cutter and place your material onto the tray. Make sure it is secure and does not wobble around or move easily.
 
-![Some pre-cut acrylic placed into the laser cutter](../images/IMG_0660.jpg)
+![Some pre-cut acrylic placed into the laser cutter](../images/IMG_0660.JPG)
 
 ### 3. Empty the tray underneath the laser cutter
 
 * Pull on the two handles on the front of the laser cutter to open the laser cutter.
-![Laser cutter with front open](../images/IMG_0620.jpg)
+![Laser cutter with front open](../images/IMG_0620.JPG)
 * Open the two latches used to keep the tray in place, then use the latches to pull out the tray.
-![Debris tray pulled out](../images/IMG_0638.jpg)
+![Debris tray pulled out](../images/IMG_0638.JPG)
 * Dispose of any debris left in the tray, then return the tray into the laser cutter, closing both latches when it is securely in place.
 * Close the front of the laser cutter.        
-![Laser cutter and computer setup](../images/IMG_0617.jpg)
+![Laser cutter and computer setup](../images/IMG_0617.JPG)
 
 ### 3. Turn on the laser cutter
 
@@ -107,19 +107,19 @@ The laser cutter's power switch is located on left side of the laser cutter, nea
 
 After you have loaded your part onto the computer and configured it with Corel, print the part. After the you click print, the job number and name of the file should appear on the laser cutter's display.
 
-![Laser cutter displays job about to be printed](../images/IMG_0665.jpg)
+![Laser cutter displays job about to be printed](../images/IMG_0665.JPG)
 
 ### 5. Turn on the laser cutter's fan
 
 The fans can be turned on by flipping a red switch on the surge protector to the left of the laser cutter. The pump and fans will make a loud noise that indicates that they are on.
 
-![Switch that controls laser cutter's fan](../images/IMG_0664.jpg)
+![Switch that controls laser cutter's fan](../images/IMG_0664.JPG)
 
 ### 6. Begin your print
 
 Press the green "GO" button to start the loaded job. The laser cutter will then cut out the part and return to the top left corner when it is done. When taking your part out the laser cutter, don't worry about any small pieces that fall through the honeycomb, there is a tray underneath that collects falling parts. **Be careful not to bump the material against the head of the laser!**
 
-![Press go](../images/IMG_0666.jpg)
+![Press go](../images/IMG_0666.JPG)
 
-![Laser cutter begins cutting](../images/IMG_0677.jpg)
+![Laser cutter begins cutting](../images/IMG_0677.JPG)
 
