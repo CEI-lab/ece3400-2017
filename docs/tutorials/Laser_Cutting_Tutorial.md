@@ -11,7 +11,7 @@ Alternatively, you can visit the [Rapid Prototyping Lab](http://cornellrpl.wixsi
 
 ## How to design parts for a laser cutter
 
-Detailed information on good design strategies for laser cut pieces can be found [here](Design_for_laser_cutters.m). This page also has information on what glue to use to combine multiple pieces.
+Detailed information on good design strategies for laser cut pieces can be found [here](Design_for_laser_cutters.md). This page also has information on what glue to use to combine multiple pieces.
 
 *Your part must be represented in two dimensions.*
 
