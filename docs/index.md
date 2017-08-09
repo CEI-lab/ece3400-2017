@@ -91,7 +91,7 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 **Related to fabrication:**
 
-For the first time ever, we have a Skunkworks available to the class. This is located in PH414. Please be aware that only TA's (and potentially trained students) will have access to this lab, but everyone can request to have pieces 3D printed, laser cut or etched in there.
+For the first time ever, we have a Skunkworks available to the class complete with a laser cutter, two 3D printers, and a PCB etching station. This is located in PH414. Please be aware that only TA's (and potentially trained students) will have access to this lab, but everyone can request to have pieces 3D printed, laser cut, or etched in there.
 
 - A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
 - [Tutorials on Solid Works]. Solidworks is available in many of the Phillips Hall computer labs. 
@@ -99,6 +99,7 @@ For the first time ever, we have a Skunkworks available to the class. This is lo
 - [Tinkercad](https://www.tinkercad.com/) is a nice free software that many of students have used successfully
 - [How to use the XYYZ and UPplus 2 3D printers](./tutorials/3D_Printing_Tutorial.md)
 - [How to use the Epilog laser cutter](./tutorials/Laser_Cutting_Tutorial.md)
+- [Tips on how to design pieces for a laser cutter](./tutorials/Design_for_laser_cutters.md)
 - [Tutorials on Eagle](./tutorials/Eagle_Tutorial.md)
 - [How to etch your own PCB] To be added.
 - [How to solder components and wires](./tutorials/Soldering_Tutorial.md)
