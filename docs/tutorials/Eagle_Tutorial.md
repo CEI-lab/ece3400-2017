@@ -1,4 +1,9 @@
-# Eagle Tutorial
+# ECE3400 Fall 2017
+## Eagle Tutorial
+
+*By Christopher Fedors July 20th, 2017*
+
+
 ## Uses for Eagle
 Eagle is a software program used for making electrical schematics and designing PCBs. Even in you don't intend to make a PCB, Eagle is still a useful tool for digitally laying out electical schematics. Eagle primarily uses two file types, .sch for schematics and .brd files for PCB designs.
 
