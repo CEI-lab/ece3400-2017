@@ -1,6 +1,7 @@
 # 3D Printing Tutorial
 ## Uses for 3D printing
-3D printing is good for quickly making 3 dimensional objects out of plastic. While slower and less accurate than the laser cutter, the 3D printer allows you to design and make almost any object that fits inside the printing space. The printer works by laying down layers of plastic on top of each other, which makes the part stronger along its vertical axis.
+3D printing is good for quickly making 3 dimensional objects out of plastic. While slower and less accurate than the laser cutter, the 3D printer allows you to design and make almost any object that fits inside the printing space. The printer works by laying down layers of plastic on top of each other. Since the bonding between layers is not as strong as the continuously extruded filament within the layer, the parts are always stronger along the horizontal axis. It is worth keeping this fact in mind when you decide the orientation in which your part should be printed.
+
 ## Preparing Your Files
 ### 1. Make sure it is physically possible to 3D print your parts
 3D printers often have physical limits on the size of the part they can print and the accuracy with which they can print. The limits for the 3D printers used for the class are:
@@ -13,10 +14,11 @@ UP Plus 2
 * Maximum dimensions: 140x140x135 mm
 * Accuracy: 0.15m layer thickness, 0.15mm XY positioning
 
-Also be aware that 3D printers print in layers. This means that any overhangs may need support material during printing. A general rule is that overhangs  with slopes of 45&deg; or higher can be printed without supports.
+Also be aware that 3D printers print in layers. This means that any overhangs may need support material during printing which can leave the surface of the part less smooth. A general rule is that overhangs with slopes of 45&deg; or higher can be printed without supports. 
 
 ### 2. Export your part as a .stl file
-Solidworks and Autodesk both allow you to export your designs as .stl files.
+Solidworks and Autodesk both allow you to save/export your designs as .stl files. [Here](./stl-files.md) is some more info on what an stl-file really is. 
+
 ## Printing Your Part
 ## XZZY+
 ### 1. Run the Simplify3D program
