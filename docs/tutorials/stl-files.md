@@ -3,10 +3,6 @@
 ## STL-files briefly explained
 
 A STL file describe the surface geometry of a 3D object. It does this using a series of triangles described via the unit normal and vertices in a cartesian coordinate system. STL-coordinates are always positive numbers, there is no scale information and the units are arbitrary. When the STL file is used for 3D printing, it must represent an enclosed 3D volume, that is not self-intersecting, and where every edge is part of exactly two triangles. When it is used simply for illustrative purposes, these properties do not need to be enforced. STL files can be saved in both ASCII and binary representations - the latter is more compact, and so more common. 
-The figure below shows an example of an enclosed volume described by triangular polygons:
-
-![STL-file-pic](../images/STL-files.png)
-NB: The order of the vertices is determined by the right-hand rule. I.e. if you point your right thumb in the direction of the normal vector, the vertices are number ascendingly along the direction of your other four fingers.
 
 For simplicity we will illustrate the contents of an STL-file in ASCII format:
 
@@ -28,4 +24,9 @@ endfacet
 endsolid name
 ```
 
+The tringle described above, could for example be part of a square as illustrated in the figure below:
+
+![STL-file-pic](../images/STL-files.png)
+
+NB: The order of the vertices is determined by the right-hand rule. I.e. if you point your right thumb in the direction of the normal vector, the vertices are number ascendingly along the direction of your other four fingers.
 
