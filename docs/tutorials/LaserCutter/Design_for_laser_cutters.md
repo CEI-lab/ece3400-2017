@@ -24,7 +24,7 @@ First rule of laser cutters, is that they literally burn away material. The widt
 #### Making 3D parts
 If your part can be composed by many sheets of material (instead of curved surfaces), these can still be made in a laser cutter. There are several tips to help you design such parts:
 
-* Connections can be made with nuts and bolts. However, if you are using acrylic sheets, these are brittle and can easily crack if too much tension is applied. It is also not possible to make threads in acrylic.
+* Connections can be made with nuts and bolts. These connections are reversible; however, if you are using acrylic sheets, these are brittle and can easily crack if too much tension is applied. It is also not possible to cut threads in acrylic.
 
 * Connections can be made with pressfits. Such connections are great, because they are reversible and does not require added materials. However, it can be hard to get the dimensions right, because the of the tolerances mentioned above. Also, this method will not work with brittle materials like acrylic. It is a very viable option for wood or cardboard however.
 
