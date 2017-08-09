@@ -39,11 +39,11 @@ A good solder joint should be shiny and cone shaped. If the joint is dull, it is
 
 Example of Good Solder Joint:
 
-![Good solder joint](../images/IMG_0600C.JPG)
+![Good solder joint](../images/IMG_0600C.jpg)
 
 Example of Poor Solder joint:
 
-![Poor solder joint](../images/IMG_0604C.JPG)
+![Poor solder joint](../images/IMG_0604C.jpg)
 
 # Desoldering Tutorial
 ## Safety
