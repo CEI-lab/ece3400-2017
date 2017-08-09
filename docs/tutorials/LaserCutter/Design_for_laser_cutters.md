@@ -17,7 +17,7 @@ You can set different properties for different colors. For example, you can make
 ### Part Design
 
 #### Tolerance
-First rule of laser cutters, is that they literally burn away material. The width of the beam is related to the amount of power you dissipate in the material, so it is always desirable to run the cutter at the lowest possible power. The focus of the beam determines how scattered your beam is when it reaches the material, typically people use Autofocus which means that the beam is focused on top, and that the cut bevels slightly towards the bottom of the sheet. Be sure to incorporate these tolerances into your design!
+First rule of laser cutters, is that they literally burn away material. The width of the beam is related to the amount of power you dissipate in the material, so it is always desirable to run the cutter at the lowest possible power. The focus of the beam determines how scattered your beam is when it reaches the material, typically people use Autofocus which means that the beam is focused either near the surface of the material or near the center. Either way the cut will bevels slightly outwards from the focus point. Be sure to incorporate these tolerances into your design!
 
 ![Laserbeam_tolerance](./images/Laserbeam.png)
 
