@@ -30,7 +30,7 @@ Week 5:
 
 Week 6:
 * *Work on milestone 2*
-* Sep 25th, Mon: FPGA (Bruce Land?)
+* Sep 25th, Mon: FPGA (Bruce Land)
 * Sep 27th, Wed: FPGA
 * Sep 29th, Fri: FPGA/VGA (Claire Chen). Deadline @8am: The websites will be graded for contents on milestone 2.
 * Sep 29th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
