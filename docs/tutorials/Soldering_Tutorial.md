@@ -54,7 +54,7 @@ Always wear safety goggles/glasses, be careful with the iron, and don't touch an
 ### 2. Do not touch the braid while desoldering
 Since braid is made of finely woven copper, it conducts heat very well. This means that when the braid touches the iron, it heats up very quickly and will burn your hands if you are holding on to it. Use tweezers to hold the braid instead.
 
-![Do not touch braid with bare hands](../images/IMG_0606C.JPG)
+![Do not touch braid with bare hands](../images/IMG_0606C.jpg)
 ![Using tweezers for desoldering](../images/IMG_0590.JPG)
 
 ## Four Easy Steps to Desoldering Using Braid
