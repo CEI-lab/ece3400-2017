@@ -17,10 +17,12 @@ We have two types of 3D printers available for the class:
 ![3Dprinters](../images/3Dprinters.png)
 
 [ZYYX+](http://www.zyyx3dprinter.com/store/)
+* Located in PH414, used by instructors.
 * Maximum dimensions: 265x225x195 mm
 * Accuracy: 50&mu;m layer thickness, 11&mu;m XY positioning
 
 [UP Plus 2](https://www.up3d.com/?r=plus)
+* Located in PH427, for use by students who have received training
 * Maximum dimensions: 140x140x135 mm
 * Accuracy: 0.15m layer thickness, 0.15mm XY positioning
 
