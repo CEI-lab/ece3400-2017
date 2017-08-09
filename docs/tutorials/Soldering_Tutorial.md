@@ -83,12 +83,19 @@ One downside to stranded wire is that it can fray, making it difficult to fit th
 1. Ensure the solder iron is turned off and has had time to cool down. If the iron has been in use recently, give it 10-15 minutes to cool off. It helps to wipe the iron on a wet sponge to get it to cool faster.
 
 2. Unscrew the metal ring where the metal part of the iron connects to the handle.
+
 ![Changing the tip 1](../images/IMG_0615.JPG)
+
 3. Remove the metal sheath holding the tip of the soldering iron in place.
+
 ![Changing the tip 2](../images/IMG_0614.JPG)
+
 4. Remove and replace the soldering iron tip in the iron with the one you would like to use.
+
 ![Changing the tip 3](../images/IMG_0612.JPG)
+
 5. Replace the metal sheath and screw the metal ring tightly into place.
+
 ![Changing the tip 4](../images/IMG_0616.JPG)
 
 ## What Type of Soldering Iron Tip to Use
@@ -104,7 +111,7 @@ The needle tip for the soldering iron has a small, pointed shape, much like that
 ## Soldering Chips
 ### DIP (Dual Inline Package) chips
 When making prototypes with DIP chips, it is not advisable to solder the chip directly to the solderboard or PCB. Instead, you should use a DIP socket and solder that to the solderboard or PCB instead. This allows for you to remove the chip and use it in another project later or replace it if it is broken. DIP sockets can be soldered into place like any other through hole component, though some tape may be needed to hold the socket in place.
-### SMD (Suface Mount Device) chips
+### SMD (Surface Mount Device) chips
 SMD chips are often significantly smaller than their DIP counterparts, and require more precision when soldering. It is often best to use the needle tip for soldering these types of chips and devices. The best strategy for soldering a SMD chip is to lay your PCB flat and focus on soldering one pin to its corresponding pad. After one pin is soldered, you can then move the board to an easier orientation to solder. Soldering the remaining pins must be done carefully, applying as little solder as needed to make a good connection. One way to solder chips with many pins is to apply small globs of solder on to a group of pins, then soak up a small amount of that solder with braid. This should get rid of the excess solder, but keep the individual pins soldered to their corresponding pads.
 ## Solder Size
 Like wires, solder comes in different gauges. Higher gauge solder allows for more precise control over how much solder is applied, and is best used soldering SMD chips and parts. Lower gauge solder is better for soldering large components or applying large amounts of solder.
