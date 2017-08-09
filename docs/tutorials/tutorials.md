@@ -30,6 +30,7 @@ Here are some tutorials we would like to add to the website. This is not a compl
 * How to make your own motor controller for DC motors
 * Example video of how to design and layout a small PCB
 * Example of how to easily calibrate IR sensors
+* How to use an oscilloscope
 * How to make a visual program in Python
 * How to make a good tutorial video
 * etc....
