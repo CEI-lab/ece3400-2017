@@ -4,7 +4,7 @@
 This is important, as solder sometimes has a tendency to spurt, sending small droplets of molten solder into the air. Since the droplets are small, they do not generally cause damage to the skin or clothes, but have the potential to cause serious damage to unprotected eyes.
 
 
-![](../images/IMG_0583.JPG "Safety Glasses")
+![](./images/IMG_0583.JPG "Safety Glasses")
 ### 2. Be careful with the soldering iron
 The tip of the soldering iron can get as hot as 700 degrees during use, which can cause serious burns to skin and melt most plastics. This means that caution must be observed when handling the iron. If you have long hair, tie it behind your head. Don't wear loose jewelry and roll up long sleeves when soldering.
 
@@ -19,31 +19,31 @@ Always wash your hands after finishing in the lab. Remember that eating is never
 Ensure that the parts or wires that need to be soldered are held securely in place. Devices like clamps, vices, or tape can help with this. Ensure that nothing sensitive to heat is touching the area that is going to be soldered.
 
 
-![](../images/IMG_0587.JPG "PCB in a vice")
+![](./images/IMG_0587.JPG "PCB in a vice")
 ### 2. Get the iron ready
 Turn on the iron and set the temperature to 700&deg;F (370&deg;C), and give it around a minute to warm up. Next clean the tip of the iron by wiping it on a wet sponge. If the tip is very dirty you can also wipe it on a metal sponge, and use tinner to improve the heat conduction again. A shiny iron leads heat well, a matte iron does not conduct heat very well and will be harder to use.
 
 
-![](../images/IMG_0593.JPG "Wet Sponge")
-![](../images/IMG_0594.JPG "Metal Sponge")
-![](../images/IMG_0595.JPG "Clean Iron")
+![](./images/IMG_0593.JPG "Wet Sponge")
+![](./images/IMG_0594.JPG "Metal Sponge")
+![](./images/IMG_0595.JPG "Clean Iron")
 ### 3. Solder the connection
 Hold a strand of solder in one hand and the soldering iron in the other. Place the iron on the joint you want to solder and feed the solder onto both the pin and the board. The solder should melt as it touches the iron/joint. The solder is what conducts the heat, i.e. if you only apply solder to the iron it will not lead the heat from the iron onto the pin and will not flow onto the joint. 
 Apply enough solder so that the connection is mechanically and electrically stable. Applying too much solder can make a connection difficult to desolder, so be careful not to use too much. Applying heat for too long can lead to damages of both the component and the board.
 
-![Application of solder to a joint](../images/solder_joint.png)
-![Soldering SMD chip](../images/IMG_0588.JPG)
+![Application of solder to a joint](./images/solder_joint.png)
+![Soldering SMD chip](./images/IMG_0588.JPG)
 
 ### 4. Evaluate
 A good solder joint should be shiny and cone shaped. If the joint is dull, it is the result of "cold solder," which occurs when molten solder is added to the joint, instead of being melted onto the joint itself. If the joint is blob shaped, electrical connection is not guaranteed, it may work briefly only to break as soon as a vibration occur. It also might cause a short circuit so be sure to always check for shorts after you are done.
 
 Example of Good Solder Joint:
 
-![Good solder joint](../images/IMG_0600C.jpg)
+![Good solder joint](./images/IMG_0600C.jpg)
 
 Example of Poor Solder joint:
 
-![Poor solder joint](../images/IMG_0604C.jpg)
+![Poor solder joint](./images/IMG_0604C.jpg)
 
 # Desoldering Tutorial
 ## Safety
@@ -54,8 +54,8 @@ Always wear safety goggles/glasses, be careful with the iron, and don't touch an
 ### 2. Do not touch the braid while desoldering
 Since braid is made of finely woven copper, it conducts heat very well. This means that when the braid touches the iron, it heats up very quickly and will burn your hands if you are holding on to it. Use tweezers to hold the braid instead.
 
-![Do not touch braid with bare hands](../images/IMG_0606C.jpg)
-![Using tweezers for desoldering](../images/IMG_0590.JPG)
+![Do not touch braid with bare hands](./images/IMG_0606C.jpg)
+![Using tweezers for desoldering](./images/IMG_0590.JPG)
 
 ## Four Easy Steps to Desoldering Using Braid
 
@@ -84,24 +84,24 @@ One downside to stranded wire is that it can fray, making it difficult to fit th
 
 2. Unscrew the metal ring where the metal part of the iron connects to the handle.
 
-![Changing the tip 1](../images/IMG_0615.JPG)
+![Changing the tip 1](./images/IMG_0615.JPG)
 
 3. Remove the metal sheath holding the tip of the soldering iron in place.
 
-![Changing the tip 2](../images/IMG_0614.JPG)
+![Changing the tip 2](./images/IMG_0614.JPG)
 
 4. Remove and replace the soldering iron tip in the iron with the one you would like to use.
 
-![Changing the tip 3](../images/IMG_0612.JPG)
+![Changing the tip 3](./images/IMG_0612.JPG)
 
 5. Replace the metal sheath and screw the metal ring tightly into place.
 
-![Changing the tip 4](../images/IMG_0616.JPG)
+![Changing the tip 4](./images/IMG_0616.JPG)
 
 ## What Type of Soldering Iron Tip to Use
 There are many different types of tips that soldering irons can use. The two most common are the chisel tip and the needle tip.
 
-![Soldering tips](../images/IMG_0611.JPG)
+![Soldering tips](./images/IMG_0611.JPG)
 
 ### Chisel tip
 The chisel tip for the soldering iron is characterized by its broad, flat shape. This results in a high surface area for heat from the tip to flow into its surroundings. The chisel tip is best suited for desoldering as well as for soldering medium to large components, as it is able to heat up components and solder relatively quickly. The large size of the chisel tip makes soldering small components, such as SMD resistors or chips, difficult.
