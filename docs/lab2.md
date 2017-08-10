@@ -85,7 +85,7 @@ CHRIS: ADD PHOTO SHOWING WHAT POTMETER TO CHANGE!
 
 * Next, hook up your circuit to the Arduino and try make it detect the presence and frequency of a treasure. It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components. 
 
-* In the final competition you will need to distinguish up to three different treasure at 7kHz, 11kHz, and 17kHz. If you have time to spare, check that your FFT works well enough to sense the difference.
+* In the final competition you will need to distinguish up to three different treasures at 7kHz, 11kHz, and 17kHz. If you have time to spare, check that your FFT works well enough to sense the difference.
 
 * **Remember to turn off the treasure when you're done using it, and to hand it back to the TAs**
 
