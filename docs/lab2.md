@@ -18,6 +18,8 @@ Throughout this lab and ALL labs, remember to document your progress on your web
 
 Be sure to note on the website what work is carried out by whom. And remember that, if at all possible, you are expected to form different sub teams in every lab.
 
+***
+
 ### Procedure
 
 Split into two teams.
@@ -90,6 +92,8 @@ The basic circuit for your electret microphone is as follows. It is suggested th
 * **Remember to turn off the treasure when you're done using it, and to hand it back to the TAs**
 
 * As always, feel free to talk to other groups or a TA if you need assistance!
+
+***
 
 ### Wrap-Up and Clean-Up
 
