@@ -1,5 +1,3 @@
-# ECE 3400 Intelligent Physical Systems
-
 * **Cornell, Fall 2017**
 * **Class hours:** Monday, Wednesday, and Friday in Kimbal Hall B11
 * **Lab hours:** Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427
@@ -7,7 +5,7 @@
 * **TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Adarsh Jayakumar (aj373), Justin Selig (jss459), and Curran Sinha (cs886).
 * **Piazza:** The main page is located [here](piazza.com/cornell/fall2017/ece3400/home), please sign up [here](piazza.com/cornell/fall2017/ece3400)
 
-## Course Description
+# Course Description
 
 Students will engage in a holistic design approach to Intelligent Physical Systems which can perceive, reason about, and act upon their environment. This course will expand on the ECE 2000-level courses, and include topics on algorithms, field programmable gate arrays, wireless communication, sensors, actuators, power, and mechanics. Students will learn the value and trade-offs between theory, simulation, and physical implementations, and gain familiarity with rapid prototyping techniques, system debugging, team work, leadership skills, time management, and how to disseminate work to a broader audience through webpages.
 
@@ -21,7 +19,7 @@ _Specific outcomes include:_
 Prerequisites include ECE 2100  ECE 2200 and ECE 2300.  Recommended prerequisite: ECE 2400 (or equivalent).
 All information is gathered on this page; no additional textbooks are required.
 
-## Semester Project
+# Semester Project
 
 In teams of 5-7 people, you will design, fabricate, and program a robot to explore a maze. The robot microcontroller will be based on an Arduino Uno; the default propulsion method will be differential drive with continuous rotation servos. The robot will traverse the maze by following black lines on a white floor; it must also be able to detect walls, an audible start signal, and treasures emitting infrared light at different frequencies. The robot must continuously transmit its progress wirelessly to a base station (also based on Arduino Uno). This base station will communicate with an FPGA that in turn must drive a screen through a VGA interface. Points will be awarded for speed, accuracy, and innovative design methods. The entire robot can cost no more than $100; this [chart](Cost.md) shows how the price is calculated.
 
@@ -31,7 +29,7 @@ All designs must be documented throughout the semester on a group website. The g
 
 ![ECE3400 Overview](./images/Overview.png)
 
-## Team Composition
+# Team Composition
 
 The teams will be composed by the TA's and lecturer *without exception*.
 
@@ -43,7 +41,7 @@ We will prompt team evaluations and practice constructive critiscism. Receiving 
 
 This [folder](./Grading/Readme.md) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2017 and that the score-chart may be changed throughout the semester.  
 
-## Schedule and Hand-Outs
+# Schedule and Hand-Outs
 
 Please be aware that the following schedule is tentative and may change throughout the semester.
 
