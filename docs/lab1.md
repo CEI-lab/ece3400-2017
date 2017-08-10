@@ -14,6 +14,8 @@ Throughout this lab and ALL labs, remember to document your progress on your web
 
 Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom. 
 
+*** 
+
 ### Procedure
 
 Split into two teams. Each team needs:
