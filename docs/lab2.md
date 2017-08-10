@@ -87,6 +87,8 @@ CHRIS: ADD PHOTO SHOWING WHAT POTMETER TO CHANGE!
 
 * In the final competition you will need to distinguish up to three different treasure at 7kHz, 11kHz, and 17kHz. If you have time to spare, check that your FFT works well enough to sense the difference.
 
+* **Remember to turn off the treasure when you're done using it, and to hand it back to the TAs**
+
 * As always, feel free to talk to other groups or a TA if you need assistance! 
 
 ### Wrap-Up and Clean-Up
