@@ -1,5 +1,10 @@
-# Soldering Tutorial
+# ECE3400 Fall 2017
+## Soldering Tutorial
+
+*By Christopher Fedors July 20th, 2017*
+
 ## Soldering Safety
+
 ### 1. Always wear safety goggles while soldering
 This is important, as solder sometimes has a tendency to spurt, sending small droplets of molten solder into the air. Since the droplets are small, they do not generally cause damage to the skin or clothes, but have the potential to cause serious damage to unprotected eyes.
 
