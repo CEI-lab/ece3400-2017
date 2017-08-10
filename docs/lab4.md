@@ -12,7 +12,7 @@ For the final portion of the lab, the work done with the radio will be combined 
 
 ### Radio Team
 
-This lab will use the RF24 Arduino library. Before you start the lab, look over the reference page (http://maniacbug.github.io/RF24/classRF24.html) and review the primary public interface methods at the top of the page. Make sure that you understand what they do at a high level.
+This lab will use the RF24 Arduino library. Before you start the lab, look over the [reference page](http://maniacbug.github.io/RF24/classRF24.html) and review the primary public interface methods at the top of the page. Make sure that you understand what they do at a high level.
 
 If you are sending a 2-dimensional (3x3, for example) array of chars, what is the size of the array in bytes? Compare this to the maximum payload size of the radio. How many packets are required to send the 3x3 char array?
 
