@@ -11,9 +11,9 @@
 Be aware that the load will get heavier near the end of the semester when students are dealing with more complicated designs. Here are the specific tasks each TA is expected to perform:
 
 * TA's must sign up to attend one of the weekly lab hours - we need two TA's for every lab. The two TA's will be paired with the 3-4 teams in their lab sessions, and will be responsible for guiding them through the semester. Student questions should be directed either to the Piazza or directly to them. During the labs, the TAs must answer questions, keep track of lab inventory, make sure the lab is clean at the end of the session, and mark attendance.
-* TA's must keep track of who the sub-teams are composed of. To ensure a good mix, it is required that they keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D. 
+* TA's must keep track of who the sub-teams are composed of. To ensure a good mix, it is required that they keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D.
 * TA's must sign up to grade one of the lab's and one of the milestones. These will be based on the websites describing the solutions. (Ryan and Christopher will not grade, but man the Skunkworks lab instead.)
-* TA's must monitor the Piazza page and answer questions. When possible, please refer the students to github-information so that they learn to rely on this content instead of asking. 
+* TA's must monitor the Piazza page and answer questions. When possible, please refer the students to github-information so that they learn to rely on this content instead of asking.
 * TA's must ensure that their 3-4 teams have a website up and running by Aug 28th, Monday @8am. This website should include their team name, a link to their group contract (filled out), the names and preferably photos of their team members.
 * TA's must ensure that their 3-4 teams submit a team assessment form by Sep 29th Saturday @8am and again Nov 11th Saturday by @8am. They should read through these forms and provide a one paragraph summary and send to the professor by the following Monday 8pm.
 * TA's must also organize and teach one of the lectures - you decide whether you prefer a Monday/Wednesday fundamentals, or a Friday lecture which will be more practically oriented. Please refer to the class schedule on the main page to pick a topic. *You will have to discuss the contents of this lab and any potential slides with the professor at least three days before your lecture!* Consider this an opportunity - it will give you a chance to practice your presentation skills and look great on your resume.
@@ -30,13 +30,13 @@ Labs:
 * Friday 1.25-4.25pm
 
 Grading:
-* Lab 1 (Chris, Justin)
+* Lab 1 (Justin)
 * Lab 2 (Adarsh, Leah)
 * Lab 3 (Claire, Curran)
 * Lab 4 (?,?)
 * Milestone 1 (Claire,?)
 * Milestone 2 (Adarsh, Curran)
-* Milestone 3 (Chris, Leah)
+* Milestone 3 (Leah)
 * Milestone 4 (?,?)
 
 Lectures:
