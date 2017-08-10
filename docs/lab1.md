@@ -8,6 +8,7 @@ In this introductory lab, you will learn how to use the various functionalities 
 * You should have reviewed the [Arduino Reference](http://arduino.cc/en/Reference/HomePage) page and made yourself familiar with its layout and some basic functions and syntax. 
 * You should also download the [Arduino IDE](https://www.arduino.cc/en/Main/Software) to your laptop. 
 * Finally, read up on how the [Parallax Continuous Rotation Servo](http://www.parallax.com/downloads/continuous-rotation-servo-documentation) can be used.
+* As always it is a good idea to check [Team Alpha's website](https://cei-lab.github.io/ECE3400-2017-teamAlpha/) to see an example of a solution. But please strive to do better than we did!
 
 ### Documentation
 Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, photos, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites. 
