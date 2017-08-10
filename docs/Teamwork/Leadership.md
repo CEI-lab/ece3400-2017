@@ -18,4 +18,4 @@ The team leader is responsile for keeping the team motivated, performing, and ba
 
 * *Critique:* Make sure that everyone lives up to the team contract. Such conversations can be unpleasant, but if you refer to the contract they themselves agreed on, that can help.
 
-* *Praise:* If someone does a particularly good job, be sure to give them the praise they deserve preferably in a team-wide email/meeting. 
+* *Praise:* If someone does a particularly good job, be sure to give them the praise they deserve, preferably in a team-wide email/meeting. 
