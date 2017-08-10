@@ -1,10 +1,28 @@
-# Lab 2: Analog Circuitry and FFTs
-## ECE 3400 Fall ’17
+# ECE3400 Fall 2017
+## Lab 2: Analog Circuitry and FFTs
 
 ### Objective
-In this lab, you will create two analog circuits to attached to your Arduino. One is a microphone circuit that will detect a whistle blow signifying the beginning of your mapping race. The other is a sensing circuit of your choice.
+In this lab, you will add sensors to your robot, and make analog circuits and a digital filter to interface with the Arduino. One is a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The other will capture inputs from an IR sensor to detect and distinguish treasures. 
 
-### Materials
+### Pre-lab Assignment
+Before you start your lab, you should have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your website will be expected to have a sufficient explanation of the basic FFT algorithm.
+
+Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the ADC directly, or is analogRead fast enough? This will depend on your application (reading 660Hz sine wave, or ~10kHz treasure). What might be some concerns of using either method? What’s the normal range of a human voice? Are the harmonics of human speech an issue? What is the frequency of the flourescent lights in the room? Can they interfere with your IR sensor?
+
+For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.
+
+It would be wise to design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.)
+
+### Documentation
+Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, photos, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites. 
+
+Be sure to note on the website what work is carried out by whom. And remember that, if at all possible, you are expected to form different sub teams in every lab.
+
+### Procedure
+
+Split into two teams. 
+
+The acoustic team will need the following materials:
 - Arduino Uno
 - Electret microphone
 - 1 µF capacitor
@@ -12,28 +30,19 @@ In this lab, you will create two analog circuits to attached to your Arduino. On
 - ~3 kΩ resistor
 - Various other components, as needed
 
-### Pre-lab Assignment
-Before you start your lab, you should have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your lab report will be expected to have a sufficient explanation of the basic FFT algorithm.
+The optical team will need the following materials:
+- Arduino Uno
+- IR receiver
+- 300 Ω resistors
+- Various other components, as needed
 
-Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the board’s ADC, or is analogRead fast enough? What might be some concerns of using either method? Keep in mind that your goal is to detect a 660Hz sine wave “whistle.” What’s the normal range of a human voice? Are the harmonics of human speech an issue?
+*Unit tests are highly suggested. Test the output of the sensor directly with the scope; check your analog amplifier with a voltage supply; check analog/digital filters with a signal generator; then combine all the pieces and check again.*
 
-For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.
+#### Download the Open Music Labs FFT library
 
-It would be wise to design some quick amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the strength of your microphone’s signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset are appropriate?
+* Open Music Labs’ FFT page, scroll down and download the newer FFT library folder. Extract this, and then go to My Documents > Arduino > Libraries and put the FFT library folder inside of it. If you have the Arduino IDE open, close it and then restart the program (not the computer) so that it can update accordingly.
 
-Your group should also meet together before your lab session to decide on your secondary analog circuit. This circuit does not have to be complex; rather, it just needs to be useful to your design. A simple example of this is thresholding a sensor to turn it into a digital output. If your circuit idea includes any components that you do not think will already be available in the lab, contact the professor or a TA as soon as possible.
-
-### Notebook Documentation
-Throughout this lab and ALL labs, remember to have each team member document their steps and experiences in their own lab notebook. Notebooks should contain personal notes, schematics, diagrams, and documentation of results and challenges of this lab. These notebooks will be looked over at the end of your lab session to ensure two things: that you were present in the lab (remember: labs are required), and that you are taking good notes. Keep in mind that you will use your notebooks until the end of the final project. The notebooks will keep track of your progress with the labs and project, how the labs tie into the final project. There is a document on BlackBoard with more details about that.
-
-### Procedure
-It is suggested that the team divides into two groups to complete this lab. One group can work on the microphone circuit, while the other group can work on the secondary circuit. Depending on the complexity of the secondary circuit, the team may want to delegate extra work to balance the overall workload per group. It is highly suggested that you work on your microphone module in chunks, testing the circuitry and code separately before joining them together.
-
-1. **Download the Open Music Labs FFT library**
-One Open Music Labs’ FFT page, scroll down and download the newer FFT library folder. Extract this, and then go to My Documents Arduino  Libraries and put the FFT library folder inside of it. If you have the Arduino IDE open, close it and then restart the program (not the computer) so that it can update accordingly.
-
-2. **Use the example sketch to start coding**
-On the FFT webpage, you will find some good, solid documentation on how to use the library. You should have reviewed this before the lab. In addition, the library you just installed has an example sketch that reads in values from Analog Pin 0 and outputs the frequency bin magnitudes via the serial monitor. Check this code out, and consider using it as a base for your microphone circuit code. You should have thought about possible modifications to this code from when you did the prelab. Remember that your goal is to be able to match a signal to its frequency. For the competition, a sine wave at 660 Hz will be emitted from a set of speakers to signal the start of the race.
+* Use the example sketch to start coding. On the FFT webpage, you will find some good, solid documentation on how to use the library. You should have reviewed this before the lab. In addition, the library you just installed has an example sketch that reads in values from Analog Pin 0 and outputs the frequency bin magnitudes via the serial monitor. Check this code out, and consider using it as a base for your microphone circuit code. You should have thought about possible modifications to this code from when you did the prelab. Remember that your goal is to be able to match a signal to its frequency. For the competition, a sine wave at 660 Hz will be emitted from a set of speakers to signal the start of the race.
 
 To program your Arduino, click the checkmark to compile your code and then the right-pointing arrow to upload (program) it. Note: When you click the right arrow, your code will automatically be re-compiled, so clicking the checkmark isn’t strictly necessary. If it doesn’t work, check that it is connected to the correct COM port by looking at the Tools  Serial Port list.
 
