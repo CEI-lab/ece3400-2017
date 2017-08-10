@@ -132,6 +132,10 @@ Try switching your sound on and off using a switch on the FPGA board or using a 
 
 Finally, generate at least two more audibly distinct frequencies to create a short tune. The tune should play only when a done signal from the Arduino is recieved by the FPGA.
 
+#### If you finish early...
+
+...continue working on Milestone 2 which is due next week!
+
 ### Wrap-Up and Clean Up
 Keep all circuitry and materials relevant to the video controller in your box. Do not keep USB A/B cables or computer monitors in your box. Remember to hand back the FPGA used for the acoustic team. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
 
