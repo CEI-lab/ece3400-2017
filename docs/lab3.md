@@ -4,7 +4,7 @@
 ## Objective
 In lab 3, you will create the foundation for the final Arduino/FPGA basestation by creating a framework for storing and displaying maze data on and generating sounds on the FPGA. In the final competition, all maze information discovered by the robot must be transmitted from the basestation Arduino to the FPGA, and then drawn on a VGA monitor. Once the maze has been completely mapped, the FPGA must generate a short tune to signify that the maze-mapping is done.
 
-The lab consists of two primary tasks on the FPGA: displaying graphics on the monitor and generating sound. To efficiently complete both tasks, teams will divided into two subteams. One subteam will work on graphics and the other will work on sound. Please read the detailed descriptions and background information for each task in the subsequent sections.
+The lab consists of two primary sub-tasks on the FPGA: displaying graphics on the monitor and generating sound.
 
 By the end of this lab, you should be able to draw a the current state of a grid (any size) on the monitor, where any state change transmitted by the Arduino to the FPGA is reflected on the VGA display. You should also be able to play a short tune containing at least three distinct frequencies from the FPGA when given a done signal.
 
