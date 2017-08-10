@@ -123,12 +123,12 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 If you have a question that can't be answered by one of the links above, or on the Piazza page, try contact one of your TAs!
 
 ![Kirstin](./images/Kirstin.png)
-I am an assistant professor in ECE, with field appointments in ME and CS. I run the [Collective Embodied Intelligence Lab](http://cei.ece.cornell.edu/) with research on bio-inspired robot collectives. My expertise covers all the class topics, but I have a special passion for crazy innovative robot designs! I have no specific office hours, but I intend to hang around PH427 in the beginning of most of the lab sessions. In my spare time I'm all about hiking, kayaking, camping, and getting as far from my computer as possible. 
+I am an assistant professor in ECE, with field appointments in ME and CS. I run the [Collective Embodied Intelligence Lab](http://cei.ece.cornell.edu/) with research on bio-inspired robot collectives. Feel free to contact me with any questions/concerns that don't fit Piazza. I have no specific office hours, but I intend to hang around PH427 in the beginning of many of the lab sessions. When I'm not designing random robots, I'm all about hiking, kayaking, camping, and getting as far from my computer as possible! 
 
 ![Christopher](./images/Christopher.png)
-I am a senior in ECE, with a minor in XXX. Last semester I worked in the CEI-lab on a spider-inspired jumping robot. My strengths involve all class topics, but prototyping and electronics layout most of all. I'll also be in charge of the Skunkworks this semester, so if you'd like to make new parts for your robots let me know! In my spare time I xxx 
+I am a senior in ECE, with a minor in XXX. Last semester I worked in the CEI-lab on a spider-inspired jumping robot. Please contact me if you have any questions regarding your semester work. I'm especially well-qualified to answer topics on prototyping and electronics layout most of all. I'll also be in charge of the Skunkworks this semester, so if you'd like to make new parts for your robots let me know! In my spare time I xxx 
 
 ![Claire](./images/Claire.png)
-I am a senior in ECE, with a minor in XXX. Last semester I worked with Daniel in the CEI-lab on a new type of soft modular robot. My strengths all class topics, but FPGA and verilog most of all. In my spare time I manage the rock wall at Cornell, come join if you need to blow off some steam!
+I am a senior in ECE, with a minor in XXX. Last semester I worked with Daniel in the CEI-lab on a new type of soft modular robot. My strengths include all class topics, but FPGA and verilog most of all. In my spare time I manage the rock wall at Cornell, come join if you need to blow off some steam!
 
 ADD ALL TA's
