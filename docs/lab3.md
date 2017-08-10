@@ -42,6 +42,8 @@ Throughout this lab and ALL labs, remember to document your progress on your web
 
 Be sure to note on the website what work is carried out by whom. And remember that, if at all possible, you are expected to form different sub teams in every lab.
 
+***
+
 ## Procedures
 
 Both sub-teams will need the following materials:
@@ -133,6 +135,8 @@ Finally, generate at least two more audibly distinct frequencies to create a sho
 #### If you finish early...
 
 ...continue working on Milestone 2 which is due next week!
+
+***
 
 ### Wrap-Up and Clean Up
 Keep all circuitry and materials relevant to the video controller in your box. Do not keep USB A/B cables or computer monitors in your box. Remember to hand back the FPGA used for the acoustic team. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
