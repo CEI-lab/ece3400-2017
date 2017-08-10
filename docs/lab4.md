@@ -10,6 +10,8 @@ For the final portion of the lab, the work done with the radio will be combined 
 
 ## Pre-lab Assignment
 
+As always it is a good idea to check [Team Alpha's website](https://cei-lab.github.io/ECE3400-2017-teamAlpha/) to see an example of a solution. But please strive to do better than we did!
+
 ### Radio Team
 
 This lab will use the RF24 Arduino library. Before you start the lab, look over the [reference page](http://maniacbug.github.io/RF24/classRF24.html) and review the primary public interface methods at the top of the page. Make sure that you understand what they do at a high level.
