@@ -105,7 +105,11 @@ Start thinking about what sensors you want on your robot. How many are needed? C
 
 #### Line Following and Wall Detection
 
-If you have plenty of spare time, feel free to add [line sensors](https://www.sparkfun.com/products/9453). Try making the robot follow a black line on the floor and make it go as fast as possible. You can also add [short range distance sensors](https://www.sparkfun.com/products/12728) or [long range distance sensors](https://www.sparkfun.com/products/8958) to help the robot detect walls. Starting early on both these tasks will help you in the milestones and the final challenge.
+If you have plenty of spare time, feel free to add [line sensors](https://www.sparkfun.com/products/9453). Try making the robot follow a black line on the floor and make it go as fast as possible. 
+
+You can also add [short range distance sensors](https://www.sparkfun.com/products/12728) or [long range distance sensors](https://www.sparkfun.com/products/8958) to help the robot detect walls. Use the IR sensor’s datasheet to map values to actual distances, and then break those distances down into blocks. Do you need to know that a wall is 6 inches away, or that it is simply one block ahead? Think about this and make a design choice.
+
+Starting early on both these tasks will help you in the milestones and the final challenge.
 
 ### Wrap-Up
 
