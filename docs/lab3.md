@@ -1,5 +1,5 @@
-# Lab 3: FPGA Video Controller and Sound Generation
-## ECE 3400 Fall ’17
+# ECE3400 Fall 2017
+## Lab 3: FPGA Video Controller and Sound Generation
 
 ### Objective
 In lab 3, you will create the foundation for the final Arduino/FPGA basestation by creating a framework for storing and displaying maze data on and generating sounds on the FPGA. In the final competition, all maze information discovered by the robot must be transmitted from the basestation Arduino to the FPGA, and then drawn on a VGA monitor. Once the maze has been completely mapped, the FPGA must generate a short tune to signify that the maze-mapping is done.
@@ -8,11 +8,21 @@ The lab consists of two primary tasks on the FPGA: displaying graphics on the mo
 
 By the end of this lab, you should be able to draw a the current state of a grid (any size) on the monitor, where any state change transmitted by the Arduino to the FPGA is reflected on the VGA display. You should also be able to play a short tune containing at least three distinct frequencies from the FPGA when given a done signal.
 
+### Pre-lab Assignment
+
+* This lab is likely to be the most time consuming, be sure to set off adequate time to complete this and agree on the sub-teams before you start. 
+
+* We will be using a DE0-Nano Development Board. Its documentation can be found [here](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4). You should skim this to have an idea of when to use it before the lab. 
+
+* You will use Altera’s Quartus II software to program the FPGA. While there will have been a review of Verilog in class, it is highly recommended that you review how to program with Verilog.
+
+* You should also carefully read the different tasks you will be completing below.
+
 ### Overview of Tasks
 
 Both subteams will need one FPGA and one Arduino. Both teams should download the example Quartus project [here](https://github.com/rohern/ece3400/blob/master/lab3/Lab3_template.zip) and modify the top-level module DE0_NANO.v.
 
-We are using a DE0-Nano Development Board. Its documentation can be found here: http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4.
+Be aware that your team only gets to keep one of the FPGAs after the lab is over. We do not have enough for every team to keep two FPGAs! 
 
 #### Task 1: Graphics
 
@@ -22,17 +32,15 @@ Additional materials:
 - 1 VGA connector
 - 1 VGA switch
 
-You will begin the task of building a fully-functional basestation by first writing a VGA controller to display graphics on a VGA monitor using an FPGA. The graphics you must display in this lab will be a simplified version of the final maze grid. The state of this grid will be controlled by an Arduino Uno, and any changes made to the grid with the Arduino must be conveyed to the FPGA and displayed graphically. 
+You will begin the task of building a fully-functional base station by first writing a VGA controller to display graphics on a VGA monitor using an FPGA. The graphics you must display in this lab will be a simplified version of the final maze grid. The state of this grid will be controlled by an Arduino Uno, and any changes made to the grid with the Arduino must be conveyed to the FPGA and displayed graphically. 
 
 To do this, you will need to familiarize yourself with the DE0-Nano FPGA development board, develop a system for transferring image information from the Arduino to the FPGA, and learn how to interact with the video memory and VGA driver.
 
 Look at the provided code for the VGA driver. The VGA driver generates the necessary VGA color and synchronization signals. It also outputs the x- and y-coordinates of the next pixel that is needed. It only has one input - which is the color that corresponds to the last pixel location given. A diagram is shown in the procedure section. During the preparation for your debrief with the staff (to take place between 16-19 September), you will need to decide how you will encode the pixels and their colors. Two important considerations are timing and space: you need to be able to access pixel colors quickly, edit them quickly, and have enough space in FPGA memory to hold all of the pixel values.
 
-The VGA driver outputs color and synchronization signals. It output 8-bit RGB color: 3 bits for red, 3 bits for green, and 2 bits for blue. However, the VGA cable connecting to the monitor only has one wire for red, one wire for green, and one wire for blue. These are analog cables (they take values from 0 to 1 V). We have provided a DAC that converts the given color bits (with a 3.3V digital output from the FPGA) to the desired three color 1V analog signals.
+The VGA driver outputs color and synchronization signals. It output 8-bit RGB color: 3 bits for red, 3 bits for green, and 2 bits for blue. However, the VGA cable connecting to the monitor only has one wire for red, one wire for green, and one wire for blue. These are analog cables (they take values from 0 to 1 V). We have provided a Digital-to-Analog-Converter (DAC) that converts the given color bits (with a 3.3V digital output from the FPGA) to the desired three color 1V analog signals.
 
-You will use Altera’s Quartus II software to program the FPGA. While there will have been a review of Verilog in class, it is highly recommended that you review how to program with Verilog.
-
-Your work in this lab is the foundation for the final basestation, so it will be helpful in the longrun if you think carefully about how you choose to represent your maze. Spend time thinking about an efficient method of storing the maze data to be displayed. Be sure to agree on a coordinate system to use for your grid _with the entire team_ - this will save a lot of time when debugging.
+Your work in this lab is the foundation for the final basestation, so it will be helpful in the longrun if you think carefully about how you choose to represent your maze. Spend time thinking about an efficient method of storing the maze data to be displayed. Be sure to agree on a coordinate system to use for your grid _with the entire team_ - speaking from experience, this will save a lot of time when debugging.
 
 #### Task 2: Sound
 
@@ -41,12 +49,12 @@ Additional materials:
 - Stereo phone jack socket
 - 8-bit R2R DAC
 
-You will use the FPGA to generate a short tune containing at least three different frequencies. This tune will play when the FPGA recieves a done signal from the Arduino. You will use standard speakers provided in lab to play your generated sound. Generating sound using an FPGA requires carefully considering the clock frequency of the overall system to generate waveforms of a desired frequency. There are many different waves you can generate using the FPGA, including square waves, triangle waves, sawtooth waves, and sine waves. All of these waves create tones with different timbres. Feel free to experiment with different waves to see which one you like the best. Keep in mind that for this lab, the tones you generate must use the 8-bit DAC. 
+You will use the FPGA to generate a short tune containing at least three different frequencies. This tune will play when the FPGA recieves a done signal from the Arduino. You will use standard speakers provided in lab to play your generated sound. Generating sound using an FPGA requires careful consideration of the clock frequency of the overall system to generate waveforms of a desired frequency. There are many different waves you can generate using the FPGA, including square waves, triangle waves, sawtooth waves, and sine waves. All of these waves create tones with different timbres. Feel free to experiment with different waves to see which one you like the best. Keep in mind that for this lab, the tones you generate must use the 8-bit DAC. 
 
 ### Documentation
-Throughout this lab and ALL labs, remember to document your steps, experiences, and results on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites.
+Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, photos, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites. 
 
-Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom. 
+Be sure to note on the website what work is carried out by whom. And remember that, if at all possible, you are expected to form different sub teams in every lab.
 
 ### Procedures
 
