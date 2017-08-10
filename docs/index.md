@@ -37,7 +37,7 @@ Teams will be dependent on lab-time sign-up, student skillsets, and personalitie
 
 All labs are divided into two sub-labs. To ensure a good mix, it is required that you keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D. Be sure to note what team members solve the sub labs on the website. 
 
-We will host internal team evaluations and practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
+We will prompt team evaluations and practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
 
 This [folder](./Grading/Readme.md) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2017 and that the score-chart may be changed throughout the semester.  
 
@@ -68,6 +68,7 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 * [Team contract](./Teamwork/Team_Contract.md)
 * [Managing conflict](./Teamwork/Managing_conflict_Chapter_7.pdf)
 * [Team assessment](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx)
+* [Leadership](./Teamwork/Leadership.md)
 
 **Related to GitHub**
 
