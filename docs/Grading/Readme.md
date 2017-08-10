@@ -4,11 +4,6 @@ The final semester grade will depend on multiple factors including lab solutions
 
 A total of 200 points will be given, these correspond to the following grades. *BE AWARE that the grading system is new, and that we may end up rescaling the spectrum during the semester.*
 
-
-[//]: # "Score | 200-185 | 184-170 | 169-155 | 154-140 | 139-125 | 124-110 | 109-95 | 94-80 | 79-65 | 64-50 | 49-35 | 34-20 | 19-0>"
-[//]: # "----- | --------|---------|---------|---------|---------|---------|--------|-------|-------|-------|-------|-------|-------"
-[//]: # "Grade	|    A+   |    A    |    A-   |    B+   |    B    |    B-   |  C+    |   C   |   C-  |  D+   |   D   |  D-   |   F >"
-
 Score | 200-155 |  154-110 | 109-65 |  64-20 | 19-0
 ----- | --------|----------|--------|--------|------
 Grade	|    A    |     B    |   C    |    D   |   F   
