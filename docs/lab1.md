@@ -81,6 +81,8 @@ Finally, implement this into your previous code to change the speed of the servo
 
 Whoever finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip, ball bearings, screws, and an allen key. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; remember to record videos for the website!  
 
+***
+
 ### If you finish early
 
 Already a whiz at Arduino? No worries, there are plenty of other things to do. If you want credit for this extra work, be sure to add your documentation to the website. 
@@ -112,6 +114,8 @@ If you have plenty of spare time, feel free to add [line sensors](https://www.sp
 You can also add [short range distance sensors](https://www.sparkfun.com/products/12728) or [long range distance sensors](https://www.sparkfun.com/products/8958) to help the robot detect walls. Use the IR sensor’s datasheet to map values to actual distances, and then break those distances down into blocks. Do you need to know that a wall is 6 inches away, or that it is simply one block ahead? Think about this and make a design choice.
 
 Starting early on both these tasks will help you in the milestones and the final challenge.
+
+***
 
 ### Wrap-Up and Clean-Up
 
