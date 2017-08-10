@@ -49,7 +49,7 @@ Please be aware that the following schedule is tentative and may change througho
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-1 | Intro, Arduino programming | 9 | Prototyping EE, [_LAB 4_](./lab4.md)  
+1 | Intro, Arduino programming, [Website](tutorials/webpages/webpages.md) | 9 | Prototyping EE, [_LAB 4_](./lab4.md)  
 2 | IPS fundamentals, team work/time management, [_LAB 1_](./lab1.md) | 10 | Algorithms 
 3 | Sensors and filters | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md) 
 4 | Embedded control, [_LAB 2_](./lab2.md) | 12 | Evaluating and debugging IPS
