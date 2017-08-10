@@ -16,6 +16,8 @@ By the end of this lab, you should be able to draw a the current state of a grid
 
 * You should also carefully read the different tasks you will be completing below.
 
+* As always it is a good idea to check [Team Alpha's website](https://cei-lab.github.io/ECE3400-2017-teamAlpha/) to see an example of a solution. But please strive to do better than we did!
+
 ### Graphics Team
 
 In this lab you will begin the task of building a fully-functional base station for your robot. You will do this by writing a VGA controller to display graphics on a VGA monitor using an FPGA. The graphics you must display in this lab will be a simplified version of the final maze grid. The state of this grid will be controlled by an Arduino Uno, and any changes made to the grid with the Arduino must be conveyed to the FPGA and displayed graphically. 
