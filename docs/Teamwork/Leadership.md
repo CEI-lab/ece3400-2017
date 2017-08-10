@@ -8,7 +8,7 @@
 
 The team leader is responsile for keeping the team motivated, performing, and balanced. Here as some hints at how you can effectively manage your team:
 
-* Make sure that everyone lives up to the team contract. Such conversations can be unpleasant, but if you refering to the contract they agreed on can help.
+* Make sure that everyone lives up to the team contract. Such conversations can be unpleasant, but if you refer to the contract they themselves agreed on, that can help.
 
 * *Think ahead!* Every week is going to present new engineering challenges, your job is to keep an eye on the goal and ensure progress. You can do this by making flow charts/Gant charts on what needs to happen next. 
 
