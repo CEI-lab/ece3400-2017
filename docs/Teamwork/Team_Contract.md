@@ -3,6 +3,7 @@
 # Team Contract, ECE 3400, Fall 2017
 
 *By Kirstin Petersen, August 10th 2017*
+
 *Adapted from material courtesy of the Center for Teaching Excellence, Cornell*
 
 ## Preparation for Team work
