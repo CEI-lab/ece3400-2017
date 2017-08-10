@@ -29,6 +29,8 @@ All designs must be documented throughout the semester on a group website. The g
 
 [Rules and final scoring chart](./Grading/Readme.md)
 
+![ECE3400 Overview](./images/Overview.png)
+
 ## Team Composition
 
 The teams will be composed by the TA's and lecturer *without exception*.
