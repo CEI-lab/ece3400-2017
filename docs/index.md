@@ -7,6 +7,8 @@
 * **TA's:** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Adarsh Jayakumar (aj373), Justin Selig (jss459), and Curran Sinha (cs886).
 * **Piazza:** The main page is located [here](piazza.com/cornell/fall2017/ece3400/home), please sign up [here](piazza.com/cornell/fall2017/ece3400)
 
+***
+
 # Course Description
 
 Students will engage in a holistic design approach to Intelligent Physical Systems which can perceive, reason about, and act upon their environment. This course will expand on the ECE 2000-level courses, and include topics on algorithms, field programmable gate arrays, wireless communication, sensors, actuators, power, and mechanics. Students will learn the value and trade-offs between theory, simulation, and physical implementations, and gain familiarity with rapid prototyping techniques, system debugging, team work, leadership skills, time management, and how to disseminate work to a broader audience through webpages.
@@ -43,6 +45,8 @@ We will prompt team evaluations and practice constructive critiscism. Receiving 
 
 This [folder](./Grading/Readme.md) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2017 and that the score-chart may be changed throughout the semester.  
 
+***
+
 # Schedule and Hand-Outs
 
 Please be aware that the following schedule is tentative and may change throughout the semester.
@@ -59,6 +63,8 @@ Week | Topic | Week | Topic
 8 | Wireless communication | 16 | -
 
 See detailed schedule and deadlines [here](schedule.md)
+
+***
 
 # Tutorials and Helpful links
 
@@ -117,6 +123,8 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 - [How to build a simple Arduino oscilloscope](https://www.build-electronic-circuits.com/arduino-oscilloscope/)
 - [Reading and writing to the serial port with Matlab](https://www.mathworks.com/help/matlab/matlab_external/writing-and-reading-data.html)
 - [This folder](docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
+
+***
 
 # Teaching Assistants and Instructor
 
