@@ -2,13 +2,13 @@
 ## 3D Printing Tutorial
 *By Christopher Fedors, July 30th 2017*
 
-## Tricks of the trade 
-* 3D printing is great for quickly making intricate 3D objects out of plastic. However, it is much slower than making parts in a laser cutter, so if your piece can be made of mostly straight walls this is not the right technology to use. 
+## Tricks of the trade
+* 3D printing is great for quickly making intricate 3D objects out of plastic. However, it is much slower than making parts in a laser cutter, so if your piece can be made of mostly straight walls this is not the right technology to use.
 * 3D printers often have physical limits on the size of the part they can print, and the accuracy with which they can print. Be sure to check the specs of the printer before you build your part.
 * Generally, it is much faster to print large flat parts, than thin tall parts.
-* The printer works by laying down layers of plastic on top of each other. Since the bond between layers is not as strong as the continuously extruded filament within the layer, the parts are always stronger along the horizontal axis. It is worth keeping this fact in mind when you decide on the orientation in which your part should be printed. 
-* Any overhangs in your piece may need support material during printing. Support can leave the surface of the part less smooth. A general rule is that overhangs with slopes of 45&deg; or higher can be printed without supports. 
-* The control software often lets you specify the infill rate of your part. Higher infill results in a more solid part, but uses up more material and takes longer to print. Many printers overextrude filament, and an infill higher than 50% can cause severe problems. Typically 20-30% will result in a very rigid part. 
+* The printer works by laying down layers of plastic on top of each other. Since the bond between layers is not as strong as the continuously extruded filament within the layer, the parts are always stronger along the horizontal axis. It is worth keeping this fact in mind when you decide on the orientation in which your part should be printed.
+* Any overhangs in your piece may need support material during printing. Support can leave the surface of the part less smooth. A general rule is that overhangs with slopes of 45&deg; or higher can be printed without supports.
+* The control software often lets you specify the infill rate of your part. Higher infill results in a more solid part, but uses up more material and takes longer to print. Many printers overextrude filament, and an infill higher than 50% can cause severe problems. Typically 20-30% will result in a very rigid part.
 
 ## Preparing Your Files
 ### 1. Make sure it is physically possible to 3D print your parts
@@ -27,7 +27,10 @@ We have two types of 3D printers available for the class:
 * Accuracy: 0.15m layer thickness, 0.15mm XY positioning
 
 ### 2. Export your part as a .stl file
-Solidworks and Autodesk both allow you to save/export your designs as .stl files. [Here](./stl-files.md) is more info on what an stl-file really is. 
+Solidworks and Autodesk both allow you to save/export your designs as .stl files. [Here](./stl-files.md) is more info on what an stl-file really is.
+
+### 3. Submit your parts to be printed
+Fill out the google form [here](https://docs.google.com/forms/d/e/1FAIpQLScdXLNbjt86BNXwdHtN3UUNWahkpr63f4GTkA4MlCiMCpedHw/viewform?usp=sf_link), and a TA will print your part as soon as they are able to.
 
 ## Printing Your Part
 ## XZZY+
@@ -112,4 +115,3 @@ To unload filament from the 3D printer, run UPStudio and select "Withdraw" from 
 ### Aborting print
 To pause the print, press the pause button in UPStudio. Pausing allows you to restart the print later. You can completely abort the print by pressing stop, as this does not give you the option to resume later.
 ![](./images/UP_Printing.png "Placed_Part")
-
