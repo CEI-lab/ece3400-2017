@@ -1,3 +1,5 @@
+# ECE 3400 Intelligent Physical Systems
+
 * **Cornell, Fall 2017**
 * **Class hours:** Monday, Wednesday, and Friday in Kimbal Hall B11
 * **Lab hours:** Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427
