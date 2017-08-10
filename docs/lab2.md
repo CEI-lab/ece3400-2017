@@ -48,7 +48,10 @@ To program your Arduino, click the checkmark to compile your code and then the r
 
 Refer to the Arduino Reference (http://arduino.cc/en/Reference/HomePage) for helpful functions and syntax as needed.
 
-3. **Assemble your microphone circuit**
+#### Acoustic Team: Assembly your microphone circuit
+
+MIGHT BE AN IDEA TO IMPLEMENT AN OVERRIDE BUTTON IN CASE YOUR MICROPHONE CIRCUIT FAILS TO RECOGNIZE THE START SIGNAL.
+
 The basic circuit for your electret microphone is as follows:
 
 ![Fig. 1](images/lab2_fig1.png)
@@ -59,7 +62,8 @@ It is suggested that you use a 1 µF capacitor and a ~3 kΩ resistor. You only 
 The Arduino’s analogRead function can only measure signals from 0 to 5 volts, so make sure that your circuit’s output is between these ranges (hint: you might want to create a DC offset).
 It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
-4. **Finish coding and debugging your microphone circuit**
+#### Finish coding and debugging your microphone circuit
+
 You will likely find that plugging in your circuit and running your code will not produce expected results. Remember when you debug that the oscilloscope on your lab bench is an invaluable tool both for your physical circuitry and for your Arduino. The waveform generator will also be an asset in debugging your code.
 
 Also MATLAB, which is installed on the lab computers, is another invaluable tool for debugging. You can use MATLAB to import values from a serial port and plot a graph of your signal. Use the myserialport = serial(comport, ‘BaudRate’, budrateneeded) to initialize a serial port. Set the comport parameter to the port that your Arduino is connected to (under Tools>ports in the Adriano program) and the budrateneeded parameter to 9600. Use the fopen(myserialport) to open the serial port. Read from the port using fscanf(myserialport,’%i’) and plot the value read. Close the port using fclose(myserialport) after you’re done reading.
@@ -67,7 +71,8 @@ Also MATLAB, which is installed on the lab computers, is another invaluable tool
 As always, feel free to talk to other groups or a TA if you need assistance.
 Remember to do adequate error-checking so that your robot responds reliably to the whistle blow. Otherwise, your performance will be penalized and you will get a late start on mapping the maze.
 
-5. **Assemble and code your additional circuit**
+#### Optical Team: Assemble your IR circuit
+
 Before you start creating your secondary circuit, make sure that a TA has checked off on it first. This design and implementation is largely up to you, so make sure you have a solid game plan before you come into the lab.
 One example for your additional circuit is a thresholded grayscale sensor. Using a white LED, a photoresistor, and Schmitt Trigger, you can design a circuit that outputs a “1” when it is on top of the black tape and a “0” when it is not (or vice versa). Doing this is helpful because packaged grayscale sensors have an analog output, which you don’t have that many pins for. Freeing up an analog pin for another sensor could be helpful when you are designing your robot.
 
