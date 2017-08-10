@@ -101,13 +101,14 @@ Nov 18th - Dec 5th (Final competition and deadline for the website):
 
 ------
 
-a)	I participated in formulating the standards, roles, and procedures as stated in this contract.
-b)	I understand that I am obligated to abide by these terms and conditions.
-c)	I understand that if I do not abide by these terms and conditions, I will suffer the consequences as stated in this contract.
+1.  I participated in formulating the standards, roles, and procedures as stated in this contract.
+2.  I understand that I am obligated to abide by these terms and conditions.
+3.  I understand that if I do not abide by these terms and conditions, I will suffer the consequences as stated in this contract.
 
-1) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
-2) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
-3) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
-4) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
-5) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
-6) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+1.  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+2.  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+3.  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+4.  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+5.  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+6.  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+7.  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
