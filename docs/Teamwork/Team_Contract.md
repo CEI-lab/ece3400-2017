@@ -1,16 +1,15 @@
+# ECE3400 Fall 2017
 
 # Team Contract, ECE 3400, Fall 2017
-**Courtesy of the Center for Teaching Excellence, Cornell**
 
-## Guidelines for Writing Team Contract
+*By Kirstin Petersen, August 10th 2017*
+*Adapted from material courtesy of the Center for Teaching Excellence, Cornell*
 
-To prepare you for the teamwork in the business world, you will be assigned a team for the semester.
+## Preparation for Team work
 
-According to concepts from Organizational Behavior, there are five stages of team development: _forming, storming, norming, performing, and adjourning_. During the forming stage, teams tend to communicate in indirect polite ways rather than more directly. The storming stage, characterized by conflict, can be often be productive, but may consume excessive amounts of time and energy. In this stage it is important to listen well for differing expectations. Next, during the norming stage, teams formulate roles and standards, increasing trust and communication. This norming stage is characterized by agreement on procedures, reduction in role ambiguity, and increased “we-ness” or unity.  These developments generally are precursors to the performing stage, during which teams achieve their goals, are highly task oriented, and focus on performance and production. When the task has been completed, the team adjourns.
+You will be assigned a team of 5-7 students who you will work with throughout the semester. Every 2-3 weeks you will take turns being the group leader. Team work has a lot of benefits; you get a lot of different insights to solve a problem, you can work efficiently on many tasks at once, and you always have someone to check your work. It is improtant to be aware that in a team environment, individuals are usually effectively motivated to maximize their own rewards and minimize their own costs. Therefore, successful team performance depends on individual accountability. Writing up a team contract, and doing team assessments throughout the semester can help keep everyone on track. This is good preparation for what will happen when you move on to industry or academia, you will end up as part of a team almost anywhere you go.
 
-To accelerate a team’s development, a team contract is generated to establish procedures and roles in order to move the team more quickly into the performing stage.  This process of generating a team contract can actually help jump-start a group's collaborative efforts by immediately focusing the team members on a definite task.  The group members must communicate and negotiate in order to identify the quality of work they all wish to achieve, and the level of group participation and individual accountability they all feel comfortable with.
-
-Successful team performance depends on personal individual accountability.  In a team environment, individuals are usually effectively motivated to maximize their own rewards and minimize their own costs.  However, conflicts can arise when individualistic motives or behaviors disrupt team-oriented goals.  For example, conflict can stem from an unequal division of resources.  When team members believe they are receiving too little for what they are giving, they sometimes reduce their effort and turn in work of lower quality.  Such "free riding" occurs most frequently when individual contributions are combined into a single product or performance, and individual effort is perceived as unequal.  At this point, some individual team members may take on extra responsibilities while other team members may reduce their own efforts or withdraw from the team completely.  These behaviors may engender anger, frustration, or isolation—resulting in a dysfunctional team and poor quality of work.  However, with a well-formulated team contract, such obstacles can usually be avoided.
+According to concepts from Organizational Behavior, there are five stages of team development: _forming, storming, norming, performing, and adjourning_. During the forming stage, teams tend to communicate in indirect polite ways rather than more directly. The storming stage, characterized by conflict, can be often be productive, but may consume excessive amounts of time and energy. In this stage it is important to listen well for differing expectations. Next, during the norming stage, teams formulate roles and standards, increasing trust and communication. This norming stage is characterized by agreement on procedures, reduction in role ambiguity, and increased “we-ness” or unity.  These developments generally are precursors to the performing stage, during which teams achieve their goals, are highly task oriented, and focus on performance and production. The point of the team contract is to help you move to the performing stage faster.
 
 ## Team Contract Assignment
 
@@ -20,13 +19,12 @@ Your team contract template is divided into three major sections:
 2.	identifying expectations
 3.	specifying the consequences for failing to follow these procedures and fulfill these expectations
 
-Since the basic purpose of this team contract is to accelerate your team's development, to increase individual accountability for team tasks, and to reduce the possibility for team conflict, make your contract as specific as possible:  (a) specify each task as detailed as possible, (b) specify each step in a procedure or process as detailed as possible, (c) specify the exact person(s) responsible for each specific task, and (d) specify the exact time and exact place for completion or submission of each task.  The more specifically you describe your team expectations, roles, and procedures, the greater chance you have for a successful team experience.
+Use the Team Contract template to discuss and finalize your team roles, procedures, and standards.  Complete, sign, and upload a copy of your finalized contract to your team website by Monday, August 28th 8am.
 
-Use the Team Contract template to discuss and finalize your team roles, procedures, and standards.  Complete, sign, and submit a copy of your finalized contract to the professor.
-
-Once your team contract has been developed, your team is ready to begin work on collaborative assignments.  However, you may soon find that your team is not working as well as you had hoped.  This is normal but needs to be attended to immediately.  Perhaps your team is simply not following the established contract procedures or roles as strictly as you should be, or perhaps you need to change some of the procedures or roles as outlined in your contract.  Call a team meeting immediately to discuss and resolve the challenges your team is facing; do not delay.  Seek guidance from your instructor, TA, or preceptor to resolve any conflicts so that you will have the most positive team experience possible.
+Once your team contract has been developed, your team is ready to begin work on collaborative assignments.  However, you may soon find that your team is not working as well as you had hoped.  This is normal but needs to be attended to immediately.  Perhaps your team is simply not following the established contract procedures or roles as strictly as you should be, or perhaps you need to change some of the procedures or roles as outlined in your contract.  Call a team meeting immediately to discuss and resolve the challenges your team is facing; do not delay. If necessary, seek guidance from your instructor or TA to resolve any conflicts so that you will have the most positive team experience possible.
 
 ## TEMPLATE FOR TEAM CONTRACT
+(Please add your input to each of the bullet points below.
 
 ECE 3400, Semester # _ _ _ Team # _ _ _
 
@@ -34,23 +32,25 @@ Team Members: _ _ _
 
 ### Team Procedures
 
-1.	Day, time, and place for regular team meetings:
+* It is important to keep all members of the team aware of the time and date of all meetings. It is a good idea to pick a day, time, and place for regular team meetings. 
 
-2.	Preferred method of communication (e.g., e-mail, cell phone, wired phone, Blackboard Discussion Board, face-to-face, in a certain class) in order to inform each other of team meetings, announcement, updates, reminders, problems:
+* Who will set each agenda? How long before the meeting should this be announced? How will team members be notified/reminded? Who will be responsible for the team following the agenda during a team meeting? What will be done to keep the team on track during a meeting?
 
-3.	Decision-making policy (by consensus? by majority vote?):
+*	Agree on how your team will make decisions. By consensus, majority vote, leader has veto rights, etc.?
 
-4.	Method for setting and following meeting agendas (Who will set each agenda? When? How will team members be notified/reminded? Who will be responsible for the team following the agenda during a team meeting?  What will be done to keep the team on track during a meeting?):
+*	Always keep a written record of what was agreed upon in the meeting. Who will be responsible for taking these notes? How will they be disseminated? Where will all agendas and meeting minutes be kept?
 
-5.	Method of record keeping (Who will be responsible for recording & disseminating minutes?  How & when will the minutes be disseminated?  Where will all agendas & minutes be kept?):
+*	All members should agree to a preferred method of communication (e.g., e-mail, cell phone, face-to-face), and be individually responsible for answering in good time as agreed upon in the team. Please note what method(s) and response delay you agree on.
 
 ### Team Expectations
 
-_Work Quality:_
+#### Work Quality
 
-1.	Project standards (What is a realistic level of quality for team presentations, collaborative writing, individual research, preparation of drafts, peer reviews, etc.?):
+* Agree on a (realistic) level of quality for website updates, individual work/design, peer reviews, etc.
 
-2.	Strategies to fulfill these standards:
+* Agree on when individuals/sub-teams must finish their part (on the deadline, or hours or a day before the deadline such that other team members can check their work):
+
+#### Strategies to fulfill these standards:
 
 _Team Participation:_
 
@@ -60,7 +60,7 @@ _Team Participation:_
 
 3.	Strategies for keeping on task (task maintenance):
 
-4.	Preferences for leadership (informal, formal, individual, shared):
+4.	Strategies to get help if you're stuck:
 
 _Personal Accountability:_
 
@@ -72,15 +72,17 @@ _Personal Accountability:_
 
 4.	Expected level of commitment to team decisions and tasks:
 
+5. How should a team member catch up if they have to miss a meeting:
+
 _Consequences for Failing to Follow Procedures and Fulfill Expectations_
 
-1.	Describe, as a group, you would handle infractions of any of the obligations of this team contract:
+1.	Describe how, as a group, you would handle individuals who do not live up to this contract:
 
-2.	Describe what your team will do if the infractions continue:
+2.	Describe what your team will do if these infractions continue:
 
-### Team Leadership ###
+### Team Leadership
 
-Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. Please note here who will be responsible when:
+Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. [./Here](Leadership.md) are some hints on what the leader should do. Please note here who will be responsible when:
 
 Aug 28th - Sep 15th (Lab 1, work on lab 2): 
 
@@ -94,6 +96,7 @@ Nov 4th - Nov 17th (Milestone 4):
 
 Nov 18th - Dec 5th (Final competition and deadline for the website):
 
+(If you are more or less than 6 people, please adjust the time periods accordingly).
 
 ------
 
