@@ -1,7 +1,7 @@
 # ECE3400 Fall 2017
 ## How to make a webpage from Github!
 
-*By Kirstin Petersen August 10th, 2017*
+*By Kirstin Petersen, August 10th, 2017*
 
 ### Starting a Github account
 Your team and all the members must create a GitHub account and make a basic website. We will use GitHub to share and save code (source control), and to manage the website. *At the end of this class, these repositories will be cloned to the class Github account so don't upload any information you don't want to share. You will be required to share all code and design files at the end of the class, however.*
