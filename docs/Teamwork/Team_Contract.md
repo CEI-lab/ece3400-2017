@@ -83,7 +83,7 @@ _Consequences for Failing to Follow Procedures and Fulfill Expectations_
 
 ### Team Leadership
 
-Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. [./Here](Leadership.md) are some hints on what the leader should do. Please note here who will be responsible when:
+Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. [Here](./Leadership.md) are some hints on what the leader should do. Please note here who will be responsible when:
 
 Aug 28th - Sep 15th (Lab 1, work on lab 2): 
 
