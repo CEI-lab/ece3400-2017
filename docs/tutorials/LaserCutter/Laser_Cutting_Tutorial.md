@@ -55,7 +55,19 @@ Any line that you want cut needs its width to be set to hairline, otherwise the 
 
 Here is a table with some common settings. If you find a good setting, please let us know so that we can add it.
 
-CHRISTOPHER PLEASE ADD SETTINGS FOR 3MM AND 6.35MM ACRYLIC, CARDBOARD, PAPER
+|Material     |DPI/Frequency|Speed|Power|
+|------------------|--------|-----|-----|
+|**Acrylic**       |        |     |     |
+|Engraving         |600 DPI |90   |60   |
+|Cutting 1/8" (3mm)|5000 Hz |20   |100  |
+|Cutting 1/4" (6mm)|5000 Hz |12   |100  |
+|**Plastics**      |        |     |     |
+|Engraving         |600 DPI |90   |55   |
+|Cutting 1/8" (3mm)|5000 Hz |30   |85   |
+|**Wood**          |        |     |     |
+|Engraving         |600 DPI |45   |100  |
+|Cutting 1/8" (3mm)|500 Hz  |40   |100  |
+|Cutting 1/4" (6mm)|500 Hz  |20   |100  |
 
 Alternatively, to find the right settings for a new material start with a high speed and low power. Then incrementally lower the speed and increase the power until the laser cuts through completely. If your material keeps igniting, try increasing the speed. You can also ensure that cuts are not too close together to keep the area from heating up. When operating with a thick material, you make have to cut twice.
 
