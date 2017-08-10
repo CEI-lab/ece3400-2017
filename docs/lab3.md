@@ -14,7 +14,7 @@ By the end of this lab, you should be able to draw a the current state of a grid
 
 * We will be using a DE0-Nano Development Board. Its documentation can be found [here](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4). You should skim this to have an idea of when to use it before the lab. 
 
-* You will use Altera’s Quartus II software to program the FPGA. While there will have been a review of Verilog in class, it is highly recommended that you review how to program with Verilog. Both sub-teams should download the example Quartus project [here](./Solutions/lab3/Lab3_template.zip) and modify the top-level module DE0_NANO.v.
+* You will use Altera’s Quartus II software to program the FPGA. While there will have been a review of Verilog in class, it is highly recommended that you review how to program with Verilog. Both sub-teams should download the example Quartus project [here](./Solutions/lab3/Lab3_template.zip).
 
 * You should also carefully read the different tasks you will be completing below.
 
