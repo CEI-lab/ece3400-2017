@@ -24,9 +24,9 @@ Be aware that the load will get heavier near the end of the semester when studen
 
 Labs:
 * Monday 1.25-4.25pm (Chris, Daniel)
-* Monday 7.30-10pm (Ryan, Claire)
-* Wednesday 7.30-10pm (Adarsh, Vidya)
-* Thursday 7.30-10pm (Justin, Vaidehi)
+* Monday 7.30-10pm (Vaidehi, Claire)
+* Wednesday 7.30-10pm (Ryan, Adarsh)
+* Thursday 7.30-10pm (Vidya, Justin)
 * Friday 1.25-4.25pm (Leah, Curran)
 
 Grading:
