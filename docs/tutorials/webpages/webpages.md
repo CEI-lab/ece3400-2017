@@ -25,3 +25,5 @@ You can find helpful information [here](https://pages.github.com/), but the basi
 * Be aware that although the site updates immediately, not all browsers update the sites appropriately. It make take several refreshs, or a new window to see your changes.
 
 * You can use [markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to write simple webpages, or you can choose to use html, although we will only be able to provide limited support for you if you do so. 
+
+*When you start making your website, PLEASE DO NOT UPLOAD HIGH QUALITY IMAGES. Also, please do not upload a bunch of images that you will not use. A high resolution is rarely necessary and tends to make the website very slow to load. A photo of 600 pixels width, for instance, will serve fine for a large image.*
