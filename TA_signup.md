@@ -30,11 +30,11 @@ Labs:
 * Friday 1.25-4.25pm
 
 Grading:
-* Lab 1 (Justin)
+* Lab 1 (Justin, Vaidehi)
 * Lab 2 (Adarsh, Leah)
 * Lab 3 (Claire, Curran)
 * Lab 4 (?,?)
-* Milestone 1 (Claire,?)
+* Milestone 1 (Claire, Vaidehi)
 * Milestone 2 (Adarsh, Curran)
 * Milestone 3 (Leah, Justin)
 * Milestone 4 (?,?)
