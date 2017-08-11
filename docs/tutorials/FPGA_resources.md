@@ -1,6 +1,8 @@
 # FPGA-related resources: useful tips and links
 
-We are using the DE0-Nano development board. 
+*By Claire Chen, 2017*
+
+**This tutorial is under construction**
 
 ## DE0-Nano User manual
 
