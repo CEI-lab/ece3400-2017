@@ -18,19 +18,7 @@ Both of these tasks will help towards the design of the final system. In the fin
 
 * As always it is a good idea to check [Team Alpha's website](https://cei-lab.github.io/ECE3400-2017-teamAlpha/) to see an example of a solution. But please strive to do better than we did!
 
-## Documentation
-
-Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, photos, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites.
-
-Be sure to note on the website what work is carried out by whom. And remember that, if at all possible, you are expected to form different sub teams in every lab.
-
-***
-
-## Procedure
-
-In this lab, you will need two FPGAs, a speaker, a screen, and other components as necessary. Again, please be aware that we do not have enough FPGAs available for you to keep both. Please return both FPGAs to the common bin after the lab. 
-
-## Graphics Team
+### Graphics Team
 
 In this lab you will begin the task of building a fully-functional base station for your robot. You will do this by writing a VGA controller to display graphics on a VGA monitor using an FPGA. The graphics you must display in this lab will be a simplified version of the final maze grid. The state of this grid will be controlled by an Arduino Uno, and any changes made to the grid with the Arduino must be conveyed to the FPGA and displayed graphically. 
 
@@ -65,7 +53,7 @@ Both sub-teams will need the following materials:
 * Arduino Uno
 * FPGA DE0_nano
 
-*Note: Be aware that your team only gets to keep one of the FPGAs after the lab is over. We do not have enough for every team to keep two FPGAs!*
+*Note: Please return your FPGA to the common bin after use. Once lab 4 is done, you get to keep on of the FPGAs in your own bin.*
 
 ### Graphics Team
 
@@ -153,7 +141,7 @@ Finally, generate at least two more audibly distinct frequencies to create a sho
 ***
 
 ### Wrap-Up and Clean Up
-Keep all circuitry and materials relevant to the video controller in your box. Do not keep USB A/B cables or computer monitors in your box. Remember to hand back the FPGA used for the acoustic team. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
+Keep all circuitry and materials relevant to the video controller in your box. Do not keep USB A/B cables or computer monitors in your box. Remember to hand back your FPGAs. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
 
 You should document this lab thoroughly on the website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the end of the following week. Remember to have a TA note your attendance before heading out.
 
