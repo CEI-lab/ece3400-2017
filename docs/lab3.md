@@ -53,7 +53,7 @@ Both sub-teams will need the following materials:
 * Arduino Uno
 * FPGA DE0_nano
 
-*Note: Please return your FPGA to the common bin after use. Once lab 4 is done, you get to keep on of the FPGAs in your own bin.*
+*Note: Please return your FPGA to the common bin after use. Once everyone has finished with lab 3, you get to keep on of the FPGAs in your own bin.*
 
 ### Graphics Team
 
@@ -141,7 +141,7 @@ Finally, generate at least two more audibly distinct frequencies to create a sho
 ***
 
 ### Wrap-Up and Clean Up
-Keep all circuitry and materials relevant to the video controller in your box. Do not keep USB A/B cables or computer monitors in your box. Remember to hand back your FPGAs. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
+Keep all circuitry and materials relevant to the video controller in your box. Do not keep USB A/B cables or computer monitors in your box. Remember to hand back your FPGAs; once this week is over you can keep an FPGA board specifically for your team. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
 
 You should document this lab thoroughly on the website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the end of the following week. Remember to have a TA note your attendance before heading out.
 
