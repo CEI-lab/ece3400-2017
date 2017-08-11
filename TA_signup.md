@@ -33,11 +33,11 @@ Grading:
 * Lab 1 (Justin, Vaidehi)
 * Lab 2 (Adarsh, Leah)
 * Lab 3 (Claire, Curran)
-* Lab 4 (?,?)
+* Lab 4 (Daniel, ?)
 * Milestone 1 (Claire, Vaidehi)
 * Milestone 2 (Adarsh, Curran)
 * Milestone 3 (Leah, Justin)
-* Milestone 4 (?,?)
+* Milestone 4 (Daniel, ?)
 
 Lectures:
 * FPGA, Friday lecture (Claire)
@@ -46,6 +46,7 @@ Lectures:
 * Feedback Control, Wednesday lecture (Adarsh)
 * Board layout, Friday lecture (Leah)
 * Analog circuitry and FFT, Friday lecture (Vaidehi)
+* Embedded Control, Friday lecture (Daniel Kim)
 
 ### List of TA's
 
