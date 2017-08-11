@@ -41,7 +41,7 @@ Grading:
 
 Lectures:
 * FPGA, Friday lecture (Claire)
-* Wireless, Monday lecture (Ryan)
+* Wireless, Friday lecture (Ryan)
 * 3D printing tutorial, Friday lecture (Chris)
 * Feedback Control, Wednesday lecture (Adarsh)
 * Board layout, Friday lecture (Leah)
