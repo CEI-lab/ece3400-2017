@@ -14,19 +14,19 @@ Week 3:
 * *Work on milestone 1*
 * Sep 4th, Mon: Labor day
 * Sep 6th, Wed: Sensors.
-* Sep 8th, Fri: Analog filters. Deadline @8am: The websites will be graded for contents on lab 1.
+* Sep 8th, Fri: Digital filters and FFT (Vaidehi Garg). Deadline @8am: The websites will be graded for contents on lab 1.
 
 Week 4:
 * *Lab 2 Analog circuitry and FFT*
-* Sep 11th, Mon: Digital filters.
+* Sep 11th, Mon: Analog filters.
 * Sep 13th, Wed: Embedded Systems (Joe Skovira)
-* Sep 15th, Fri: Embedded Control 
+* Sep 15th, Fri: Embedded Control (Daniel Kim)
 
 Week 5:
 * *Work on milestone 1*
 * Sep 18th, Mon: Actuators
 * Sep 20th, Wed: Feedback Control (Adarsh Jayakumar)
-* Sep 22nd, Fri: How servos work. Deadline @8am: The websites will be graded for contents on lab 2 and milestone 1.
+* Sep 22nd, Fri: How servos work (Justin Selig). Deadline @8am: The websites will be graded for contents on lab 2 and milestone 1.
 
 Week 6:
 * *Work on milestone 2*
@@ -39,12 +39,12 @@ Week 7:
 * *Lab 3 FPGA*
 * Oct 2nd, Mon: Mechanical prototyping
 * Oct 4th, Wed: Mechanical prototyping 
-* Oct 6th, Fri: Tutorial on 3D printers, laser cutters, and design strategies. If you want to use the 3D printer in the lab you will need to attend this lecture! (Christopher Fedors)
+* Oct 6th, Fri: Tutorial on 3D printers, laser cutters, and design strategies (Christopher Fedors). If you want to use the 3D printer in the lab you will need to attend this lecture! 
 
 Week 8:
 * Oct 9th, Mon: Fall break
-* Oct 11th, Wed: Communication and Wireless Communication
-* Oct 13th, Fri: Communication Protocols (Ryan O'Hern). Deadline @8am: The websites will be graded for contents on lab 3.
+* Oct 11th, Wed: Wired and Wireless Communication
+* Oct 13th, Fri: Wireless Communication and protocols (Ryan O'Hern). Deadline @8am: The websites will be graded for contents on lab 3.
 
 Week 9:
 * *Lab 4 Wireless communication*
