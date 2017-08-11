@@ -18,7 +18,19 @@ Both of these tasks will help towards the design of the final system. In the fin
 
 * As always it is a good idea to check [Team Alpha's website](https://cei-lab.github.io/ECE3400-2017-teamAlpha/) to see an example of a solution. But please strive to do better than we did!
 
-### Graphics Team
+## Documentation
+
+Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, photos, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites.
+
+Be sure to note on the website what work is carried out by whom. And remember that, if at all possible, you are expected to form different sub teams in every lab.
+
+***
+
+## Procedure
+
+In this lab, you will need two FPGAs, a speaker, a screen, and other components as necessary. Again, please be aware that we do not have enough FPGAs available for you to keep both. Please return both FPGAs to the common bin after the lab. 
+
+## Graphics Team
 
 In this lab you will begin the task of building a fully-functional base station for your robot. You will do this by writing a VGA controller to display graphics on a VGA monitor using an FPGA. The graphics you must display in this lab will be a simplified version of the final maze grid. The state of this grid will be controlled by an Arduino Uno, and any changes made to the grid with the Arduino must be conveyed to the FPGA and displayed graphically. 
 
