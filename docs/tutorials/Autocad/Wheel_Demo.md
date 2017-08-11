@@ -145,7 +145,7 @@ In order to create holes in the wheel, we are first going to extrude the hole su
 ![](./images/60.png)
 
 ### 20. Subtract the spokes and holes from the wheel
-Using the subtract tool, we can subtract out the material from the spokes and mounting holes from the rest of the wheel.
+Using the subtract tool, we can subtract out the material from the spokes and mounting holes from the rest of the wheel. Here we also change our workspace to 3D modeling in order to have easier access to the tools we need to use. 
 ![](./images/61.png)
 ![](./images/62.png)
 ![](./images/63.png)
