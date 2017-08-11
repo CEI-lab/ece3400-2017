@@ -58,8 +58,8 @@ Week | Topic | Week | Topic
 3 | Sensors and filters | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md) 
 4 | Embedded control, [_LAB 2_](./lab2.md) | 12 | Evaluating and debugging IPS
 5 | Actuators and control, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | Power and Career Center talk, [_Milestone 4_](./Grading/Milestone_score.md)
-6 | FPGA, VGA, [_LAB 3_](./lab3.md) | 14 | Alternative approaches to IPS 
-7 | Prototyping ME, [_Milestone 2_](./Grading/Milestone_score.md) | 15 | IPS Ethics, Final Competition
+6 | FPGA, VGA, [_Milestone 2_](./Grading/Milestone_score.md) | 14 | Alternative approaches to IPS 
+7 | Prototyping ME, [_LAB 3_](./lab3.md) | 15 | IPS Ethics, Final Competition
 8 | Wireless communication | 16 | -
 
 See detailed schedule and deadlines [here](schedule.md)
