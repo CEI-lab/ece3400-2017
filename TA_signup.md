@@ -23,21 +23,21 @@ Be aware that the load will get heavier near the end of the semester when studen
 ### Sign-Up
 
 Labs:
-* Monday 1.25-4.25pm (Chris, Leah)
+* Monday 1.25-4.25pm (Chris, Daniel)
 * Monday 7.30-10pm (Ryan, Claire)
-* Wednesday 7.30-10pm (Adarsh, Curran)
+* Wednesday 7.30-10pm (Adarsh, Vidya)
 * Thursday 7.30-10pm (Justin, Vaidehi)
-* Friday 1.25-4.25pm
+* Friday 1.25-4.25pm (Leah, Curran)
 
 Grading:
 * Lab 1 (Justin, Vaidehi)
 * Lab 2 (Adarsh, Leah)
 * Lab 3 (Claire, Curran)
-* Lab 4 (Daniel, ?)
+* Lab 4 (Daniel, Vidya)
 * Milestone 1 (Claire, Vaidehi)
 * Milestone 2 (Adarsh, Curran)
 * Milestone 3 (Leah, Justin)
-* Milestone 4 (Daniel, ?)
+* Milestone 4 (Daniel, Vidya)
 
 Lectures:
 * FPGA, Friday lecture (Claire)
@@ -46,7 +46,7 @@ Lectures:
 * Feedback Control, Wednesday lecture (Adarsh)
 * Board layout, Friday lecture (Leah)
 * Analog circuitry and FFT, Friday lecture (Vaidehi)
-* Embedded Control, Friday lecture (Daniel Kim)
+* Embedded Control, Friday lecture (Daniel)
 * How servos work, Friday lecture (Justin)
 
 ### List of TA's
