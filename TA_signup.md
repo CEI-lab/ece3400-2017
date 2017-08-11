@@ -36,7 +36,7 @@ Grading:
 * Lab 4 (?,?)
 * Milestone 1 (Claire,?)
 * Milestone 2 (Adarsh, Curran)
-* Milestone 3 (Leah)
+* Milestone 3 (Leah, Justin)
 * Milestone 4 (?,?)
 
 Lectures:
