@@ -137,6 +137,6 @@ I am an assistant professor in ECE, with field appointments in ME and CS. I run 
 I am a senior in ECE, with a minor in XXX. Last semester I worked in the CEI-lab on a spider-inspired jumping robot. Please contact me if you have any questions regarding your semester work. I'm especially well-qualified to answer topics on prototyping and electronics layout most of all. I'll also be in charge of the Skunkworks this semester, so if you'd like to make new parts for your robots let me know! In my spare time I xxx 
 
 ![Claire](./images/Claire.png)
-I am a senior in ECE, with a minor in XXX. Last semester I worked with Daniel in the CEI-lab on a new type of soft modular robot. My strengths include all class topics, but FPGA and verilog most of all. In my spare time I manage the rock wall at Cornell, come join if you need to blow off some steam!
+I am a senior in ECE. Last semester, I worked with Daniel in the CEI-lab on a new type of soft modular robot. My strengths include all class topics, but I feel most comfortable answering questions regarding FPGAs and Verilog. When I'm not in Phillips Hall, I'll usually be exploring new waterfalls in Ithaca, rock climbing at Lindseth Climbing Center, or tutoring kids in the Ithaca community. 
 
 ADD ALL TA's
