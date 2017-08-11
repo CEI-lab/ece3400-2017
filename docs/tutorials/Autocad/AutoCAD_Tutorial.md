@@ -62,7 +62,7 @@ Visually indicates the dimensions of the selected object. Indicates length for l
 
 ### Tools for 3D drawings
 #### Extrude (EXT)
-Extrudes a flat surface into a 3D volume. The height of this volume can be specified
+Extrudes a flat surface into a 3D volume. The height of this volume can be specified.
 #### Edge fillet (FILLETEDGE)
 Fillets the selected edge. Type "R" after an edge has been selected to change the radius of the fillet.
 #### Revolve (REV)
