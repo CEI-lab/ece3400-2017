@@ -47,6 +47,7 @@ Lectures:
 * Board layout, Friday lecture (Leah)
 * Analog circuitry and FFT, Friday lecture (Vaidehi)
 * Embedded Control, Friday lecture (Daniel Kim)
+* How servos work, Friday lecture (Justin)
 
 ### List of TA's
 
