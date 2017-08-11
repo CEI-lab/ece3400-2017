@@ -39,7 +39,7 @@ The teams will be composed by the TA's and lecturer *without exception*.
 
 Teams will be dependent on lab-time sign-up, student skillsets, and personalities. Before midnight August 23rd please fill out these [Google forms](https://goo.gl/forms/G54ZCPmXbgT65QS32) such that the teams can be formed immediately.
 
-All labs are divided into two sub-labs. To ensure a good mix, it is required that you keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D. Be sure to note what team members solve the sub labs on the website. 
+All labs are divided into two sub-labs. To ensure a good mix, it is required that you keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D. Be sure to note what team members solve the sub labs on the website.
 
 We will prompt team evaluations and practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
 
@@ -54,11 +54,11 @@ Please be aware that the following schedule is tentative and may change througho
 Week | Topic | Week | Topic
 -----|-------|------|-------
 1 | Intro, Arduino programming, [Website](tutorials/webpages/webpages.md) | 9 | Prototyping EE, [_LAB 4_](./lab4.md)  
-2 | IPS fundamentals, team work/time management, [_LAB 1_](./lab1.md) | 10 | Algorithms 
-3 | Sensors and filters | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md) 
+2 | IPS fundamentals, team work/time management, [_LAB 1_](./lab1.md) | 10 | Algorithms
+3 | Sensors and filters | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md)
 4 | Embedded control, [_LAB 2_](./lab2.md) | 12 | Evaluating and debugging IPS
 5 | Actuators and control, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | Power and Career Center talk, [_Milestone 4_](./Grading/Milestone_score.md)
-6 | FPGA, VGA, [_Milestone 2_](./Grading/Milestone_score.md) | 14 | Alternative approaches to IPS 
+6 | FPGA, VGA, [_Milestone 2_](./Grading/Milestone_score.md) | 14 | Alternative approaches to IPS
 7 | Prototyping ME, [_LAB 3_](./lab3.md) | 15 | IPS Ethics, Final Competition
 8 | Wireless communication | 16 | -
 
@@ -92,7 +92,7 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 **Making Tutorials**
 
-Making tutorials is a great way to earn extra credit. Please confer with the professor before starting. [Here's](tutorials/tutorials.md) a brief tutorial on making tutorials, with a list of possible tutorials we'd like to add. 
+Making tutorials is a great way to earn extra credit. Please confer with the professor before starting. [Here's](tutorials/tutorials.md) a brief tutorial on making tutorials, with a list of possible tutorials we'd like to add.
 
 **Related to Control**
 
@@ -107,7 +107,7 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 For the first time ever, we have a Skunkworks available to the class complete with a laser cutter, two 3D printers, and a PCB etching station. This is located in PH414. Please be aware that only TA's (and potentially trained students) will have access to this lab, but everyone can request to have pieces 3D printed, laser cut, or etched in there.
 
 - A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
-- Solidworks is available in many of the Phillips Hall computer labs; it is very fast to learn, and the tutorials offered in the help-menu are very intuitive. 
+- Solidworks is available in many of the Phillips Hall computer labs; it is very fast to learn, and the tutorials offered in the help-menu are very intuitive.
 - [Tutorials on Autocad](./tutorials/Autocad/AutoCAD_Tutorial.md). Autocad is installed on all the machines in PH427.
 - [Tinkercad](https://www.tinkercad.com/) is a nice free software that many of students have used successfully
 - [How to use the XYYZ and UPplus 2 3D printers](./tutorials/3Dprinting/3D_Printing_Tutorial.md)
@@ -131,12 +131,12 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 If you have a question that can't be answered by one of the links above, or on the Piazza page, try contact one of your TAs!
 
 ![Kirstin](./images/Kirstin.png)
-I am an assistant professor in ECE, with field appointments in ME and CS. I run the [Collective Embodied Intelligence Lab](http://cei.ece.cornell.edu/) with research on bio-inspired robot collectives. Feel free to contact me with any questions/concerns that don't fit Piazza. I have no specific office hours, but I intend to hang around PH427 in the beginning of many of the lab sessions. When I'm not designing random robots, I'm all about hiking, kayaking, camping, and getting as far from my computer as possible! 
+I am an assistant professor in ECE, with field appointments in ME and CS. I run the [Collective Embodied Intelligence Lab](http://cei.ece.cornell.edu/) with research on bio-inspired robot collectives. Feel free to contact me with any questions/concerns that don't fit Piazza. I have no specific office hours, but I intend to hang around PH427 in the beginning of many of the lab sessions. When I'm not designing random robots, I'm all about hiking, kayaking, camping, and getting as far from my computer as possible!
 
 ![Christopher](./images/Christopher.png)
-I am a senior in ECE, with a minor in XXX. Last semester I worked in the CEI-lab on a spider-inspired jumping robot. Please contact me if you have any questions regarding your semester work. I'm especially well-qualified to answer topics on prototyping and electronics layout most of all. I'll also be in charge of the Skunkworks this semester, so if you'd like to make new parts for your robots let me know! In my spare time I xxx 
+I am a senior in ECE, with an interest in control systems, particularly those with applications to aerospace. I am also a member of the rocketry project team. Last semester I worked in the CEI-lab on a spider-inspired jumping robot. Please contact me if you have any questions regarding your semester work. I'm especially well-qualified to answer topics on prototyping and electronics layout most of all. I'll also be in charge of the Skunkworks this semester, so if you'd like to make new parts for your robots let me know! For fun I ski, scuba dive, and fly gliders in my spare time. 
 
 ![Claire](./images/Claire.png)
-I am a senior in ECE. Last semester, I worked with Daniel in the CEI-lab on a new type of soft modular robot. My strengths include all class topics, but I feel most comfortable answering questions regarding FPGAs and Verilog. When I'm not in Phillips Hall, I'll usually be exploring new waterfalls in Ithaca, rock climbing at Lindseth Climbing Center, or tutoring kids in the Ithaca community. 
+I am a senior in ECE. Last semester, I worked with Daniel in the CEI-lab on a new type of soft modular robot. My strengths include all class topics, but I feel most comfortable answering questions regarding FPGAs and Verilog. When I'm not in Phillips Hall, I'll usually be exploring new waterfalls in Ithaca, rock climbing at Lindseth Climbing Center, or tutoring kids in the Ithaca community.
 
 ADD ALL TA's
