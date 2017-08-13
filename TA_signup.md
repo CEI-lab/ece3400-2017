@@ -23,7 +23,7 @@ Be aware that the load will get heavier near the end of the semester when studen
 ### Sign-Up
 
 Labs:
-* Monday 1.25-4.25pm (Chris, Daniel)
+* Monday 1.25-4.25pm (Chris, ?)
 * Monday 7.30-10pm (Vaidehi, Claire)
 * Wednesday 7.30-10pm (Ryan, Adarsh)
 * Thursday 7.30-10pm (Vidya, Justin)
