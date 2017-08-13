@@ -48,6 +48,7 @@ Lectures:
 * Analog circuitry and FFT, Friday lecture (Vaidehi)
 * Embedded Control, Friday lecture (Daniel)
 * How servos work, Friday lecture (Justin)
+* Sensors, Wednesday lecture (Vidya)
 
 ### List of TA's
 
