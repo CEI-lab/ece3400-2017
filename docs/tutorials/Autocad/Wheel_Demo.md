@@ -1,6 +1,11 @@
 # ECE3400 Fall 2017
 ## AutoCAD Wheel Demo
 *By Christopher Fedors, July 30th 2017*
+
+**This tutorial has been turned into a video available [here](https://youtu.be/TR7K3yZhM2g). **
+
+Alternatively, if you prefer the step-by-step version, see below:
+
 ## Getting Started
 ### 1. Open up a new drawing file in AutoCAD
 ![](./images/1.png)
