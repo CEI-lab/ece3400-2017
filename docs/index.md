@@ -31,6 +31,8 @@ All designs must be documented throughout the semester on a group website. The g
 
 [Rules and final scoring chart](./Grading/Readme.md)
 
+[Here is a great video of the course anno 2015.](https://www.youtube.com/watch?v=WN0maCOflVQ)
+
 ![ECE3400 Overview](./images/Overview.png)
 
 # Team Composition
