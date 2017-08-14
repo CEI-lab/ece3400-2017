@@ -2,7 +2,7 @@
 ## AutoCAD Wheel Demo
 *By Christopher Fedors, July 30th 2017*
 
-**This tutorial has been turned into a video available [here](https://youtu.be/TR7K3yZhM2g). **
+**This tutorial has been turned into a video available [here](https://youtu.be/TR7K3yZhM2g).**
 
 Alternatively, if you prefer the step-by-step version, see below:
 
