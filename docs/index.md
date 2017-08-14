@@ -55,7 +55,7 @@ Please be aware that the following schedule is tentative and may change througho
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-1 | Intro, Arduino programming, [Website](tutorials/webpages/webpages.md) | 9 | Prototyping EE, [_LAB 4_](./lab4.md)  
+1 | Intro, Arduino/website/Github, [Website](tutorials/webpages/webpages.md) | 9 | Prototyping EE, [_LAB 4_](./lab4.md)  
 2 | IPS fundamentals, team work/time management, [_LAB 1_](./lab1.md) | 10 | Algorithms
 3 | Sensors and filters | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md)
 4 | Embedded control, [_LAB 2_](./lab2.md) | 12 | Evaluating and debugging IPS
@@ -136,16 +136,19 @@ If you have a question that can't be answered by one of the links above, or on t
 ![Kirstin](./images/Kirstin.png)
 I am an assistant professor in ECE, with field appointments in ME and CS. I run the [Collective Embodied Intelligence Lab](http://cei.ece.cornell.edu/) with research on bio-inspired robot collectives. Feel free to contact me with any questions/concerns that don't fit Piazza. I have no specific office hours, but I intend to hang around PH427 in the beginning of many of the lab sessions. When I'm not designing random robots, I'm all about hiking, kayaking, camping, and getting as far from my computer as possible!
 
-![Adarsh](./images/Adarsh.png)
-I am an M.Eng in ECE focused on embedded software and analog circuitry for biomedical applications. As an undergrad, I was a part of the ESW Biofuels and Engineering World Health (EWH) project teams. When I'm not in one of the Phillips labs, you can usually find me playing chess, rock climbing, or at CTB making a food run. I'm best qualified to answer questions about analog circuitry, firmware design (C/C++), and Verilog. Looking forward to the semester!
-
-![Vaidehi](./images/Vaidehi.png)
-I am a senior in ECE, with an interest in analog and digital design and robotics. I am also a member of the Cornell Cup Robotics project team and Cornell IEEE. In Spring 2017, I worked with Vidya in the CEI-lab on a printer that will (in the future) print with mud. Feel free to ask me any questions about your projects. I enjoy everything hardware-related, especially circuit design, board layouts, and microcontrollers. When I'm not pulling all-nighters in Phillips Hall, I can be found pulling all-nighters in Carpenter Hall, running, reading, or trying to learn a new skill.
-
 ![Christopher](./images/Christopher.png)
 I am a senior in ECE, with an interest in control systems, particularly those with applications to aerospace. I am also a member of the rocketry project team. Last semester I worked in the CEI-lab on a spider-inspired jumping robot. Please contact me if you have any questions regarding your semester work. I'm especially well-qualified to answer topics on prototyping and electronics layout most of all. I'll also be in charge of the Skunkworks this semester, so if you'd like to make new parts for your robots let me know! For fun I ski, scuba dive, and fly gliders. 
 
 ![Claire](./images/Claire.png)
 I am a senior in ECE, with an interest in embedded systems and digital design. Last semester, I worked with Daniel in the CEI-lab on a new type of soft modular robot. My strengths include all class topics, but I feel most comfortable answering questions regarding FPGAs and Verilog. When I'm not in Phillips Hall, I'll usually be exploring new waterfalls in Ithaca, rock climbing at Lindseth Climbing Center, or tutoring kids in the Ithaca community.
 
-ADD ALL TA's
+![Vaidehi](./images/Vaidehi.png)
+I am a senior in ECE, with an interest in analog and digital design and robotics. I am also a member of the Cornell Cup Robotics project team and Cornell IEEE. In Spring 2017, I worked with Vidya in the CEI-lab on a printer that will (in the future) print with mud. Feel free to ask me any questions about your projects. I enjoy everything hardware-related, especially circuit design, board layouts, and microcontrollers. When I'm not pulling all-nighters in Phillips Hall, I can be found pulling all-nighters in Carpenter Hall, running, reading, or trying to learn a new skill.
+
+![Adarsh](./images/Adarsh.png)
+I am an M.Eng in ECE focused on embedded software and analog circuitry for biomedical applications. As an undergrad, I was a part of the ESW Biofuels and Engineering World Health (EWH) project teams. When I'm not in one of the Phillips labs, you can usually find me playing chess, rock climbing, or at CTB making a food run. I'm best qualified to answer questions about analog circuitry, firmware design (C/C++), and Verilog. Looking forward to the semester!
+
+![Justin](./images/Justin.png)
+I am an M. Eng student in Electrical and Computer Engineering with a special interest in embedded systems. I have worked for companies such as MITRE Corp, SpaceX, and Uber ATG. I am especially interested in the intersection of technology and healthcare. As an undergrad, I served as president of the Engineering World Health project team, led an initiative called Cornell Make to promote the expansion of makerspaces on campus, and served as Engineering Representative on the Student Assembly. I enjoy working out, studying business psychology, photography, and hanging out with friends. I'm interested in getting to know some of my ECE 3400 students, so feel free to drop me a line. I look forward to working with all of you!
+
+Add all TA's
