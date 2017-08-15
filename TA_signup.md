@@ -23,21 +23,24 @@ Be aware that the load will get heavier near the end of the semester when studen
 ### Sign-Up
 
 Labs:
-* Monday 1.25-4.25pm (Chris, ?)
+* Monday 1.25-4.25pm (Chris, ???)
 * Monday 7.30-10pm (Vaidehi, Claire)
 * Wednesday 7.30-10pm (Ryan, Adarsh)
 * Thursday 7.30-10pm (Vidya, Justin)
 * Friday 1.25-4.25pm (Leah, Curran)
 
+To help with Github and websites:
+* Daniel 
+
 Grading:
 * Lab 1 (Justin, Vaidehi)
 * Lab 2 (Adarsh, Leah)
 * Lab 3 (Claire, Curran)
-* Lab 4 (Daniel, Vidya)
+* Lab 4 (???, Vidya)
 * Milestone 1 (Claire, Vaidehi)
 * Milestone 2 (Adarsh, Curran)
 * Milestone 3 (Leah, Justin)
-* Milestone 4 (Daniel, Vidya)
+* Milestone 4 (???, Vidya)
 
 Lectures:
 * FPGA, Friday lecture (Claire)
