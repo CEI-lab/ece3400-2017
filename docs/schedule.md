@@ -6,9 +6,9 @@ Week 1:
 
 Week 2:
 * *Lab 1 Microcontrollers*
-* Aug 28th, Monday: IPS fundamentals. Deadline @8am: Submit [team contract](./Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.
-* Aug 30th, Wed: Effective team work/time management
-* Sep 1st, Fri: How to make good websites, online communication
+* Aug 28th, Monday: Effective team work/time management (Erica Cantrell Dawson, Director for the Engineering Leadership Program). 
+* Aug 30th, Wed: IPS fundamentals. 
+* Sep 1st, Fri: How to make good websites, online communication. Deadline @8am: Submit [team contract](./Teamwork/Team_Contract.md) to the lecturer. Make your first team website and add names and photos of your team members, and a link to the contract. 
 
 Week 3:
 * *Work on milestone 1*
