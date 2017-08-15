@@ -155,4 +155,7 @@ I am an M. Eng student in Electrical and Computer Engineering with a special int
 ![Vidya](./images/Vidya.png)
 I'm a senior in ECE. On campus I've been involved in research in NBB and ECE (with Vaidehi!) and the Engineering World Health project team. I also went through the leadership program and was a Kessler fellow. Feel free to ask me questions about anything course related or otherwise- I'll do my best to answer or find someone who can! Outside the classroom I love doing fun stuff outdoors, reading, taking photos and drawing :)
 
+![Leah](./images/Leah.png)
+Hello! I'm a senior in ECE, and I'm from Bow, New Hampshire. I took 3400 last fall and loved it, and this semester I'm TA-ing the Friday afternoon lab. I'm interested in analog IC design and robotics, and in my free time I enjoy baking and listening to NPR.
+
 Add all TA's
