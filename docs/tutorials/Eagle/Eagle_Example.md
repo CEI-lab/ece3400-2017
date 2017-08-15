@@ -17,7 +17,7 @@ Once I have selected the part with the symbol and footprint that I want, I place
 
 ![](./images/Place_Part.png "ATMega placed center screen")
 
-Next we want to add a resistor for our LED. When using an LED, you always want to include an in series resitor to limit the current going into the LED. For this resistor we choose a footprint fot a through hole resistor.
+Next we want to add a resistor for our LED. When using an LED, you always want to include an in series resistor to limit the current going into the LED. For this resistor we choose a footprint for a through hole resistor.
 
 ![](./images/Add_Resistor.png "Useful tools labeled")
 
@@ -25,7 +25,7 @@ Since we want to use pin PD7 for our output, we place our resistor down close to
 
 ![](./images/Place_Resistor.png "Useful tools labeled")
 
-After we have placed our resistor, we need to give it a value. For this tutorial we will give the resistor a value of 10k&Omega;. For very large or small values, use the metric prefix for the closest unit. For example, instead of 10,000, write 10k or instead of .001, write 1m. This helps keep your schematic readable. Be sure to gove all the components in your schematic values.
+After we have placed our resistor, we need to give it a value. For this tutorial we will give the resistor a value of 10k&Omega;. For very large or small values, use the metric prefix for the closest unit. For example, instead of 10,000, write 10k or instead of .001, write 1m. This helps keep your schematic readable. Be sure to give all the components in your schematic values.
 
 ![](./images/Value_Change.png "Useful tools labeled")
 

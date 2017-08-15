@@ -16,17 +16,17 @@ SMD stands for Surface Mount Device. This type of part is designed to be soldere
 ### Through hole
 Through hole parts typically have long leads meant to go into the holes of a breadboard or solderboard. These parts have a lot of variation in their footprints, so make sure the dimensions of the footprint of the part in your schematic match the dimensions listed on the part's datasheet. The advantage of through hole parts are that they are very common in the lab, can be used on PCBs, breadboards, and solderboards, and they are easier to solder. Their disadvantages are that they are typically very large compared to SMD parts.
 ### Different chip packages
-Sometimes a chip will be offered in several different packages. Make sure to choose a package for the chip that best suits your needs. Different packages for the same chip often have different pin mappings, so be aware of this. As with regular components, SMD chips are smaller but much more difficult to solder than DIP (Dual Inline Package) chips. DIP chips can also be removed an replaced if a DIP socket is used, while an SMD chip can be difficult to recover after its been soldered.
+Sometimes a chip will be offered in several different packages. Make sure to choose a package for the chip that best suits your needs. Different packages for the same chip often have different pin mappings, so be aware of this. As with regular components, SMD chips are smaller but much more difficult to solder than DIP (Dual Inline Package) chips. DIP chips can also be removed and replaced if a DIP socket is used, while an SMD chip can be difficult to recover after its been soldered.
 ## Creating a Schematic
 To open a schematic in Eagle, simply click on new schematic under the files button on the control panel. This gives you a blank canvas on for you to place your components. It is best to place all of your components and arrange them before you start wiring, as wiring makes moving parts around difficult.
 
 ![](./images/Open_Schematic.png "Opening a new schematic")
 ### Placing Components
-To place a component, click on the add component button on the left side of the screen. This will bring up a window that lists all the available components. It is often fastest to use the search feature to look for the part you would like, then picking from the results. If you are having trouble looking up a part, add asterisks before and after the part name. These function as "wildcard" characters and will give you more results. If you are just designing a schematic, then the only thing you need to pay attention to is the part's symbol. If you intend to make a PCB of your design, then you also have to pay attention to the footprint and package options for each part, as this is how the part will be mounted to your PCB. Almost all parts in Eagle have a footprint, which is how the part will appear in the board layout phase. Some parts have the same name and symbols but different footprints, so you must pay attention to the footprint of a part when you are selecting it. It helps to have already researched all your parts and selected their packages beforehand. The Digikey and Adafruit libraries have footprints for most common electrical components and chips. Sometimes Eagle just doesn't have the part you are looking for, and you will have to download an Eagle library or add the part to manually to Eagle's list of parts.
+To place a component, click on the add component button on the left side of the screen. This will bring up a window that lists all the available components. It is often fastest to use the search feature to look for the part you would like, then picking from the results. If you are having trouble looking up a part, add asterisks before and after the part name. These function as "wildcard" characters and will give you more results. If you are just designing a schematic, then the only thing you need to pay attention to is the part's symbol. If you intend to make a PCB of your design, then you also have to pay attention to the footprint and package options for each part, as this is how the part will be mounted to your PCB. Almost all parts in Eagle have a footprint, which is how the part will appear in the board layout phase. Some parts have the same name and symbols but different footprints, so you must pay attention to the footprint of a part when you are selecting it. It helps to have already researched all your parts and selected their packages beforehand. The Digikey and Adafruit libraries have footprints for most common electrical components and chips. Sometimes Eagle just doesn't have the part you are looking for, and you will have to download an Eagle library or add the part to manually to Eagle's library. Sparkfun has a good tutorial for adding parts [here](https://www.sparkfun.com/tutorials/110).
 
 ![](./images/ATMega.png "Component list")
 ### Wiring
-Wiring is how you connect parts together in Eagle. This is done with the net tool. The simplest way to connect two parts is to simply draw a net between their leads. If you right click on the net and click show, the net and the leads of each part it is connected to will be highlighted. Be careful not to let nets overlap with the part's symbol, as this does not make a connection between parts.
+Wiring is how you connect parts together in Eagle. This is done with the net tool. The simplest way to connect two parts is to simply draw a net between their leads. If you right click on the net and click show, the net, and the leads of each part it is connected to, will be highlighted. Be careful not to let nets overlap with the part's symbol, as this does not make a connection.
 
 ![](./images/Correct_Net.png "No overlap between part and net")
 ![](./images/Incorrect_Net.png "Overlap on left lead of resistor")
@@ -51,7 +51,7 @@ A more indirect way to connect two parts is to draw a small net segment on each 
 ![](./images/Wiring_11.png "Both nets are highlighted, indicating that they are connected")
 
 ### Groups
-If you want to move manipulate multiple parts at once, then you should use the group tool. Once you select the group tool, drag a box over or ctrl+click the parts you want to select. After you have selected all the parts you want, select the tool you want to use on the group, such as move, copy, or delete. Then right click on empty space and select "Tool:Group," where "Tool" is the tool you selcted in the previous step, such as move or copy.
+If you want to move manipulate multiple parts at once, then you should use the group tool. Once you select the group tool, drag a box over or ctrl+click the parts you want to select. After you have selected all the parts you want, select the tool you want to use on the group, such as move, copy, or delete. Then right click on empty space and select "Tool:Group," where "Tool" is the tool you selected in the previous step, such as move or copy.
 ### Useful Tools
 ![](./images/taskbar.png "Useful tools labeled")
 #### Move
@@ -61,7 +61,7 @@ This tool allows you to change the name of a part. This is great for increasing 
 #### Value
 The value tool allows you to change the value of a part. Many parts in Eagle don't explicitly tell you what their value is, so you have to set it with the value tool. Be sure to give every resistor, capacitor, and inductor a value, such as 10k for a 10k&Omega; resistor.
 #### Label
-The label tool allows you to attach labels to your nets. It is wise to label all of your imporant nets, as well as any nets that are not directly connected.
+The label tool allows you to attach labels to your nets. It is wise to label all of your important nets, as well as any nets that are not directly connected.
 #### Show
 The show tool is used to see all the connections a net makes. This also helps you find out what other parts a component is connected to. To use the show tool, right click on a net and select show or select the show tool and click on the net you want to examine.
 #### Copy
@@ -75,7 +75,7 @@ Mirrors an object about its y axis. To mirror an object, select mirror and click
 #### Rotate
 Rotates an object about its midpoint. Different options for rotation are presented in the top left corner of the screen. To rotate an object, select rotate and click on the object.
 ### ERC Check
-Once you have completed you schematic, it is wise to run an ERC check, which checks for any errors in the schematic. If you click on an error, Eagle will highlight where the error is on the schematic and allow you to process, approve or clear the errors. Processing an error means that you have corrected the error, but still want to check for it on future ERC checks. Approving an error means the error isn't an error at all, and removes the error from appearing on any future ERC checks. Clearing the errors is the same thing as processing them, except all the errors are removed from the current list, but will still appear on future ERC checks if they have not been corrected. Be aware that this check is not completely comprehensive, so you should still check over your schematic carefully even if it does pass ERC.
+Once you have completed you schematic, it is wise to run an ERC check, which checks for any errors in the schematic. If you click on an error, Eagle will highlight where the error is on the schematic and allow you to process, approve or clear the errors. Processing an error means that you have corrected the error, but still want to check for it on future ERC checks. Approving an error means the error isn't actually an error at all, and removes the error from appearing on any future ERC checks. Clearing the errors is the same thing as processing them, except all the errors are removed from the current list, but will still appear on future ERC checks if they have not been corrected. Be aware that this check is not completely comprehensive, so you should still check over your schematic carefully even if it does pass ERC.
 
 ![ERC check with 3 warnings](./images/ERC_Check.png)
 
@@ -91,11 +91,12 @@ When you first open the board file, all of the components from the schematic wil
 
 ![](./images/Board_Init.png "How a newly created board looks")
 
-The best way to start working on a board is to start placing your components on the board area in an intuitive way. As you start moving parts around, you will gain a better sense of where each part needs to go. The board layout does take some creativity, as there is not set formula for laying out PCBs. The goal should be to get everything in as small an area as possible, but not so small as to make routing difficult or impossible. Other factors should as be taken into consideration, such as with crystals for microcontrollers, which need to be placed in close proximity to their connected capacitors. There are many factors that may affect PCB design, included below is a short list with some of the more relevant ones to this class.
+The best way to start working on a board is to just start placing your components on the board area. As you start moving parts around, you will gain a better sense of where each part needs to go. The board layout does take some creativity, as there is not set formula for laying out PCBs. The goal should be to get everything in as small an area as possible, but not so small as to make routing too difficult or impossible. Other factors should as be taken into consideration, such as with crystals for microcontrollers, which need to be placed in close proximity to their connected capacitors. There are many factors that may affect PCB design, included below is a short list with some of the more relevant ones to this class.
 * Mounting the PCB
 * PCB manufacturing process
 * Signals sensitive to noise
 * High current
+* Capacitance of traces/board
 * High frequency signals
 * Thermal constraints
 
