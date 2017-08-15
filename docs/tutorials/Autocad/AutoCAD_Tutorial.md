@@ -6,7 +6,7 @@ AutoCAD is a CAD (Computer Aided Design) program that allows you to design vario
 ## AutoCAD basics
 ![Drafting workspace](images/Annotated_Start.png)
 ### Open up a new drawing file
-The default AutoCAD file type is a .dwt drawing file. You can open up a template file, but the default blank file will have just about everything you need.
+The default AutoCAD file type is a .dwt drawing file. You can open up a template file, but the default blank file will have just about everything you need for most designs.
 ### Workspaces
 ![Basic Navigation](images/Orientation.png)
 #### Navigating the workspace
@@ -44,7 +44,7 @@ Allows you to subtract a region from another region, which deletes the region be
 #### Array (ARRAY/ARRAYRECT/ARRAYPOLAR/ARRAYPATH)
 Arrays allow you to create multiple copies of the same part in a pattern. There are several different types of arrays: rectangular, polar, and path. Rectangular arrays will copy your object into a rectangular grid, polar arrays will copy objects in a circle around a centerpoint, and path arrays will make copies of an object along a defined path, such as an arc or a line. Most common operations, such as region, union, and subtract, cannot be used on arrays, so be sure to explode the array if you plan on using its components.
 #### Explode (EXPLODE)
-Breaks up an object into its component parts (lines, basic shapes, etc.). This tool is very useful on arrays, because it will break up the array into its component objects, allowing basic operations, which cannot be used on arrays, to be used on these objects.
+Breaks up an object into its component parts (lines, basic shapes, etc.). This tool is very useful on arrays, because it will break up the array into its component objects. This allows basic operations, which cannot be used on arrays, to be used on the individual objects.
 #### Move (M)
 Moves the select parts from one location to another. When using the move tool, you must specify what point of the object to use as a base point. When you move the object, it is relative to the base point. For example, if the base point is the center of a circle, when you move the circle, the center of the circle will be placed wherever you click. If the edge of the circle is the base point, that edge of the circle will be placed wherever you click. The base point does not have to be on or inside the object you are moving, it can be any arbitrary point.
 #### Rotate (RO)
@@ -56,7 +56,7 @@ Creates a copy of the selected object. Like the move tool, you must select a bas
 #### Text (TEXT/T)
 Allows you to add in text. There are two options, multiline text and single line text. Multiline allows for multiple lines of text, while single line only allows for one line of text.
 #### Fillet (F)
-Creates fillets, which are rounded corners, between two circles or lines. The fillet radius must be specified by typing "R" after selecting the first object, or it will default to the last radius value used. For 3D fillets, there is the edge fillet command, which will fillet any edge selected.
+Creates fillets, which are rounded corners, between two circles or lines. The fillet radius must be specified by typing "R" after selecting the first object, or it will default to the last radius value used. For 3D fillets, there is the edge fillet command, which will fillet any 3D edge selected.
 #### Dimension (DIM)
 Visually indicates the dimensions of the selected object. Indicates length for lines, diameter for circles.
 

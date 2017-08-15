@@ -5,7 +5,7 @@
 
 
 ## Uses for Eagle
-Eagle is a software program used for making electrical schematics and designing PCBs. Even in you don't intend to make a PCB, Eagle is still a useful tool for digitally laying out electical schematics. Eagle primarily uses two file types, .sch for schematics and .brd files for PCB designs.
+Eagle is a software program used for making electrical schematics and designing PCBs. Even in you don't intend to make a PCB, Eagle is still a useful tool for digitally laying out electrical schematics. Eagle primarily uses two file types, .sch files for schematics and .brd files for PCB designs.
 
 ## Choosing Components
 One of the most crucial steps in designing a PCB is choosing exactly what kind of components you will use. Even in the schematic mode, each part you place in Eagle has a footprint, which describes how the part will be mounted to the board. Most Eagle footprints refer to the package a part comes in. Most parts, such as resistors and capacitors can come in a variety of packages, while more exotic parts might only be available in one package. The variety of packages, and therefore footprints, of electrical parts can make the Eagle parts library seem daunting at first, so this section seeks to explain the two types of packages and their advantages and disadvantages.

@@ -5,10 +5,11 @@
 ## Tricks of the trade
 * 3D printing is great for quickly making intricate 3D objects out of plastic. However, it is much slower than making parts in a laser cutter, so if your piece can be made of mostly straight walls this is not the right technology to use.
 * 3D printers often have physical limits on the size of the part they can print, and the accuracy with which they can print. Be sure to check the specs of the printer before you build your part.
-* Generally, it is much faster to print large flat parts, than thin tall parts.
+* Generally, it is much faster to print large flat parts than thin tall parts.
 * The printer works by laying down layers of plastic on top of each other. Since the bond between layers is not as strong as the continuously extruded filament within the layer, the parts are always stronger along the horizontal axis. It is worth keeping this fact in mind when you decide on the orientation in which your part should be printed.
-* Any overhangs in your piece may need support material during printing. Support can leave the surface of the part less smooth. A general rule is that overhangs with slopes of 45&deg; or higher can be printed without supports.
+* Any overhangs in your piece may need support material during printing. Supports can leave the surface of the part less smooth. A general rule is that overhangs with slopes of 45&deg; or higher can be printed without supports.
 * The control software often lets you specify the infill rate of your part. Higher infill results in a more solid part, but uses up more material and takes longer to print. Many printers overextrude filament, and an infill higher than 50% can cause severe problems. Typically 20-30% will result in a very rigid part.
+* Be sure to check the size of your part in software before printing. The .stl files used for 3D printing are dimensionless, so double check the units the printer is using and the size of your part before starting your print. You don't want your 2" x 2" part becoming a 2mm x 2mm part.
 
 ## Preparing Your Files
 ### 1. Make sure it is physically possible to 3D print your parts
@@ -45,7 +46,7 @@ Make sure the parts you are printing have the orientation you want. By double cl
 ![](./images/Placed_Part.png "Placed_Part")
 ![](./images/Edit_Part.png "Safety Glasses")
 ### 4. Check the process
-The process controls how quickly and accurately your part will be printed. You can also adjust the infill percentage, which determines how much plastic is used to make the structure of your part. Process also lets you add automatically generate supports and rafts. The raft is a flat layer of material laid down at the base of the part to allow for a level building surface. The supports will be automatically placed under any overhangs and unsupported strutctures. **When using the raft, it is highly recommended to use supports and place your part some distance above the base of the printer, which will automatically generate supports between the raft and the part.** This is because it is very difficult to separate a part from the raft, but easy to separate a part from its supports.
+The process controls how quickly and accurately your part will be printed. You can also adjust the infill percentage, which determines how much plastic is used to make the structure of your part. Process also lets you add automatically generated supports and rafts. The raft is a flat layer of material laid down at the base of the part to allow for a level building surface. The supports will be automatically placed under any overhangs and unsupported structures. **When using the raft, it is highly recommended to use supports and place your part some distance above the base of the printer, which will automatically generate supports between the raft and the part.** This is because it is very difficult to separate a part from the raft, but easy to separate a part from its supports.
 ![](./images/Process.png "Placed_Part")
 ### 5. Preview the print
 This lets you see what will actually be printed by the printer. Everything is color coded based on how fast the printer can print it. The auto generated supports and raft are also shown here. Once you are satisfied with how everything appears in the preview, you can move on to printing.
@@ -57,7 +58,7 @@ This lets you see what will actually be printed by the printer. Everything is co
 4. Once the printer starts printing, do not leave it unattended for extended periods of time.
 
 ### 7. Removing your print
-After your print is completed, use a scraper to get under the base of the part and separate it from the base of the printer. Be careful not to damage the printer's base, as the scraper is very sharp.
+After your print is completed, use a scraper to get under the base of the part and separate it from the base of the printer. Be careful not to damage the printer's base, as the scraper is very sharp. Also be careful not to injure yourself with the scraper. As a rule, do not push the scraper toward your body or hands.
 
 ## Common Problems
 ### Reloading filament
@@ -67,7 +68,7 @@ Place the spool of filament you want to use on the back of the printer. Be sure 
 #### Unloading
 Pull back the plastic tube that covers the filament as it enters the extruder and grab the filament. Pull on the filament until it comes free of the extruder. After this, pull the filament out of the printer from the plastic tube on the back. Once all the filament is out, you are done.
 ### Cannot connect with printer
-When the Simplify3D software cannot connect to the printer, the error is usually due either the printer being physically disconnected from the computer or the computer communicating through the wrong COM port. For the first case, simply plug the printer into the computer using a USB A to B cable. For the other case, select the machine control panel in the Tools menu in Simplify3D program. From here, you can see the COM port being used to connect to the printer and a communication log between the printer and computer. Select the COM port the printer is connected to and click connect to connect to it. If you do not know which COM port the printer is on, try to connect to each of the ports listed. When a connection is successful, there will be several "READ:" and " SENT:" messages in the log, otherwise it will print "failed to connect."
+When the Simplify3D software cannot connect to the printer, the error is usually due to either the printer being physically disconnected from the computer or the computer communicating through the wrong COM port. For the first case, simply plug the printer into the computer using a USB A to B cable. For the other case, select the machine control panel in the Tools menu in Simplify3D program. From here, you can see the COM port being used to connect to the printer and a communication log between the printer and computer. Select the COM port the printer is connected to and click connect to connect to it. If you do not know which COM port the printer is on, try to connect to each of the ports listed. When a connection is successful, there will be several "READ:" and " SENT:" messages in the log, otherwise it will print "failed to connect."
 ### Aborting print
 To abort a print, you can either hit "EMERGENCY STOP" on the machine control panel under Tools in the Simplify3D program or pause the print from the 3D printer itself. To pause the print, press the center button on the printer, then use the down arrow to select pause, then press the center button again to stop the print.
 
@@ -101,7 +102,7 @@ This beings up a menu that allows you to configure the layer thickness, infill a
 ![](./images/UP_Printing.png "Placed_Part")
 
 ### 6. Removing your print
-It is best to move the baseplate from the base of the printer before attempting to remove any printed parts. Be sure to wait for 5-10 minutes after printing has ended before trying to remove the baseplate, as it is heated during printing. To remove the baseplate, simply pull back each of the metal hooks holding it to the printer's base. Once the base is removed, use a spatula to get between the baseplate and part. Be careful not to damage the baseplate in the process.
+It is best to move the baseplate from the base of the printer before attempting to remove any printed parts. Be sure to wait for 5-10 minutes after printing has ended before trying to remove the baseplate, as it is heated during printing. To remove the baseplate, simply pull back each of the metal hooks holding it to the printer's base. Once the base is removed, use a spatula to get between the baseplate and part. Be careful not to damage the baseplate in the process. It may be helpful to use a clamp to hold the baseplate down when using the spatula.
 
 ## Common Problems
 
