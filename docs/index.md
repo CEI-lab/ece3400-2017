@@ -43,7 +43,7 @@ Teams will be dependent on lab-time sign-up, student skillsets, and personalitie
 
 All labs are divided into two sub-labs. To ensure a good mix, it is required that you keep switching partners for the different labs. For example, if student A-F is a team; lab 1 should be solved by A-B-C and D-E-F; lab 2 by A-C-D and B-E-F; lab 3 by A-D-E and B-C-F; and lab 4 by A-E-F and B-C-D. Be sure to note what team members solve the sub labs on the website.
 
-We will prompt team evaluations and practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
+We will prompt team evaluations and practice constructive criticism. Receiving and giving professional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
 
 This [folder](./Grading/Readme.md) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2017 and that the score-chart may be changed throughout the semester.  
 
@@ -73,7 +73,7 @@ See detailed schedule and deadlines [here](schedule.md)
 We have and will continue to upload helpful tutorials and links on this webpage. We would love for you to contribute, please contact the TA's to do this!
 
 **Related to Team Work**
-* Here's a very quick recap on [Belbin team roles](https://www.youtube.com/watch?v=-efhOLVgEvM) 
+* Here's a very quick recap on [Belbin team roles](https://www.youtube.com/watch?v=-efhOLVgEvM)
 * [How to create Gant charts](https://www.smartsheet.com/blog/gantt-chart-excel01) for free in Microsoft Excel for time management
 * Excellent [Ted talk](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/transcript?language=en) for those who tend to procrastinate
 * [Team contract](./Teamwork/Team_Contract.md)

@@ -8,11 +8,11 @@
 
 ## Preparation for Team work
 
-You will be assigned a team of 5-7 students who you will work with throughout the semester. Every 2-3 weeks you will take turns being the group leader. Team work has a lot of benefits; you get a lot of different insights to solve a problem, you can work efficiently on many tasks at once, and you always have someone to check your work. It is improtant to be aware that in a team environment, individuals are usually effectively motivated to maximize their own rewards and minimize their own costs. Therefore, successful team performance depends on individual accountability. Writing up a team contract, and doing team assessments throughout the semester can help keep everyone on track. This is good preparation for what will happen when you move on to industry or academia, you will end up as part of a team almost anywhere you go.
+You will be assigned a team of 5-7 students who you will work with throughout the semester. Every 2-3 weeks you will take turns being the group leader. Team work has a lot of benefits; you get a lot of different insights to solve a problem, you can work efficiently on many tasks at once, and you always have someone to check your work. It is important to be aware that in a team environment, individuals are usually effectively motivated to maximize their own rewards and minimize their own costs. Therefore, successful team performance depends on individual accountability. Writing up a team contract, and doing team assessments throughout the semester can help keep everyone on track. This is good preparation for what will happen when you move on to industry or academia, you will end up as part of a team almost anywhere you go.
 
-According to concepts from Organizational Behavior, there are five stages of team development: _forming, storming, norming, performing, and adjourning_. During the forming stage, teams tend to communicate in indirect polite ways rather than more directly. The storming stage, characterized by conflict, can be often be productive, but may consume excessive amounts of time and energy. In this stage it is important to listen well for differing expectations. Next, during the norming stage, teams formulate roles and standards, increasing trust and communication. This norming stage is characterized by agreement on procedures, reduction in role ambiguity, and increased “we-ness” or unity.  These developments generally are precursors to the performing stage, during which teams achieve their goals, are highly task oriented, and focus on performance and production. The point of the team contract is to help you move to the performing stage faster. 
+According to concepts from Organizational Behavior, there are five stages of team development: _forming, storming, norming, performing, and adjourning_. During the forming stage, teams tend to communicate in indirect polite ways rather than more directly. The storming stage, characterized by conflict, can be often be productive, but may consume excessive amounts of time and energy. In this stage it is important to listen well for differing expectations. Next, during the norming stage, teams formulate roles and standards, increasing trust and communication. This norming stage is characterized by agreement on procedures, reduction in role ambiguity, and increased “we-ness” or unity.  These developments generally are precursors to the performing stage, during which teams achieve their goals, are highly task oriented, and focus on performance and production. The point of the team contract is to help you move to the performing stage faster.
 
-If you find that your team is disfunctional in any away you should address this immediately by calling a team meeting. If problems persist, seek help from TAs or the instructor.
+If you find that your team is dysfunctional in any away you should address this immediately by calling a team meeting. If problems persist, seek help from TAs or the instructor.
 
 ## Team Contract Assignment
 
@@ -33,7 +33,7 @@ Team Members: _ _ _
 
 ### Team Procedures
 
-* It is important to keep all members of the team aware of the time and date of all meetings. It is a good idea to pick a day, time, and place for regular team meetings. 
+* It is important to keep all members of the team aware of the time and date of all meetings. It is a good idea to pick a day, time, and place for regular team meetings.
 
 * Who will set each agenda? How long before the meeting should this be announced? How will team members be notified/reminded? Who will be responsible for the team following the agenda during a team meeting? What will be done to keep the team on track during a meeting?
 
@@ -85,9 +85,9 @@ _Consequences for Failing to Follow Procedures and Fulfill Expectations_
 
 Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. [Here](./Leadership.md) are some hints on what the leader should do. Please note here who will be responsible when:
 
-Aug 28th - Sep 15th (Lab 1, work on lab 2): 
+Aug 28th - Sep 15th (Lab 1, work on lab 2):
 
-Sep 16th - Sep 29th (Lab 2, Milestone 1 and 2): 
+Sep 16th - Sep 29th (Lab 2, Milestone 1 and 2):
 
 Sep 30th - Oct 20th (Lab 3, work on lab 4):
 

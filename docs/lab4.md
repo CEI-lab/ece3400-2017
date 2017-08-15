@@ -22,15 +22,15 @@ Now assume that each element in the array has a maximum value of 3. How many byt
 
 ### FPGA Team
 
-For this lab, packets do not need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3.
+For this lab, packets do not need to be large since you only need to display the robot's current location; however, keep in mind that for the final competition, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3.
 
-Brainstorm various methods of communication for transmitting maze data. This includes the robot's current location, any walls, presence and frequency of treasures, and the done signal. What method of data transmission did you use in Lab 3? Is this method easily scaled up to transmit longer packets? Decide on how you would like to transmit packets. You will implement this method in lab 4. 
+Brainstorm various methods of communication for transmitting maze data. This includes the robot's current location, any walls, presence and frequency of treasures, and the done signal. What method of data transmission did you use in Lab 3? Is this method easily scaled up to transmit longer packets? Decide on how you would like to transmit packets. You will implement this method in lab 4.
 
 ## Documentation
 
-Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, photos, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites. 
+Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, photos, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites.
 
-Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom. 
+Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom.
 
 ***
 
@@ -54,7 +54,7 @@ Plug your radios into your Arduinos using the special printed circuit boards. Wi
 
 ![Fig. 3: Arduino with radio.](images/lab4_fig3.png)
 
-Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory. 
+Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory.
 
 *Note: Do not update this library if the Arduino asks you to do so. The update will break the example code used for this lab.*
 
@@ -159,15 +159,15 @@ You should already have code from Lab 3 which displays a smaller version of the 
 
 #### Recieve packets from the Arduino
 
-Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. Use the communicaton protocol you decided on in the pre-lab. To test your packet reciever, consider using the on-board LEDs and output signals onto GPIO pins and viewing them using a scope.
+Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. Use the communication protocol you decided on in the pre-lab. To test your packet receiver, consider using the on-board LEDs and output signals onto GPIO pins and viewing them using a scope.
 
 #### Highlight the robot's current location based on packet information
 
-Now that you can recieve packets, parse this data and use it to display the robot's current location in the 4x5 grid.
+Now that you can receive packets, parse this data and use it to display the robot's current location in the 4x5 grid.
 
 #### Mark explored territory
 
-Finally, add additional support to display any previously-visited locations. 
+Finally, add additional support to display any previously-visited locations.
 
 ***
 

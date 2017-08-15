@@ -54,7 +54,7 @@ As previously mentioned, it is wise to put a ~300 ohm resistor in series with an
 
 ![Fig. 1](images/lab1_fig1.png)  
 
-Using the Arduino Reference webpage as a guide, think about how to write your setup and loop functions so that the serial monitor outputs the circuit’s analog value every half-second. When defining the analog pin number, use the code int PINNAME = AX;, where PINNAME is your variable name and X is the analog pin number. You can view the serial monitor by clicking on the magnifying glass in the top right corner of the IDE. Of course, the USB A/B cable must be connected to both the Uno and the computer for the serial monitor to work. Repeat the above with all analog pins to make sure they work work.  
+Using the Arduino Reference webpage as a guide, think about how to write your setup and loop functions so that the serial monitor outputs the circuit’s analog value every half-second. When defining the analog pin number, use the code int PINNAME = AX;, where PINNAME is your variable name and X is the analog pin number. You can view the serial monitor by clicking on the magnifying glass in the top right corner of the IDE. Of course, the USB A/B cable must be connected to both the Uno and the computer for the serial monitor to work. Repeat the above with all analog pins to make sure they work.  
 
 While there are examples in the IDE that have code for the serial monitor and analog pins, try to figure out how to write the code on your own using just the Arduino Reference page for help. If you get stuck, feel free to collaborate with a neighboring group or ask a TA for assistance.
 
