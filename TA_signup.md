@@ -58,8 +58,8 @@ Lectures:
 * MEng: Curran Sinha (cs886)
 * Ugrad: Claire Chen (clc288)
 * Ugrad: Christopher Fedors cjf83)
-* Ugrad: Daniel Kim (dsk252)
 * Ugrad: Leah Forrest (lmf232)
 * Ugrad: Vaidehi Garg (vg254)
 * Ugrad: Vidya Ramesh (vr236)
-* Ugrad sponsored by McCormick:
+* Ugrad: 
+* Ugrad sponsored by McCormick: Daniel Kim (dsk252)
