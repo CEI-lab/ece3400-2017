@@ -73,6 +73,7 @@ See detailed schedule and deadlines [here](schedule.md)
 We have and will continue to upload helpful tutorials and links on this webpage. We would love for you to contribute, please contact the TA's to do this!
 
 **Related to Team Work**
+* Here's a very quick recap on [Belbin team roles](https://www.youtube.com/watch?v=-efhOLVgEvM) 
 * [How to create Gant charts](https://www.smartsheet.com/blog/gantt-chart-excel01) for free in Microsoft Excel for time management
 * Excellent [Ted talk](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/transcript?language=en) for those who tend to procrastinate
 * [Team contract](./Teamwork/Team_Contract.md)
