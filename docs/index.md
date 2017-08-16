@@ -99,7 +99,7 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 
 **Related to Control**
 
-* Hate the Arduino IDE? You're not alone. It was really made for beginners, and so often hinders more advanced developers. If you are willing to spend some extra hours getting up to speed, you may want to switch to the [Bare-Arduino-Project](https://github.com/ladislas/Bare-Arduino-Project).
+* Hate the Arduino IDE? You're not alone. It was really made for beginners, and so often hinders more advanced developers. If you are willing to spend some extra hours getting up to speed, you may want to switch to the [Bare-Arduino-Project](https://github.com/ladislas/Bare-Arduino-Project). Be aware that there might be little help from the TAs if you choose this option.
 * [Arduino Uno online references and tutorials](https://www.arduino.cc/en/Reference/HomePage)
 * [A useful script to report on the internal state of your Arduino](https://playground.arduino.cc/Main/ShowInfo) and [here](https://playground.arduino.cc/Main/ShowInfo?action=sourceblock&num=1)
 * Also, for problems with Arduino, look at wiring.c on your development machine to see the firmware settings that are being uploaded to your Arduino.
