@@ -33,14 +33,14 @@ Turn on the iron and set the temperature to 700&deg;F (370&deg;C), and give it a
 ![](./images/IMG_0594.JPG "Metal Sponge")
 ![](./images/IMG_0595.JPG "Clean Iron")
 ### 3. Solder the connection
-Hold a strand of solder in one hand and the soldering iron in the other. Place the iron on the joint you want to solder and feed the solder onto both the pin and the board. The solder should melt as it touches the iron/joint. The solder is what conducts the heat, i.e. if you only apply solder to the iron it will not lead the heat from the iron onto the pin and will not flow onto the joint. 
-Apply enough solder so that the connection is mechanically and electrically stable. Applying too much solder can make a connection difficult to desolder, so be careful not to use too much. Applying heat for too long can lead to damages of both the component and the board.
+Hold a strand of solder in one hand and the soldering iron in the other. Place the iron on the joint you want to solder and feed the solder onto both the pin and the board. The solder should melt as it touches the iron/joint. The solder is what conducts the heat, i.e. if you only apply solder to the iron it will not lead the heat from the iron onto the pin and will not flow onto the joint.
+Apply enough solder so that the connection is mechanically and electrically stable. Applying too much solder can make a connection difficult to desolder, so be careful not to use too much. Applying heat for too long can damage both the component and the board.
 
 ![Application of solder to a joint](./images/solder_joint.png)
 ![Soldering SMD chip](./images/IMG_0588.JPG)
 
 ### 4. Evaluate
-A good solder joint should be shiny and cone shaped. If the joint is dull, it is the result of "cold solder," which occurs when molten solder is added to the joint, instead of being melted onto the joint itself. If the joint is blob shaped, electrical connection is not guaranteed, it may work briefly only to break as soon as a vibration occur. It also might cause a short circuit so be sure to always check for shorts after you are done.
+A good solder joint should be shiny and cone shaped. If the joint is dull, it is the result of "cold solder," which occurs when molten solder is added to the joint, instead of being melted onto the joint itself. If the joint is blob shaped, electrical connection is not guaranteed, it may work briefly only to break as soon as vibrations occur. It also might cause a short circuit so be sure to always check for shorts after you are done.
 
 Example of Good Solder Joint:
 
@@ -79,7 +79,7 @@ How much solder is still left on the joint? Sometimes multiple attempts need to 
 
 # Extra Soldering Techniques
 ## What Type of Wires to Use
-While solid wires are easier to use on breadboards, stranded wires are often better for soldering. This is because stranded wire both soaks up solder better than solid wire, as well as being less susceptible to fatigue. This means that solder joints made with stranded wire often last longer and are easier to make.
+While solid wires are easier to use on breadboards, stranded wires are often better for soldering. This is because stranded wire both soaks up solder better than solid wire and is less susceptible to fatigue. This means that solder joints made with stranded wire often last longer and are easier to make.
 
 ## Tinning Stranded Wire
 One downside to stranded wire is that it can fray, making it difficult to fit the wire through holes in solderboard or PCBs. To deal with this, it helps to twist the exposed wire to get it into a cylindrical shape and then "tin" it, which means to apply some solder to it. The tinning helps the stranded wire keep its shape and prevents fraying. The best way to tin the wire is to mount the wire such that the exposed tip points upwards. Then apply the iron at the tip of the wire along with a bit of solder to lead the heat. Next apply the solder at the base where the insulation starts. When it melts the solder will flow up towards the source of the heat, but some will be pulled downwards due to gravity. The solder that flows under the insulation helps strengthen the wire from damage that may have occurred when the insulation was stripped off.
@@ -116,8 +116,10 @@ The needle tip for the soldering iron has a small, pointed shape, much like that
 ## Soldering Chips
 ### DIP (Dual Inline Package) chips
 When making prototypes with DIP chips, it is not advisable to solder the chip directly to the solderboard or PCB. Instead, you should use a DIP socket and solder that to the solderboard or PCB instead. This allows for you to remove the chip and use it in another project later or replace it if it is broken. DIP sockets can be soldered into place like any other through hole component, though some tape may be needed to hold the socket in place.
-### SMD (Surface Mount Device) chips
+### SMD (Surface Mount Device) components
 SMD chips are often significantly smaller than their DIP counterparts, and require more precision when soldering. It is often best to use the needle tip for soldering these types of chips and devices. The best strategy for soldering a SMD chip is to lay your PCB flat and focus on soldering one pin to its corresponding pad. After one pin is soldered, you can then move the board to an easier orientation to solder. Soldering the remaining pins must be done carefully, applying as little solder as needed to make a good connection. One way to solder chips with many pins is to apply small globs of solder on to a group of pins, then soak up a small amount of that solder with braid. This should get rid of the excess solder, but keep the individual pins soldered to their corresponding pads.
+
+ For components, the best strategy is to melt some solder onto on of the component's pads before placing the component on the PCB. You can then place the component on its pads and immediately solder one of its connections. This will help keep the component in place while you solder the other pads.
 ## Solder Size
 Like wires, solder comes in different gauges. Higher gauge solder allows for more precise control over how much solder is applied, and is best used soldering SMD chips and parts. Lower gauge solder is better for soldering large components or applying large amounts of solder.
 
