@@ -4,14 +4,14 @@
 
 *By Kirstin Petersen, August 8th 2017*
 
-We'd love for more inputs to improve the website. The goal is to eventually have so much information online that students with any background could do well in the class. 
+We'd love for more inputs to improve the website. The goal is to eventually have so much information online that students with any background could do well in the class.
 
 Making a tutorial is also a good way to catch up on credits if you are falling behind in class. *Please contact the instructor and agree on a suitable tutorial before beginning!*
 
 ### Quick tips for making tutorials
 
 * Tutorials can be either a manual on how to do something (use a program or a design technique), or a walk-through example of how to do it. We are especially looking for good ideas for the latter.
-* Tutorials should be kept short and to the point - noone wants to read a lengthy document. 
+* Tutorials should be kept short and to the point - no one wants to read a lengthy document.
 * Tutorials should include lots of helpful pictures. If possible, video tutorials are even better!
 * Tutorials shouldn't just include strategies that work, but also comments on what doesn't work.
 * Tutorials must start with the name of the class (# ECE3400 Fall year), the title of the tutorial (## title), and the date and contact information of who made the tutorial (*name, date*).
@@ -34,4 +34,3 @@ Here are some tutorials we would like to add to the website. This is not a compl
 * How to make a visual program in Python
 * How to make a good tutorial video
 * etc....
-
