@@ -36,11 +36,11 @@ Grading:
 * Lab 1 (Justin, Vaidehi)
 * Lab 2 (Adarsh, Leah)
 * Lab 3 (Claire, Curran)
-* Lab 4 (???, Vidya)
+* Lab 4 (Yangyi, Vidya)
 * Milestone 1 (Claire, Vaidehi)
 * Milestone 2 (Adarsh, Curran)
 * Milestone 3 (Leah, Justin)
-* Milestone 4 (???, Vidya)
+* Milestone 4 (Yangyi, Vidya)
 
 Lectures:
 * FPGA, Friday lecture (Claire)
