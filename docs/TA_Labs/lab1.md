@@ -14,9 +14,9 @@ This lab will go over the basics of using the Arduino microcontroller, as well a
 
 ### Team materials
 #### Ardunio getting started
-* Arduino
-* USB A/B cable
-* Breadboard
+* 2 Arduinos
+* 2 USB A/B cables
+* 2 Breadboards
 * 10k&Omega; potentiometer
 * ~20k&Omega; - 1k&Omega; for voltage divider
 * ~330&Omega; - 500&Omega; resistor for LED
@@ -48,15 +48,17 @@ This lab will go over the basics of using the Arduino microcontroller, as well a
 * 3 IR cables
 
 #### Useful references
-[Arduino pinout](http://foros.giltesa.com/otros/arduino/fc/docs/pinout/uno.jpg)
-[Arduino datasheet](https://www.farnell.com/datasheets/1682209.pdf)
-[ATMega328p datasheet](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)
-[Arduino IDE reference](https://www.arduino.cc/en/Reference/HomePage)
-[Servo library reference](https://playground.arduino.cc/ComponentLib/Servo)
-[Common Arduino Problems](https://www.arduino.cc/en/Guide/Troubleshooting)
+- [Arduino pinout](http://foros.giltesa.com/otros/arduino/fc/docs/pinout/uno.jpg)
+- [Arduino datasheet](https://www.farnell.com/datasheets/1682209.pdf)
+- [ATMega328p datasheet](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)
+- [Arduino IDE reference](https://www.arduino.cc/en/Reference/HomePage)
+- [Servo library reference](https://playground.arduino.cc/ComponentLib/Servo)
+- [Common Arduino problems](https://www.arduino.cc/en/Guide/Troubleshooting)
+- [LM358 Op-Amp datasheet](http://www.ti.com/lit/ds/symlink/lm358.pdf	)
+- [LF353 Op-Amp datasheet](http://www.ti.com/lit/ds/symlink/lf353-n.pdf)
 
 ### Lab extras
 #### Line Sensors
 The line sensors used function as grayscale sensors, and there datasheet can be found [here](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/QRE1113.pdf). Since analog pins on the Arduino are limited, it is advisable for the students to convert the grayscale sensor's analog signal into a digital signal using a [Schmitt Trigger](http://howtomechatronics.com/how-it-works/electrical-engineering/schmitt-trigger/). Before making the Schmitt Trigger, students are advised to experiment with the line sensors and electrical tape to find the cut-off value(s) that work best for line detection. The students may also use a multiplexer in order to read from all 4 line sensors using only one analog pin, but this means they will have to order their own multiplexer from Digikey or Sparkfun. They could also read from the line sensors using one analog pin each, but since the wall detection sensors also output an analog signal, this is not advised. These are just a few of the ways line detection can be done, and students are open to explore other options.
 #### Wall Detection
-There are 2 wall detection sensors, one long range and the other short range. The datasheet for the long range sensor can be found [here](http://www.jameco.com/Jameco/Products/ProdDS/2136454.pdf). The datasheet for the short range sensor can be found [here](https://www.pololu.com/file/0J713/GP2Y0A41SK0F.pdf). The most important figure on the datasheet is the distance measuring characteristics graph, which maps output to distance. Both sensors have a quirk where very short distances have the same voltage output as longer distances due to a voltage peak in the distance measuring characteristics graph. This peak is at ~3cm for the short distance sensor and ~15cm for the long distance sensor. It is up to the students to decide how they will deal with this issue, but since the maze is relatively small and the robots only need to sense objects in a relatively short distance, it may be helpful for the students to measure distance only using the area of the graph to the left of the voltage peaks. 
+There are 2 wall detection sensors, one long range and the other short range. The datasheet for the long range sensor can be found [here](http://www.jameco.com/Jameco/Products/ProdDS/2136454.pdf). The datasheet for the short range sensor can be found [here](https://www.pololu.com/file/0J713/GP2Y0A41SK0F.pdf). The most important figure on the datasheet is the distance measuring characteristics graph, which maps output to distance. Both sensors have a quirk where very short distances have the same voltage output as longer distances due to a voltage peak in the distance measuring characteristics graph. This peak is at ~3cm for the short distance sensor and ~15cm for the long distance sensor. It is up to the students to decide how they will deal with this issue, but since the maze is relatively small and the robots only need to sense objects in a relatively short distance, it may be helpful for the students to measure distance only using the area of the graph to the left of the voltage peaks.
