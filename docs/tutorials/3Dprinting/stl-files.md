@@ -26,10 +26,10 @@ endsolid name
 
 The triangle described in the file above, could for example be part of a square as illustrated in the figure below:
 
-![STL-file-pic](../images/STL-files.png)
+![STL-file-pic](./images/STL-files.png)
 
 NB: The order of the vertices is determined by the right-hand rule. I.e. if you point your right thumb in the direction of the normal vector, the vertices are number ascendingly along the direction of your other four fingers.
 
 When you save your 3D part in an STL-file most programs will let you choose the resolution. With the low-end 3D printers we are using in this class a course resolution (angle tolerance ~30degrees, deviation 0.05mm), which leads to much smaller file sizes, is typically enough.
 
-![STL-file-pic](../images/STL-files2.png)
+![STL-file-pic](./images/STL-files2.png)
