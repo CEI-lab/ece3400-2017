@@ -87,8 +87,9 @@ Week 15:
 * *Work on final system*
 * Nov 27th, Mon: IPS Ethics
 * Nov 29th, Wed: IPS Ethics
-* Dec 1st, Fri: COMPETITION DAY! (Duffield Hall)
+* Dec 1st, Fri: Discuss websites
 
 Week 16:
+- Dec 4th, Mon: COMPETITION DAY! (Duffield Hall)
 - Dec 6th, Wed: Deadline @8am: The final websites will be graded.
 
