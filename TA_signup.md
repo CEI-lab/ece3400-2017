@@ -23,7 +23,7 @@ Be aware that the load will get heavier near the end of the semester when studen
 ### Sign-Up
 
 Labs:
-* Monday 1.25-4.25pm (Chris, ???)
+* Monday 1.25-4.25pm (Chris, Yangyi)
 * Monday 7.30-10pm (Vaidehi, Claire)
 * Wednesday 7.30-10pm (Ryan, Adarsh)
 * Thursday 7.30-10pm (Vidya, Justin)
@@ -64,5 +64,5 @@ Lectures:
 * Ugrad: Leah Forrest (lmf232)
 * Ugrad: Vaidehi Garg (vg254)
 * Ugrad: Vidya Ramesh (vr236)
-* Ugrad: 
+* Ugrad: Yangyi Hao (yh236)
 * Ugrad sponsored by McCormick: Daniel Kim (dsk252)
