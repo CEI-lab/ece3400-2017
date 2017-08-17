@@ -38,7 +38,7 @@ Remember, that to signify that your robot is finished exploring the maze, it mus
 
 * Your team will start with 10 points allotted for accuracy. For each piece of information that is displayed incorrectly on the monitor, 1 point will be deducted for a minimum of 0 points. The figure below shows an example for how a block (defined as 12”x12”) would be graded.
 
-![Accuracy points](images/Wall_accuracy.jpg)
+![Accuracy points](../images/Wall_accuracy.jpg)
 
 * _Errors will not propagate:_ For example, if the left wall is missing in this example, you do not get another point off if the right wall is missing in the block to the left of the example block.
 
