@@ -1,6 +1,6 @@
 # ECE3400 Fall 2017
 
-## Using the Epilog 24 Mini Laser cutter
+## Using the Epilog 60W 24 Mini Laser cutter
 *By Christopher Fedors, July 30th 2017*
 
 Laser cutting is the perfect tool for rapidly making 2D parts or parts where many flat sheets can be welded together. Using the laser cutter, you can both cut through and etch designs into your chosen material. Laser cutting much faster and often more accurate than 3D printing. Different materials can also be used, such as acrylic, wood, or cardboard.
@@ -47,7 +47,7 @@ Any line that you want cut needs its width to be set to hairline, otherwise the 
 * When you are satisfied with the layout of your part, click on print.
 * On the print menu select print preferences. This will bring up the configuration menu for the cutter.
 * **Make sure autofocus is on and the piece size dimensions match the page size.** If the laser is not focused it can mess up your part, and in the worst case run the head of the laser into the base plate breaking the cutter.
-* Select the proper settings for vectoring and rastering. Look at page 141 of the Laser cutter manual to find the proper settings for the material you are using.
+* Select the proper settings for vectoring and rastering. Look at page 141 of the Laser cutter manual to find the proper settings for the material you are using. The laser cutter used in the lab is 60W.
 
 ![Print preferences](./images/PrintscreenC.png)
 ![Default preferences](./images/Preferences.png)
