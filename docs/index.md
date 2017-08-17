@@ -165,4 +165,5 @@ I'm a senior in ECE. On campus I've been involved in research in NBB and ECE (wi
 ![Leah](./images/Leah.png)
 Hello! I'm a senior in ECE, and I'm from Bow, New Hampshire. I took 3400 last fall and loved it, and this semester I'm TA-ing the Friday afternoon lab. I'm interested in analog IC design and robotics, and in my free time I enjoy baking and listening to NPR.
 
-Add all TA's
+![Curran](./images/Curran.png)
+Hey Everyone! I’m an M. Eng student in ECE with an interest in embedded systems. On campus I have been involved with research on CubeSats and autonomous systems. Feel free to reach out to me about any of the class topics (or anything else) and I’d love to help out! In my free time I’m usually practicing drums or rehearsing/performing with various musical groups around town.
