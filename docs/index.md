@@ -23,6 +23,8 @@ _Specific outcomes include:_
 Prerequisites include ECE 2100  ECE 2200 and ECE 2300.  Recommended prerequisite: ECE 2400 (or equivalent).
 All information is gathered on this page; no additional textbooks are required.
 
+***
+
 # Semester Project
 
 In teams of 5-7 people, you will design, fabricate, and program a robot to explore a maze. The robot microcontroller will be based on an Arduino Uno; the default propulsion method will be differential drive with continuous rotation servos. The robot will traverse the maze by following black lines on a white floor; it must also be able to detect walls, an audible start signal, and treasures emitting infrared light at different frequencies. The robot must continuously transmit its progress wirelessly to a base station (also based on Arduino Uno). This base station will communicate with an FPGA that in turn must drive a screen through a VGA interface. Points will be awarded for speed, accuracy, and innovative design methods. The entire robot can cost no more than $100; this [chart](Cost.md) shows how the price is calculated.
@@ -34,6 +36,8 @@ All designs must be documented throughout the semester on a group website. The g
 [Here is a great video of the course from 2015.](https://www.youtube.com/watch?v=WN0maCOflVQ)
 
 ![ECE3400 Overview](./images/Overview.png)
+
+***
 
 # Team Composition
 
@@ -138,6 +142,10 @@ If you have a question that can't be answered by one of the links above, or on t
 ![Kirstin](./images/Kirstin.png)
 I am an assistant professor in ECE, with field appointments in ME and CS. I run the [Collective Embodied Intelligence Lab](http://cei.ece.cornell.edu/) with research on bio-inspired robot collectives. Feel free to contact me with any questions/concerns that don't fit Piazza. I have no specific office hours, but I intend to hang around PH427 in the beginning of many of the lab sessions. When I'm not designing random robots, I'm all about hiking, kayaking, camping, and getting as far from my computer as possible!
 
+![Daniel](./images/Daniel.png)
+I'm a senior double majoring in ECE and CS with an interest in embedded systems. At Cornell, I've been mainly involved in the Cislunar Explorers project in the Space Systems Design Studio working on integrating the power system with a Raspberry Pi as well as the
+Collective Embodied Intelligence lab, working on the FORMBots project with Claire. I also enjoy improvising jazz on the piano, sketching, and playing smash in my free time. I'm here to help you make awesome websites - feel free to contact me with any questions on Github and markdown. I look forward to meeting and working with you!
+ 
 ![Christopher](./images/Christopher.png)
 I am a senior in ECE, with an interest in control systems, particularly those with applications to aerospace. I am also a member of the rocketry project team. Last semester I worked in the CEI-lab on a spider-inspired jumping robot. Please contact me if you have any questions regarding your semester work. I'm especially well-qualified to answer topics on prototyping and electronics layout most of all. I'll also be in charge of the Skunkworks this semester, so if you'd like to make new parts for your robots let me know! For fun I ski, scuba dive, and fly gliders.
 
