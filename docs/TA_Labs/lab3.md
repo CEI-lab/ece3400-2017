@@ -11,6 +11,7 @@ This lab is all about working with FPGAs and digital communication. Here are som
 * **D/A converters and their uses:** Describe what D/A conversion does and why it is useful. Go over different methods of D/A conversion, such as using ICs, using resistor ladders, etc. Go over some of the limitations on D/A conversion, such as conversion speed, accuracy, and resolution.
 * **Resistor D/A converter:** Explain specifically how the D/A converter on the VGA adapter works. Make sure the students know that each VGA pin has a load of 50&Omega;. Go over how to calculate the voltage each digital pin should contribute and how to calculate the resistance each digital pin should have to drive. This is explained in detail in the extra help section.
 * **Different ways of representing the maze:** Discuss some different ways of representing the maze, both in data and on the computer monitor. Go over some advantages and disadvantages of each methods. An example would be discussing the trade off between representing walls as standalone "blocks" or using the edges of path "blocks" as potential walls. The first approach requires more total blocks, but each block needs to carry less information, as it only needs to describe a block as being a wall or not being a wall. The second approach needs each block to describe if any of its four sides are walls, thus requiring more information.
+
 ### Team materials
 * 2 Arduino Uno
 * 2 FPGA DE0_nano
@@ -24,9 +25,10 @@ This lab is all about working with FPGAs and digital communication. Here are som
 * Various resistors
 
 ### Useful references
-[DAC datasheet]
-[VGA communication]
-[SPI communication]
+[DAC datasheet](http://www.bourns.com/docs/Product-Datasheets/R2R.pdf)
+[What is VGA?](https://www.computerhope.com/jargon/v/vga.htm)
+[VGA communication](https://electronics.stackexchange.com/questions/166681/how-exactly-does-a-vga-cable-work)
+[SPI communication](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi)
 ### Extra Help
 #### Calculating VGA voltage divider
 ![VGA adapter schematic](images/VGA_Adapter.png)

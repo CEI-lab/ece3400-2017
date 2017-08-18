@@ -157,7 +157,7 @@ You will modify your code to display the full 4x5 grid on the VGA monitor. Addit
 
 You should already have code from Lab 3 which displays a smaller version of the maze grid on the VGA monitor using the FPGA. Modify your code to display the full 4x5 grid.
 
-#### Recieve packets from the Arduino
+#### Receive packets from the Arduino
 
 Using the packet format that you have agreed on with the radio team, write a module to read packets from the Arduino. Use the communication protocol you decided on in the pre-lab. To test your packet receiver, consider using the on-board LEDs and output signals onto GPIO pins and viewing them using a scope.
 
