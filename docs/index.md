@@ -63,10 +63,10 @@ Week | Topic | Week | Topic
 2 | IPS fundamentals, team work/time management, [Website](tutorials/webpages/webpages.md), [_LAB 1_](./lab1.md) | 10 | Algorithms
 3 | Sensors and filters | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md)
 4 | Embedded control, [_LAB 2_](./lab2.md) | 12 | Evaluating and debugging IPS
-5 | Actuators and control, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | Power and Career Center talk, [_Milestone 4_](./Grading/Milestone_score.md)
-6 | FPGA, VGA, [_Milestone 2_](./Grading/Milestone_score.md) | 14 | Alternative approaches to IPS
-7 | Prototyping ME, [_LAB 3_](./lab3.md) | 15 | IPS Ethics, Final Competition
-8 | Wireless communication | 16 | -
+5 | Actuators and control, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | Power and alternative IPS
+6 | FPGA, VGA, [_Milestone 2_](./Grading/Milestone_score.md) | 14 | Discussion of websites [_Milestone 4_](./Grading/Milestone_score.md)
+7 | Prototyping ME, [_LAB 3_](./lab3.md) | 15 | IPS Ethics, Career Center talk
+8 | Wireless communication | 16 | Final Competition
 
 See detailed schedule and deadlines [here](schedule.md)
 
