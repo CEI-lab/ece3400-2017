@@ -74,12 +74,12 @@ Week 12:
 Week 13:
 * *Work on milestone 4*
 * Nov 13th, Mon: Power and batteries for IPS
-* Nov 15th, Wed: Cornell Engineering Career Center (Christa Downey)
-* Nov 17th, Fri: In-class assessment of websites. Deadline @8am: The websites will be graded for contents on milestone 4
+* Nov 15th, Wed: Alternative approaches to IPS
+* Nov 17th, Fri: Alternative approaches to IPS
 
 Week 14:
 * *Work on final system*
-* Nov 20th, Mon: Alternative approaches to IPS
+* Nov 20th, Mon: In-class assessment of websites. Deadline @8am: The websites will be graded for contents on milestone 4
 * Nov 22nd, Wed: Thanksgiving recess
 * Nov 24th, Fri: Thanksgiving recess
 
@@ -87,7 +87,7 @@ Week 15:
 * *Work on final system*
 * Nov 27th, Mon: IPS Ethics
 * Nov 29th, Wed: IPS Ethics
-* Dec 1st, Fri: Discuss websites
+* Dec 1st, Fri: Cornell Engineering Career Center (Christa Downey)
 
 Week 16:
 - Dec 4th, Mon: COMPETITION DAY! (Duffield Hall)
