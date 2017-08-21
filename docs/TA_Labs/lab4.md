@@ -1,7 +1,12 @@
 # ECE3400 Fall 2017
+
+1.  The TAs should start every lab with a brief introduction to what the students are supposed to do. Make sure everyone knows where the lab-instructions are located. Keep your intros brief so that everyone can get onto their work. 
+2.  If the same question appears many times during a session, it is a good idea to ask everyone to pause their work, and discuss the questions with all four teams at the same time. 
+3.  Near the end of the lab, when the first teams have started wrapping up, you should again address all the teams, and remind them to write up everything on their webpage, and what is needed to complete the next milestone. 
+
 ## Lab 4 TA Reference
 ### Introduction
-This is the final lab, going over radio communication between the robot and the base station. Here are some talking points for the start of the lab, feel free to use as many or little of these talking points as you want.
+This is the final lab, going over radio communication between the robot and the base station. Here are some talking points for the start of the lab, feel free to use as many or few of these as you want.
 * **How do radios work?** Go over the basic principles of radio communication. Go over the basic operating principles behind AM or FM radio. Describe what bandwidth and operating frequency and why they are important.
 * **Obstacles to radio communication:** Point out where the antenna is on the radios the students will be using. Describe common sources of radio interference and what radio signals can and cannot pass through. Make sure the students understand that metal objects on their robots will absorb or reflect radio waves and could interfere with radio communication.
 * **Different methods of updating map information:** Describe different techniques that can be used to send information to the base station in order to update the map. Should the robot send the entire map for every update, or just new information? What data will be stored on the base station and what will be stored on the robot? Keep in mind that the radio offers 2 way communication, so in theory the base station could compute the path finding algorithm and transmit instructions to the robot. Go over the advantages and disadvantages of each approach.
