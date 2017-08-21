@@ -1,7 +1,12 @@
 # ECE3400 Fall 2017
 ## Lab 1 TA Reference
+
+1.  We recommend that the TAs start every lab with a brief introduction to what the students are supposed to do. Make sure everyone knows where the lab-instructions are located. You can also start by briefly introducing basic lab equipment and describe the components the students will use. 
+2.  If the same question appears many times during a session, it is a good idea to ask everyone to pause their work, and discuss the questions with all four teams at the same time. 
+3.  Near the end of the lab, when the first teams have started wrapping up, you should again address all the teams, and remind them to write up everything on their webpage, and what is needed to complete milestone 1. 
+
 ### Introduction
-This lab will go over the basics of using the Arduino microcontroller, as well as some of its applications. Here are some talking points for the start of the lab, feel free to use as many or little of these talking points as you want.
+This lab will go over the basics of using the Arduino microcontroller, as well as some of its applications. Here are some talking points for the start of the lab, feel free to use as many or few of these points as you want.
 * **Basic lab equipment:** Talk about power supplies, oscilloscopes, digital multimeters, and function generators. Go over how use the ones in the lab.
 * **What is a microcontroller?** Explain how microcontrollers are small computers used for embedded systems. Explain that they are programmed and have peripherals that allow it communicate with the outside world via inputs and outputs, such as digital input and output, PWM, serial communication, analog input, etc.
 * **Uses for microcontrollers:** Explain some basic uses of microcontrollers in embedded systems. If you've ever worked with microcontrollers, explain what you used them for. Otherwise discuss their use in a field such as automotive, aerospace, consumer electronics, research, medical, hobbyist, etc.
@@ -59,7 +64,7 @@ The following parts are needed to build a full robot. All of these parts are not
 - [LF353 Op-Amp datasheet](http://www.ti.com/lit/ds/symlink/lf353-n.pdf)
 
 ### Lab extras
-Towards Milestone 1!
+Towards the final robot and milestone 1!
 
 #### Line Sensors
 The line sensors work as grayscale sensors, and there datasheet can be found [here](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/QRE1113.pdf). Since analog pins on the Arduino are limited, it is advisable for the students to convert the grayscale sensor's analog signal into a digital signal using a [Schmitt Trigger](http://howtomechatronics.com/how-it-works/electrical-engineering/schmitt-trigger/). Before making the Schmitt Trigger, students are advised to experiment with the line sensors and electrical tape to find the cut-off value(s) that work best for line detection. The students may also use a multiplexer in order to read from all 4 line sensors using only one analog pin, but this means they will have to order their own multiplexer from Digikey or Sparkfun. They could also read from the line sensors using one analog pin each, but since the wall detection sensors also output an analog signal, this is not advised. These are just a few of the ways line detection can be done, and students are free to explore other options.
