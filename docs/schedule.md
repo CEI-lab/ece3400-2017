@@ -26,8 +26,8 @@ Week 3:
 
 Week 4:
 * *Lab 2 Analog circuitry and FFT*
-* Sep 11th, Mon: Embedded Control (Daniel Kim)
-* Sep 13th, Wed: Embedded Systems (Joe Skovira)
+* Sep 11th, Mon: Embedded Systems (Joe Skovira)
+* Sep 13th, Wed: Embedded Control (Daniel Kim)
 * Sep 15th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 
 Week 5:
