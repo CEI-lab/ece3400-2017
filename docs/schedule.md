@@ -20,7 +20,8 @@ Week 3:
 * *Work on milestone 1*
 * Sep 4th, Mon: Labor day
 * Sep 6th, Wed: Sensors (Vidya Ramesh).
-* Sep 8th, Fri: Digital filters and FFT (Vaidehi Garg). Deadline @8am: The websites will be graded for contents on lab 1.
+* Sep 8th, Fri: Digital filters and FFT (Vaidehi Garg). 
+* Deadline one week after the day of your lab 1 session: The websites will be graded for contents on lab 1.
 
 Week 4:
 * *Lab 2 Analog circuitry and FFT*
@@ -32,13 +33,15 @@ Week 5:
 * *Work on milestone 1*
 * Sep 18th, Mon: Actuators
 * Sep 20th, Wed: Feedback Control (Adarsh Jayakumar)
-* Sep 22nd, Fri: How servos work (Justin Selig). Deadline @8am: The websites will be graded for contents on lab 2 and milestone 1.
+* Sep 22nd, Fri: How servos work (Justin Selig). 
+* Deadline one week after the day of your lab 2 session: The websites will be graded for contents on lab 2, and milestone 1.
 
 Week 6:
 * *Work on milestone 2*
 * Sep 25th, Mon: FPGA (Bruce Land)
 * Sep 27th, Wed: FPGA
-* Sep 29th, Fri: FPGA/VGA (Claire Chen). Deadline @8am: The websites will be graded for contents on milestone 2.
+* Sep 29th, Fri: FPGA/VGA (Claire Chen). 
+* Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 2.
 * Sep 29th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
 
 Week 7:
@@ -50,7 +53,8 @@ Week 7:
 Week 8:
 * Oct 9th, Mon: Fall break
 * Oct 11th, Wed: Wired and Wireless Communication
-* Oct 13th, Fri: Wireless Communication and protocols (Ryan O'Hern). Deadline @8am: The websites will be graded for contents on lab 3.
+* Oct 13th, Fri: Wireless Communication and protocols (Ryan O'Hern). 
+* Deadline one week after the day of your lab 3 session: The websites will be graded for contents on lab 3.
 
 Week 9:
 * *Lab 4 Wireless communication*
@@ -62,13 +66,15 @@ Week 10:
 * *Work on milestone 3*
 * Oct 23rd, Mon: Algorithms
 * Oct 25th, Wed: Algorithms
-* Oct 27th, Fri: Algorithms. Deadline @8am: The websites will be graded for contents on lab 4.
+* Oct 27th, Fri: Algorithms
+* Deadline one week after the day of your lab 4 session: The websites will be graded for contents on lab 4.
 
 Week 11:
 * *Work on milestone 3*
 * Oct 30th, Mon: Algorithms
 * Nov 1st, Wed: Algorithms
-* Nov 3rd, Fri: In-class assessment of websites. Deadline @8am: The websites will be graded for contents on milestone 3.
+* Nov 3rd, Fri: In-class assessment of websites. 
+* Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 3.
 
 Week 12:
 * *Work on milestone 4*
@@ -85,9 +91,10 @@ Week 13:
 
 Week 14:
 * *Work on final system*
-* Nov 20th, Mon: In-class assessment of websites. Deadline @8am: The websites will be graded for contents on milestone 4
+* Nov 20th, Mon: In-class assessment of websites
 * Nov 22nd, Wed: Thanksgiving recess
 * Nov 24th, Fri: Thanksgiving recess
+* Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 4.
 
 Week 15:
 * *Work on final system*
