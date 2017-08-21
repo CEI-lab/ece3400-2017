@@ -1,7 +1,7 @@
 # ECE3400 Fall 2017
 ## Lab 1 TA Reference
 
-1.  We recommend that the TAs start every lab with a brief introduction to what the students are supposed to do. Make sure everyone knows where the lab-instructions are located. You can also start by briefly introducing basic lab equipment and describe the components the students will use. 
+1.  The TAs should start every lab with a brief introduction to what the students are supposed to do. Make sure everyone knows where the lab-instructions are located. You can also start by briefly introducing basic lab equipment and describe the components the students will use. Keep your intros brief so that everyone can get onto their work. 
 2.  If the same question appears many times during a session, it is a good idea to ask everyone to pause their work, and discuss the questions with all four teams at the same time. 
 3.  Near the end of the lab, when the first teams have started wrapping up, you should again address all the teams, and remind them to write up everything on their webpage, and what is needed to complete milestone 1. 
 
