@@ -1,7 +1,8 @@
 # Schedule for ECE 3400 Fall 2017
 
-You can access the PH427 lab any time a TA is available. If a lab session is ongoing you will have to yield the space to those who are signed up though. 
-<html><iframe src="https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></html>
+***
+
+You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York) any time a TA is available. Be aware that if a lab session is ongoing you will have to yield the space to those who are signed up. 
 
 ***
 
