@@ -1,5 +1,10 @@
 # Schedule for ECE 3400 Fall 2017
 
+You can access the PH427 lab any time a TA is available. If a lab session is ongoing you will have to yield the space to those who are signed up though. 
+<iframe src="https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+***
+
 Week 1:
 * Aug 23rd, Wednesday: Introduction. Deadline @midnight: Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
 * Aug 25th, Friday: Working with Arduinos
