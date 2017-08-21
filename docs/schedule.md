@@ -13,7 +13,7 @@ Week 2:
 Week 3:
 * *Work on milestone 1*
 * Sep 4th, Mon: Labor day
-* Sep 6th, Wed: Sensors.
+* Sep 6th, Wed: Sensors (Vidya Ramesh).
 * Sep 8th, Fri: Digital filters and FFT (Vaidehi Garg). Deadline @8am: The websites will be graded for contents on lab 1.
 
 Week 4:
