@@ -7,7 +7,7 @@ This tutorial gives a very brief introduction to Arduino Unos. (Basically everyt
 
 ### Arduino IDE
 
-Arduino IDE is one of the most popular popular tool for programming Arduino boards. IDE stands for Integrated Development Environment. The interface is meant to enable people with very little experience to program exciting robots/devices. This also means that it integrates a large number of libraries to make sure everything works. 
+Arduino IDE is one of the most popular popular tool for programming Arduino boards. IDE stands for Integrated Development Environment. The interface is meant to enable people with very little experience to program exciting robots/devices. This also means that it integrates a large number of libraries automatically to make sure everything works. 
 
 * Open Arduino IDE
 * Make sure that the IDE knows the correct board you are working with (> Tools > Board > Arduino/Genuino Uno)
