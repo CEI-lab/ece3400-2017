@@ -15,7 +15,8 @@ Arduino IDE is one of the most popular popular tool for programming Arduino boar
 
 ```C
 void setup() {
-  //Put your setup code here (initialize input/output pins, analog pins, ADC, timers, whatever you need). This function will run once after reset.
+  //Put your setup code here; this function will run once after reset. 
+  //(initialize input/output pins, analog pins, ADC, timers, whatever you need). 
 }
 void loop() {
   //Put your main code here. Once the setup-routine has finished this function will keep running in a loop.
@@ -43,7 +44,7 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
-* This program flashes the onbaord LED in 1 second (1000ms) intervals. 
+* This program flashes the onboard LED in 1 second (1000ms) intervals. 
 
 * Notice that LED_BUILTIN, OUTPUT, HIGH, LOW, and the functions digitalWrite(), delay(), and pinMode() are all specified in other libraries. Normally to include a new library you add include <library_name> in the beginning of your file. But since these are all standard the compiler automatically looks for them. 
 * Libraries are saved as .h files, and the Arduino IDE cannot open these. If you are curious, download fx. AVRStudio to view them. (AVRStudio is a nice tool for doing more intricate programming of ATmegas by the way.) 
