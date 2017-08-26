@@ -120,13 +120,13 @@ void blink_LEDS(char repeats) {
     delay(1000);                       // wait for a second
     digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
     delay(1000);                       // wait for a second
-  } //This for-loop finished when i is greater than repeats
+  } //For every time this for-loop runs, i is incremented by one - it finishes when i is greater than repeats
 }
 ```
-* And we can change the function to return a variable
+* We can also change the function to return a variable
 ```C
 void loop() {
-  while(!blink_LEDS(4)); //Call blink LEDs until the function returns done
+  while(!blink_LEDS(4)); //Call blink LEDs until the function returns true (done)
   while(1); 
 }
 
@@ -141,12 +141,14 @@ bool blink_LEDS(char repeats) {
   return 1;
 }
 ```
-* Of course this is a stupid example, because the blink_LEDS function could never fail, but you get the drift!
+* Of course this is a stupid example, because blink_LEDS() can't fail to execute, but you get the drift!
 
-* If your main file gets too cluttered, you can also move the function into a separate tab. Make sure your main file is saved first (saving it will automatically create a folder with the same name as the file). Then, in the upper right corner of the IDE, click the downward facing arrow and make a new tab. Or press ctrl+shirt+n. It will ask you for the name of the new tab and then create an .ino file in your folder with the same name. Any functions you move over into the new tab can be called directly from your main routine.
+* If your main file gets too cluttered, you can also move the function into a separate tab. Make sure your main file is saved first (saving it will automatically create a folder with the same name as the file). Then, in the upper right corner of the IDE, click the downward facing arrow and make a new tab. Or press ctrl+shift+n. It will ask you for the name of the new tab and then create an .ino file in your folder with the same name. Any functions you move over into the new tab can be called directly from your main routine.
 
 ## Tips and tricks
 
 * Many issues can cause the Arduino to reset unexpectedly which will make the robot behavior seem off. This can be things such as a power surge, call to a non-existent interrupt, if the watchdog timer was enabled by mistake, etc. These problems can be hard to see and therefore hard to debug, so it can be a good idea to make it very (visually) clear that your Arduino has reset. An example can be to flash the onboard LED a couple of times. 
 
-* The compiler isn't perfect. Here are some standard issues you'l run into during the class: 1) It doesn't automatically save your code when you compile. 2) It doesn't detect issues such as saving too big a number in a variable. 
+* The compiler isn't perfect. Here are some standard issues you'll run into during the class: 1) It doesn't automatically save your code when you compile. 2) It doesn't detect issues such as saving too big a number in a variable. 
+
+* Happy coding! You'll go through many functions in Lab 1, you can also try out stuff at home by following [these instructions](https://www.arduino.cc/en/Tutorial/BuiltInExamples)
