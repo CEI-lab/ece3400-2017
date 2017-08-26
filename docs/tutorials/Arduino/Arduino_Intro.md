@@ -46,7 +46,7 @@ void loop() {
 ```
 * This program flashes the onboard LED in 1 second (1000ms) intervals. 
 
-* Notice that LED_BUILTIN, OUTPUT, HIGH, LOW, and the functions digitalWrite(), delay(), and pinMode() are all specified in other libraries. Normally to include a new library you add include <library_name> in the beginning of your file. But since these are all standard the compiler automatically looks for them. 
+* Notice that LED_BUILTIN, OUTPUT, HIGH, LOW, and the functions digitalWrite(), delay(), and pinMode() are all specified in other libraries. Normally to include a new library you add "#include <library_name>" in the beginning of your file. But since these are all standard the compiler automatically looks for them. 
 * Libraries are saved as .h files, and the Arduino IDE cannot open these. If you are curious, download fx. AVRStudio to view them. (AVRStudio is a nice tool for doing more intricate programming of ATmegas by the way.) 
 * For example, LED_BUILTIN is defined in pins_arduino.h (located in Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard\pins_arduino.h):
 ``` C
