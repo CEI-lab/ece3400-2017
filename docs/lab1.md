@@ -70,7 +70,7 @@ Hook up the oscilloscope and check the frequency of the signal and how the on-of
 
 Your robot propulsion will be based on Parallax Continuous Rotation Servos. You can drive these using the standard Arduino Servo.h library. Connect one servo to the Uno by hooking up the white wire to a digital pin (set to output) with PWM capability. The red wire goes to the 5V output pin, and the black wire goes to ground.
 
-Note: Because servos use a lot of power and can be noisy, you’ll eventually connect the red and black wires to an external power supply consisting of rechargeable [5V battery pack](http://www.monoprice.com/product?c_id=108&cp_id=10831&cs_id=1083110&p_id=13087&seq=1&format=2). When you do this, remember to always have a common ground reference, otherwise your input/outputs will be floating with respect to each other.
+Note: Because servos use a lot of power and can be noisy, you’ll eventually connect the red and black wires to an external power supply consisting of rechargeable [5V battery pack](http://www.monoprice.com/product?c_id=108&cp_id=10831&cs_id=1083110&p_id=13087&seq=1&format=2). When you do this, remember to always have a common ground reference, otherwise your input/outputs will be floating with respect to each other. To actually hook this up you will need a USB-to-wire connection, we'll have these available starting Wednesday 8/30, in the component drawers. 
 
 To use the Servo library, insert the line #include <Servo.h> at the top of a new sketch. At the bottom right of the Arduino Reference page, you will see a link for libraries. Follow that link to find documentation on the Servo library.
 
@@ -80,7 +80,7 @@ Finally, implement this into your previous code to change the speed of the servo
 
 #### Assemble and Run Your Robot
 
-Whoever finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip, ball bearings, and an allen key. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; remember to record videos for the website!  
+Whoever finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip (to power the Arduino), ball bearings, and an allen key. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; remember to record videos for the website!  
 
 ***
 
