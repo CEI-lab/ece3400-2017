@@ -127,6 +127,7 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 - [Tutorials on Eagle](./tutorials/Eagle/Eagle_Tutorial.md)
 - [How to etch your own PCB] To be added.
 - [How to solder components and wires](./tutorials/Soldering/Soldering_Tutorial.md)
+- [Solder Wires Like a Pro!](https://youtu.be/vL4DuoKGquk)
 - [Wiring a robot] To be added.
 
 **Related to debugging**
