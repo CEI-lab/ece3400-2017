@@ -12,6 +12,7 @@
 # Team Websites
 
 * [Team 1](https://evankravitz.github.io/ECE-3400-Team-1/)
+* [Team 4](https://pages.github.coecis.cornell.edu/tr272/Team4Website/)
 * [Team 13](https://nas256.github.io/ece3400_team13/team_contract)
 * ... more to come!
 
