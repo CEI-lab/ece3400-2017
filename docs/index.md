@@ -9,6 +9,14 @@
 
 ***
 
+# Team Websites
+
+* [Team 1](https://evankravitz.github.io/ECE-3400-Team-1/)
+* [Team 13](https://nas256.github.io/ece3400_team13/team_contract)
+* ... more to come!
+
+***
+
 # Course Description
 
 Students will engage in a holistic design approach to Intelligent Physical Systems which can perceive, reason about, and act upon their environment. This course will expand on the ECE 2000-level courses, and include topics on algorithms, field programmable gate arrays, wireless communication, sensors, actuators, power, and mechanics. Students will learn the value and trade-offs between theory, simulation, and physical implementations, and gain familiarity with rapid prototyping techniques, system debugging, team work, leadership skills, time management, and how to disseminate work to a broader audience through webpages.
