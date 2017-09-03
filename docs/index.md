@@ -22,7 +22,7 @@
 * [Team 8](https://sk2282.github.io/ECE3400_Team8/)
 * [Team 9](https://aikatz.github.io/sketch-city/)
 * [Team 10](https://deanwang043.github.io/Team10/)
-* [Team 11]???
+* [Team 11](https://junfrankli.github.io/Team-Shrimp-Cracker/)
 * [Team 12](https://carolinechuu.github.io/ECE-3400-Team-12/)
 * [Team 13](https://nas256.github.io/ece3400_team13/team_contract)
 * [Team 14](https://kristinanemeth.github.io/group14/)
