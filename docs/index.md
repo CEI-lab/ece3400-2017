@@ -1,13 +1,13 @@
 # ECE 3400 Intelligent Physical Systems
 ## Cornell University Fall 2017
 
-Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries to create autonomous robots able to perceive, reason about, and act upon their environment.
+Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries to create autonomous robots able to perceive, reason about, and act upon their environment. Specifically, in teams of 5-6, students will design and fabricate a robot able to navigate and map out a maze with treasures in the shortest possible time
 
 ![ECE3400 Overview](./images/Overview.png)
 
-The semester challenge is to design a robot able to navigate and map out a maze with treasures in the shortest possible time. To experience a full IPS design process, students will program intelligent behavior on an Arduino Uno microcontroller, design sensors and signal processing circuits for feedback, send data wirelessly to an FPGA which drives a screen for online visual updates, and fabricate and assemble all mechanical parts of the robot. Instead of traditional hand-ins, we leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for future students to rely on.
-
 [Here is a video of the 2015 competition](https://www.youtube.com/watch?v=WN0maCOflVQ).
+
+Instead of traditional hand-ins, we leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for future students to rely on.
 
 ***
 
