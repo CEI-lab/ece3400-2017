@@ -131,8 +131,9 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 * [Arduino Uno online references and tutorials](https://www.arduino.cc/en/Reference/HomePage)
 * [A useful script to report on the internal state of your Arduino](https://playground.arduino.cc/Main/ShowInfo) and [here](https://playground.arduino.cc/Main/ShowInfo?action=sourceblock&num=1)
 * Also, for problems with Arduino, look at wiring.c on your development machine to see the firmware settings that are being uploaded to your Arduino.
-* [Here's](https://github.com/arduino/Arduino/wiki/Build-Process) and explanation of how your source code gets compiled.
-* [Here's](https://www.pololu.com/docs/0J19/3) a Polulu library reference guide for line following. We will not be using the same line sensors, so the library won’t be installed/used directly. However, reading through the example will give you an idea of how PID control can be used for line following, particularly the command reference for readLine() and the bottom section on PID control.
+* [Discussion of Source Code Compilation](https://github.com/arduino/Arduino/wiki/Build-Process).
+* [Intro to PWM (Lab1)](tutorials/PWM/PWM.md)
+* [A Polulu library reference guide for line following](https://www.pololu.com/docs/0J19/3). We will not be using the same line sensors, so the library won’t be installed/used directly. However, reading through the example will give you an idea of how PID control can be used for line following, particularly the command reference for readLine() and the bottom section on PID control.
 * [Helpful FPGA-related Links and Tips](./tutorials/FPGA_resources.md)
 
 **Related to sensors:**
