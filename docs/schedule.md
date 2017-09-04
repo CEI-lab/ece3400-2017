@@ -2,11 +2,9 @@
 
 ### Cornell University, Fall 2017
 
-## Schedule
-
 [Return to main page](https://cei-lab.github.io/ece3400/)
 
-***
+# Schedule
 
 You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York) any time a TA is available. Be aware that if a lab session is ongoing you will have to yield the space to those who are signed up. 
 
