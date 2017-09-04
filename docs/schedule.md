@@ -10,11 +10,11 @@ You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ec
 
 ***
 
-Week 1:
+~~Week 1:~~
 * Aug 23rd, Wednesday: Introduction. Deadline @midnight: Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
 * Aug 25th, Friday: Working with Arduinos
 
-Week 2:
+~~Week 2:~~
 * *Lab 1 Microcontrollers*
 * Aug 28th, Monday: Effective team work/time management (Erica Cantrell Dawson, Director for the Engineering Leadership Program). 
 * Aug 30th, Wed: IPS fundamentals and how to make good websites. 
