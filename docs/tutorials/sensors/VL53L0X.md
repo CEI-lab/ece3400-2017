@@ -8,11 +8,11 @@ The goal of this tutorial is to get the [ST VL53L0X](http://www.st.com/en/imagin
 
 #### Procedure
 
-![ST VL53L0X Satellite Board](./img/SatelliteBoard.png)
+![ST VL53L0X Satellite Board](./images/SatelliteBoard.png)
 
 Figure 1: Top and bottom view of the board used for the VL53L0X evaluation. Note the J1 header on the bottom of the image with the square and cross-hair pads. ([Source](http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/e2/8a/a0/9c/a7/cc/41/f3/DM00286872/files/DM00286872.pdf/jcr:content/translations/en.DM00286872.pdf))
 
-![VL53L0X Satellite Schematic](./img/SatelliteSchematic.png)
+![VL53L0X Satellite Schematic](./images/SatelliteSchematic.png)
 
 Figure 2: Schematic for the evaluation board. Note the J1 header on the left of the image. ([Source](http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/e2/8a/a0/9c/a7/cc/41/f3/DM00286872/files/DM00286872.pdf/jcr:content/translations/en.DM00286872.pdf))
 
@@ -20,13 +20,13 @@ The board we are evaluating is the [ST 53L0-SATEL-I1](http://www.st.com/content/
 
 ##### Reverse Engineering the Pinout
 
-![Testing the pins](./img/TestingPins.jpg)
+![Testing the pins](./images/TestingPins.jpg)
 
 Figure 3: Using a multimeter to reverse engineer the pinout.
 
 The first pin that stands out is the only one with a rectangular pad. Typically this is used to indicate pin 1 of the header. The next pin to be found is the ground pin. If you look closely in Figure 2, you can see that the inside center pin has a cross-hair pattern connecting it to the fill plane. Almost always the fill plane is always the ground trace and the pattern is used to thermally isolate the pad to make it easier to solder. To confirm these findings, we use a multimeter to test the connections on the header with known connections, mainly the resistors R15-R20 and the voltage regulator U2. Our assumptions are correct and we find the correct pin mapping summarized in Figure 4.
 
-![Pinout](./img/Pinout.svg)
+![Pinout](./images/Pinout.svg)
 
 Figure 4: The pinout determined for the VL53L0X satellite board. View is looking down on the VL53L0X as indicated.
 
@@ -34,7 +34,7 @@ Figure 4: The pinout determined for the VL53L0X satellite board. View is looking
 
 ##### Wiring the Board
 
-![Final Wiring](./img/FinalWiring.jpg)
+![Final Wiring](./images/FinalWiring.jpg)
 
 Figure 5: Picture of the final circuit. The connections made from the Arduino to the J1 header are: 5V to VDD (Red), GND to GND (Black), SCL to SCL_I (Yellow), SDA to SDA_I (Blue). Note the purple glow of the operating Vl53L0X.
 
@@ -44,7 +44,7 @@ The microcontroller used to control the Vl53L0X is the Arduino Uno. Since the se
 
 The next step is to get code to command the sensor and read back the distance reading. Luckily the sensor is popular and an [Arduino library](https://github.com/adafruit/Adafruit_VL53L0X) by Adafruit already exists. After the library was downloaded and installed, the provided example program can be used to test the sensor. Its output is shown in Figure 6.
 
-![Serial output of sensor running](./img/CodeOutput.jpg)
+![Serial output of sensor running](./images/CodeOutput.jpg)
 
 Figure 6: Serial output from the provided example code.
 
