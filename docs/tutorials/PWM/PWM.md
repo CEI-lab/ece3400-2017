@@ -8,7 +8,7 @@ Some times actuators/sensors require an analog output from the Arduino. An analo
 
 The Arduino does not actually have any analog output pins, it only has PWM pins. PWM stands for Pulse-Width-Modulation, and is a way in which you rapidly switch on and off the voltage on the pin. By varying the duty cycle (the time the signal remains high compared to the time it is low) you can change the average energy of the signal. A high duty cycle is similar to a higher analog voltage, a low duty cycle is similar to a lower analog voltage.
 
-![PWM_explanation](images/PWM_DC.png)
+![PWM_explanation](./PWM_DC.png)
 [(Source)](https://eco-led.ca/news/)
 [Arduino has a great description of PWM](https://www.arduino.cc/en/Tutorial/PWM).
 
