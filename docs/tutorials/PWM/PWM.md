@@ -10,6 +10,7 @@ The Arduino does not actually have any analog output pins, it only has PWM pins.
 
 ![PWM_explanation](./PWM_DC.png)
 [(Source)](https://eco-led.ca/news/)
+
 [Arduino has a great description of PWM](https://www.arduino.cc/en/Tutorial/PWM).
 
 If you want, you can add a low-pass filter to the signal to generate a real analog signal. A low pass filter typically requires large capacitors and inductors that take up physical space, therefore these are not actually integrated inside the Arduino. 
