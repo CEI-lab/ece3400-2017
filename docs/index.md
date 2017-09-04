@@ -1,8 +1,8 @@
 # ECE 3400 Intelligent Physical Systems
 ## Cornell University Fall 2017
 
-Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries. IPS are systems that can perceive, reason about, and act upon their environment - correspondingly, this class involves design of a mobile robot able to navigate and map a maze autonomouly. 
-Instead of the traditional fundamental lectures and hand-ins, we aim to leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for students in the following semesters to access and rely upon. Essentially this means that the students themselves will help develop and renew the course material every semester. 
+Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries. Intilligent Physical Systems can perceive, reason about, and act upon their environment - correspondingly, this class involves design of a mobile robot able to navigate and map a maze autonomously. 
+Instead of traditional hand-ins, we leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for students in the following semesters to access and rely upon. Essentially this means that the students themselves help develop and renew the course material every semester. 
 
 ![ECE3400 Overview](./images/Overview.png)
 
@@ -11,9 +11,9 @@ Figure 1: The semester challenge is to design a robot able to navigate and map o
 ***
 ## Relevant Links
 
-* [Team Websites](./teams.md)
 * [Course Describtion](./courseDescription.md)
 * [Team Composition](./teamComposition.md)
+* [Team Websites](./teams.md)
 * [Lab schedule](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York)
 * [Grades, rules, and final scoring chart](./Grading/Readme.md)
 * [How to calculate the cost of your robot?](Cost.md)
