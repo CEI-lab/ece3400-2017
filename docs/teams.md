@@ -1,6 +1,9 @@
 # ECE 3400 Intelligent Physical Systems
+## Cornell University, Fall 2017
 
-## Fall 2017, Team Websites
+[Return to main page](https://cei-lab.github.io/ece3400/)
+
+# Team Websites
 
 * [Team 1](https://evankravitz.github.io/ECE-3400-Team-1/)
 * [Team 2](https://rmh286.github.io/ECE-3400-fa-2017-Team-2/info.html)
@@ -19,3 +22,7 @@
 * [Team 15](https://team15ece3400.github.io/)
 * [Team 16](https://lois-lee.github.io/Team-16/)
 * [Team 17](https://ece3400team17.github.io/ECE3400_Team17/)
+
+***
+
+* [Notes on how teams were formed](./teamComposition.md)
