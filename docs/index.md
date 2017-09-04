@@ -14,7 +14,6 @@ Instead of traditional hand-ins, we leverage peer-to-peer mentoring where studen
 ## Relevant Links
 
 * [Course Describtion](./courseDescription.md)
-* [Team Composition](./teamComposition.md)
 * [Team Websites](./teams.md)
 * [Detailed Schedule](schedule.md)
 * [Lab schedule](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York)
