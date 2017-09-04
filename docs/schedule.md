@@ -1,4 +1,10 @@
-# Schedule for ECE 3400 Fall 2017
+# ECE 3400 Intelligent Physical Systems
+
+## Cornell University, Fall 2017
+
+### Schedule
+
+[Return to main page](https://cei-lab.github.io/ece3400/)
 
 ***
 
@@ -21,7 +27,7 @@ Week 3:
 * *Work on milestone 1*
 * Sep 4th, Mon: Labor day
 * Sep 6th, Wed: Sensors and signal processing (Vidya Ramesh).
-* Sep 8th, Fri: Digital filters and FFT (Vaidehi Garg) + mandatory group meeting. 
+* Sep 8th, Fri: Digital filters and FFT + mandatory group meeting. 
 * Deadline one week after the day of your lab 1 session: The websites will be graded for contents on lab 1.
 
 Week 4:
