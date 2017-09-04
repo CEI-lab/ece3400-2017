@@ -135,6 +135,10 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 * [Here's](https://www.pololu.com/docs/0J19/3) a Polulu library reference guide for line following. We will not be using the same line sensors, so the library won’t be installed/used directly. However, reading through the example will give you an idea of how PID control can be used for line following, particularly the command reference for readLine() and the bottom section on PID control.
 * [Helpful FPGA-related Links and Tips](./tutorials/FPGA_resources.md)
 
+**Related to sensors:**
+
+* [VL53L0X time-of-flight distance sensor](tutorials/Sensors/VL53L0X.md)
+
 **Related to fabrication:**
 
 For the first time ever, we have a Skunkworks available to the class complete with a laser cutter, two 3D printers, and a PCB etching station. This is located in PH414. Please be aware that only TA's (and potentially trained students) will have access to this lab, but everyone can request to have pieces 3D printed, laser cut, or etched in there.
