@@ -1,12 +1,12 @@
 # ECE 3400 Intelligent Physical Systems
 ## Cornell University Fall 2017
 
-Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries. Intilligent Physical Systems can perceive, reason about, and act upon their environment - correspondingly, this class involves design of a mobile robot able to navigate and map a maze autonomously. 
+Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries. Intelligent Physical Systems (IPS) can perceive, reason about, and act upon their environment - correspondingly, this class involves design of a mobile robot able to navigate and map a maze autonomously. 
 Instead of traditional hand-ins, we leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for students in the following semesters to access and rely upon. Essentially this means that the students themselves help develop and renew the course material every semester. 
 
 ![ECE3400 Overview](./images/Overview.png)
 
-Figure 1: The semester challenge is to design a robot able to navigate and map out a maze with treasures in the shortest possible time. To experience the full design process inherent to Intelligent Physical Systems, students will program intelligent behavior on an Arduino Uno microcontroller, design sensors and signal processing circuits for feedback, send data wirelessly to an FPGA which drives a screen for online visual updates, and fabricate and assemble all mechanical parts of the robot. [Here is a video of the 2015 competition](https://www.youtube.com/watch?v=WN0maCOflVQ).
+Figure 1: The semester challenge is to design a robot able to navigate and map out a maze with treasures in the shortest possible time. To experience the full design process inherent to IPS, students will program intelligent behavior on an Arduino Uno microcontroller, design sensors and signal processing circuits for feedback, send data wirelessly to an FPGA which drives a screen for online visual updates, and fabricate and assemble all mechanical parts of the robot. [Here is a video of the 2015 competition](https://www.youtube.com/watch?v=WN0maCOflVQ).
 
 ***
 ## Relevant Links
