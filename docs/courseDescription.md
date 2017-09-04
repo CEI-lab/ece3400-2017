@@ -1,6 +1,12 @@
 # ECE 3400: Intelligent Physical Systems
 
-## Course Description, Fall 2017
+## Cornell University, Fall 2017
+
+[<Main Page>](https://cei-lab.github.io/ece3400/)
+
+***
+
+### Course Description
 
 Students will engage in a holistic design approach to Intelligent Physical Systems which can perceive, reason about, and act upon their environment. This course will expand on the ECE 2000-level courses, and include topics on algorithms, field programmable gate arrays, wireless communication, sensors, actuators, power, and mechanics. Students will learn the value and trade-offs between theory, simulation, and physical implementations, and gain familiarity with rapid prototyping techniques, system debugging, team work, leadership skills, time management, and how to disseminate work to a broader audience through webpages.
 
@@ -16,7 +22,7 @@ All information is gathered on this page; no additional textbooks are required.
 
 ***
 
-## Semester Project, Fall 2017
+### Semester Project
 
 In teams of 5-7 people, you will design, fabricate, and program a robot to explore a maze. The robot microcontroller will be based on an Arduino Uno; the default propulsion method will be differential drive with continuous rotation servos. The robot will traverse the maze by following black lines on a white floor; it must also be able to detect walls, an audible start signal, and treasures emitting infrared light at different frequencies. The robot must continuously transmit its progress wirelessly to a base station (also based on Arduino Uno). This base station will communicate with an FPGA that in turn must drive a screen through a VGA interface. Points will be awarded for speed, accuracy, and innovative design methods. The entire robot can cost no more than $100; this [chart](Cost.md) shows how the price is calculated.
 
