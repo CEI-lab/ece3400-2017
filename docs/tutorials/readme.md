@@ -50,22 +50,23 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 
 For the first time ever, we have a Skunkworks available to the class complete with a laser cutter, two 3D printers, and a PCB etching station. This is located in PH414. Please be aware that only TA's (and potentially trained students) will have access to this lab, but everyone can request to have pieces 3D printed, laser cut, or etched in there.
 
-- A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
-- Solidworks is available in many of the Phillips Hall computer labs; it is very fast to learn, and the tutorials offered in the help-menu are very intuitive.
-- [Tutorials on Autocad](./Autocad/AutoCAD_Tutorial.md). Autocad is installed on all the machines in PH427.
-- [Autocad example](./Autocad/Wheel_Demo.md)
-- [Tinkercad](https://www.tinkercad.com/) is a nice free software that many of students have used successfully
-- [How to use the XYYZ and UPplus 2 3D printers](./3Dprinting/3D_Printing_Tutorial.md)
-- [How to use the Epilog laser cutter](./LaserCutter/Laser_Cutting_Tutorial.md)
-- [Tips on how to design pieces for a laser cutter](./LaserCutter/Design_for_laser_cutters.md)
-- [Tutorials on Eagle](./Eagle/Eagle_Tutorial.md)
-- [How to etch your own PCB] To be added.
-- [How to solder components and wires](./Soldering/Soldering_Tutorial.md)
-- [Solder Wires Like a Pro!](https://youtu.be/vL4DuoKGquk)
-- [Wiring a robot] To be added.
+* [How to calculate the cost of your robot?](Cost.md)
+* A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
+* Solidworks is available in many of the Phillips Hall computer labs; it is very fast to learn, and the tutorials offered in the help-menu are very intuitive.
+* [Tutorials on Autocad](./Autocad/AutoCAD_Tutorial.md). Autocad is installed on all the machines in PH427.
+* [Autocad example](./Autocad/Wheel_Demo.md)
+* [Tinkercad](https://www.tinkercad.com/) is a nice free software that many of students have used successfully
+* [How to use the XYYZ and UPplus 2 3D printers](./3Dprinting/3D_Printing_Tutorial.md)
+* [How to use the Epilog laser cutter](./LaserCutter/Laser_Cutting_Tutorial.md)
+* [Tips on how to design pieces for a laser cutter](./LaserCutter/Design_for_laser_cutters.md)
+* [Tutorials on Eagle](./Eagle/Eagle_Tutorial.md)
+* [How to etch your own PCB] To be added.
+* [How to solder components and wires](./Soldering/Soldering_Tutorial.md)
+* [Solder Wires Like a Pro!](https://youtu.be/vL4DuoKGquk)
+* [Wiring a robot] To be added.
 
 **Related to debugging**
 
-- [How to build a simple Arduino oscilloscope](https://www.build-electronic-circuits.com/arduino-oscilloscope/)
-- [Reading and writing to the serial port with Matlab](https://www.mathworks.com/help/matlab/matlab_external/writing-and-reading-data.html)
-- [This folder](../../docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
+* [How to build a simple Arduino oscilloscope](https://www.build-electronic-circuits.com/arduino-oscilloscope/)
+* [Reading and writing to the serial port with Matlab](https://www.mathworks.com/help/matlab/matlab_external/writing-and-reading-data.html)
+* [This folder](../../docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
