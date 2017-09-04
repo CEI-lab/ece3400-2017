@@ -137,7 +137,7 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 
 **Related to sensors:**
 
-* [VL53L0X time-of-flight distance sensor](tutorials/Sensors/VL53L0X.md)
+* [VL53L0X time-of-flight distance sensor](tutorials/sensors/VL53L0X.md)
 
 **Related to fabrication:**
 
