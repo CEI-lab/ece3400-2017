@@ -17,7 +17,7 @@ If you want, you can add a low-pass filter to the signal to generate a real anal
 
 Alternatively, you can simply generate a PWM signal with a frequency/period that is much higher than the response time of your system. That way your system acts like a low pass filter itself. An easy example is a motor, depending on its momentum it cannot react to new control signals very fast, therefore feeding in a PWM with a frequency of, e.g., 25kHz will seem to the motor like an analog signal. Another example is an LED. Since your eyes only perceives frame rates of ~26Hz, varying the duty cycle of a 500Hz signal controlling an LED, will make it appear as if you are dimming it. 
 
-# Arduino: analogOut
+## Arduino: analogOut
 
 As mentioned the Arduino does not have analog output pins, only PWM pins marked by a tilde (~). 
 To use these, you can either generate your own PWM signal by setting up timers, or simply use the built in analogWrite function. 
