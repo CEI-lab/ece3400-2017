@@ -19,7 +19,7 @@ Instead of traditional hand-ins, we leverage peer-to-peer mentoring where studen
 * [Detailed Schedule](schedule.md)
 * [Lab schedule](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York)
 * [Grades, rules, and final scoring chart](./Grading/Readme.md)
-* [How to calculate the cost of your robot?](Cost.md)
+* [Tutorials](./tutorials/readme.md)
 * [Instructor](./instructors.md): Assistant Professor Kirstin Petersen (khp37)
 * [TA's](./instructors.md): Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Yangyi Hoa (yh326), Adarsh Jayakumar (aj373), Justin Selig (jss459), and Curran Sinha (cs886).
 * Piazza: [The main page is located here](https://piazza.com/cornell/fall2017/ece3400/home), please sign up [here](https://piazza.com/cornell/fall2017/ece3400)
