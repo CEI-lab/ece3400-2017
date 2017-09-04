@@ -1,4 +1,5 @@
-# ECE 3400 Intelligent Physical Systems, Cornell University Fall 2017
+# ECE 3400 Intelligent Physical Systems
+## Cornell University Fall 2017
 
 Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries. IPS are systems that can perceive, reason about, and act upon their environment - correspondingly, this class involves design of a mobile robot able to navigate and map a maze autonomouly. 
 Instead of the traditional fundamental lectures and hand-ins, we aim to leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for students in the following semesters to access and rely upon. Essentially this means that the students themselves will help develop and renew the course material every semester. 
@@ -8,14 +9,8 @@ Instead of the traditional fundamental lectures and hand-ins, we aim to leverage
 Figure 1: The semester challenge is to design a robot able to navigate and map out a maze with treasures in the shortest possible time. To experience the full design process inherent to Intelligent Physical Systems, students will program intelligent behavior on an Arduino Uno microcontroller, design sensors and signal processing circuits for feedback, send data wirelessly to an FPGA which drives a screen for online visual updates, and fabricate and assemble all mechanical parts of the robot. [Here is a video of the 2015 competition](https://www.youtube.com/watch?v=WN0maCOflVQ).
 
 ***
-
-* **Class hours:** Monday, Wednesday, and Friday in Kimbal Hall B11. Lecture Pdf's can be found [here](./lectures/readme.md).
-* **Lab hours:** Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427. 
-* **[Instructor](./instructors.md):** Assistant Professor Kirstin Petersen (khp37)
-* **[TA's](./instructors.md):** Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Yangyi Hoa (yh326), Adarsh Jayakumar (aj373), Justin Selig (jss459), and Curran Sinha (cs886).
-* **Piazza:** [The main page is located here](https://piazza.com/cornell/fall2017/ece3400/home), please sign up [here](https://piazza.com/cornell/fall2017/ece3400)
-
 ## Relevant Links
+
 * [Team Websites](./teams.md)
 * [Course Describtion](./courseDescription.md)
 * [Team Composition](./teamComposition.md)
@@ -23,6 +18,12 @@ Figure 1: The semester challenge is to design a robot able to navigate and map o
 * [Grades, rules, and final scoring chart](./Grading/Readme.md)
 * [How to calculate the cost of your robot?](Cost.md)
 * [Detailed Schedule](schedule.md)
+
+* Class hours: Monday, Wednesday, and Friday in Kimbal Hall B11. Lecture Pdf's can be found [here](./lectures/readme.md).
+* Lab hours: Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427. 
+* [Instructor](./instructors.md): Assistant Professor Kirstin Petersen (khp37)
+* [TA's](./instructors.md): Ryan O'Hern (rmo26), Claire Chen (clc288), Christopher Fedors (cjf83), Daniel Kim (dsk252), Leah Forrest (lmf232), Vaidehi Garg (vg254), Vidya Ramesh (vr236), Yangyi Hoa (yh326), Adarsh Jayakumar (aj373), Justin Selig (jss459), and Curran Sinha (cs886).
+* Piazza: [The main page is located here](https://piazza.com/cornell/fall2017/ece3400/home), please sign up [here](https://piazza.com/cornell/fall2017/ece3400)
 
 ***
 
