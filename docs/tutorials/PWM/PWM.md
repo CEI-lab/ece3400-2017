@@ -4,7 +4,7 @@
 
 *By Kirstin Petersen and Yonghun Lee, September 4th, 2017*
 
-Some times actuators/sensors require an analog output from the Arduino. An analog output is a pin that can have any voltage between 0-5V assigned to it, as opposed to a digital pin that can only be either 0 or 5V. 
+Sometimes actuators/sensors require an analog output from the Arduino. An analog output is a pin that can have any voltage between 0-5V assigned to it, as opposed to a digital pin that can only be either 0 or 5V. 
 
 The Arduino does not actually have any analog output pins, it only has PWM pins. PWM stands for Pulse-Width-Modulation, and is a way in which you rapidly switch on and off the voltage on the pin. By varying the duty cycle (the time the signal remains high compared to the time it is low) you can change the average energy of the signal. A high duty cycle is similar to a higher analog voltage, a low duty cycle is similar to a lower analog voltage.
 
