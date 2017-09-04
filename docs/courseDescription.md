@@ -2,7 +2,7 @@
 
 ## Cornell University, Fall 2017
 
-[<Main Page>](https://cei-lab.github.io/ece3400/)
+[<Return to main page>](https://cei-lab.github.io/ece3400/)
 
 ***
 
