@@ -1,6 +1,9 @@
-# ECE 3400: Intelligent Physical Systems, Cornell University
+# ECE 3400: Intelligent Physical Systems
+## Cornell University, Fall 2017
 
-## Teaching Assistants and Instructor, Fall 2017
+[Return to main page](https://cei-lab.github.io/ece3400/)
+
+### Instructor and Teaching Assistants
 
 If you have a question that can't be answered by one of the links above, or on the Piazza page, try contact one of your TAs!
 
