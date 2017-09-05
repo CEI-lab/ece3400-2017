@@ -47,7 +47,7 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 
 **Related to sensors and signal processing:**
 
-* [Download LTSpice lite for free here](http://www.linear.com/designtools/software/#LTSpice)
+* [Download LTSpice lite for free here](http://www.linear.com/solutions/ltspice)
 * [VL53L0X time-of-flight distance sensor](./sensors/VL53L0X.md)
 
 **Related to fabrication:**
