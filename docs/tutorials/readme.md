@@ -45,8 +45,9 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 * [A Polulu library reference guide for line following](https://www.pololu.com/docs/0J19/3). We will not be using the same line sensors, so the library won’t be installed/used directly. However, reading through the example will give you an idea of how PID control can be used for line following, particularly the command reference for readLine() and the bottom section on PID control.
 * [Helpful FPGA-related Links and Tips](./FPGA_resources.md)
 
-**Related to sensors:**
+**Related to sensors and signal processing:**
 
+* [Download LTSpice lite for free here](http://www.linear.com/designtools/software/#LTSpice)
 * [VL53L0X time-of-flight distance sensor](./sensors/VL53L0X.md)
 
 **Related to fabrication:**
