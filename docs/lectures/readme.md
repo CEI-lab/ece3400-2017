@@ -8,4 +8,6 @@
 
 [Lecture 4 - IPS fundamentals](170830-IPSfundamentals.pdf)
 
+[Lecture 5 - Sensors, by Vidya](170906-Sensors&analog_circuitry_byVidyaRamesh.pdf)
+
 Please contact the professor if you have questions/concerns!
