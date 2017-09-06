@@ -6,7 +6,7 @@ The grading of all milestones will be based on what is reported on the websites.
 _Milestone 1 will be graded as follows:_
 
 * 2 points: A robot that successfully follows a line.
-* 3 points: A robot that successfully traverses a grid in a figure eight.
+* 3 points: A robot that successfully traverses a black tape grid in a figure eight.
 * Up to 5 points will be given for implementation (related to the robustness of the solution and the speed of the robot)
 
 _Milestone 2 will be graded as follows:_
