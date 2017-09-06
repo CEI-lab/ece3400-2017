@@ -14,7 +14,7 @@
 * [Team 7](https://jc2554.github.io/ECE3400-team7/)
 * [Team 8](https://sk2282.github.io/ECE3400_Team8/)
 * [Team 9: Sketch City](https://aikatz.github.io/sketch-city/)
-* [Team 10: Earth, Wind, and Wire](https://deanwang043.github.io/Team10/)
+* [Team 10: Earth, Wind, and Wire](https://earthwindandwire.github.io/Team10/)
 * [Team 11: Shrimp Cracker](https://junfrankli.github.io/Team-Shrimp-Cracker/)
 * [Team 12: Cause baby, we’re a firework!](https://carolinechuu.github.io/ECE-3400-Team-12/)
 * [Team 13: Lucky 13](https://nas256.github.io/ece3400_team13/team_contract)
@@ -22,6 +22,7 @@
 * [Team 15](https://team15ece3400.github.io/)
 * [Team 16](https://lois-lee.github.io/Team-16/)
 * [Team 17](https://ece3400team17.github.io/ECE3400_Team17/)
+* [Team Alpha](https://cei-lab.github.io/ECE3400-2017-teamAlpha/)
 
 ***
 
