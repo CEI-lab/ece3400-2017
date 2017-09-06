@@ -17,6 +17,7 @@ Instead of traditional hand-ins, we leverage peer-to-peer mentoring where studen
 * [Team Websites](./teams.md)
 * [Detailed Schedule](schedule.md)
 * [Lab schedule](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York)
+* [Lectures](./lectures/readme.md)
 * [Grades, rules, and final scoring chart](./Grading/Readme.md)
 * [Tutorials](./tutorials/readme.md)
 * [Instructor](./instructors.md): Assistant Professor Kirstin Petersen (khp37)
