@@ -10,6 +10,6 @@
 
 [Lecture 5 - Sensors](170906-Sensors&analog_circuitry_byVidyaRamesh.pdf)
 
-[Lecture 6 - Fast Fourier Transform](170908 - FFT.pdf)
+[Lecture 6 - Fast Fourier Transform](170908-FFT.pdf)
 
 Please contact the professor if you have questions/concerns!
