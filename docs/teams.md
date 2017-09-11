@@ -17,7 +17,7 @@
 * [Team 10: Earth, Wind, and Wire](https://earthwindandwire.github.io/Team10/)
 * [Team 11: Shrimp Cracker](https://junfrankli.github.io/Team-Shrimp-Cracker/)
 * [Team 12: Cause baby, we’re a firework!](https://carolinechuu.github.io/ECE-3400-Team-12/)
-* [Team 13: Lucky 13](https://nas256.github.io/ece3400_team13/team_contract)
+* [Team 13: Lucky 13](https://nas256.github.io/ece3400_team13/)
 * [Team 14](https://kristinanemeth.github.io/group14/)
 * [Team 15](https://team15ece3400.github.io/)
 * [Team 16: Mach 16](https://lois-lee.github.io/Team-16/)
