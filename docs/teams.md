@@ -20,7 +20,7 @@
 * [Team 13: Lucky 13](https://nas256.github.io/ece3400_team13/team_contract)
 * [Team 14](https://kristinanemeth.github.io/group14/)
 * [Team 15](https://team15ece3400.github.io/)
-* [Team 16](https://lois-lee.github.io/Team-16/)
+* [Team 16: Mach 16](https://lois-lee.github.io/Team-16/)
 * [Team 17](https://ece3400team17.github.io/ECE3400_Team17/)
 * [Team Alpha](https://cei-lab.github.io/ECE3400-2017-teamAlpha/)
 
