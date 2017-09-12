@@ -16,3 +16,5 @@ The score is calculated like this:
 * The [final robot design](Design_score.md) gives up to 25 points
 * The [final webpage](Design_score.md) gives up to 20 points
 * [Team work](Team_score.md) assessments give up to 15 points
+
+Here are some [general tips](../tutorials/webpages/webpages.html) for webpage design / lab documentation
