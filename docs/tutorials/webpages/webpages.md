@@ -26,6 +26,24 @@ You can find helpful information [here](https://pages.github.com/), but the basi
 
 * You can use [markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to write simple webpages, or you can choose to use html, although we will only be able to provide limited support for you if you do so. 
 
+#### Design
+
+
+Your website is public and represents your technical writing skills. It can be a useful resource to share with potential employers!  Remember to proof read your websites before submission deadlines and check for things like:
+* Spelling (typos!!!)
+* Grammar and punctuation
+* Formatting (including image size and quality)
+
+Like most lab reports, your webpages for the labs and milestones should have a basic structure. Including an introduction, a list of materials used, implementation/procedure, and a conclusion is a good idea :) 
+
+Also, include the subteams you worked in at the top.
+
+If you are borrowing pictures, code, or other resources from datasheets or the web, please please please include references.
+
+Your lab reports should have a good balance of text, images, animations or video demonstrations, and schematics. For schematics, you can use a variety of resources such as LTspice, Digikey's SchemeIt, Fritzing, or any other software.
+
+If the lab report requires oscilloscope readings, there is software installed on the lab computers that you can use to get screengrabs. You can also insert a flash drive and save the image directly onto that. These methods are much nicer than taking a picture of the screen :P
+
 #### Images
 
 When you start making your website, PLEASE DO NOT UPLOAD HIGH QUALITY IMAGES. Also, please do not upload a bunch of images that you will not use. A high resolution is rarely necessary and tends to make the website very slow to load. A photo of 600 pixels width, for instance, will serve fine for a large image.
