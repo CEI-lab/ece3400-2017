@@ -17,4 +17,4 @@ The score is calculated like this:
 * The [final webpage](Design_score.md) gives up to 20 points
 * [Team work](Team_score.md) assessments give up to 15 points
 
-Here are some [general tips](../tutorials/webpages/webpages.html) for webpage design / lab documentation
+Here are some [general tips](../tutorials/webpages/webpages.md) for webpage design / lab documentation
