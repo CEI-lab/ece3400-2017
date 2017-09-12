@@ -21,7 +21,7 @@ You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ec
 * Sep 1st, Fri: Mandatory team meeting during class hours. 
 * Sep 2nd, Saturday @8am: Submit [team contract](./Teamwork/Team_Contract.md) to the lecturer. Make your first team website and add names and photos of your team members, and a link to the contract. 
 
-Week 3:
+~~Week 3:~~
 * *Work on milestone 1*
 * Sep 4th, Mon: Labor day
 * Sep 6th, Wed: Sensors and signal processing (Vidya Ramesh).
