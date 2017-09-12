@@ -75,6 +75,8 @@ The basic circuit for your electret microphone is as follows. It is suggested th
 
 #### Optical Team: Assemble your IR circuit
 
+Objective: Be able to detect a 7kHz IR beacon with an Arduino using the FFT library.
+
 * A phototransistor lets more current pass the more light it receives. You can look up the one you have available in this [datasheet](https://www.digikey.com/product-detail/en/rohm-semiconductor/RPT-34PB3F/511-1357-ND/638562). Then connect the sensor as below:
 
 ![IR_phototransistor](./images/Lab2_Phototransistor.jpg)
