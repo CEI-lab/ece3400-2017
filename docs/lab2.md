@@ -45,7 +45,7 @@ The optical team will need the following materials:
 
 #### Download the Open Music Labs FFT library
 
-* Open Music Labs’ FFT page, scroll down and download the newer FFT library folder. Extract this, and then go to My Documents > Arduino > Libraries and put the FFT library folder inside of it. If you have the Arduino IDE open, close it and then restart the program (not the computer) so that it can update accordingly.
+* Open [Music Labs’ FFT page] (http://wiki.openmusiclabs.com/wiki/ArduinoFFT), scroll down and download the newer FFT library folder. Extract this, and then go to My Documents > Arduino > Libraries and put the "FFT" library folder (not the entire "ArduinoFFT3" folder) inside of it. If you have the Arduino IDE open, close it and then restart the program (not the computer) so that it can update accordingly.
 
 * Use the example sketch to start coding. On the FFT webpage, you will find some good, solid documentation on how to use the library. You should have reviewed this before the lab. In addition, the library you just installed has an example sketch that reads in values from Analog Pin 0 and outputs the frequency bin magnitudes via the serial monitor.
 
