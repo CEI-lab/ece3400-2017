@@ -13,7 +13,7 @@ Look over the Open Music Labs Arduino FFT library example sketches. You’ll see
 
 For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.
 
-It would be wise to design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.)
+You should also design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. You will especially need an [amplifier](https://cei-lab.github.io/ece3400/Grading/Lab_score.html) on your treasure detection circuit to reliably detect the correct frequency of the treasure. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.)
 
 As always it is a good idea to check [Team Alpha's website](https://cei-lab.github.io/ECE3400-2017-teamAlpha/) to see an example of a solution. But please strive to do better than we did!
 
@@ -87,7 +87,7 @@ Objective: Be able to detect a 7kHz IR beacon with an Arduino using the FFT libr
 
 * *Unit Test:* Hold your treasure at a realistic difference from the sensor (you can check with the maze that is setup in the front room), and measure the output of the sensor with the scope. Will you need additional analog circuitry before you pass this on to the Arduino?
 
-* If you decide to make additional amplifiers/analog passive/active filters, feel free to reference textbooks and the web to decide what circuitry to use. Just be sure that you can fully describe and explain your circuitry choices and how they work when you update your website. Be sure to cite your sources.
+* While designing additional amplifiers/analog passive/active filter circuits, feel free to reference textbooks and the web to decide what circuitry to use. Just be sure that you can fully describe and explain your circuitry choices and how they work when you update your website. Be sure to cite your sources.
 
 * *Unit Test:* If you have additional circuitry, be sure to test it before hooking them up to the Arduino. An amplifer can easily be tested by adding a DC voltage to the input and an oscilloscope to the output. A filter should be tested by doing a frequency sweep with a signal generator and an oscilloscope on the output. Once you know that it works, you can test your circuit further by hooking it up to your photo transistor and checking that the output has a range and a signal-to-noise ratio that works for the Arduino.
 
