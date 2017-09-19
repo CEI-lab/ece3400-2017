@@ -28,7 +28,8 @@ The last three teams will be ranked according to their performance in the final 
 
 * The maze will be a 5x4 grid with black lines crossing through the middle of each grid to allow the robot to traverse
 * Walls will be positioned strictly in between the lines. There will also be walls placed on the outer perimeter of the maze. The interior walls can be placed in any configuration.
-* Treasures will be placed on the walls, 4cm above the ground. They will face outwards (towards the robot)
+* Treasures will be placed on the walls, 4cm above the ground. They will face outwards (towards the robot). 
+* There can be either 1, 2, or 3 treasures in the maze. There will be only one treasure per grid space.
 * Your robot will start at the bottom-right corner of the maze. 
 * Speakers will be placed nearby the robot's starting position for every maze (approximately 1ft away).
 
