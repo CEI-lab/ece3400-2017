@@ -60,7 +60,7 @@ Both sub-teams will need the following materials:
 You need the following additional materials:
 * 1 VGA screen
 * 1 VGA cable
-* 1 VGA connector
+* 1 VGA connector (Your lab report must include a section on how the DAC on the provided VGA connectors works and how the resistor values were chosen.)
 * 1 VGA switch
 * Various resistors
 
