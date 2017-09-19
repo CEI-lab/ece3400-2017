@@ -34,7 +34,7 @@ In lab 3, the first 15 points are scored by:
 * 2 points: Outputting a square wave to the speaker
 * 4 points: Outputting a tune of at least three different frequencies to the speaker via an 8-bit DAC
 
-Your lab report must include a section on how the DAC on the provided VGA connectors works and how those resistor values were chosen.
+Your lab report must include a section on how the DAC on the provided VGA connectors works and how the resistor values were chosen.
 
 In lab 4, the first 15 points are scored by:
 
