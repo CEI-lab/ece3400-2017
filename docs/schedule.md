@@ -28,7 +28,7 @@ You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ec
 * Sep 8th, Fri: Digital filters and FFT + mandatory group meeting. 
 * Deadline one week after the day of your lab 1 session: The websites will be graded for contents on lab 1.
 
-Week 4:
+~~Week 4:~~
 * *Lab 2 Analog circuitry and FFT*
 * Sep 11th, Mon: Embedded Systems (Joe Skovira)
 * Sep 13th, Wed: Embedded Control (Daniel Kim)
