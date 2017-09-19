@@ -2,7 +2,7 @@
 ## Lab 3: FPGA Video Controller and Sound Generation
 
 ## Objective
-This lab is divided into two. One (half-) team will take at least two external inputs to the FPGA and display them on a screen. The other team will react to an external input to the FPGA of their choice and generate a short 'tune' consisting of at least three tones to a speaker.
+This lab is divided into two. One (half-) team will take at least two external inputs to the FPGA and display them on a screen. The other team will react to an external input to the FPGA of their choice and generate a short 'tune' consisting of at least three tones to a speaker via an 8-bit DAC.
 
 Both of these tasks will help towards the design of the final system. In the final competition, all maze information discovered by the robot must be transmitted from the basestation Arduino to the FPGA, and then drawn on a VGA monitor. Once the maze has been completely mapped, the FPGA must generate a short tune to be played on a speaker to signify that the maze-mapping is done.
 
@@ -12,7 +12,7 @@ Both of these tasks will help towards the design of the final system. In the fin
 
 * We will be using a DE0-Nano Development Board. Its documentation can be found [here](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4). You should skim this to have an idea of when to use it before the lab.
 
-* You will use Altera’s Quartus II software to program the FPGA. While there will have been a review of Verilog in class, it is highly recommended that you review how to program with Verilog. Both sub-teams should download the example Quartus project [here](./Solutions/lab3/Lab3_template.zip).
+* You will use Altera’s Quartus II software to program the FPGA. While there will have been a review of Verilog in class, it is highly recommended that you review how to program with Verilog. Both sub-teams should download the example Quartus project [here](./Solutions/lab3/Lab3_template.zip). Open DE0Nano.qpf Quartus project file in Quartus to see the project.
 
 * You should also carefully read the different tasks you will be completing below.
 
