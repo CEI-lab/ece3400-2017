@@ -16,6 +16,10 @@
 
 [Lecture 8 - Embedded Control](170913-EmbeddedControl_byDanielKim.pdf)
 
+[Lecture 9 - Actuators](170918-Actuators.pdf)
+
+[Lecture 10 - Feedback Control](170920-FeedbackControl_byAdarshJayakumar.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
