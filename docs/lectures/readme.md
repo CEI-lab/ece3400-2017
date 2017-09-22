@@ -20,6 +20,8 @@
 
 [Lecture 10 - Feedback Control](170920-FeedbackControl_byAdarshJayakumar.pdf)
 
+[Lecture 11 - How do servos work?](170922-ServoLecture_byJustinSelig.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
