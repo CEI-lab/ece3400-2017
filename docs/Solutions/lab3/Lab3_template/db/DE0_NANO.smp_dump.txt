@@ -1,0 +1,5 @@
+
+State Machine - |DE0_NANO|state
+Name state.0001 
+state.0000 0 
+state.0001 1 
