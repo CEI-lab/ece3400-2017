@@ -34,7 +34,7 @@ You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ec
 * Sep 13th, Wed: Embedded Control (Daniel Kim)
 * Sep 15th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 
-Week 5:
+~~Week 5:~~
 * *Work on milestone 1*
 * Sep 18th, Mon: Actuators
 * Sep 20th, Wed: Feedback Control (Adarsh Jayakumar)
@@ -46,6 +46,7 @@ Week 6:
 * Sep 25th, Mon: FPGA (Bruce Land)
 * Sep 27th, Wed: FPGA/VGA (Claire Chen)
 * Sep 29th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
+* Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 2.
 * Sep 29th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
 
 Week 7:
