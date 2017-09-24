@@ -23,6 +23,7 @@
 * [Team 16: Mach 16](https://lois-lee.github.io/Team-16/)
 * [Team 17](https://ece3400team17.github.io/ECE3400_Team17/)
 * [Team Alpha](https://cei-lab.github.io/ECE3400-2017-teamAlpha/)
+* [Team Zeta](https://danielkim802.github.io/)
 
 ***
 
