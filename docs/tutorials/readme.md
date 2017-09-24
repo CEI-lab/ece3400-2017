@@ -16,12 +16,13 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 * [Team assessment](../Teamwork/GroupProcess-QualitativePeerSelfEval.docx)
 * [Leadership](../Teamwork/Leadership.md)
 
-**Related to GitHub**
+**Related to Webpages**
 
 * [Desktop github](https://desktop.github.com/)
 * [How to make a webpage](./webpages/webpages.md)
 * [Markdown cheat sheet pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 * [Markdown cheat sheet, Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Example website made with Bootstrap](https://danielkim802.github.io/)
 
 **Solutions**
 
