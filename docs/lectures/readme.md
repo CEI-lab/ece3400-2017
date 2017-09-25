@@ -22,6 +22,8 @@
 
 [Lecture 11 - How do servos work?](170922-ServoLecture_byJustinSelig.pdf)
 
+[Lecture 12 - Intro to FPGAs](https://people.ece.cornell.edu/land/courses/ece3400/FPGA_Verilog/fpga.html)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
