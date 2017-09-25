@@ -52,7 +52,7 @@ Week 6:
 Week 7:
 * *Lab 3 FPGA*
 * Oct 2nd, Mon: Mechanical prototyping
-* Oct 4th, Wed: Tutorial on 3D printers, laser cutters, and design strategies (Christopher Fedors). If you want to use the 3D printer in the lab you will need to attend this lecture!
+* Oct 4th, Wed: Tutorial on 3D printers, laser cutters, and design strategies (Christopher Fedors).
 * Oct 6th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 2.
 
