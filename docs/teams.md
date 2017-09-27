@@ -12,7 +12,7 @@
 * [Team 5: Electric Boogaloo](https://wizard97.github.io/3400_team5electricboogaloo/)
 * [Team 6](https://sunemily.github.io/3400-group6/)
 * [Team 7](https://jc2554.github.io/ECE3400-team7/)
-* [Team 8](https://sk2282.github.io/ECE3400_Team8/)
+* [Team 8: The Resistance](https://sk2282.github.io/ECE3400_Team8/)
 * [Team 9: Sketch City](https://aikatz.github.io/sketch-city/)
 * [Team 10: Earth, Wind, and Wire](https://earthwindandwire.github.io/Team10/)
 * [Team 11: Shrimp Cracker](https://junfrankli.github.io/Team-Shrimp-Cracker/)
