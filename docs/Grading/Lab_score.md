@@ -21,7 +21,7 @@ In lab 2, the first 15 points are scored by:
 * 2 points: Working amplifier circuit
 * 3 points: Distinguish a 660Hz tone (from tones at 585Hz and 735Hz)
 * 2 points: Working IR sensor circuit
-* 3 points: Distinguish an IR treasure blinking at 7 KHz from one blinking at 12KHz.
+* 3 points: Detect a treasure blinking at 7kHz
 * 3 points: Nicely merged code
 
 In lab 3, the first 15 points are scored by:
