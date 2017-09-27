@@ -24,6 +24,8 @@
 
 [Lecture 12 - Intro to FPGAs](https://people.ece.cornell.edu/land/courses/ece3400/FPGA_Verilog/fpga.html)
 
+[Lecture 13 - Lab 3: FPGA, VGA, DDS](170927-Lab3_byClaireChen.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
