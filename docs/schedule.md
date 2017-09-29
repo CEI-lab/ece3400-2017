@@ -41,32 +41,31 @@ You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ec
 * Sep 22nd, Fri: How servos work (Justin Selig) + mandatory group meeting. 
 * Deadline one week after the day of your lab 2 session: The websites will be graded for contents on lab 2, and milestone 1.
 
-Week 6:
+~~Week 6:~~
 * *Work on milestone 2*
 * Sep 25th, Mon: FPGA (Bruce Land)
 * Sep 27th, Wed: FPGA/VGA (Claire Chen)
 * Sep 29th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 2.
-* Sep 29th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+* Sep 30th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
 
 Week 7:
 * *Lab 3 FPGA*
 * Oct 2nd, Mon: Mechanical prototyping
 * Oct 4th, Wed: Tutorial on 3D printers, laser cutters, and design strategies (Christopher Fedors).
 * Oct 6th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
-* Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 2.
 
 Week 8:
 * Oct 9th, Mon: Fall break
 * Oct 11th, Wed: Wireless Communication and protocols (Ryan O'Hern). 
 * Oct 13th, Fri: Wired communication + Mandatory group meeting.
-* Deadline one week after the day of your lab 3 session: The websites will be graded for contents on lab 3.
 
 Week 9:
 * *Lab 4 Wireless communication*
 * Oct 16th, Mon: IPS wiring, soldering, EMC concerns.
 * Oct 18th, Wed: Board layout (Leah Forrest)
 * Oct 20th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
+* Deadline one week after the day of your lab 3 session: The websites will be graded for contents on lab 3.
 
 Week 10:
 * *Work on milestone 3*
@@ -80,13 +79,13 @@ Week 11:
 * Oct 30th, Mon: Algorithms
 * Nov 1st, Wed: Algorithms
 * Nov 3rd, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
-* Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 3.
 
 Week 12:
-* *Work on milestone 4*
+* *Work on milestone 3 and 4*
 * Nov 6th, Mon: Evaluating IPS
 * Nov 8th, Wed: Debugging IPS
 * Nov 10th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
+* Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 3.
 * Nov 11th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
 
 Week 13:
@@ -98,9 +97,9 @@ Week 13:
 Week 14:
 * *Work on final system*
 * Nov 20th, Mon: Online communication. In-class assessment of websites. 
+* FIXED deadline Nov 21st, Tuesday: The websites will be graded for contents on milestone 4.
 * Nov 22nd, Wed: Thanksgiving recess
 * Nov 24th, Fri: Thanksgiving recess
-* Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 4.
 
 Week 15:
 * *Work on final system*
