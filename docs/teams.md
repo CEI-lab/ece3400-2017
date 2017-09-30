@@ -6,7 +6,7 @@
 # Team Websites
 
 * [Team 1](https://evankravitz.github.io/ECE-3400-Team-1/)
-* [Team 2](https://rmh286.github.io/ECE-3400-fa-2017-Team-2/info.html)
+* [Team 2: Overbuilt and Underpaid](https://rmh286.github.io/ECE-3400-fa-2017-Team-2/info.html)
 * [Team 3: Brooklynn](https://sofyacalvin.github.io/ece3400-group3/)
 * [Team 4: The Mutant Mazerunners](https://pages.github.coecis.cornell.edu/tr272/Team4Website/)
 * [Team 5: Electric Boogaloo](https://wizard97.github.io/3400_team5electricboogaloo/)
