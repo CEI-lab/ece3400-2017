@@ -65,7 +65,7 @@ Week 9:
 * Oct 16th, Mon: IPS wiring, soldering, EMC concerns.
 * Oct 18th, Wed: Board layout (Leah Forrest)
 * Oct 20th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
-* Deadline one week after the day of your lab 3 session: The websites will be graded for contents on lab 3.
+* Deadline two weeks after the day of your lab 3 session: The websites will be graded for contents on lab 3.
 
 Week 10:
 * *Work on milestone 3*
