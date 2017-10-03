@@ -14,7 +14,7 @@
 
 [Lecture 7 - Embedded Operating Systems](170911-EmbeddedOS_JoeSkovira.pdf)
 
-[Lecture 8 - Embedded Control](170913-EmbeddedControl_byDanielKim.pdf)
+[Lecture 8 - Embedded Control](170913-EmbeddedControl_byDanielKim.pdf), [Code examples](CodeExamples4EmbeddedControl_DanielKim.zip)
 
 [Lecture 9 - Actuators](170918-Actuators.pdf)
 
