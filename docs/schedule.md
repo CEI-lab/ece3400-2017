@@ -53,7 +53,7 @@ Week 7:
 * *Lab 3 FPGA*
 * Oct 2nd, Mon: Mechanical prototyping
 * Oct 4th, Wed: Tutorial on 3D printers, laser cutters, and design strategies (Christopher Fedors).
-* Oct 6th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
+* Oct 6th, Fri: Choose to either meet for a mandatory team meeting, or join for an optional lecture on how to debug analog circuitry in Kimball B11!
 
 Week 8:
 * Oct 9th, Mon: Fall break
