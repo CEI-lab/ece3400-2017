@@ -28,13 +28,12 @@ In lab 3, the first 15 points are scored by:
 
 * 1 point: Reading external inputs to FPGA
 * 1 point: Correctly updating a 4-bit array dependent on the inputs
-* 2 points: Drawing one box on the screen
+* 1 point: Drawing one box on the screen
+* 1 point: Description of how the DAC on the provided VGA connectors works and how the resistor values were chosen.
 * 4 points: Mapping external inputs to four different outputs on the screen
 * 1 point: Connecting the FPGA output to the speaker
 * 2 points: Outputting a square wave to the speaker
 * 4 points: Outputting a tune of at least three different frequencies to the speaker via an 8-bit DAC
-
-Your lab report must include a section on how the DAC on the provided VGA connectors works and how the resistor values were chosen.
 
 In lab 4, the first 15 points are scored by:
 
