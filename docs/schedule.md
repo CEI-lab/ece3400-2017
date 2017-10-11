@@ -8,6 +8,8 @@
 
 You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York) any time a TA is available. Be aware that if a lab session is ongoing you will have to yield the space to those who are signed up. 
 
+You can also access the PH414 Skunkworks lab during open lab hours, IF both you and your TA has been trained. We will be using the buddy system - basically, you are NEVER allowed to be in there without at least one other person present. That also counts if your buddy just need to step out for a couple of minutes! If we find that anyone does not follow the Buddy system, or mistreats equipment in that space, you will loose access for the rest of the semester. 
+
 ***
 
 ~~Week 1:~~
@@ -49,7 +51,7 @@ You can [access the PH427 lab](https://calendar.google.com/calendar/embed?src=ec
 * Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 2.
 * Sep 30th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
 
-Week 7:
+~~Week 7:~~
 * *Lab 3 FPGA*
 * Oct 2nd, Mon: Mechanical prototyping
 * Oct 4th, Wed: Tutorial on 3D printers, laser cutters, and design strategies (Christopher Fedors).
