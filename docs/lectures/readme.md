@@ -26,6 +26,8 @@
 
 [Lecture 13 - Lab 3: FPGA, VGA, DDS](170927-Lab3_byClaireChen.pdf)
 
+[Lecture 14 - Wireless Communication](171011-WirelessCommunication_RyanOHern.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
