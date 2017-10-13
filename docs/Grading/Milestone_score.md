@@ -16,11 +16,11 @@ _Milestone 2 will be graded as follows:_
 
 _Milestone 3 will be graded as follows:_
 
-In simulation:
+_In simulation:_
 * 4 points: Working algorithm that facilitates maze exploration.
 * 1 point: Indicator that shows the robot is done (explored everything explorable)
 
-In real life:
+_In real life:_
 * 4 points: Working algorithm that facilitates maze exploration.
 * 1 point: Indicator that shows the robot is done (explored everything explorable)
 (You don’t have to worry about treasures/starting microphone yet for either the simulation or the real-life maze exploration)
