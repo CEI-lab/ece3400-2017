@@ -20,7 +20,7 @@ _In simulation:_
 * 4 points: Working algorithm that facilitates maze exploration.
 * 1 point: Indicator that shows the robot is done (explored everything explorable)
 
-_hello_
+
 _In real life:_
 * 4 points: Working algorithm that facilitates maze exploration.
 * 1 point: Indicator that shows the robot is done (explored everything explorable)
