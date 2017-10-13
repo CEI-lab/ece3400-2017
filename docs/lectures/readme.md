@@ -28,6 +28,8 @@
 
 [Lecture 14 - Wireless Communication](171011-WirelessCommunication_RyanOHern.pdf)
 
+[Lecture 15 - Wired Communication](171013-WiredCommunication_byJustinSelig.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
