@@ -52,6 +52,8 @@ We can do this for the bottom row as well. Additionally, we can add text under t
 
 The 'text-center' class is part of Bootstrap and centers the text component as you may have guessed. 'text-left' and 'text-right' are also valid classes. The 'h5' tag is a component of html which determines the size of the text by the header level. 'h1' is larger than 'h5' and so on. 
 
+*Note: Because we copy/pasted the portfolio items, there will be two items leading to the same modals. Minor point but make sure to duplicate the modal pages as well and link them to the appropriate portfolio items.*
+
 
 ### Adding labs and milestones
 #### Text
