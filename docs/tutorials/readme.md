@@ -45,8 +45,12 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 * [Discussion of Source Code Compilation](https://github.com/arduino/Arduino/wiki/Build-Process).
 * [Intro to PWM (Lab1)](./PWM/PWM.md)
 * [A Polulu library reference guide for line following](https://www.pololu.com/docs/0J19/3). We will not be using the same line sensors, so the library won’t be installed/used directly. However, reading through the example will give you an idea of how PID control can be used for line following, particularly the command reference for readLine() and the bottom section on PID control.
+
+**Related to FPGAs**
+* [FPGA tutorial](./FPGA/readme.md)
 * [Helpful FPGA-related Links and Tips](./FPGA_resources.md)
 * [State Machine Example Code](./Arduino/EmbeddedControlsDemo.ino)
+* [VGA Color scheme, by Angus Gibbs 2016](./FPGA/color_html.html)
 
 **Related to sensors and signal processing:**
 
