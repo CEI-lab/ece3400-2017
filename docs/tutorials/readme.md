@@ -50,7 +50,7 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 * [FPGA tutorial](./FPGA/readme.md)
 * [Helpful FPGA-related Links and Tips](./FPGA_resources.md)
 * [State Machine Example Code](./Arduino/EmbeddedControlsDemo.ino)
-* [VGA Color scheme, by Angus Gibbs 2016](./FPGA/color_html.html)
+* [VGA Color scheme, by Angus Gibbs 2016](./FPGA/colors_html.html)
 
 **Related to sensors and signal processing:**
 
