@@ -75,7 +75,7 @@ To add a link, we can add the following code:
 <img src="lab-link.png" width="720" height="450" />
 
 
-This is fairly straight forward; we simply specify the 'href' field to the appropriate link. Also notice that we can imbed different tags within other tags. In this case, we embedded the link tag within a paragraph tag. Whatever formatting that was applied to the paragraph tag (text-left) will also be applied to all inner tags. 
+This is fairly straight forward; we simply specify the 'href' field to the appropriate link. Also notice that we can embed different tags within other tags. In this case, we embedded the link tag within a paragraph tag. Whatever formatting that was applied to the paragraph tag (text-left) will also be applied to all inner tags. 
 
 #### Images
 To add an image, simply add the following line of code: 
