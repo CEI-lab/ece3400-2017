@@ -14,7 +14,7 @@ The theme I'll be using for this tutorial is called Freelancer which can be down
 
 The only file you really need to modify is the index.html file. Although it can be a bit daunting at first, doing a quick scan through the index file of the Freelancer theme, we can see that it is nicely commented in sections that indicate the function of each block of html code which makes things a lot easier for editting. For example, the Navigation section pertains to the navbar at the very top of the website and the Header section determines what the green section with the title 'Start Bootstrap' looks like:
 
-<img src="quicklook-navbar.png" width="720" height="450" />
+<img src="quicklook-navbar.png" />
 
 
 <img src="quicklook-header.png" width="720" height="450" />
