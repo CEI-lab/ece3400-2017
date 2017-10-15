@@ -20,11 +20,10 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 
 * [Desktop github](https://desktop.github.com/)
 * [How to make a webpage](./webpages/webpages.md)
-* [Markdown cheat sheet pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-* [Markdown cheat sheet, Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Example website made with Bootstrap](https://danielkim802.github.io/)
-* [Fritzing, program to draw nice breadboard circuits](http://fritzing.org/download/?donation=0)
 * [Making a webpage with a Bootstrap theme](./Bootstrap/bootstrap.md)
+* [Example website made with Bootstrap](https://danielkim802.github.io/)* [Markdown cheat sheet pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown cheat sheet, Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Fritzing, program to draw nice breadboard circuits](http://fritzing.org/download/?donation=0)
 
 **Solutions**
 
