@@ -30,6 +30,8 @@
 
 [Lecture 15 - Wired Communication](171013-WiredCommunication_byJustinSelig.pdf)
 
+[Lecture 16 - EMC](171016-EMC.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
