@@ -70,7 +70,7 @@ where D is the day of your lab (0 = Monday day, 1 = Monday night, 2 = Wednesday 
 
 Example: You are Friday Team 9. And so, D = 3, N = 9, and your identifier numbers are then:
 
-2*(3*3 + 9) + 0/1 = 36 and 37 in decimal = 24 and 25 in hex.
+2*(3*4 + 9) + 0/1 = 42 and 43 in decimal.
 
 You will put these channel numbers (with leading 0s) in the line of code that says
 
