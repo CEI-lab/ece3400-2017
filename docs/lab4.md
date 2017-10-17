@@ -70,7 +70,7 @@ where D is the day of your lab (0 = Monday day, 1 = Monday night, 2 = Wednesday 
 
 Example: You are Friday Team 9. And so, D = 3, N = 9, and your identifier numbers are then:
 
-2*(3*4 + 9) + 0/1 = 42 and 43 in decimal.
+2*((3)(4) + 9) + 0/1 = 42 and 43 in decimal, or 2A and 2B in hex.
 
 You will put these channel numbers (with leading 0s) in the line of code that says
 
@@ -79,7 +79,7 @@ const uint64_t pipes[2] = { 0xF0F0F0F0E1LL, 0xF0F0F0F0D2LL };
 ```
 So that it instead says
 ```C
-const uint64_t pipes[2] = { 0x0000000024LL, 0x0000000025LL };
+const uint64_t pipes[2] = { 0x000000002ALL, 0x000000002BLL };
 ```
 The LL’s mean “long long,” or a 64-bit number. Leave these in.
 
