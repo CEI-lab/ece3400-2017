@@ -45,7 +45,8 @@ Here are several helpful hints to remember when designing your PCB:
 
 ## Designing for External Fabrication
 
-As previously mentioned we will make two orders from Advanced PCB this semester. The first order will be XXX, the second XXX. That means, you have to hand in your board design by XXX noon (or XXX noon) to give us time to help you fix any mistakes up front. Once all boards are approved by us, we will put them on the same PCB in Eagle, and order them in bulk. Afterwards we will cut them apart usign a dremel. Remember the smaller you make them, the cheaper we can make it. 
+As previously mentioned we will make two orders from Advanced PCB this semester. The first order will be XXX, the second XXX. That means, you have to hand in your board design by XXX noon (or XXX noon) to give us time to help you fix any mistakes up front. For this class we will ONLY accept designs made in Eagle! 
+Once all boards are approved by us, we will put them on the same PCB, and order them in bulk. Afterwards we will cut them apart usign a Dremel tool. Remember the smaller you make them, the cheaper we can make it. 
 
 It is very important that you follow the Barebones PCB requirements, listed here:
 
