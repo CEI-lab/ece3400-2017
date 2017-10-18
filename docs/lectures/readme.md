@@ -26,11 +26,15 @@
 
 [Lecture 13 - Lab 3: FPGA, VGA, DDS](170927-Lab3_byClaireChen.pdf)
 
-[Lecture 14 - Wireless Communication](171011-WirelessCommunication_RyanOHern.pdf)
+[Lecture 14 - Debugging Circuitry](171006-DebuggingCircuitry.pdf)
 
-[Lecture 15 - Wired Communication](171013-WiredCommunication_byJustinSelig.pdf)
+[Lecture 15 - Wireless Communication](171011-WirelessCommunication_RyanOHern.pdf)
 
-[Lecture 16 - EMC](171016-EMC.pdf)
+[Lecture 16 - Wired Communication](171013-WiredCommunication_byJustinSelig.pdf)
+
+[Lecture 17 - EMC](171016-EMC.pdf)
+
+[Lecture 18 - PCB Layout](171018-PCBs_byLeahForrest.pdf)
 
 Please contact the professor if you have questions/concerns!
 
