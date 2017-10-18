@@ -26,7 +26,7 @@ Here is the general process for PCB design
 3.d	Route your wires given the constraints of the PCB manufacturer
 3.e Consider minimizing the size of your board. Can you place components on both sides of the board for example?
 3.f When you are finished, try printing it out on paper (be sure to print it un-scaled). That way you can easily test if everything fits on your robot/components. 
-3.g Finally, make a zip file and send it to kirstin@cornell.edu. Use the following naming scheme: Date_TeamX_PCBrevX.zip. I.e. Team 1, sending this today would send 171018_Team1_PCBrev1.zip.
+3.g Finally, make a zip file and send it to kirstin_at_cornell_dot_edu. Use the following naming scheme: Date_TeamX_PCBrevX.zip. I.e. Team 1, sending this today would send 171018_Team1_PCBrev1.zip.
 3.h Alternatively, if you are making the PCB on your own in the mill, generate Gerber files and follow your own usual procedures. 
 
 Here are several helpful hints to remember when designing your PCB:
