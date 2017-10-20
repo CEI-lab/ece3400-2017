@@ -28,7 +28,7 @@ The last three teams will be ranked according to their performance in the final 
 * The maze will be a 5x4 grid with black lines crossing through the middle of each grid to allow the robot to traverse
 * Walls will be positioned strictly in between the lines. There will also be walls placed on the outer perimeter of the maze. The interior walls can be placed in any configuration.
 * Treasures will be placed on the walls, with the center of the LED ring 4cm above the ground. They will face outwards (towards the robot). 
-* There can be up to 3 treasures in the maze, flashing at any of the frequencies 7kHz, 12kHz, 12kHz. There will be only one treasure per grid space. When your robot finds a treasure, please mark the grid space with the following color scheme: 7kHz=red, 12kHz=green, 17kHz=blue. You can either mark the entire cell, or place a symbol of the corresponding color in that cell.
+* There can be up to 3 treasures in the maze, flashing at any of the frequencies 7kHz, 12kHz, 17kHz. There will be only one treasure per grid space. When your robot finds a treasure, please mark the grid space with the following color scheme: 7kHz=red, 12kHz=green, 17kHz=blue. You can either mark the entire cell, or place a symbol of the corresponding color in that cell.
 * The maze will always have 4 cells in the X-direction, and 5 cells in the Y-direction. Your robot will start at the bottom-right corner of that maze.
 * Speakers will be placed nearby the robot's starting position for every maze (approximately 1ft away).
 
