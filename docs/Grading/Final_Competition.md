@@ -6,12 +6,12 @@ The maze layout will be changed between rounds, but remain the same within a rou
 
 The competition will have a total of four rounds: 
 
-* Round 1a: Team 1 + Team 2 + Team 3 + Team 4
-* Round 1b: Team 5 + Team 6 + Team 7 + Team 8
-* Round 1c: Team 9 + Team 10 + Team 11 + Team 12
-* Round 2a: Team 1 + Team 2 + Team 3 + Team 4
-* Round 2b: Team 5 + Team 6 + Team 7 + Team 8
-* Round 2c: Team 9 + Team 10 + Team 11 + Team 12
+* Round 1a: Team 1 + Team 2 + Team 3 + Team 4 + Team 5 + Team 6
+* Round 1b: Team 7 + Team 8 + Team 9 + Team 10 + Team 11 + Team 12
+* Round 1c: Team 13 + Team 14 + Team 15 + Team 16 + Team 17
+* Round 2a: Team 1 + Team 2 + Team 3 + Team 4 + Team 5 + Team 6
+* Round 2b: Team 7 + Team 8 + Team 9 + Team 10 + Team 11 + Team 12
+* Round 2c: Team 13 + Team 14 + Team 15 + Team 16 + Team 17
 
 The six teams with the highest accumulated score go on to round 3:
 
@@ -29,8 +29,8 @@ The last three teams will be ranked according to their performance in the final 
 * The maze will be a 5x4 grid with black lines crossing through the middle of each grid to allow the robot to traverse
 * Walls will be positioned strictly in between the lines. There will also be walls placed on the outer perimeter of the maze. The interior walls can be placed in any configuration.
 * Treasures will be placed on the walls, with the center of the LED ring 4cm above the ground. They will face outwards (towards the robot). 
-* There can be either 1, 2, or 3 treasures in the maze. There will be only one treasure per grid space.
-* Your robot will start at the bottom-right corner of the maze. 
+* There can be up to 3 treasures in the maze, flashing at any of the frequencies 7kHz, 12kHz, 12kHz. There will be only one treasure per grid space. When your robot finds a treasure, please mark the grid space with the following color scheme: 7kHz=red, 12kHz=green, 17kHz=blue. You can either mark the entire cell, or place a symbol of the corresponding color in that cell.
+* The maze will always have 4 cells in the X-direction, and 5 cells in the Y-direction. Your robot will start at the bottom-right corner of that maze.
 * Speakers will be placed nearby the robot's starting position for every maze (approximately 1ft away).
 
 ## Scoring
