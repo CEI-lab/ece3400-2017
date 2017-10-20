@@ -15,8 +15,7 @@ The competition will have a total of four rounds:
 
 The six teams with the highest accumulated score go on to round 3:
 
-* Round 3a: Team 1' + Team 2' + Team 3'
-* Round 3b: Team 4' + Team 5' + Team 6'
+* Round 3: Team 1' + Team 2' + Team 3' + Team 4' + Team 5' + Team 6'
 
 The three teams with the highest cumulative score go on to round 4. In this round we will combine all the mazes and make one four times the original size:
 
