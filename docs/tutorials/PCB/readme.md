@@ -83,8 +83,12 @@ Here are several helpful hints to remember when designing your PCB:
 * Choose components that are easy to solder. It takes some time to get really good at soldering small SMD components, so it you don't need them, don't bother using them. Through-hole resisters, and DIP-chips are handy - they also minimize the number of additional vias that you need to add to route traces on both sides of the PCB. 
 * Trace width can be chosen according to the current they carry. Smaller traces allow smaller PCBs. On the other hand, larger traces allow more flexibility if you have to hack the board later, and are less likely to peel off the surface from overheating with a soldering iron. 32mil width works well for standard traces. 
 * The PCBs that we will make in this class will not have silk-screens. However, you can still add text (like your team number/date) as copper traces on the board. We highly recommend doing this, so that we can tell all the boards apart.
+
 <Add photo of silk-screen>
+
 * Everyone makes mistakes on their first board, don't worry if yours needs some hacks too. It is part of the learning process!
+
 <Add photo of hacked PCB>
+
 * We will start a class burn-list. This will include a brief description of all the things that didn't work. In other words, if you learn something, please share it with us and we will add it to the burn-list to help future students!
 
