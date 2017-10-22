@@ -38,7 +38,7 @@ To make a PCB, it is very important that you follow the Barebones PCB requiremen
 
 ## Designing a PCB
 
-Be sure to check out [Leah's lecture slides](171018-PCBs_byLeahForrest.pdf). Also, here is a great [beginner's tutorial from Sparkfun](https://learn.sparkfun.com/tutorials/using-eagle-board-layout).
+Be sure to check out [Leah's lecture slides](../../lectures/171018-PCBs_byLeahForrest.pdf). Also, here is a great [beginner's tutorial from Sparkfun](https://learn.sparkfun.com/tutorials/using-eagle-board-layout). And Chris has made a nice [tutorial on Eagle](../Eagle/Eagle_Tutorial.md), and an example of [laying out a board end to end](../Eagle/Eagle_Example.md)!
 
 Here is the general process for PCB design:
 
@@ -61,6 +61,8 @@ Here is the general process for PCB design:
 <Insert video from Leah on trace routing>
 
 3. e. What if I can't connect my trace due to other traces? There are many ways to fix this. i) The expensive way is to add another routing layer (2 or 4 layers of copper for instance). ii) The simpler way is to add vias to which you can attach a separate wire. iii) If you are currently using surface mount components, you can swap one of them for a through-hole component, this typically allow you to route wires underneath the component. 
+
+![Extra wire jumpers on a PCB](./PCB_jumpers.jpg)
 
 3. f. Consider minimizing the size of your board. Does your components come with a different footprint? Can you place components on both sides of the board?
 
