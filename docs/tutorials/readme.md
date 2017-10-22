@@ -58,9 +58,18 @@ Making tutorials is a great way to earn extra credit. Please confer with the pro
 * [Download LTSpice lite for free here](http://www.linear.com/solutions/ltspice)
 * [VL53L0X time-of-flight distance sensor](./sensors/VL53L0X.md)
 
-**Related to fabrication:**
+**Related to electronics:**
 
-For the first time ever, we have a Skunkworks available to the class complete with a laser cutter, two 3D printers, and a PCB etching station. This is located in PH414. Please be aware that only TA's (and potentially trained students) will have access to this lab, but everyone can request to have pieces 3D printed, laser cut, or etched in there.
+* [How to solder components and wires](./Soldering/Soldering_Tutorial.md)
+* [Solder Wires Like a Pro!](https://youtu.be/vL4DuoKGquk)
+* [Wiring a robot] To be added.
+* [Tutorials on Eagle](./Eagle/Eagle_Tutorial.md)
+* [How to layout a PCB](PCB/readme.md)
+* [How to etch your own PCB](https://www.sparkfun.com/news/2116?_ga=2.203306769.1650204894.1508633871-2087463493.1502106414) from Sparkfun.
+
+**Related to mechanical fabrication:**
+
+For the first time ever, we have a Skunkworks available to the class complete with a laser cutter, two 3D printers, and a PCB etching station (to come). This is located in PH414. Please be aware that only TA's (and potentially trained students) will have access to this lab, but everyone can request to have pieces 3D printed, laser cut, or etched in there.
 
 * [How to calculate the cost of your robot?](Cost.md)
 * A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
@@ -71,11 +80,6 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 * [How to use the XYYZ and UPplus 2 3D printers](./3Dprinting/3D_Printing_Tutorial.md)
 * [How to use the Epilog laser cutter](./LaserCutter/Laser_Cutting_Tutorial.md)
 * [Tips on how to design pieces for a laser cutter](./LaserCutter/Design_for_laser_cutters.md)
-* [Tutorials on Eagle](./Eagle/Eagle_Tutorial.md)
-* [How to etch your own PCB] To be added.
-* [How to solder components and wires](./Soldering/Soldering_Tutorial.md)
-* [Solder Wires Like a Pro!](https://youtu.be/vL4DuoKGquk)
-* [Wiring a robot] To be added.
 
 **Related to debugging**
 
