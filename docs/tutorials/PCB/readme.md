@@ -62,13 +62,13 @@ Here is the general process for PCB design:
 
 3. e. What if I can't connect my trace due to other traces? There are many ways to fix this. i) The expensive way is to add another routing layer (2 or 4 layers of copper for instance). ii) The simpler way is to add vias to which you can attach a separate wire. iii) If you are currently using surface mount components, you can swap one of them for a through-hole component, this typically allow you to route wires underneath the component. 
 
-3.f Consider minimizing the size of your board. Does your components come with a different footprint? Can you place components on both sides of the board?
+3. f. Consider minimizing the size of your board. Does your components come with a different footprint? Can you place components on both sides of the board?
 
-3.g When you are finished, try printing it out on paper (be sure to print it un-scaled). That way you can easily test if everything fits on your robot/components. 
+3. g. When you are finished, try printing it out on paper (be sure to print it un-scaled). That way you can easily test if everything fits on your robot/components. 
 
 <Insert photo>
 
-3.h Finally, make a *.zip file and send it to kirstin_at_cornell_dot_edu. Use the following naming scheme: Date_TeamX_PCBrevX.zip. I.e. Team 1, sending their first PCB today would send 171018_Team1_PCBrev1.zip. Alternatively, if you are making the PCB on your own in the mill, generate Gerber files and follow your own usual procedures. 
+3. h. Finally, make a *.zip file and send it to kirstin_at_cornell_dot_edu. Use the following naming scheme: Date_TeamX_PCBrevX.zip. I.e. Team 1, sending their first PCB today would send 171018_Team1_PCBrev1.zip. Alternatively, if you are making the PCB on your own in the mill, generate Gerber files and follow your own usual procedures. 
 
 <Insert Leah's video on how to make Gerber files>
 
