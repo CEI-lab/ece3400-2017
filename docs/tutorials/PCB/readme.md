@@ -16,7 +16,7 @@ If you are already part of the Maker Space, trained on the PCB mill, and want to
 
 We will make two bulk orders from Advanced PCB (Also called 4PCB). The first order will be made on Nov. 6th, the second Nov. 17th. That means you have to hand in your board design by Nov. 3rd @ noon (or Nov. 15th @ noon respectively) to give us time to help you fix any mistakes up front. *For this class we will ONLY accept designs made in Eagle!* 
 
-The boards we will order will be barebones PCBs (http://www.4pcb.com/pcb-prototype-2-4-layer-boards-specials.html), i.e. two raw copper planes on each side of an FR-4 board. We will try to save money by having every team submit their files to Kirstin first, then we will fit these onto a bigger PCB (maximum size 12x16"), have them externally fabricated, and then cut them out using a Dremel tool afterwards. 
+The boards we will order will be [barebones PCBs](http://www.4pcb.com/pcb-prototype-2-4-layer-boards-specials.html), i.e. two raw copper planes on each side of an FR-4 board. We will try to save money by having every team submit their files to Kirstin first, then we will fit these onto a bigger PCB (maximum size 12x16"), have them externally fabricated, and then cut them out using a Dremel tool afterwards. 
 
 Please keep in mind that the cost of the PCB will count against your final budget. If you want to do this, please send Kirstin a note with the approximate size you expect your PCB to be.
 
