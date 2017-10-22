@@ -1,7 +1,8 @@
 # Designing a PCB
 
 *by Leah Forrest and Kirstin Petersen, Oct. 18th, 2017*
-IN PROGRESS!
+
+NB: IN PROGRESS!
 
 ## Introduction
 
