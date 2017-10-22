@@ -1,6 +1,7 @@
 # Designing a PCB
 
 *by Leah Forrest and Kirstin Petersen, Oct. 18th, 2017*
+IN PROGRESS!
 
 ## Introduction
 
@@ -46,7 +47,7 @@ Here is the general process for PCB design:
 
 2. When your circuit works, draw it up on a schematic. Be very sure that you pick the correct footprints for each component. 
 
-<Insert video from Leah on libraries and schematic>
+...Insert video from Leah on libraries and schematic...
 
 3. Then transfer the schematic to a PCB.
 
@@ -58,7 +59,7 @@ Here is the general process for PCB design:
 
 3. d.	Route the traces. Be sure to follow the constraints of the PCB manufacturer, i.e. consider minimum trace width and via size. Also, remember, if you are milling your own PCB, the vias are not necessarily through-plated, instead you must solder a piece of wires to connect the trace on the top and bottom layer. That also means that vias will not fit under a chip!
 
-<Insert video from Leah on trace routing>
+...Insert video from Leah on trace routing...
 
 3. e. What if I can't connect my trace due to other traces? There are many ways to fix this. i) The expensive way is to add another routing layer (2 or 4 layers of copper for instance). ii) The simpler way is to add vias to which you can attach a separate wire. iii) If you are currently using surface mount components, you can swap one of them for a through-hole component, this typically allow you to route wires underneath the component. 
 
@@ -68,11 +69,11 @@ Here is the general process for PCB design:
 
 3. g. When you are finished, try printing it out on paper (be sure to print it un-scaled). That way you can easily test if everything fits on your robot/components. 
 
-<Insert photo>
+...Insert photo...
 
 3. h. Finally, make a *.zip file and send it to kirstin_at_cornell_dot_edu. Use the following naming scheme: Date_TeamX_PCBrevX.zip. I.e. Team 1, sending their first PCB today would send 171018_Team1_PCBrev1.zip. Alternatively, if you are making the PCB on your own in the mill, generate Gerber files and follow your own usual procedures. 
 
-<Insert Leah's video on how to make Gerber files>
+...Insert Leah's video on how to make Gerber files...
 
 Here are several helpful hints to remember when designing your PCB:
 
@@ -86,11 +87,9 @@ Here are several helpful hints to remember when designing your PCB:
 * Trace width can be chosen according to the current they carry. Smaller traces allow smaller PCBs. On the other hand, larger traces allow more flexibility if you have to hack the board later, and are less likely to peel off the surface from overheating with a soldering iron. 32mil width works well for standard traces. 
 * The PCBs that we will make in this class will not have silk-screens. However, you can still add text (like your team number/date) as copper traces on the board. We highly recommend doing this, so that we can tell all the boards apart.
 
-<Add photo of silk-screen>
+...Add photo of silk-screen...
 
 * Everyone makes mistakes on their first board, don't worry if yours needs some hacks too. It is part of the learning process!
-
-<Add photo of hacked PCB>
 
 * We will start a class burn-list. This will include a brief description of all the things that didn't work. In other words, if you learn something, please share it with us and we will add it to the burn-list to help future students!
 
