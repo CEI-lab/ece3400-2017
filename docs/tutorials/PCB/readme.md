@@ -50,23 +50,23 @@ Here is the general process for PCB design:
 
 3. Then transfer the schematic to a PCB.
 
-3. a. First, draw the outline of your PCB given the dimensions of your robot, mechanical constraints, etc. Mark up if there are any places where there are height restrictions for the components as well.
+3.a. First, draw the outline of your PCB given the dimensions of your robot, mechanical constraints, etc. Mark up if there are any places where there are height restrictions for the components as well.
 
-3. b. Add in mounting holes, and be sure they fit screws that are in the lab.
+3.b. Add in mounting holes, and be sure they fit screws that are in the lab.
 
-3. c. Second, add in your interface components - i.e. all connectors that needs to sit at the periphery of the board
+3.c. Second, add in your interface components - i.e. all connectors that needs to sit at the periphery of the board
 
-3. d.	Route the traces. Be sure to follow the constraints of the PCB manufacturer, i.e. consider minimum trace width and via size. Also, remember, if you are milling your own PCB, the vias are not necessarily through-plated, instead you must solder a piece of wires to connect the trace on the top and bottom layer. That also means that vias will not fit under a chip! (Insert video from Leah on trace routing)
+3.d.	Route the traces. Be sure to follow the constraints of the PCB manufacturer, i.e. consider minimum trace width and via size. Also, remember, if you are milling your own PCB, the vias are not necessarily through-plated, instead you must solder a piece of wires to connect the trace on the top and bottom layer. That also means that vias will not fit under a chip! (Insert video from Leah on trace routing)
 
-3. e. What if I can't connect my trace due to other traces? There are many ways to fix this. i) The expensive way is to add another routing layer (2 or 4 layers of copper for instance). ii) The simpler way is to add vias to which you can attach a separate wire. iii) If you are currently using surface mount components, you can swap one of them for a through-hole component, this typically allow you to route wires underneath the component. 
+3.e. What if I can't connect my trace due to other traces? There are many ways to fix this. i) The expensive way is to add another routing layer (2 or 4 layers of copper for instance). ii) The simpler way is to add vias to which you can attach a separate wire. iii) If you are currently using surface mount components, you can swap one of them for a through-hole component, this typically allow you to route wires underneath the component. 
 
 ![Extra wire jumpers on a PCB](./PCB_jumpers.jpg)
 
-3. f. Consider minimizing the size of your board. Does your components come with a different footprint? Can you place components on both sides of the board?
+3.f. Consider minimizing the size of your board. Does your components come with a different footprint? Can you place components on both sides of the board?
 
-3. g. When you are finished, try printing it out on paper (be sure to print it un-scaled). That way you can easily test if everything fits on your robot/components. (Insert photo)
+4. When you are finished, try printing it out on paper (be sure to print it un-scaled). That way you can easily test if everything fits on your robot/components. (Insert photo)
 
-3. h. Finally, make a * .zip file and send it to kirstin_at_cornell_dot_edu. Use the following naming scheme: Date_TeamX_PCBrevX.zip. I.e. Team 1, sending their first PCB today would send 171018_Team1_PCBrev1.zip. Alternatively, if you are making the PCB on your own in the mill, generate Gerber files and follow your own usual procedures. (Insert Leah's video on how to make Gerber files)
+5. Finally, make a * .zip file and send it to kirstin_at_cornell_dot_edu. Use the following naming scheme: Date_TeamX_PCBrevX.zip. I.e. Team 1, sending their first PCB today would send 171018_Team1_PCBrev1.zip. Alternatively, if you are making the PCB on your own in the mill, generate Gerber files and follow your own usual procedures. (Insert Leah's video on how to make Gerber files)
 
 Here are several helpful hints to remember when designing your PCB:
 
