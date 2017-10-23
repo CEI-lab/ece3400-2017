@@ -36,6 +36,8 @@
 
 [Lecture 18 - PCB Layout](171018-PCBs_byLeahForrest.pdf)
 
+[Lecture 19 - Algorithms, DFS/BFS](171023-Algorithms_DFS_BFS.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
