@@ -34,7 +34,8 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 **Making Tutorials**
 
-Making tutorials is a great way to earn extra credit. Please confer with the professor before starting. [Here's a brief tutorial on making tutorials](./tutorials.md), with a list of possible tutorials we'd like to add.
+* Making tutorials is a great way to earn extra credit. Please confer with the professor before starting. [Here's a brief tutorial on making tutorials](./tutorials.md), with a list of possible tutorials we'd like to add.
+* Also, here is a fantastic [tutorial from Stanford on how to make interactive tutorials](http://www.redblobgames.com/making-of/line-drawing/)
 
 **Related to Control**
 
