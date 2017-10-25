@@ -57,12 +57,12 @@ You can also access the PH414 Skunkworks lab during open lab hours, IF both you 
 * Oct 4th, Wed: Tutorial on 3D printers, laser cutters, and design strategies (Christopher Fedors).
 * Oct 6th, Fri: Choose to either meet for a mandatory team meeting, or join for an optional lecture on how to debug analog circuitry in Kimball B11!
 
-Week 8:
+~~Week 8:~~
 * Oct 9th, Mon: Fall break
 * Oct 11th, Wed: Wireless Communication and protocols (Ryan O'Hern). 
 * Oct 13th, Fri: Wired communication + Mandatory group meeting.
 
-Week 9:
+~~Week 9:~~
 * *Lab 4 Wireless communication*
 * Oct 16th, Mon: IPS wiring, soldering, EMC concerns.
 * Oct 18th, Wed: Board layout (Leah Forrest)
@@ -85,7 +85,7 @@ Week 11:
 Week 12:
 * *Work on milestone 3 and 4*
 * Nov 6th, Mon: Evaluating IPS
-* Nov 8th, Wed: Debugging IPS
+* Nov 8th, Wed: IPS Ethics 1
 * Nov 10th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 3.
 * Nov 11th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
@@ -105,7 +105,7 @@ Week 14:
 
 Week 15:
 * *Work on final system*
-* Nov 27th, Mon: IPS Ethics
+* Nov 27th, Mon: IPS Ethics 2
 * Nov 29th, Wed: Cornell Engineering Career Center (Christa Downey)
 * Dec 1st, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Dec 2nd, Saturday 8am Deadline: Submit homework on Ethics!
