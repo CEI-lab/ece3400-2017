@@ -92,9 +92,9 @@ Week 12:
 
 Week 13:
 * *Work on milestone 4*
-* Nov 13th, Mon: Power and batteries for IPS (Vaidehi Garg)
+* Nov 13th, Mon: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Nov 15th, Wed: Alternative approaches to IPS
-* Nov 17th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
+* Nov 17th, Fri: Power and batteries for IPS (Vaidehi Garg)
 
 Week 14:
 * *Work on final system*
