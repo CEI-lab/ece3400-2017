@@ -82,3 +82,25 @@ Here are several helpful hints to remember when designing your PCB:
 * Everyone makes mistakes on their first board, don't worry if yours needs some hacks too. It is part of the learning process!
 * We will start a class burn-list. This will include a brief description of all the things that didn't work. In other words, if you learn something, please share it with us and we will add it to the burn-list to help future students!
 
+
+
+
+## Class Burn List:
+Keeping a burn list is a good practice to keep yourself from getting 'burned' on future revisions: see [Sample Burn List] (https://volersystems.com/v-2010/91-pcb-layout-checklist/) for suggestions while we are compiling a class list this semester.
+* Never do right-angle corners on tracks - they tend to break.
+* Check for a common ground amoungst all your components.
+* Add team name and revision number on top layer copper.
+* Make sure power/ground planes have test points
+* Dont connect jumper pins together with a trace on the board.
+* 
+
+
+## List of Suggested Components:
+* Standard 1/2 Watt axial resistor 
+* 8 position DIP IC socket (AE9986-ND)
+* Male/Male 2 Pin Header (good for jumpers) (952-2262-ND)
+* Jumper Connector (S9001-ND)
+* LED (You can use the ones in the lab, but for your board just create 2 throughholes, or a male/female header to stick the LED into)
+* 
+
+
