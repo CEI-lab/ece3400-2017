@@ -101,9 +101,15 @@ Keeping a burn list is a good practice to keep yourself from getting 'burned' on
 ## List of Suggested Components:
 * Standard 1/2 Watt axial resistor 
 * 8 position DIP IC socket (AE9986-ND)
-* Male/Male 2 Pin Header (good for jumpers) (952-2262-ND)
+* 28 position DIP IC socket (ED3050-5-ND)
+* Male 2 Pin Header (good for jumpers) (952-2262-ND)
 * Jumper Connector (S9001-ND)
+* Male 32 Pin Header (SAM1035-32-ND)
+* Female 32 Pin Header (SAM1091-32-ND)
 * LED (You can use the ones in the lab, but for your board just create 2 throughholes, or a male/female header to stick the LED into)
-* 
+* 2 position screw terminal (for inputs/outputs) (A98076-ND)
+* 3 position screw terminal (for inputs/outputs) (A98077-ND)
+* 4 position screw terminal (for inputs/outputs) (A98078-ND)
+
 
 
