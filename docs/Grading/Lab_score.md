@@ -26,7 +26,7 @@ In lab 2, the first 15 points are scored by:
 
 In lab 3, the first 15 points are scored by:
 
-* 1 point: Reading external inputs to FPGA
+* 1 point: Reading external inputs from Arduino to FPGA
 * 1 point: Correctly updating a 4-bit array dependent on the inputs
 * 1 point: Drawing one box on the screen
 * 1 point: Description of how the DAC on the provided VGA connectors works and how the resistor values were chosen.
