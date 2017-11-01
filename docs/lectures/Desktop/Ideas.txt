@@ -1,0 +1,21 @@
+
+Construction by Slimemold-Inspired Soft Robot Collectives
+- Bodies composed of hydrogels, with two chambers internally
+- Add two component materials inside at a higher pressure
+- Extrude foam to build structures and propel forward
+- Signal to other robots via heat from extruded foam
+- Or have heterogeneous robots that extrude one liquid component, which only reacts when another robot crosses its path
+- Completely expendable, cheap
+- Rigidity change
+- Can be made passive?
+- If there is control electronics, can this become useful in the final structure as well?
+- Grand goal: Construct dams, bridges, supporting pillars in rubble
+
+
+
+http://www.acq.osd.mil/dsb/
+
+https://www.army.mil/article/184144/
+
+
+Living structures!
