@@ -1,4 +1,4 @@
-# FPGA-related resources: useful tips and links
+# FPGA-related resources: useful tips, links, and FAQ's 
 
 *By Claire Chen, 2017*
 
@@ -21,3 +21,21 @@ User manuals or data sheets are the best resources when working with new hardwar
 ## Verilog
 
 Verilog is a hardware description language (HDL), which means that all the code you write for the FPGA in Verilog represents combinational or sequential logic in hardware. During compiliation, Quartus must analyze all the logic you've written and determine how to best synthesize it onto the FPGA; this is the reason why compile times are so much longer than software compile times. When writing Verilog, it's important to understand the hardware behind your code, as this will help you to consider important logic errors. For example, signals in Verilog can be one of two data types: a _reg_ (variable data type) or a _wire_ (net data type). _Wires_ can only be used to model combinational logic and they cannot store values. _Regs_ represent data storage elements and can be used to model both combinational and sequential logic in _always_ blocks. For many more details on Verilog syntax, check out the Verilog Quick Reference Guide [here](http://sutherland-hdl.com/pdfs/verilog_2001_ref_guide.pdf).
+
+## FAQ's about debugging 
+* Strange bugs such as not being able to blink the LED’s on the FPGA board, not being able to compile a project, not being able to run a sample code that you’ve download from the website and know that it works.
+  Try the following fixes:
+  *	Restart the computer
+  *	If you are using your own laptop, maybe there is a problem with how you installed the Quartus drivers- so switch to a lab computer.
+  *	If the sample code is not displaying to the screen- check that the VGA cords are all connected in the correct configuration. Sometimes cords are unplugged when people are moving monitors around. 
+  *	Check the pinout! This is maybe one of the most common issues- the DAC is connected incorrectly. Make sure you are using the correct side of the GPIOs (GPIO_1 or GPIO_0) and that you are counting the GPIO’s by their GPIO1_## not by the physical pin number from counting. 
+  *	Empty the documents/downloads folder and redownload the project file- there have been problems where file naming has been an issue. If you’re using one of the lab computers sometimes files have been downloaded by other groups and have the same name, which seems to make Quartus confused. 
+  
+* Timing issues when updating the screen (cycles through pixels), screen displaying blocks with fuzzy edges, only displaying half of the screen. 
+  * Make sure you have a common ground- this is the most ‘common’ issue! If you are sending/receiving from your Arduino- make sure that the Arduino GND and FPGA GND are connected!
+* Problems writing/reading Pin 0/1 on Arduino. 
+  * Pin 0 and Pin 1 are RX and TX pins- writing and reading to these pins will not work if the Arduino code has Serial.begin.
+
+
+
+
