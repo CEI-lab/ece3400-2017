@@ -35,6 +35,8 @@ Verilog is a hardware description language (HDL), which means that all the code 
   * Make sure you have a common ground- this is the most ‘common’ issue! If you are sending/receiving from your Arduino- make sure that the Arduino GND and FPGA GND are connected!
 * Problems writing/reading Pin 0/1 on Arduino. 
   * Pin 0 and Pin 1 are RX and TX pins- writing and reading to these pins will not work if the Arduino code has Serial.begin.
+* If there is a small thin line of pixels in the wrong color/where it shouldn't be.
+  * Check inequality signs- one of them should be >= or <=, can't just have < and > for boundaries. 
 
 
 
