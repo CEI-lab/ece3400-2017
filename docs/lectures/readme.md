@@ -38,6 +38,10 @@
 
 [Lecture 19 - Algorithms, DFS/BFS](171023-Algorithms_DFS_BFS.pdf)
 
+[Lecture 20 - Search 3](171030-Search3.pdf)
+
+[Lecture 21 - Implementation](171101-BitwiseLogic.ino)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
