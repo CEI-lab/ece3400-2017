@@ -1,6 +1,6 @@
-# ECE 3400, Fall 2017, Cornell University
+# Class Burn-List
 
-## Class Burn-List
+## ECE 3400, Fall 2017, Cornell University
 
 Keeping a burn list is a good practice to keep yourself from getting 'burned' on future revisions: see [Sample Burn List] (https://volersystems.com/v-2010/91-pcb-layout-checklist/) for suggestions, while we are compiling our own list this semester.
 
