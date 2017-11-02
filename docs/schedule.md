@@ -69,7 +69,7 @@ You can also access the PH414 Skunkworks lab during open lab hours, IF both you 
 * Oct 20th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Deadline two weeks after the day of your lab 3 session: The websites will be graded for contents on lab 3.
 
-Week 10:
+~~Week 10:~~
 * *Work on milestone 3*
 * Oct 23rd, Mon: Algorithms
 * Oct 25th, Wed: Algorithms
