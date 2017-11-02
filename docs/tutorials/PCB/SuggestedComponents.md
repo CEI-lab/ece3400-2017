@@ -1,8 +1,8 @@
-# ECE 3400, Fall 2017, Cornell University
+# List of Suggested Components for Class PCBs
 
-* By Leah Forrest, Nov. 11th, 2017.
+## ECE 3400, Fall 2017, Cornell University
 
-## List of Suggested Components for Use on PCBs:
+*By Leah Forrest, Nov. 11th, 2017*
 
 * Standard 1/2 Watt axial resistor 
 * 8 position DIP IC socket [AE9986-ND](https://www.digikey.com/products/en?keywords=AE9986-ND) 
