@@ -5,12 +5,12 @@
 
 # Team Websites
 
-* [Team 1](https://evankravitz.github.io/ECE-3400-Team-1/)
+* [Team 1: The One-ders!](https://evankravitz.github.io/ECE-3400-Team-1/)
 * [Team 2: Overbuilt and Underpaid](https://rmh286.github.io/ECE-3400-fa-2017-Team-2/info.html)
 * [Team 3: ¯\_(ツ)_/¯](https://sofyacalvin.github.io/ece3400-group3/)
 * [Team 4: The Mutant Mazerunners](https://pages.github.coecis.cornell.edu/tr272/Team4Website/)
 * [Team 5: Electric Boogaloo](https://wizard97.github.io/3400_team5electricboogaloo/)
-* [Team 6](https://sunemily.github.io/3400-group6/)
+* [Team 6: The Flying Rabbits](https://sunemily.github.io/3400-group6/)
 * [Team 7](https://jc2554.github.io/ECE3400-team7/)
 * [Team 8: The Resistance](https://sk2282.github.io/ECE3400_Team8/)
 * [Team 9: Sketch City](https://aikatz.github.io/sketch-city/)
