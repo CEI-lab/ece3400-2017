@@ -1,6 +1,8 @@
-# ECE3400, Fall 2017, Cornell University
+# How to Design a PCB
 
-## How to Design a PCB
+## ECE 3400, Fall 2017, Cornell University
+
+*By Leah Forrest and Kirstin Petersen, Nov. 11th 2017.*
 
 Here is the general process for PCB design:
 
