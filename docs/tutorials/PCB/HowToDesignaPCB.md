@@ -1,4 +1,4 @@
-#ECE3400, Fall 2017, Cornell University
+# ECE3400, Fall 2017, Cornell University
 
 ## How to Design a PCB
 
