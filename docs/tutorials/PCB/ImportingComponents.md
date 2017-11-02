@@ -1,8 +1,8 @@
-#ECE3400, Fall 2017, Cornell University
+# How to Import Components into Eagle
 
-* By Leah Forrest, Nov. 11th, 2017
+## ECE 3400, Fall 2017, Cornell University
 
-## How to Import Components into Eagle:
+*By Leah Forrest, Nov. 11th, 2017*
 
 Some of the [class components](SuggestedComponents.md) do not have corresponding parts in the eagle library. A way to get around this is to click on the link which will take you to the Digikey page. Scrolling down on this page and click on 'Download from Ultra Librarian.' This will download a file to your computer. Unzip the file, and save it somewhere like your Desktop or Documents Folder. There is a file in the unziped folder called 'readme.' I have copied it here for easier access as well. 
 
