@@ -22,5 +22,8 @@ User manuals or data sheets are the best resources when working with new hardwar
 
 Verilog is a hardware description language (HDL), which means that all the code you write for the FPGA in Verilog represents combinational or sequential logic in hardware. During compiliation, Quartus must analyze all the logic you've written and determine how to best synthesize it onto the FPGA; this is the reason why compile times are so much longer than software compile times. When writing Verilog, it's important to understand the hardware behind your code, as this will help you to consider important logic errors. For example, signals in Verilog can be one of two data types: a _reg_ (variable data type) or a _wire_ (net data type). _Wires_ can only be used to model combinational logic and they cannot store values. _Regs_ represent data storage elements and can be used to model both combinational and sequential logic in _always_ blocks. For many more details on Verilog syntax, check out the Verilog Quick Reference Guide [here](http://sutherland-hdl.com/pdfs/verilog_2001_ref_guide.pdf).
 
+## FPGA FAQ's
+[FAQ Page](./FPGA_FAQ.md)
+
 
 
