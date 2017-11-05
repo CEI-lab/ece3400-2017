@@ -2,7 +2,7 @@
 
 ## Ethics Homework
 
-Deadline: Nov. 21st, 2017.
+Deadline: Nov. 27th, 2017.
 Credit: Up to 10.
 
 Every team is expected to upload a discussion of an ethics related case study. This can be in the form of a essay, a cartoon, or a compiled video (a sketch of the situation, or a discussion among the team members). 
