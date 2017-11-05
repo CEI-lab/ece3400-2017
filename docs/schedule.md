@@ -76,7 +76,7 @@ You can also access the PH414 Skunkworks lab during open lab hours, IF both you 
 * Oct 27th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Deadline one week after the day of your lab 4 session: The websites will be graded for contents on lab 4.
 
-Week 11:
+~~Week 11:~~
 * *Work on milestone 3*
 * Oct 30th, Mon: Algorithms
 * Nov 1st, Wed: Algorithms
@@ -100,6 +100,7 @@ Week 14:
 * *Work on final system*
 * Nov 20th, Mon: Online communication. In-class assessment of websites. 
 * FIXED deadline Nov 21st, Tuesday: The websites will be graded for contents on milestone 4.
+* FIXED deadline Nov 21st, Tuesday: Pass/Fail grade on Ethics discussion
 * Nov 22nd, Wed: Thanksgiving recess
 * Nov 24th, Fri: Thanksgiving recess
 
