@@ -5,12 +5,13 @@
 Deadline: Nov. 27th, 2017.
 Credit: Up to 10.
 
-Every team is expected to upload a discussion of an ethics related case study. This can be in the form of a essay, a cartoon, or a compiled video (a sketch of the situation, or a discussion among the team members). 
+Every team is expected to upload a discussion of an ethics related case study. This can be in the form of a essay, a cartoon, or a compiled audio/video (a sketch of the situation, or a discussion among the team members for example). 
+
 The hand-in must include:
 1. Links/references on the case you are discussing
 2. Brief explanation of the case you are discussing.
 3. Define who the stake holders are.
-4. Try to address the situation with a utilitarian test, a justice test, and a virtue test as discussed in class.
+4. Try to address the situation with a [utilitarian test](https://www.ethicsops.com/best-outcomes-test), a [justice test](https://www.ethicsops.com/justice-test), and a [virtue test](https://www.ethicsops.com/blank-3) as discussed in class.
 5. What are the economic, social, and political constraints that play in to this scenario?
 6. Are there creative solutions that would benefit all stake holders?
 
