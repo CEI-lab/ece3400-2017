@@ -8076,7 +8076,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-3.35" y1="3.53" x2="3.35" y2="3.53" width="0.127" layer="21"/>
 <wire x1="-3.34" y1="-3.53" x2="-3.33" y2="3.54" width="0.127" layer="21"/>
 <wire x1="3.33" y1="-3.53" x2="3.33" y2="3.43" width="0.127" layer="21"/>
-<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.254" y="4.127" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="2-SMD">
 <smd name="P$1" x="1.4" y="0" dx="1.6" dy="2.6" layer="1"/>
@@ -9230,10 +9230,10 @@ part number 2062-2P from STA</description>
 </part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="FREQ1" library="clc288" deviceset="10KPOT" device="">
+<part name="1" library="clc288" deviceset="10KPOT" device="">
 <attribute name="DGPN" value="3362P-103LF-ND"/>
 </part>
-<part name="FREQ2" library="clc288" deviceset="10KPOT" device="">
+<part name="2" library="clc288" deviceset="10KPOT" device="">
 <attribute name="DGPN" value="3362P-103LF-ND"/>
 </part>
 <part name="LUX" library="clc288" deviceset="10KPOT" device="">
@@ -9273,7 +9273,7 @@ part number 2062-2P from STA</description>
 <attribute name="DGPN" value="732-8379-1-ND"/>
 </part>
 <part name="U$1" library="clc288" deviceset="COINCELL" device=""/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" value="280">
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" value="47">
 <attribute name="DGPN" value="P280FCT-ND"/>
 </part>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
@@ -9313,10 +9313,10 @@ part number 2062-2P from STA</description>
 </instance>
 <instance part="GND5" gate="1" x="43.18" y="22.86"/>
 <instance part="P+4" gate="VCC" x="43.18" y="53.34"/>
-<instance part="FREQ1" gate="G$1" x="-134.62" y="-17.78">
+<instance part="1" gate="G$1" x="-134.62" y="-17.78">
 <attribute name="DGPN" x="-137.16" y="-20.32" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="FREQ2" gate="G$1" x="-114.3" y="-17.78">
+<instance part="2" gate="G$1" x="-114.3" y="-17.78">
 <attribute name="DGPN" x="-109.22" y="-17.78" size="1.778" layer="96"/>
 </instance>
 <instance part="LUX" gate="G$1" x="134.62" y="17.78">
@@ -9566,13 +9566,13 @@ part number 2062-2P from STA</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="FREQ2" gate="G$1" pin="A"/>
+<pinref part="2" gate="G$1" pin="A"/>
 <wire x1="-114.3" y1="-25.4" x2="-114.3" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="-33.02" x2="-114.3" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="G1" pin="3"/>
 <wire x1="-114.3" y1="-35.56" x2="-101.6" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="-25.4" x2="-109.22" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="FREQ2" gate="G$1" pin="S"/>
+<pinref part="2" gate="G$1" pin="S"/>
 <wire x1="-109.22" y1="-25.4" x2="-109.22" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="-114.3" y="-25.4"/>
 </segment>
@@ -9582,9 +9582,9 @@ part number 2062-2P from STA</description>
 <pinref part="SW2" gate="G1" pin="1"/>
 <wire x1="-101.6" y1="-40.64" x2="-132.08" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-40.64" x2="-134.62" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="FREQ1" gate="G$1" pin="A"/>
+<pinref part="1" gate="G$1" pin="A"/>
 <wire x1="-134.62" y1="-40.64" x2="-134.62" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="FREQ1" gate="G$1" pin="S"/>
+<pinref part="1" gate="G$1" pin="S"/>
 <wire x1="-134.62" y1="-25.4" x2="-129.54" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-25.4" x2="-129.54" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="-134.62" y="-25.4"/>
@@ -9592,9 +9592,9 @@ part number 2062-2P from STA</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="FREQ2" gate="G$1" pin="E"/>
+<pinref part="2" gate="G$1" pin="E"/>
 <wire x1="-114.3" y1="-10.16" x2="-114.3" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="FREQ1" gate="G$1" pin="E"/>
+<pinref part="1" gate="G$1" pin="E"/>
 <wire x1="-114.3" y1="2.54" x2="-124.46" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="2.54" x2="-134.62" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="2.54" x2="-134.62" y2="-10.16" width="0.1524" layer="91"/>

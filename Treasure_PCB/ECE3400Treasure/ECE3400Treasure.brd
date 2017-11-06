@@ -145,15 +145,12 @@
 <wire x1="3.81" y1="-1.27" x2="5.08" y2="-1.27" width="0" layer="20"/>
 <wire x1="5.08" y1="-1.27" x2="40.64" y2="-1.27" width="0" layer="20"/>
 <wire x1="45.72" y1="2.54" x2="45.72" y2="40.64" width="0" layer="20"/>
-<wire x1="40.64" y1="45.72" x2="3.81" y2="45.72" width="0" layer="20"/>
+<wire x1="40.64" y1="45.72" x2="5.08" y2="45.72" width="0" layer="20"/>
 <hole x="2.54" y="2.54" drill="4.7498"/>
+<wire x1="5.08" y1="45.72" x2="3.81" y2="45.72" width="0" layer="20"/>
 <wire x1="-1.27" y1="39.37" x2="-1.27" y2="2.54" width="0" layer="20"/>
 <wire x1="40.64" y1="-1.27" x2="43.18" y2="-1.27" width="0" layer="20"/>
-<wire x1="43.18" y1="-1.27" x2="45.72" y2="2.54" width="0" layer="20" curve="90"/>
-<wire x1="45.72" y1="40.64" x2="40.64" y2="45.72" width="0" layer="20" curve="90"/>
-<wire x1="-1.27" y1="39.37" x2="3.81" y2="45.72" width="0" layer="20" curve="-90"/>
 <wire x1="5.08" y1="-1.27" x2="3.81" y2="-1.27" width="0" layer="20"/>
-<wire x1="3.81" y1="-1.27" x2="-1.27" y2="2.54" width="0" layer="20" curve="-90"/>
 <hole x="41.91" y="2.54" drill="4.7498"/>
 <hole x="41.91" y="41.91" drill="4.7498"/>
 <hole x="2.54" y="41.91" drill="4.7498"/>
@@ -161,11 +158,24 @@
 <text x="7.239" y="37.338" size="1.27" layer="21">OFF</text>
 <wire x1="22.225" y1="30.353" x2="22.225" y2="14.097" width="0.254" layer="21" curve="-180"/>
 <wire x1="22.225" y1="14.097" x2="22.225" y2="30.353" width="0.254" layer="21" curve="-180"/>
-<text x="39.751" y="8.763" size="1.27" layer="21">F1</text>
+<text x="39.751" y="8.763" size="1.27" layer="21" font="vector">F1</text>
 <text x="34.671" y="8.763" size="1.27" layer="21">F2</text>
 <text x="1.27" y="30.48" size="1.778" layer="1" font="vector" ratio="15">ECE3400</text>
 <text x="32.766" y="22.1742" size="1.27" layer="1" font="vector" ratio="15">out</text>
 <text x="1.9304" y="36.0426" size="1.27" layer="1" font="vector" ratio="15" rot="R270">+</text>
+<wire x1="-1.27" y1="39.37" x2="-1.27" y2="45.72" width="0" layer="20"/>
+<wire x1="-1.27" y1="45.72" x2="5.08" y2="45.72" width="0" layer="20"/>
+<wire x1="40.64" y1="45.72" x2="44.45" y2="45.72" width="0" layer="20"/>
+<wire x1="44.45" y1="45.72" x2="45.72" y2="45.72" width="0" layer="20"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="40.64" width="0" layer="20"/>
+<wire x1="45.72" y1="2.54" x2="45.72" y2="-1.27" width="0" layer="20"/>
+<wire x1="45.72" y1="-1.27" x2="43.18" y2="-1.27" width="0" layer="20"/>
+<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0" layer="20"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="2.54" width="0" layer="20"/>
+<text x="37.6174" y="23.241" size="1.524" layer="1" font="vector">2</text>
+<text x="38.5318" y="33.655" size="1.524" layer="1" font="vector">1</text>
+<text x="39.5986" y="9.0424" size="1.016" layer="1" font="vector">1</text>
+<text x="35.8394" y="8.9662" size="1.016" layer="1" font="vector">2</text>
 </plain>
 <libraries>
 <library name="linear" urn="urn:adsk.eagle:library:262">
@@ -1345,7 +1355,7 @@ Based on the following sources:
 <wire x1="-3.35" y1="3.53" x2="3.35" y2="3.53" width="0.127" layer="21"/>
 <wire x1="-3.34" y1="-3.53" x2="-3.33" y2="3.54" width="0.127" layer="21"/>
 <wire x1="3.33" y1="-3.53" x2="3.33" y2="3.43" width="0.127" layer="21"/>
-<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.254" y="4.127" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="2-SMD">
 <smd name="P$1" x="1.4" y="0" dx="1.6" dy="2.6" layer="1"/>
@@ -1646,10 +1656,10 @@ design rules under a new name.</description>
 <attribute name="COLOR" value="RED" x="33.28" y="39.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DGPN" value="754-1531-1-ND" x="33.28" y="39.09" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FREQ1" library="clc288" package="POT" value="10KPOT" x="39.37" y="29.21">
+<element name="1" library="clc288" package="POT" value="10KPOT" x="39.37" y="29.21">
 <attribute name="DGPN" value="3362P-103LF-ND" x="39.37" y="29.21" size="1.778" layer="27" display="off"/>
 </element>
-<element name="FREQ2" library="clc288" package="POT" value="10KPOT" x="39.37" y="19.05">
+<element name="2" library="clc288" package="POT" value="10KPOT" x="39.37" y="19.05">
 <attribute name="DGPN" value="3362P-103LF-ND" x="39.37" y="19.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LUX" library="clc288" package="POT" value="10KPOT" x="4.826" y="21.336">
@@ -1688,7 +1698,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="" x="7.366" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$1" library="clc288" package="COINCELL" value="COINCELL" x="16.51" y="27.94" rot="MR180"/>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="280" x="11.43" y="17.78" rot="R180">
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="47" x="11.43" y="17.78" rot="R180">
 <attribute name="DGPN" value="P280FCT-ND" x="11.43" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X02" value="" x="5.08" y="35.56"/>
@@ -1956,9 +1966,9 @@ design rules under a new name.</description>
 <wire x1="36.83" y1="34.29" x2="36.83" y2="38.1" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="FREQ2" pad="P$1"/>
+<contactref element="2" pad="P$1"/>
 <contactref element="SW2" pad="3"/>
-<contactref element="FREQ2" pad="P$2"/>
+<contactref element="2" pad="P$2"/>
 <wire x1="39.37" y1="21.59" x2="36.83" y2="19.05" width="0.6096" layer="1"/>
 <wire x1="35.64" y1="11.17" x2="35.64" y2="11.51" width="0.4064" layer="1"/>
 <wire x1="36.83" y1="12.7" x2="35.64" y2="11.51" width="0.6096" layer="1"/>
@@ -1966,8 +1976,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$5">
 <contactref element="SW2" pad="2"/>
-<contactref element="FREQ1" pad="P$1"/>
-<contactref element="FREQ1" pad="P$2"/>
+<contactref element="1" pad="P$1"/>
+<contactref element="1" pad="P$2"/>
 <wire x1="39.37" y1="31.75" x2="36.83" y2="29.21" width="0.6096" layer="1"/>
 <wire x1="36.83" y1="29.21" x2="36.83" y2="27.94" width="0.6096" layer="1"/>
 <wire x1="40.64" y1="24.13" x2="36.83" y2="27.94" width="0.6096" layer="1"/>
@@ -1978,8 +1988,8 @@ design rules under a new name.</description>
 <wire x1="40.64" y1="19.05" x2="40.64" y2="24.13" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$6">
-<contactref element="FREQ2" pad="P$3"/>
-<contactref element="FREQ1" pad="P$3"/>
+<contactref element="2" pad="P$3"/>
+<contactref element="1" pad="P$3"/>
 <contactref element="R3" pad="1"/>
 <wire x1="41.91" y1="29.21" x2="43.18" y2="27.94" width="0.6096" layer="1"/>
 <wire x1="43.18" y1="27.94" x2="43.18" y2="20.32" width="0.6096" layer="1"/>
