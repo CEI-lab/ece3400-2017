@@ -84,7 +84,7 @@ You can also access the PH414 Skunkworks lab during open lab hours, IF both you 
 
 Week 12:
 * *Work on milestone 3 and 4*
-* Nov 6th, Mon: Evaluating IPS
+* Nov 6th, Mon: Evaluating and debugging IPS
 * Nov 8th, Wed: IPS Ethics 1
 * Nov 10th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 3.
@@ -93,8 +93,8 @@ Week 12:
 Week 13:
 * *Work on milestone 4*
 * Nov 13th, Mon: Mandatory team meeting, remember to upload your meeting notes to the website.
-* Nov 15th, Wed: Alternative approaches to IPS
-* Nov 17th, Fri: Power and batteries for IPS (Vaidehi Garg)
+* Nov 15th, Wed: Alternative approaches to IPS: Human Robot Interaction (Prof. Guy Hofman)
+* Nov 17th, Fri: Power and batteries (Vaidehi Garg)
 
 Week 14:
 * *Work on final system*
