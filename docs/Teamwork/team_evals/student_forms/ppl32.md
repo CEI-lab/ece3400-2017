@@ -33,13 +33,17 @@
 
 (6.) What can you do to improve your own contributions to the group’s goals and processes in the final part of the semester?
 
-(7.) In the table below, distribute points among the members of your team (not including you); a higher score means they have contributed more towards the team work. **The points must sum to 1.**
+(7.) Distribute points among the members of your team (not including you); a higher score means they have contributed more towards the team work. **The total points must sum to 1.**
+*Example:
+Alice: 0.25
+Ben: 0.1
+Charles: 0.25
+Dave: 0.4*
 
-| Group member’s name | Score | Reason (optional) |
-| ------------------- | ----- | ----------------- |
-|Chang, Christina|||
-|Chu, Caroline|||
-|Fortuna, Felipe|||
-|Kranz, Ian|||
-|Zhao, Xitang|||
+### Scores:
+Chang, Christina: 
+Chu, Caroline: 
+Fortuna, Felipe: 
+Kranz, Ian: 
+Zhao, Xitang: 
 
