@@ -33,9 +33,9 @@ I smell the blood of a British man.
 
 (5.) In the space below, identify approaches your group tried that did not work well, and explain why they were ineffective.
 
-The weight of this sad time we must obey, 
-Speak what we feel, not what we ought to say. 
-The oldest hath borne most: we that are young 
+The weight of this sad time we must obey,  
+Speak what we feel, not what we ought to say.  
+The oldest hath borne most: we that are young  
 Shall never see so much, nor live so long.
 
 (6.) What can you do to improve your own contributions to the group’s goals and processes in the final part of the semester?
