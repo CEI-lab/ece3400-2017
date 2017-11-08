@@ -44,6 +44,8 @@
 
 [Lecture 22 - Evaluation and debugging](171106-Evaluation&Debugging.pdf)
 
+[Lecture 23 - Macro-Ethics](171127-IPS-MacroEthics.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
