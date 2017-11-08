@@ -51,7 +51,7 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Chen, Claire: 0.3
-Fedors, Christopher: 0.25
-Kim, Daniel: 0.25
-O'Hern, Ryan: 0.2
+Chen, Claire: 0.3  
+Fedors, Christopher: 0.25  
+Kim, Daniel: 0.25  
+O'Hern, Ryan: 0.2  
