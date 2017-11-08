@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Kommareddy, Rajiv: 
-Macioszek, Adam: 
-Valley, David: 
-Wisner, Daniel: 
-Xu, Christina: 
+Kommareddy, Rajiv:  
+Macioszek, Adam:  
+Valley, David:  
+Wisner, Daniel:  
+Xu, Christina:  
 

@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Chen, JinJie: 
-Dohmann, Adrian: 
-Huaman, Kenneth: 
-Pathmanathan, Amanda: 
-Sipani, Khyati: 
+Chen, JinJie:  
+Dohmann, Adrian:  
+Huaman, Kenneth:  
+Pathmanathan, Amanda:  
+Sipani, Khyati:  
 

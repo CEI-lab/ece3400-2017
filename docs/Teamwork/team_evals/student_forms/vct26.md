@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Chen, Meghan: 
-Krech, Serena: 
-Krishnakumar, Rohit: 
-Song, Alice: 
-Yee, Michael: 
+Chen, Meghan:  
+Krech, Serena:  
+Krishnakumar, Rohit:  
+Song, Alice:  
+Yee, Michael:  
 

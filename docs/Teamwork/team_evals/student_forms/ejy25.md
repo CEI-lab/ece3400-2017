@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Edens, Daniel: 
-Francis, Ben: 
-Gandhi, Aasta: 
-Lu, Shanee: 
-Yang, David: 
+Edens, Daniel:  
+Francis, Ben:  
+Gandhi, Aasta:  
+Lu, Shanee:  
+Yang, David:  
 

@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Bhut, Mira: 
-Chen, Yijia: 
-Cheng, Yirong: 
-Krishnathasan, Thinesiya: 
-Slater, Peter: 
+Bhut, Mira:  
+Chen, Yijia:  
+Cheng, Yirong:  
+Krishnathasan, Thinesiya:  
+Slater, Peter:  
 

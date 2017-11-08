@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Chinni, Radhika: 
-Hurd, Jeffrey: 
-Koback, Frances: 
-Kravitz, Evan: 
-Lu, Katherine: 
+Chinni, Radhika:  
+Hurd, Jeffrey:  
+Koback, Frances:  
+Kravitz, Evan:  
+Lu, Katherine:  
 

@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Bandaru, Rohit: 
-Lee, Lois: 
-Marghoob, Asad: 
-Nwosu, Jidenna: 
-Sarnecki, John: 
+Bandaru, Rohit:  
+Lee, Lois:  
+Marghoob, Asad:  
+Nwosu, Jidenna:  
+Sarnecki, John:  
 

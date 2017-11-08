@@ -39,8 +39,8 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Feng, Michelle: 
-Nemeth, Kristina: 
-Silva, Russell: 
-Song, Joan: 
+Feng, Michelle:  
+Nemeth, Kristina:  
+Silva, Russell:  
+Song, Joan:  
 

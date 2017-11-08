@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Kommareddy, Rajiv: 
-Macioszek, Adam: 
-Nedd, Kelsey: 
-Valley, David: 
-Wisner, Daniel: 
+Kommareddy, Rajiv:  
+Macioszek, Adam:  
+Nedd, Kelsey:  
+Valley, David:  
+Wisner, Daniel:  
 

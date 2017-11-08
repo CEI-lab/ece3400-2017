@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Chen, Norman: 
-Currie, Julia: 
-Gupta, Divya: 
-Sarkis, Nicholas: 
-Xia, Wenhan: 
+Chen, Norman:  
+Currie, Julia:  
+Gupta, Divya:  
+Sarkis, Nicholas:  
+Xia, Wenhan:  
 

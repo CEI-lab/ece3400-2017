@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Chinni, Radhika: 
-Hurd, Jeffrey: 
-Kravitz, Evan: 
-Lu, Katherine: 
-Solomentsev, Michael: 
+Chinni, Radhika:  
+Hurd, Jeffrey:  
+Kravitz, Evan:  
+Lu, Katherine:  
+Solomentsev, Michael:  
 

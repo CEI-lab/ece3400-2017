@@ -39,8 +39,8 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Albrecht, Juan: 
-Berg, Eric: 
-Fan, Yazhi: 
-Ou, Christine: 
+Albrecht, Juan:  
+Berg, Eric:  
+Fan, Yazhi:  
+Ou, Christine:  
 

@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Cole, Eric: 
-Currie, Julia: 
-Gupta, Divya: 
-Sarkis, Nicholas: 
-Xia, Wenhan: 
+Cole, Eric:  
+Currie, Julia:  
+Gupta, Divya:  
+Sarkis, Nicholas:  
+Xia, Wenhan:  
 

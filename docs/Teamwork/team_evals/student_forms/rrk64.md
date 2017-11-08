@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Macioszek, Adam: 
-Nedd, Kelsey: 
-Valley, David: 
-Wisner, Daniel: 
-Xu, Christina: 
+Macioszek, Adam:  
+Nedd, Kelsey:  
+Valley, David:  
+Wisner, Daniel:  
+Xu, Christina:  
 

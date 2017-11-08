@@ -39,8 +39,8 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Casazzone, Nicolas: 
-Hornung, Ryan: 
-Pacheco, Raul: 
-Roberge, Benjamin: 
+Casazzone, Nicolas:  
+Hornung, Ryan:  
+Pacheco, Raul:  
+Roberge, Benjamin:  
 

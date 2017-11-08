@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Chang, Christina: 
-Chu, Caroline: 
-Fortuna, Felipe: 
-Lin, Pei-Yi: 
-Zhao, Xitang: 
+Chang, Christina:  
+Chu, Caroline:  
+Fortuna, Felipe:  
+Lin, Pei-Yi:  
+Zhao, Xitang:  
 

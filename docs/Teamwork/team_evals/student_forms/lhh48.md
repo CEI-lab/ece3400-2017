@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Connelly, James: 
-Lee, Yonghun: 
-Ray, Trisha: 
-Trexel, Paige: 
-Yu, Francis: 
+Connelly, James:  
+Lee, Yonghun:  
+Ray, Trisha:  
+Trexel, Paige:  
+Yu, Francis:  
 

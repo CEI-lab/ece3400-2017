@@ -41,9 +41,9 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Chae, Joo Yeon: 
-Glueck, Jacob: 
-Lyne, Eric: 
-Sanni, Ayomi: 
-Sun, Emily: 
+Chae, Joo Yeon:  
+Glueck, Jacob:  
+Lyne, Eric:  
+Sanni, Ayomi:  
+Sun, Emily:  
 

@@ -39,8 +39,8 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Coto, Alicia: 
-Hornung, Ryan: 
-Pacheco, Raul: 
-Roberge, Benjamin: 
+Coto, Alicia:  
+Hornung, Ryan:  
+Pacheco, Raul:  
+Roberge, Benjamin:  
 

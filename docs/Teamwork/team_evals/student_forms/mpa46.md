@@ -39,8 +39,8 @@ Charles: 0.25
 Dave: 0.4*
 
 ### Scores:
-Burt, Shirley: 
-Li, Frank: 
-Weld, Adam: 
-Xu, Boyi: 
+Burt, Shirley:  
+Li, Frank:  
+Weld, Adam:  
+Xu, Boyi:  
 
