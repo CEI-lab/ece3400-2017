@@ -88,7 +88,7 @@ Week 12:
 * Nov 8th, Wed: IPS Ethics 1
 * Nov 10th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 3.
-* Nov 11th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+* Nov 11th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/team_evals) to the instructor.
 
 Week 13:
 * *Work on milestone 4*
