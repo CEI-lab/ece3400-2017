@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -178,12 +178,12 @@
 <text x="35.8394" y="8.9662" size="1.016" layer="1" font="vector">2</text>
 </plain>
 <libraries>
-<library name="linear" urn="urn:adsk.eagle:library:262">
+<library name="linear">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
 Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SO08" library_version="1">
+<package name="SO08">
 <description>&lt;b&gt;Small Outline Package 8&lt;/b&gt;&lt;br&gt;
 NS Package M08A</description>
 <wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
@@ -214,7 +214,7 @@ NS Package M08A</description>
 </package>
 </packages>
 </library>
-<library name="rcl" urn="urn:adsk.eagle:library:334">
+<library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -1263,7 +1263,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="C1206" library_version="1">
+<package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -1279,7 +1279,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="R1206" library_version="1">
+<package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
 <wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
@@ -1297,7 +1297,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
-<library name="diode" urn="urn:adsk.eagle:library:210">
+<library name="diode">
 <description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
 &lt;ul&gt;
@@ -1308,7 +1308,7 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOD323-R" library_version="1">
+<package name="SOD323-R">
 <description>&lt;b&gt;SOD323 Reflow soldering&lt;/b&gt; Philips SC01_Mounting_1996.pdf</description>
 <wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="21"/>
 <wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
@@ -1637,19 +1637,19 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="SO08" value="LMC555" x="17.78" y="8.89" rot="R180">
+<element name="IC1" library="linear" package="SO08" value="LMC555" x="17.78" y="8.89" rot="R180">
 <attribute name="DGPN" value="LMC555CMX-NOPBCT-ND" x="17.78" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" value="0.1uF" x="9.652" y="4.826" rot="R90">
+<element name="C2" library="rcl" package="C1206" value="0.1uF" x="9.652" y="4.826" rot="R90">
 <attribute name="DGPN" value="478-1556-1-ND" x="9.652" y="4.826" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD323-R" value="" x="19.05" y="41.91">
+<element name="D1" library="diode" package="SOD323-R" value="" x="19.05" y="41.91">
 <attribute name="DGPN" value="CUS10S30H3FCT-ND " x="19.05" y="41.91" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW1" library="clc288" package="CL-SB-12A" value="CL-SB-12A" x="11.343" y="41.145">
 <attribute name="DGPN" value="563-1314-1-ND" x="11.343" y="41.145" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="330" x="33.02" y="29.21" rot="R180">
+<element name="R1" library="rcl" package="R1206" value="330" x="33.02" y="29.21" rot="R180">
 <attribute name="DGPN" value="P750FCT-ND" x="33.02" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="PWR" library="clc288" package="2-PLCC" value="AA3528" x="33.28" y="39.09" rot="R90">
@@ -1668,13 +1668,13 @@ design rules under a new name.</description>
 <element name="SW2" library="clc288" package="CL-SB-12A" value="CL-SB-12A" x="38.14" y="12.57">
 <attribute name="DGPN" value="563-1314-1-ND" x="38.14" y="12.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="470" x="25.4" y="10.16">
+<element name="R2" library="rcl" package="R1206" value="470" x="25.4" y="10.16">
 <attribute name="DGPN" value="P470FCT-ND" x="25.4" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="1.2k" x="33.6042" y="4.0132" rot="R180">
+<element name="R3" library="rcl" package="R1206" value="1.2k" x="33.6042" y="4.0132" rot="R180">
 <attribute name="DGPN" value="P1.20KFCT-ND" x="33.6042" y="4.0132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="280" x="20.32" y="33.02">
+<element name="R4" library="rcl" package="R1206" value="280" x="20.32" y="33.02">
 <attribute name="DGPN" value="P280FCT-ND" x="20.32" y="33.02" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED3" library="clc288" package="2-SMD" value="IRLED" x="18.415" y="25.019" rot="R225">
@@ -1686,7 +1686,7 @@ design rules under a new name.</description>
 <element name="LED5" library="clc288" package="2-SMD" value="IRLED" x="26.595603125" y="24.9228125" rot="R135">
 <attribute name="DGPN" value="VSMB3940X01-GS08CT-ND" x="26.595603125" y="24.9228125" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" value="10nF" x="30.734" y="10.16">
+<element name="C5" library="rcl" package="C1206" value="10nF" x="30.734" y="10.16">
 <attribute name="DGPN" value="478-1542-1-ND" x="30.734" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="clc288" package="UD-6,6X6,6" value="47uF" x="25.4" y="39.37">
@@ -1698,7 +1698,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="" x="7.366" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$1" library="clc288" package="COINCELL" value="COINCELL" x="16.51" y="27.94" rot="MR180"/>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" value="47" x="11.43" y="17.78" rot="R180">
+<element name="R5" library="rcl" package="R1206" value="47" x="11.43" y="17.78" rot="R180">
 <attribute name="DGPN" value="P280FCT-ND" x="11.43" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X02" value="" x="5.08" y="35.56"/>
@@ -2062,11 +2062,4 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-</compatibility>
 </eagle>

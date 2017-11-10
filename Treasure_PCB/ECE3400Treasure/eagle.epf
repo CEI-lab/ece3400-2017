@@ -1,29 +1,15 @@
 [Eagle]
-Version="08 02 02"
-Platform="Windows"
+Version="08 00 01"
+Platform="Mac OS X"
 Globals="Globals"
 Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibraryUrn="urn:adsk.eagle:library:210"
-UsedLibraryUrn="urn:adsk.eagle:library:262"
-UsedLibraryUrn="urn:adsk.eagle:library:334"
-UsedLibraryUrn="urn:adsk.eagle:library:371"
-UsedLibraryUrn="urn:adsk.eagle:library:147"
-UsedLibraryUrn="urn:adsk.eagle:library:162"
-UsedLibraryUrn="urn:adsk.eagle:library:165"
-UsedLibrary="C:/EAGLE 8.2.2/lbr/clc288.lbr"
-UsedLibrary="C:/EAGLE 8.2.2/lbr/con-jack.lbr"
-UsedLibrary="C:/EAGLE 8.2.2/lbr/led.lbr"
-UsedLibrary="C:/EAGLE 8.2.2/lbr/pot-vitrohm.lbr"
-UsedLibrary="C:/EAGLE 8.2.2/lbr/pot.lbr"
-UsedLibrary="C:/EAGLE 8.2.2/lbr/ref-packages.lbr"
-UsedLibrary="C:/EAGLE 8.2.2/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Connectors.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="-8 -30 1191 569"
+Loc="0 23 1199 622"
 State=2
 Number=2
 File="ECE3400Treasure.sch"
@@ -71,7 +57,7 @@ Sheet="1"
 
 [Win_2]
 Type="Library Editor"
-Loc="-8 -30 1191 569"
+Loc="0 23 1199 622"
 State=2
 Number=3
 File="C:/EAGLE 8.2.2/lbr/clc288.lbr"
@@ -114,15 +100,29 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=21
-Package="POT"
 
 [Win_3]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=4
+File="ECE3400Treasure.brd.rpt"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_4]
+Type="Control Panel"
+Loc="1 23 1006 710"
+State=2
+Number=0
+
+[Win_5]
 Type="Board Editor"
-Loc="-8 -30 1195 915"
+Loc="0 23 1203 873"
 State=2
 Number=1
 File="ECE3400Treasure.brd"
-View="-6.99752 -2.71282 56.2587 46.2037"
+View="-5.76971 -0.317147 33.8946 30.3555"
 WireWidths=" 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524 0"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -162,15 +162,10 @@ AddLevel=2
 PadsSameType=0
 Layer=20
 
-[Win_4]
-Type="Control Panel"
-Loc="1 1 1006 688"
-State=2
-Number=0
-
 [Desktop]
-Screen="1280 1024"
+Screen="1440 900"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
 Window="Win_4"
+Window="Win_5"
