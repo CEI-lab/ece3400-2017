@@ -105,11 +105,10 @@ Week 14:
 
 Week 15:
 * *Work on final system*
-* Nov 27th, Mon: IPS Ethics 2
+* Nov 27th, Mon: Recap!
 * Nov 27th, Mon, FIXED DEADLINE: [Ethics homework due](./Grading/Ethics.md)
 * Nov 29th, Wed: Cornell Engineering Career Center (Christa Downey)
 * Dec 1st, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
-* Dec 2nd, Saturday 8am Deadline: Submit homework on Ethics!
 
 Week 16:
 - Dec 4th, Mon: COMPETITION DAY! (Duffield Hall)
