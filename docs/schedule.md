@@ -82,10 +82,10 @@ You can also access the PH414 Skunkworks lab during open lab hours, IF both you 
 * Nov 1st, Wed: Algorithms
 * Nov 3rd, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 
-Week 12:
+~~Week 12:~~
 * *Work on milestone 3 and 4*
 * Nov 6th, Mon: Evaluating and debugging IPS
-* Nov 8th, Wed: IPS Ethics 1
+* Nov 8th, Wed: Macro-Ethics
 * Nov 10th, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 3.
 * Nov 11th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/team_evals) to the instructor.
@@ -98,7 +98,7 @@ Week 13:
 
 Week 14:
 * *Work on final system*
-* Nov 20th, Mon: Online communication. In-class assessment of websites. 
+* Nov 20th, Mon: Micro-Ethics
 * FIXED deadline Nov 21st, Tuesday: The websites will be graded for contents on milestone 4.
 * Nov 22nd, Wed: Thanksgiving recess
 * Nov 24th, Fri: Thanksgiving recess
