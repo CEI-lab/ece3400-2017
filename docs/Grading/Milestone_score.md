@@ -3,6 +3,8 @@
 
 The grading of all milestones will be based on what is reported on the websites. Although the TAs will be available to answer any questions during the normal lab-hours, they will not provide specific guidance on how you should meet these deadlines. These will be up to the teams themselves to coordinate.
 
+Please be advised that you can receive partial points for any of these goals if you explanation is unclear or your implementation is lacking.
+
 _Milestone 1 will be graded as follows:_
 
 * 2 points: A robot that successfully follows a line of black tape.
