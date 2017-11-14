@@ -19,12 +19,13 @@ _Milestone 2 will be graded as follows:_
 _Milestone 3 will be graded as follows:_
 
 _In simulation:_
-* 4 points: Working algorithm that facilitates maze exploration.
-* 1 point: Indicator that shows the robot is done (explored everything explorable)
+* 4 points: Working algorithm that facilitates maze exploration, and can indicate when the robot has explored everything that is explorable.
 
 _In real life:_
-* 4 points: Working algorithm that facilitates maze exploration.
-* 1 point: Indicator that shows the robot is done (explored everything explorable)
+* 4 points: Working algorithm that facilitates maze exploration, and indicates when the robot has explored everything that is explorable.
+
+_Looking ahead:_
+* 2 points: The goal of this milestone is for you to establish what needs to get done in the time you have left. 2 points will be given for a clear plan of action of what needs to happen, and who will do what. The more details the better. 
 
 You don’t have to worry about treasures/microphone circuitry yet, for either the simulation or the real-life maze exploration. You do have to include walls. We do not expect everyone to have a perfectly running system in this milestone, the goal is for everyone to start the implementation and think about (and convey on the website) what next tasks/improvements need to be done to compete in the final competition. 
 
