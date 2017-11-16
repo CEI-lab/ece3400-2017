@@ -111,6 +111,6 @@ Week 15:
 * Dec 1st, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
 
 Week 16:
-- Dec 4th, Mon: COMPETITION DAY! (Duffield Hall)
+- Dec 4th, Mon: COMPETITION DAY 10-12.30am! (Duffield Hall) *Participation is mandatory*
 - Dec 6th, Wed: Deadline @8am: The final websites will be graded.
 
