@@ -4,7 +4,7 @@
 
 *Informal post by Martin Gomez, Facebook Director of Aeronautical Platforms, Nov 17th, 2017*
 
-[Comment by Kirstin Petersen: When you read this, please keep in mind his is one person’s perspective, and that other companies and employers might see things a little differently. Nevertheless, this post has a lot of valuable feedback!]
+[Comment by Prof. Clifford Pollock: When you read this, please keep in mind his is one person’s perspective, and that other companies and employers might see things a little differently. Nevertheless, this post has a lot of valuable feedback!]
 
 * **Learn how to make measurements.**  The terms accuracy, precision, and resolution all matter, and it's truly appalling how bad many engineers are at this.  We live or die by our measurements.  It's said that "one measurement is worth a thousand opinions."  That's true, but only if it's one good measurement.  Hint: if you can't put error bars around your measurement, it's not useful.  Those courses are monumentally boring -- if not the experiment itself, at least the writeup --  but they matter.  An engineering career sometimes feels like one long long lab course!
 * **Take a course in signal processing, even if you're not an EE.**  Every engineering discipline relies on measurements, data, i.e. signals.  You should know how to extract signal from noise.  Everybody needs to know what a Fourier transform is.  On the other hand, feel free to ignore Laplace transforms…you will probably never encounter another one after you graduate as long as you steer clear of a handful of fields.
