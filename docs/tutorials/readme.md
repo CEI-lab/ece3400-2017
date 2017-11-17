@@ -90,4 +90,4 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 
 **Related to Life!**
 
-* [Informal post by Facebook Director of Aeronautical Platforms, Martin Gomez](./Life/FB_MartinGomez), on how to best use your College experience!
+* [Informal post by Director Martin Gomez](./Life/FB_MartinGomez), on how to best use your College experience!
