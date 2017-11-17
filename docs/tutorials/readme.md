@@ -54,12 +54,12 @@ This is the repository for the team of TA's that solved all the labs during the 
 * [State Machine Example Code](./Arduino/EmbeddedControlsDemo.ino)
 * [VGA Color scheme, by Angus Gibbs 2016](./FPGA/colors_html.html)
 
-**Related to sensors and signal processing:**
+**Related to Sensors and Signal Processing:**
 
 * [Download LTSpice lite for free here](http://www.linear.com/solutions/ltspice)
 * [VL53L0X time-of-flight distance sensor](./sensors/VL53L0X.md)
 
-**Related to electronics:**
+**Related to Electronics:**
 
 * [How to solder components and wires](./Soldering/Soldering_Tutorial.md)
 * [Solder Wires Like a Pro!](https://youtu.be/vL4DuoKGquk)
@@ -68,7 +68,7 @@ This is the repository for the team of TA's that solved all the labs during the 
 * [How to layout a PCB](PCB/readme.md)
 * [How to etch your own PCB](https://www.sparkfun.com/news/2116?_ga=2.203306769.1650204894.1508633871-2087463493.1502106414) from Sparkfun.
 
-**Related to mechanical fabrication:**
+**Related to Mechanical Fabrication:**
 
 For the first time ever, we have a Skunkworks available to the class complete with a laser cutter, two 3D printers, and a PCB etching station (to come). This is located in PH414. Please be aware that only TA's (and potentially trained students) will have access to this lab, but everyone can request to have pieces 3D printed, laser cut, or etched in there.
 
@@ -82,8 +82,12 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 * [How to use the Epilog laser cutter](./LaserCutter/Laser_Cutting_Tutorial.md)
 * [Tips on how to design pieces for a laser cutter](./LaserCutter/Design_for_laser_cutters.md)
 
-**Related to debugging**
+**Related to Debugging**
 
 * [How to build a simple Arduino oscilloscope](https://www.build-electronic-circuits.com/arduino-oscilloscope/)
 * [Reading and writing to the serial port with Matlab](https://www.mathworks.com/help/matlab/matlab_external/writing-and-reading-data.html)
 * [This folder](../../docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
+
+**Related to Life!**
+
+* [Informal post by Facebook Director of Aeronautical Platforms, Martin Gomez](./Life/FB_MartinGomez), on how to best use your College experience!
