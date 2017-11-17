@@ -2,7 +2,7 @@
 
 ## Martin's Somewhat Heretical Thoughts for Cornell Engineering Students
 
-*Informal post by Martin Gomez, Facebook Director of Aeronautical Platforms, Nov 17th, 2017*
+*Informal post by Director Martin Gomez, Nov 17th, 2017*
 
 [Comment by Prof. Clifford Pollock: When you read this, please keep in mind his is one person’s perspective, and that other companies and employers might see things a little differently. Nevertheless, this post has a lot of valuable feedback!]
 
