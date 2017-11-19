@@ -92,3 +92,4 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 
 * [Great talk by Illah Nourbakhsh Founder of the CREATE lab at CMU on Ethics in Robotics](https://www.youtube.com/watch?v=giKT8PkCCv4)
 * [Informal post by Director Martin Gomez](./Life/FB_MartinGomez), on how to best use your College experience!
+* [Great website to test your own implicit bias](https://implicit.harvard.edu/implicit/takeatest.html)
