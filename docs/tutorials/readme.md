@@ -88,6 +88,7 @@ For the first time ever, we have a Skunkworks available to the class complete wi
 * [Reading and writing to the serial port with Matlab](https://www.mathworks.com/help/matlab/matlab_external/writing-and-reading-data.html)
 * [This folder](../../docs/simulation/) has software in Java, Processing, Matlab, and C++ for simulating robot search
 
-**Related to Life!**
+**Related to Ethics and Life!**
 
+* [Great talk by Illah Nourbakhsh Founder of the CREATE lab at CMU on Ethics in Robotics](https://www.youtube.com/watch?v=giKT8PkCCv4)
 * [Informal post by Director Martin Gomez](./Life/FB_MartinGomez), on how to best use your College experience!
