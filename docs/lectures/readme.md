@@ -46,6 +46,8 @@
 
 [Lecture 23 - Macro-Ethics](171127-IPS-MacroEthics.pdf)
 
+[Lecture 24 - Batteries](171117-Batteries_byVaidehiGarg.pdf)
+
 Please contact the professor if you have questions/concerns!
 
 ### Also metioned in lecture:
