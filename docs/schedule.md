@@ -90,7 +90,7 @@ You can also access the PH414 Skunkworks lab during open lab hours, IF both you 
 * Deadline one week after the day of your lab session: The websites will be graded for contents on milestone 3.
 * Nov 11th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/team_evals) to the instructor.
 
-Week 13:
+~~Week 13:~~
 * *Work on milestone 4*
 * Nov 13th, Mon: Mandatory team meeting, remember to upload your meeting notes to the website.
 * Nov 15th, Wed: Alternative approaches to IPS: Human Robot Interaction (Prof. Guy Hofman)
@@ -105,7 +105,7 @@ Week 14:
 
 Week 15:
 * *Work on final system*
-* Nov 27th, Mon: Recap!
+* Nov 27th, Mon: Recap and where to go from here?!
 * Nov 27th, Mon, FIXED DEADLINE: [Ethics homework due](./Grading/Ethics.md)
 * Nov 29th, Wed: Cornell Engineering Career Center (Christa Downey)
 * Dec 1st, Fri: Mandatory team meeting, remember to upload your meeting notes to the website.
