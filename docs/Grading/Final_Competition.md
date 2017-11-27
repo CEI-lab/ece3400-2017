@@ -56,11 +56,9 @@ Remember, that to signify that your robot is finished exploring the maze, it mus
 
 * If a situation arises that requires human intervention, 1 point is deducted per instance. E.g. if the robot knocks over a wall.
 
-* If the video base station does not display the "done" signal, that’s a 1-point deduction.
+* If the video base station does not display the "done" signal, or if the robot does not play the done signal, that’s a 1-point deduction.
 
 * If the video base station/the robot/both need to be restarted during a round, a 2-point deduction (per infraction) will be applied and any information lost cannot be regained. For example, if your robot had sent information regarding half of the maze to the base station and then the base station was reset, any information it sent before the reset cannot be manually recovered.
-
-* If the FPGA does not play a tune when the robot is finished, that’s a 2-point penalty.
 
 ### How does this score affect the final grade?
 
