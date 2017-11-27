@@ -17,11 +17,7 @@ The six teams with the highest accumulated score go on to round 3:
 
 * Round 3: Team 1' + Team 2' + Team 3' + Team 4' + Team 5' + Team 6'
 
-The three teams with the highest cumulative score go on to round 4:
-
-* Round 4: Team 1'' + Team 2'' + Team 3''
-
-The last three teams will be ranked according to their performance in the final round.
+These last six teams will be ranked according to their performance in the last round.
 
 ### Maze Specifications
 
