@@ -31,4 +31,4 @@ You don’t have to worry about treasures/microphone circuitry yet, for either t
 * 2 points: Robot that successfully signals 'done' on the screen when the maze has been mapped
 * 2 points: Robot that successfully plays 'done' on the speaker when the maze has been mapped
 
-Notice, that this milestone is focused on the FPGA display. You can pull off this milestone with a simulated robot traversal if your robot is not finished.
+Notice, that this milestone is focused on the FPGA display. You can pull off most this milestone with a simulated robot traversal if your robot is not finished.
