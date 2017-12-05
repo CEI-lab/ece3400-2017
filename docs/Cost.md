@@ -8,6 +8,7 @@ The cost breakdown is as follows:
 
 * Line (grayscale) sensors: $3
 * IR distance sensors: $7
+* Electret Microphone Amplifier: $7 (NB: if you used the raw microphone and built your own amplifier, it is free). 
 * Parallax servos: $13
 * Basic components (resistors, capacitors, LEDs, Arduino Uno, FPGA, etc.): $0
 * 3D printed pieces: $0
