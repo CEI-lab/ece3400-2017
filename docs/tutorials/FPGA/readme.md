@@ -4,6 +4,10 @@
 
 **This tutorial is under construction**
 
+## Brand new to VHDL?
+
+Here's a nice free introductory text book on VHDL and FPGAs: https://www.allsyllabus.com/aj/note/ECE/Digital_System_Design_Using_VHDL/Unit1/index.php#.Wsom8ojwY2w
+
 ## FPGA
 
 A field programmable gate array (FPGA) is a reprogrammable semiconductor device that can be configured to implement any logic function specified by the user. Unlike application specific integrated circuits (ASICs), which are manufactured to perform specific functions, FPGAs can be reconfigured into any digital circuit.
