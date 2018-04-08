@@ -6,7 +6,7 @@
 
 ## Brand new to VHDL?
 
-Here's a nice free introductory text book on VHDL and FPGAs: https://www.allsyllabus.com/aj/note/ECE/Digital_System_Design_Using_VHDL/Unit1/index.php#.Wsom8ojwY2w
+Here's a nice free [introductory text book](https://www.allsyllabus.com/aj/note/ECE/Digital_System_Design_Using_VHDL/Unit1/index.php#.Wsom8ojwY2w) on VHDL and FPGAs. 
 
 ## FPGA
 
