@@ -21,3 +21,4 @@ Feel free to find your own case study. Alternatively, you can pick from one of t
 * [Tesla driver dies in first fatal car crash](https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk)
 * [Elder-care by robots](http://www.businessinsider.com/japan-developing-carebots-for-elderly-care-2015-11)
 * [Jobs, robots, and universal basic income](https://www.wired.com/story/men-will-lost-the-most-jobs-to-robots/)
+* [Google AI Principles](https://www.blog.google/technology/ai/ai-principles/)
