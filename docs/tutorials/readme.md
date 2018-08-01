@@ -1,7 +1,7 @@
 # ECE 3400: Intelligent Physical Systems
 ## Cornell University, Fall 2017
 
-[Return to main page](https://cei-lab.github.io/ece3400/)
+[Return to main page](https://cei-lab.github.io/ece3400-2017/)
 
 ## Tutorials and Helpful links
 
