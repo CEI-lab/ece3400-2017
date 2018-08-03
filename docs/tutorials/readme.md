@@ -8,11 +8,11 @@
 We have and will continue to upload helpful tutorials and links on this webpage. We would love for you to contribute, please contact the TA's to do this!
 
 **Related to Team Work**
-* [Overview](../Teamwork/readme.md)
 * Here's a very quick recap on [Belbin team roles](https://www.youtube.com/watch?v=-efhOLVgEvM)
 * [How to create Gant charts](https://www.smartsheet.com/blog/gantt-chart-excel01) for free in Microsoft Excel for time management
 * Excellent [Ted talk](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/transcript?language=en) for those who tend to procrastinate
 * [Team contract](../Teamwork/Team_Contract.md)
+* [Team assessment](../Teamwork/GroupProcess-QualitativePeerSelfEval.docx)
 * [Managing conflict](../Teamwork/Managing_conflict_Chapter_7.pdf)
 * [Leadership](../Teamwork/Leadership.md)
 
