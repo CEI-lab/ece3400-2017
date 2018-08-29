@@ -31,6 +31,6 @@ All designs must be documented throughout the semester on a group website. The g
 
 [Here is a great video of the course from 2015.](https://www.youtube.com/watch?v=WN0maCOflVQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H8rs1d3O4aI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[And a compilation of the competition from 2017](https://youtu.be/H8rs1d3O4aI)
 
 ***
