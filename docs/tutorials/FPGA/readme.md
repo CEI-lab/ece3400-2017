@@ -1,8 +1,7 @@
-# FPGA-related resources: useful tips, links, and FAQ's 
+# Cornell, ECE3400, Fall 2017
+## FPGA-related resources: useful tips, links, and FAQ's 
 
 *By Claire Chen, 2017*
-
-**This tutorial is under construction**
 
 ## Brand new to VHDL?
 
