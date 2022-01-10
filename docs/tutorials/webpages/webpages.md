@@ -14,7 +14,7 @@ You can find helpful information [here](https://pages.github.com/), but the basi
 
 * Make an index.md file in the root of the repository or in the docs folder, Github will automatically recognize this as your home page.
 
-* Next, navigate to the settings tab in Github and choose the source of the github page. 
+* Next, navigate to the settings tab in Github, and the "Pages" option in the left-side navigation bar. Then choose the source of the github page. 
 
 ![Making webpages from github](./Websites_from_github.png)
 
